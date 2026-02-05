@@ -179,3 +179,210 @@ Complex Conflics are conflics that require multiple throws and probably team wor
 
 In both cases the players start by throwing the base presence dice.
 now what i need to figure is how the stats play into this. im starting to think to drop stats ALL TOGETHER, and just relay on aspects that will be used from a predefined lists along with player creativity. 
+
+
+## **Date:** 2026-02-01
+
+continuing from last day:
+The idea is the the number of success is your potential so, if its a simple conflict and your get 3 success this is the max potential level you can solve. and you can use all of it to solve the conflic.
+in comlex its the same but you can seperate the success, meaning i can use 1 to someting and another 2 to something else, narreting different actions that together are to solve the conflic. i potential can use all the success at once also just narrating one big attack instead of multiple different things.
+the idea is that the player would WANT to seperate the narrationg create a dynamic play but getting bonuses for that.
+for exmaple a fighter attacks a bandit with one big swing vs a fighter that makes a manuver and makes a quick faint attack and then goes to the main swing attack. i want to reward the latter.
+so how do i do that?
+im thinking about the difference between somple conflics and comlex ones
+the main difference it the difficulty needed to reach
+for exmaples 
+moving a builder could be 4 DL, meaning level 5 character should be able to complete it with one throw. but level 2 or 3 characters will have a bigger issue
+a guard might be a difficult task characer level 3 needed multiple throws and a whole fight scene to resolve but a character level 7 might jsut one shot a gaurd. this is fine, this means that the same task can be comlex OR simple depending on the character.
+ok so how do i form meanings cinematic and dynamic fights with this system with more description and narretion then dice throwing.
+
+lets say that the player throws his precense base dice as he would in any other task,
+the number of success is the number of actions he can do acumilating to the max precesen potential he has at this moment before he rerolls or get more dice.
+lets take the ismple approch for now and see how this works with just using all the dice to attack. so the fighter is already close and in attack range and he uses all of the success for one mighty attack with is axe
+lets say a bard in a similar postion does the same with the same precesns success pool.
+things i would want:
+- the figher should automatecly have more success then the bard due to him being more proffient in fighting
+- the enemy should get a chance to defend its self - react (either by throw or via static number).
+- i dont like failurie in sense of, players used their dice and nothign happned they missed
+so inorder to achive those things i need the following: enemies need to have a level determining their threat level for any player. 
+enemies should have a bar, that even missing can lower it so players will feel like they always did something to help.
+
+## **Date:** 2026-02-04
+
+ok! it has been decieded. there are NO stats in the main rules.
+my resons are the following:
+* stats force the player to pick one at all times to a roll, im not sure i like that. and this exmaple shows why, i have a mighty player with background on heavy lifting but he has no combat experience. he goes and fights a bear, it that case his might can help ageinst the bear and bonuses will apply. in another case he tries to fight a martial artist. in that case his might will do nothing, the martial artist can eaither douge OR even is he takes a hit hel knows how to get hit to take minimal damage. those cases show clearly the problem. the player does the same action but the context could allow or not allow to use the might. in the latter case might wouldnt help at all ONLY combat experience. only if he manages to actually hit directly then maybe might would add bonus effect.
+* another reason is that different settings can have different stats that can help. in a heavy diplonatic setting, might or agility doesnt do much. and having 4 main stats regarding the expected conflics is more meaningful. so differtent frameworks should lead to having different stats. this by it self is not an issue, the issue become when the main rules already have the stat. so in that case, would they overwrite? . no, it confusing. if there will be stats, they should be extentions of the framework added.
+it would be good to add and emfesis that the main rules are basebone, they could allow to runa. game, but the system NullFrame is really ment to be built with added frameworks.
+
+OK then the quastion become, how do i seperate myself from others. how is my character special.
+the answer is through: profficiencies, burdens, aspects, gear, path (from framework)
+lets break it down:
+- main rules, in the main rules there are profficiences, burdens, aspects and gear. lets see how each would effect the roll. it importetnt to test via simple and comlex conflics and validate.
+	- proficiencies
+		- those are things the character is GOOD at, they replace anchores, stats and approches.
+		- proff for short
+		- each proff is detailed  in first person my experience in something that should give me a bonus in certain cases
+		- exmaples are: 
+			- i read many books during my time in the university
+			- i learned to fight duing my time in the army
+			- i took a course on how to shot a pistol
+			- i used to lift many heavy rocks during my work in the quarry
+		- the idea is to not have it jsut a single word. is an experience that objectely would help you in most cases that it would be relevant
+		- innate things like born with, should be excluded. show exmaple, im a big guy. this is innate and doest specify what should i get bonus at. a big guy doestn alawys need to be strong.
+		- each proff should have advancment level. which allow for it to give a bigger bonus, showcasing someone who is stronger or weaker.
+		- im still not sure about the name proffienceies. diffrent ideas for names needed. some options from my head: traits, expiriences..
+		- now what about the gameplay mechanuc how does that work?
+			- lets think about the base and what we want, we have 4 cases we need to examian: a soldier and a bard, in simple and comlex conflics
+				- case 1: soldier fighting an enemy (comlex) with proff bonus (army training)
+				- case 2: soldier trying a simple test of burging a door with boff bonus (army traning)
+				- case 3: a bard trying to fight an enemy (comlex) with proff bonus (used as the kings jester)
+				- case 3: a bard trying to a simple test of making a child laugh with proff bonus (used as the kings jester)
+				- the base is that they through their presence dice (6d6 for this exmaple- 3 success in avarage)
+				- and well test with advancment level of 1 2 and 5 (max avilable)
+				- ok now lets throw options of what proff does mechanicly and then well examain each with our cases:
+					- proff adds a static bonus, equll to its advancment level.
+						- in simple conflics is easy enough, the bonus is just addad static. i got 3 success and i add 1 2 or 5 as success
+						- in comlex conflics each action that is using the proff bonus would get instant success by the number of the advancment level in the proff. i dont see an issue with that corrently
+						- proff of 5 is VERY strong. 5 success instently means a lot in this game. maybe i need to allow for max 3
+						- its simple and effective, yet it a little bording
+					- proff allows for rerolls of failed die
+						- I automatecly DONT like this, this adds friction of rerolling. meaning more time to result
+					- proff allows to roll more dice
+						- i like this for the reason that its adding to an existing roll
+						- the issue with this is that in comlex conflics, doing actions through proff is problematic becouse you are throwing the entire presence base pool THEN you do actions and decied how to spend them. so how would it work exactly with additional dice throwing with the fact that i dont want more rethrows
+					- Proff as Impact Multiplier
+						-   Proff doesn't add successes—it makes your successes hit harder for relevant actions. 
+						- Soldier spends 2 presence to attack. With level 2 "army training," each success counts as 2 against thresholds. So 2 presence = 4 toward the enemy's threshold bar. 
+						- Bard spends 2 presence to attack. No proff. 2 presence = 2 toward threshold.        
+						- Pros: Clear differentiation. No extra dice. Rewards specialization.                                                                 
+						- Cons: Math gets multiplicative. Level 5 would be very strong (5 presence = 25 impact?).  
+							- con has to be fixed this is wayyyy to much
+					- Proff as Restricted Bonus Pool
+						- NO, this is a bad idea. restricting proff doesnt make sense
+							- a soldier can "forget" how to be a good fighter
+					- Proff reduces the cost of relevant actions.
+						- that one is intresting, but if the cost is reduced to 0 then a soldier can attack indefinety. that is not what we want.
+						- there is probably more edges cases where we miss a loop whole with this one
+					- Proff as Guaranteed Floor, 
+						- i dont like that becouse using actions and dice during comnlex actions meaning i can use 1 die per attack for exmaple, this proff will not work with this. also i always want proff to feel like a bonus, becouse someone who rolls higher will feel on par with someone who rolled high and is with proff
+					- Proff as "Cascade" Trigger 
+						- this should be part of the game as a natural. not via proff
+					- proff as invocation of the fuliures
+						- proff can be invoke for any action from the fuiled dice, meaning a player can add success up to the proff advancent level and the avilable failed dice
+						- utelizing the failed dice is very intresting, BUT im not sure it fit right here becouse i said before i dont want proff to have a limited pool. 
+				- im going with  proff adds a static bonus, equal to its advancement level.
+					- flat addition per action
+					- Proff level = bonus impact added ONCE per action (not per presence spent)                                                                    
+					- Soldier spends 3 presence to attack with level 2 proff: 3 + 2 = 5 impact                                                                     
+					- Soldier spends 1 presence to attack with level 2 proff: 1 + 2 = 3 impact                                                                     
+					- Bard spends 3 presence to attack with no proff: 3 impact 
+					- This means: 
+						- Small presence spends get proportionally bigger boosts (1 → 3 is huge)                                                                       
+						- Large presence spends get smaller % boost (5 → 7 is modest)
+						- Scales linearly, not exponentially
+						- Max proff 3 means max +3 per action—meaningful but not broken  
+				- now that i have the proff bonus set up now i have another thought i want to exmain and that is advancments
+				- im thinking that we can make proff more intresting by adding an advancment mechanic. instead of just making the proff better you can advance the proff by expanding on it
+					- for exmaple i trained as a soldier in the army
+						- advancment: i am a good sharpshoter
+					- this makes solider stuff still adding plus 1 BUT specifically shooting a sniper would add plus 2, sense its an advancment from an existing proff
+				- thats an intresting mechnic, should look deeaper into that. people can make builds and the options are limitless
+				- i should allow to ALSO add unrelated proffs in somehow, so a player that took a liking to a thing in a game can advance in that even if it doesnt relate to hit original proffs
+		-  ok i tihnk we are done with proffs for now
+	* burdens
+		* burdens are things that should hinder the player those make the life harder and ROLL harder to succssed 
+		* burdens should be meaningful, and be invoked during game. a burden can also force an automatic fail of narration and story calls for it
+		* ok so how mechanically they come into play
+			* the idea is that burdens should be invoked by the Null or the players
+			* that is to grant players the chance to make the scene or character more interesting
+			* i liked the gm intrusions from the cypher system and would want that to come into reality here
+			* both the gm (Null) and the player can invoke burdens. 
+			* burdens are quite simply the opposite of proficiencies. they give a static minus, burdens can ALSO advance which would give higher minuses
+				* or just the burden it self will have a higher minus without advancment
+				* or burdens start high, and advancment lower the burdens
+				* im thinkign of adding also complications that are the opposite of advancments and make the burden harder
+			* invoking a burden gives narrative point (np). which later well think about how they are used
+			* i decided that burdens will start high and go lwoer with narrative justifications
+	* Gear
+		* gear can play many roles during play.
+		* essential gear can either, add bonus, hinder, not add anything but allow for actions, have special narrative effect
+		* the most common gear depends on the framework but lets think about armor, guns, swords, bows and different weapons
+		* i want gear to feel special so gear should be special by describing it or by additional effect it would have
+		* i like the idea of player want to buy or get better gear, so better crafted armor should be better for them
+		* the game is about telling good stories not gaining good gear
+		* if the group is searching for gear then its because of the story and narrative
+		* im thinking that gear should be invoked and not always apply. not sure
+	* Aspects
+		* aspects are anything enviruments or situational that can grant bonus or hinder
+		* for exmaple, darkness, toxic gas, gods healing aura...
+		* im thinking that aspects should be invoked and not always apply. not sure
+* Frameworks
+	* paths can grant bonuses depending of the framework and the specific path.
+	* this is handled by the framework rules
+
+
+## **Date:** 2026-02-05
+
+  Open Questions                                                                                                                                 
+  1. Proff cap: You mentioned max 3. Does that mean 3 levels per proff, or 3 total proffs? Both? 
+	  1. proff can be upgraded in 2 ways. upgrading the base or getting advancments. i think i should do a level to proficiency to find how the numbers can work correctly
+  2. Advancement cost: How do players advance proffs? Session milestones? Spending NP? Narrative justification?
+	  1. probably via advancment in the narrative, which is also tied to the charcter level. i need to establish a balance table, we wouldnt want a level 1 character with 10 prof's, this would make him OP.
+  3. Burden invocation reward: How much NP makes it worth taking a -2 or -3 on a roll? This balance is critical.
+	  1. lets change that IF a burden is active and invoked, burdens need to be invoked before a roll, then each 1 on a die lowers the success by 1. but well make it balanced:
+		  1. if one burden is invoked then its relevant to one die, meaning the maximum minus i can get is for a burden level 1 is minus one
+		  2. if its a level 3 burden (heavy burden) then up to 3 dice that equall to one will lower that success
+	  2. actually i think that burdens should be simplefied, becouse burdens can be invoked during comlex conflics, which have pools and players use the pools that were thrown already.
+		  1. so lets make burdens thrown that can lower the success pool even if there is already a success pool.
+			  1. i want to emphesis that i want burdens to be thrown that its not always going to destroy rolls, it doesnt feel good. i want that there is a chance that a burden will not fuck up the player's throw of tactic, but it can.
+		  2. when a burden is actiavated the player throws nd6 equall to the burden level, burden level 3 is 3d6, burden level 1 is 1d6
+		  3. each dice that is NOT a success, meaning lower then 4, is a burden die and lowers the success pool. 
+		  4. simple conflic exmaple: players tried to move a bulder, burden invoked "sprained leg burden level 2", the player makes his throw normaly, 5 success. and he throws his burden dice. 0 success. that makes for a total of 3 success for moving the bulder.
+		  5. for comlex conflics: a player has his pool of 5 success and he attacks. he uses 2 of the success for the attack, the burden is invoked "sprained leg" then he throws the burden dice - 0 success. meaning for the attack its 0. he can use more of the success to finish the attack but now the cost was bigger.
+	  3. yes i like the last itiretion of the burdens. well use that.
+	  4. burdens have 3 levels. 
+  4. Starting character creation: How many proffs do you start with? At what levels?  
+	  1. i need to make a table that would make since and balance the game
+	  2. remember: a character at a n level means the n level task should be easy for him. character at level 5 means level 5 tasks/ enemies should be easy (yet not imidiate success at most times)
+	  3. presence base dice are the character level time 2. meaning even at the base throw the character is statistically is a little above 50% of getting the task done.
+		  1. that along with gear, aspects, prof, should put charaters at about 75% to succeding tasks at thier level if they utulize their kit correctly. min maxing with players palying perfectly should put them between 85%-90% precent chance for tasks for their level.
+
+  What Still Needs Work                                                                                                                          
+  - The NP reward for burdens is missing now. You redesigned burdens mechanically but didn't address: why would a player ever voluntarily invoke their burden? The Cypher-style intrusion works because players get XP. What do NullFrame players get?                                          
+  - Gear and Aspects still undefined. You wrote "not sure" for both. They're in a holding pattern.                                                 
+  - Prof advancement tree isn't defined. You like the concept (soldier → sharpshooter) but haven't decided:                                       
+	  - How many advancements can branch from one proff?                                                                                             
+	  - Do advancements stack with the base? (soldier +1, sharpshooter +1 more = +2 total when sniping?)                                             
+	  - Can advancements branch further? (sharpshooter → assassin?)     
+
+  Leading Questions                                                                                                                   
+  - On Burdens and NP:
+	  1. If the Null invokes a burden, the player has no choice—fair. But if a player voluntarily invokes their own burden, what's the reward? Is it NP? If so, what does NP buy that makes a potential -3 worth it?  
+		  1. the player does have a choice not to take it. sometimes the player might want to not take the burden and jsut do the roll. thats fine. sometimes a burden just makes sense and HAVE to actiavte due to narrative.
+		  2. the mechanic is the same by player or by Null. users cant spam burdens to get NP becouse its up to the Null if they get it. burden doesn always give np. just if it made the story rewarding and good
+		  3. np can be gotten without burdens. its just a currecncy for good play and story.
+  2. Can a burden invocation ever be refused by the player when the Null calls for it? Or is the Null's call final?
+	  1. answered above.
+
+  - On the Balance Table:
+	  1. You want level 5 characters to find level 5 tasks "easy but not automatic." If base presence gives ~50% and full kit gives ~75%, how many profs/gear pieces create that 25% gap? Is it 2 proffs at +1 each? 1 proff at +2 plus gear? probably 1 prof, 1-2 gear, 1 aspect
+	  2. What's the floor? Can a level 1 character with nothing relevant ever tackle a level 3 task? Or is that narratively blocked?
+		  1. nope. if a character cant make his dice pool to reach the level of the tast it automatic failure. the task is too diffucult
+		  2. if somehow a character manages to make a aspects that someup with help and the narrative justifised it he may attempt, that the success chance it low becouse he probably will need to get ALL the dice as success to reach the task level
+
+  On Proff Advancement:
+  3. When you advance "soldier" to add "sharpshooter"—does sniping now give +2 total (base +1, advancement +1)? Or does the advancement replace the base for that specific action?
+	  1. good question. each advancment adds 1 die on top op of other under it. so a soliuder +1 with the sharpshooter advancment can get +2 becouse both relevant. 
+	  2. if there is a third advancment for emxplae "like pistols" then it can get to 3+ dice and so on.
+  4. Can you have conflicting advancements? "Soldier" branches to both "sharpshooter" and "brawler"—can one character have both?, technically yes. each prof can branch to more then one advancment prof and each advancment prof can branch to more for emxplae: "Soldier" branches to both "sharpshooter" and "brawler". sharpshooter advances to snipers and handguns, brawler advances to esspesically strong kicks.
+  5. the beauty of it this can make for very dynamic and dyverse cast of characters, where the player can choose a play style and get rewarded for playing in that style.
+  On Gear/Aspects:
+  6. You said gear should feel special. Does that mean gear is rare? Or gear is always narratively described? If a soldier has "a sword," does that give anything mechanically, or only "Grandfather's blade, forged in the old kingdom" gives a bonus?
+	  1. som gear might be rare, this is mostly depending on the setting and the Null's play style. that specific sword can give a higher bonus or have some special homebrewed ability if Null wants. i want to encorage to give players temporarly gear that is refilled all the time. this way they are not afraied to use their stuff. (for emxpale postions, scrolls, grenades) those kind of gear can make the gameplay more chaotic in a good way. and make up some justification why the player cant horde those stuff and should use them fast. (thisis similar to ciphers in the cyper system). whilke i dont like that as a mechanic, i like that as a gameplay standand that shouldnt be inforced but encoreged to Null's runnign this game,
+  7. For Aspects (environmental): if the room is dark, does that automatically affect everyone? Or does someone need to invoke "darkness" to make it matter—and if so, who can invoke it, and what do they spend?
+	  1. good quastion, like i said gear and aspects should be invoked if their bonus is not temporarly (one itme use items) but is more of a genral bonus for all actions like fighting. i think if a good practice if the player should use their FAILED dice to invoke the aspects. for exmaple i throw 6d6 and got 2 sucess. i can invoke up to 4 (from my failures pool) to increase my succes cout for simeple OR comlex conflics. i like that becouse it make it finite meaning i cant just invoke all my stuff all the time and have to choose how to dispense my resorcens. and if all my dice successed then it means i want really succesful anyway and probably dont need to invoke on gear or aspects.
+	  2. gear and aspects invoke from the same pool, and each dice that was invoked can give one additional success right away (no need to throw) can this can be used only AFTER the throw but before knowing if the throw succedded. and during comlex conflics they just take formt he failed pool and add success to actions, in comlex conflics this cannot be used to get MORE actions, only to empower actions that make buy success pools. i can use one success to make and attack and then use 1 failure to empower that attack with my sword making that 2. i could use more success to empower that but i might want to keep them for more actions. this is great! items, gear and aspects that can be invoked to be bonus should list the max dice that can be invoked. meaning a rusty swords can be invoked once per action. but a mighty fine sword is stronger and could be invoked 2 time aloowing to use 2 failied dice. each item and aspect can be invoked and stacked. meaning i should get a high bonus with the failed dice if i just use my imagination
+
+NEXT: what NP does???
+
