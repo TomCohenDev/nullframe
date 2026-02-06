@@ -384,5 +384,16 @@ lets break it down:
 	  1. good quastion, like i said gear and aspects should be invoked if their bonus is not temporarly (one itme use items) but is more of a genral bonus for all actions like fighting. i think if a good practice if the player should use their FAILED dice to invoke the aspects. for exmaple i throw 6d6 and got 2 sucess. i can invoke up to 4 (from my failures pool) to increase my succes cout for simeple OR comlex conflics. i like that becouse it make it finite meaning i cant just invoke all my stuff all the time and have to choose how to dispense my resorcens. and if all my dice successed then it means i want really succesful anyway and probably dont need to invoke on gear or aspects.
 	  2. gear and aspects invoke from the same pool, and each dice that was invoked can give one additional success right away (no need to throw) can this can be used only AFTER the throw but before knowing if the throw succedded. and during comlex conflics they just take formt he failed pool and add success to actions, in comlex conflics this cannot be used to get MORE actions, only to empower actions that make buy success pools. i can use one success to make and attack and then use 1 failure to empower that attack with my sword making that 2. i could use more success to empower that but i might want to keep them for more actions. this is great! items, gear and aspects that can be invoked to be bonus should list the max dice that can be invoked. meaning a rusty swords can be invoked once per action. but a mighty fine sword is stronger and could be invoked 2 time aloowing to use 2 failied dice. each item and aspect can be invoked and stacked. meaning i should get a high bonus with the failed dice if i just use my imagination
 
-NEXT: what NP does???
+NEXT: what NP does???, enemy npc sheet, prof tables for each level
+
+## **Date:** 2026-02-06
+
+table for levels
+lest create some refrences
+level 1 charcter throws at base 2 dice meaning 50% chance for level 1 success.
+a lv 1 chracter at can reach at most 2 success with his base dice including invokations of gear or aspects. that means assuming a level 1 charcter should have 3 profs with one advancment seems fair.
+at lv 2 a character throws 4 dice, at lv 3 6 dice. i think think untill level 4 players will have 3 prof with one advancment.
+in level 4 players would have 4 profs with 2 advancments..
+this is not hard science can can we tweeked or changed by null to fit the game.
+the game wouldnt run well with level 1 characters. i think the minimum level character should be in is level 4. thats where the players have more invokations.
 
