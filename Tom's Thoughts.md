@@ -1,4 +1,3 @@
-# Tom's Thoughts
 
 ## **Date:** 2026-01-16
 
@@ -397,3 +396,920 @@ in level 4 players would have 4 profs with 2 advancments..
 this is not hard science can can we tweeked or changed by null to fit the game.
 the game wouldnt run well with level 1 characters. i think the minimum level character should be in is level 4. thats where the players have more invokations.
 
+
+## **Date:** 2026-02-17
+
+play test notes:
+- The dice pool system is TOO predictable. meaning all of the game the players got 5 success (base 10). that was not fun. they wanted more randomness
+- Separating success as action points for comlex actions was horrible. it was confusing and did not work at all. lesson learned. use the same dice mechanic for all actions
+- invokations worked well. people liked using them to invoke on gear or aspects. using the failures was cool too.
+
+## **Date:** 2026-02-18
+
+ok so i have become facinated with face core and pbta systems
+
+i think the dice system need to be changed to 2d-something
+meaning 2d-something add both dice - gives a grate bell shape yet keep unpredictability
+there is no way around throwing less dice. just one die make for a linear curve and i dont like that. 2 dice would make for a bell curve yet keep randomness
+
+- 2d4 range is 2-8
+- 2d6 range is 2-12
+- 2d8 range is 2-16
+- 2d10 range is 2-20
+- 2d12 range is 2-24
+
+question which should be better.
+before we choose we should look into how the roll is being determind
+i have 2 options
+- roll agienst Difficulty level, roll euqall or higher means you get success
+	- enemies scale by higher DL
+	- tasks scale by higher DL
+	- static bonuses could potentially get a instent succ
+	- tasks could be too hard to even attempt
+- threshhold (like in pbta), for exmaple 2d6 2-6 faliture, 7-9 partial success, 10+ full success
+
+lets also condider the statistics:
+10d6 — successes on 4+ _(5.00 / 1.58)_
+|#|%|
+|---|---|
+|0|0.10||
+|1|0.98||
+|2|4.39||
+|3|11.72||
+|4|20.51||
+|5|24.61||
+|6|20.51||
+|7|11.72||
+|8|4.39||
+|9|0.98||
+|10|0.10||
+
+2d4 (sum) _(5.00 / 1.58)_
+|#|%|
+|---|---|
+|2|6.25||
+|3|12.50||
+|4|18.75||
+|5|25.00||
+|6|18.75||
+|7|12.50||
+|8|6.25||
+
+2d6 (sum) _(7.00 / 2.42)_
+|#|%|
+|---|---|
+|2|2.78||
+|3|5.56||
+|4|8.33||
+|5|11.11||
+|6|13.89||
+|7|16.67||
+|8|13.89||
+|9|11.11||
+|10|8.33||
+|11|5.56||
+|12|2.78||
+
+2d8 (sum) _(9.00 / 3.24)_
+|#|%|
+|---|---|
+|2|1.56||
+|3|3.13||
+|4|4.69||
+|5|6.25||
+|6|7.81||
+|7|9.38||
+|8|10.94||
+|9|12.50||
+|10|10.94||
+|11|9.38||
+|12|7.81||
+|13|6.25||
+|14|4.69||
+|15|3.13||
+|16|1.56||
+
+2d10 (sum) _(11.00 / 4.06)_
+|#|%|
+|---|---|
+|2|1.00||
+|3|2.00||
+|4|3.00||
+|5|4.00||
+|6|5.00||
+|7|6.00||
+|8|7.00||
+|9|8.00||
+|10|9.00||
+|11|10.00||
+|12|9.00||
+|13|8.00||
+|14|7.00||
+|15|6.00||
+|16|5.00||
+|17|4.00||
+|18|3.00||
+|19|2.00||
+|20|1.00||
+
+2d12 (sum) _(13.00 / 4.88)_
+|#|%|
+|---|---|
+|2|0.69||
+|3|1.39||
+|4|2.08||
+|5|2.78||
+|6|3.47||
+|7|4.17||
+|8|4.86||
+|9|5.56||
+|10|6.25||
+|11|6.94||
+|12|7.64||
+|13|8.33||
+|14|7.64||
+|15|6.94||
+|16|6.25||
+|17|5.56||
+|18|4.86||
+|19|4.17||
+|20|3.47||
+|21|2.78||
+|22|2.08||
+|23|1.39||
+|24|0.69||
+
+during the last playtest uaing the dice pool
+10d6 — successes on 4+ 
+the avrage was 5 success, it runs on 24.61 chance
+players got it TOO often making the game feel too consistent and they hated it
+with 2d4 we get an avrage of 5 on 25 change, that too bit lets remove that option
+
+so we are left with 
+2d6
+2d8
+2d10
+2d12
+
+the question is which is better and why, what are the advantages of having a low array of numbers, or a higher array?
+
+lets think through this outloud
+the higher the array the less bonuses have impact
+having bigger threshhold on higher arrays is like having smaller arrays with smaller threshholed, so this isnt an advantage or a disadvantage 
+2d6 threshhold of
+1-6 7-9 10+
+is like
+2d12
+1-12 13-20 21+
+so in that case it should be down to preffrences of the dice shape
+
+calculation on d6 are easier
+addit 11 and 12 is not as easy for people as 5+6
+les roll out 2d12 then
+
+next the 2d8, i personally dont like the number array that is between 2-16
+it feels less segnificant getting a 16 or a 14 then in the d6 getting 8 or a 10 (ten feels heavy and high)
+
+lets roll out the d8
+
+we are left with 
+2d6 or 2d10
+
+2d10 gives a very dice smooth bell curve with round nubmers
+avreging on 11 with 10 % chance
+
+2d6 avg on 7 with 16.67 % chance.
+
+if we look at the threshholds
+and the at least graph from anydice
+
+| #   | %      |                 |
+| --- | ------ | --------------- |
+| 2   | 100.00 | fail            |
+| 3   | 97.22  | fail            |
+| 4   | 91.67  | fail            |
+| 5   | 83.33  | fail            |
+| 6   | 72.22  | fail            |
+| 7   | 58.33  | partial success |
+| 8   | 41.67  | partial success |
+| 9   | 27.78  | partial success |
+| 10  | 16.67  | success         |
+| 11  | 8.33   | success         |
+| 12  | 2.78   | success         |
+
+2d10 (sum) — at least
+
+|   # |      % |                 |
+| --: | -----: | --------------- |
+|   2 | 100.00 | fail            |
+|   3 |  99.00 | fail            |
+|   4 |  97.00 | fail            |
+|   5 |  94.00 | fail            |
+|   6 |  90.00 | fail            |
+|   7 |  85.00 | fail            |
+|   8 |  79.00 | fail            |
+|   9 |  72.00 | fail            |
+|  10 |  64.00 | partial success |
+|  11 |  55.00 | partial success |
+|  12 |  45.00 | partial success |
+|  13 |  36.00 | partial success |
+|  14 |  28.00 | partial success |
+|  15 |  21.00 | success         |
+|  16 |  15.00 | success         |
+|  17 |  10.00 | success         |
+|  18 |   6.00 | success         |
+|  19 |   3.00 | success         |
+|  20 |   1.00 | success         |
+
+i forgot about the pother options
+non symetric dice:
+lets look through this
+d4+d6, min 2 max 10 (nice numbers)
+d8+d12 (min 2 max 20) (twice the last one still nice curce)
+i dont like the d8+d12 similar curve to the 2d10 and no added bonus
+ill also rule out 2d10 becouse for reason i said earlier that the difference betwen 14  and 15 doesnt feel impactful loe the difference between
+9 and 10
+
+now the question is
+2d6 or d4+d6
+
+
+2d6 (sum) — normal
+
+|   # |     % | note            |
+| --: | ----: | --------------- |
+|   2 |  2.78 | fail            |
+|   3 |  5.56 | fail            |
+|   4 |  8.33 | fail            |
+|   5 | 11.11 | fail            |
+|   6 | 13.89 | fail            |
+|   7 | 16.67 | partial success |
+|   8 | 13.89 | partial success |
+|   9 | 11.11 | partial success |
+|  10 |  8.33 | success         |
+|  11 |  5.56 | success         |
+|  12 |  2.78 | success         |
+
+
+
+d4+d6 (sum) — normal (6.00 / 2.04)
+
+|   # |     % | note            |
+| --: | ----: | --------------- |
+|   2 |  4.17 | fail            |
+|   3 |  8.33 | fail            |
+|   4 | 12.50 | fail            |
+|   5 | 16.67 | fail            |
+|   6 | 16.67 | partial success |
+|   7 | 16.67 | partial success |
+|   8 | 12.50 | partial success |
+|   9 |  8.33 | success         |
+|  10 |  4.17 | success         |
+
+
+
+2d6 (sum) — at least
+
+|   # |      % | note            |
+| --: | -----: | --------------- |
+|   2 | 100.00 | fail            |
+|   3 |  97.22 | fail            |
+|   4 |  91.67 | fail            |
+|   5 |  83.33 | fail            |
+|   6 |  72.22 | fail            |
+|   7 |  58.33 | partial success |
+|   8 |  41.67 | partial success |
+|   9 |  27.78 | partial success |
+|  10 |  16.67 | success         |
+|  11 |   8.33 | success         |
+|  12 |   2.78 | success         |
+
+
+d4+d6 (sum) — at least (6.00 / 2.04)
+
+|   # |      % | note            |
+| --: | -----: | --------------- |
+|   2 | 100.00 | fail            |
+|   3 |  95.83 | fail            |
+|   4 |  87.50 | fail            |
+|   5 |  75.00 | fail            |
+|   6 |  58.33 | partial success |
+|   7 |  41.67 | partial success |
+|   8 |  25.00 | partial success |
+|   9 |  12.50 | success         |
+|  10 |   4.17 | success         |
+
+
+d4+d6 (sum) — P(total + bonus >= threshold)
+
+| threshold |     +0 |     +1 |     +2 |     +3 |     +4 |     +5 |                 |
+| --------: | -----: | -----: | -----: | -----: | -----: | -----: | --------------- |
+|         2 | 100.00 | 100.00 | 100.00 | 100.00 | 100.00 | 100.00 | fail            |
+|         3 |  95.83 | 100.00 | 100.00 | 100.00 | 100.00 | 100.00 | fail            |
+|         4 |  87.50 |  95.83 | 100.00 | 100.00 | 100.00 | 100.00 | fail            |
+|         5 |  75.00 |  87.50 |  95.83 | 100.00 | 100.00 | 100.00 | fail            |
+|         6 |  58.33 |  75.00 |  87.50 |  95.83 | 100.00 | 100.00 | partial success |
+|         7 |  41.67 |  58.33 |  75.00 |  87.50 |  95.83 | 100.00 | partial success |
+|         8 |  25.00 |  41.67 |  58.33 |  75.00 |  87.50 |  95.83 | partial success |
+|         9 |  12.50 |  25.00 |  41.67 |  58.33 |  75.00 |  87.50 | success         |
+|        10 |   4.17 |  12.50 |  25.00 |  41.67 |  58.33 |  75.00 | success         |
+
+
+
+2d6 (sum) — P(total + bonus >= threshold)
+
+| threshold |     +0 |     +1 |     +2 |     +3 |     +4 |     +5 |
+| --------: | -----: | -----: | -----: | -----: | -----: | -----: |
+|         2 | 100.00 | 100.00 | 100.00 | 100.00 | 100.00 | 100.00 |
+|         3 |  97.22 | 100.00 | 100.00 | 100.00 | 100.00 | 100.00 |
+|         4 |  91.67 |  97.22 | 100.00 | 100.00 | 100.00 | 100.00 |
+|         5 |  83.33 |  91.67 |  97.22 | 100.00 | 100.00 | 100.00 |
+|         6 |  72.22 |  83.33 |  91.67 |  97.22 | 100.00 | 100.00 |
+|         7 |  58.33 |  72.22 |  83.33 |  91.67 |  97.22 | 100.00 |
+|         8 |  41.67 |  58.33 |  72.22 |  83.33 |  91.67 |  97.22 |
+|         9 |  27.78 |  41.67 |  58.33 |  72.22 |  83.33 |  91.67 |
+|        10 |  16.67 |  27.78 |  41.67 |  58.33 |  72.22 |  83.33 |
+|        11 |   8.33 |  16.67 |  27.78 |  41.67 |  58.33 |  72.22 |
+|        12 |   2.78 |   8.33 |  16.67 |  27.78 |  41.67 |  58.33 |
+
+
+
+ok looking at the graphs i think the graph for d4 d6 is amazing
+and i like that little bonuses give big impact becouse i dont want the bonsues to be lots of numbers
+
+the most a player should get as a bonus to his roll from varius sources is +5 over all. maybe more then that i extremses cases
+
+ok so we are taking 4d+6d. 5 and below is failure, 6-8 is partial success 9 or 10 is a full success
+the advantage to different dice is that we can play with the  meaning of the dice
+- rerolls specific die
+- give meaning or another mechanic to some die
+- step die - allowing to upgrade the dice to higher dice
+- probably more options
+
+
+Next, lets figure how proficiencies play into that
+
+we keep the profficiency tree
+lets have profficiencys defined my past experience as something you are natually good at or something that makes you better at that then the rest, and instead of advancments well call them edges
+so characters can have edges as progress from their proffeciency
+well keep it simple and say each profficiency can add UP TO 1 as a static bonus. so  proffeciencies can give up to plus 1 and they do not stak meaning even if 2 profficiencies apply i can only use one.
+a single proff can have many edges.
+edges are advancments for proff
+so i can be a amry solider with and edge with snipers
+edges can be anything but they have to connect to proff in someway.
+edges can be described how where that makes since and they should cover a narrower field in the proff. edges apply along side the proff but they dont stack
+edges give a bigger bonus.
+always only one applies
+either one proff or one edge
+edges always better.
+
+i am condireting between step dice or static bonuses for proff and edges
+static bonus will be used for aspects and invokations later on thats for sure
+
+the question is should i use step dice for proff and edges
+for emxaple a character user his proff rolls 2d6 or 4d+d8
+do i step up my d6 or my d4
+
+i think i like the stepping of the d6
+proff use a d8, edge use a d10
+
+i think i should like to introduce also mastery this is an edge that is taken and was mastered. the null cant take and invoke disadvantages on mastery
+for example if i have sword mastery, the null cant break my sword
+mastery doesnt add more bonuses, the step dice stays the same
+
+ok but if i roll on a proff with an edge 1 and 1. that sucks
+bacially i am a sword master and i am failing to fight a simple soldier.
+answer is we use the faliures to self balance the dice.
+during playtesting one of the key componantes that was well regarded was that my invokations where equall to my fauiler numbers
+i throw 10 d6 and got 4 success, well i still have 6 invokations.
+i got 8n success then i got 2 invokations.
+its self balancing
+
+inorder for that to work we need ot look at what counts as a success
+we said is 9 and 10
+
+lets say that the invokation count is 10-the dice sum
+i got a sum of 2 then i have 8 invokations to get a static bonus
+
+i am considering instead of step dice to allow to get more dice
+proff 3d6 pick highest 2
+edge 4d6 pick highest 2
+mastery 5d6 pick highest 2
+
+or so we have 3 options
+- static bonus, proff +1, edge +2, master +3 (only one applies even if they stack)
+- step die (proff d4 d8, edge d4 d10, mastery only adds)
+	- this can have many varients, i can step the d4 and not the d6
+- dice pool (proff d4 + (highest die from 2d6), edge d4 + (highest die from 36), matery  d4 + (highest die from 46))
+	- i like dice pools personally, and unlike getting a 1 one a d10 dice pool always feel like it helped in home way, becouse there will be always some dice higher then the rest
+	- statistically this mean high chance of success with mastery even on edges
+	- a varient would be to stack the d4
+	- i am considering making ONLY 10 as a success meaning only 4 and 6 can grant a success. this might be too strong.
+		- if a player uses an edge and get a 3 on the d4 already he cant get a success
+		- i am considering on proff using 2d6 and then on edge use 3d6 pick hieghest 2 and mastery 4d6 pick heighest 2. 
+		- or on proff 4d and (2d6 pick highest die), edge 4 (static) + (3d6 pick highest die), edge 4 (static) + (4d6 pick highest die)
+
+examining the options i like the dice pool the most, it feel most relient to get a success and a real advantage in rolls and not rolling a fluke in sometihng im good at.
+static bonus is gets for gear and invokations and aspects
+step die is cool, but ill try to incoporate that into the frameworks maybe
+
+becouse success can be a big thing in this game let give some thought to either rulling 2d6 as base or d4+d6
+
+i like the d4+d6 better, that array of numbers is awesome. 
+buti dont like the 9 or 10 success, i want ONLY 10 as a success. this make for a very difficult game. and im not sure i want that
+moreover
+if i add disatvantages tot he players like minuses then even just one static minus means they cant success without invoking. even with mastery they can only get up to 9. which can feel under welming.
+
+using 2d6 as a base, 2-6 faliure, 7-9 partial, 10+ success makes sense number wise, and was widly tested by the pbta community.
+and giving minues means up to 2 minuses they can still technically successed. also i like that success
+
+## **Date:** 2026-02-19
+
+
+Im tackeling the question if we should pick 2d6 as base or d4 d6 as base
+
+i am creating a ttrpg system and i am thinking what the statistics i want to go for in terms of success and fuilure in all cases meaning whats the reward risk statistics. use game theory and fun for players. let me give you some exmaples
+
+d20 is not fun, becouse the chance to get 1 is the same as 20 and i feel cheated if i used bonuses and still got one. but getting that 20 always feels awesome
+
+dice pool count successes for exmaple 10d6 (success on 4+) give a bell curve, but it avg out with 25% on 5 success which was TOO consistent. players always got 5 success and that was not fun for them. they wanted more randomness
+
+pbta is a very well regarded and tested system same as FATE core. And they use 2d6 as their base.  
+FATE uses a difficulty setting go equal or over.
+
+PTBA uses threshold with failure success and failures. Which i like better
+
+Which give the curve 
+
+
+
+2 2.78 failure 
+
+3 5.56 failure 
+
+4 8.33 failure 
+
+5 11.11 failure 
+
+6 13.89 failure 
+
+7 16.67 partial success
+
+8 13.89 partial success
+
+9 11.11 partial success
+
+10 8.33 success
+
+11 5.56 success
+
+12 2.78 success
+
+  
+
+At least table
+
+
+
+2 100.00 failure 
+
+3 97.22 failure 
+
+4 91.67 failure 
+
+5 83.33 failure 
+
+6 72.22 failure 
+
+7 58.33 partial success
+
+8 41.67 partial success
+
+9 27.78 partial success
+
+10 16.67 success
+
+11 8.33 success
+
+12 2.7       success
+
+  
+
+Another setup i want to test
+
+d4+d6 (6.00 / 2.04)
+
+
+
+2 4.17 failure 
+
+3 8.33 failure 
+
+4 12.50 failure 
+
+5 16.67 failure 
+
+6 16.67 partial success
+
+7 16.67 partial success
+
+8 12.50 partial success
+
+9 8.33 partial success
+
+10 4.17 success
+
+  
+
+The question is which to take as the base
+
+Then the question is how it reacts with bonuses mechanics
+
+For examples
+
+Adding +1, +2 to the result
+
+Using step die for exmaple d4+d8 …
+
+Using dice pool pick highest for example d4+(2d6 pick higher one)
+
+  
+
+We should consider game theory and player theory to figure what statistics we should go for.
+
+A player does 3 actions: something he isnt competent at (no bonuses apply), something he is competed at and has experience (reflected by some bonuses from this character sheet), something he is masterful at (mix maxing his bonuses)
+
+Whats the success percentage we should go for for each
+
+  
+
+Gemini’s response  
+  
+Gemini said
+
+This is a classic "math vs. feel" design dilemma. You’ve correctly identified the two enemies of fun in TTRPGs: The Swing (d20), where your skill feels irrelevant, and The Flatline (10d6), where the outcome is so predictable the roll feels like a formality.
+
+Let's break down your two candidates using Probability Theory and Player Psychology.
+
+
+
+ 1. The Statistical Comparison
+
+ 2d6 (The "Bell Curve" Standard)
+
+- Mean: 7.0
+    
+- Range: 2–12 (11 outcomes)
+    
+- Behavior: It has a sharp peak. Rolling the average (7) is 6x more likely than rolling a 2 or 12.
+    
+- Player Feel: It feels "fair." Players can reliably predict they will land between 6 and 8. A +1 bonus here is massive because it shifts you across the most populated part of the curve.
+    
+
+ d4 + d6 (The "Trapezoid" Curve)
+
+- Mean: 6.5
+    
+- Range: 2–10 (9 outcomes)
+    
+- Behavior: Instead of a sharp peak, it has a "plateau." You have an equal 16.67% chance to roll a 5, 6, or 7.
+    
+- Player Feel: This feels slightly more "unpredictable" than 2d6 but more grounded than a d20. However, the smaller range (only 9 possible results) means that bonuses will break this system very quickly.
+    
+
+
+
+ 2. Bonus Mechanics: How they react
+
+In game theory, we have to look at granularity.
+
+- Static Bonuses (+1, +2): On a d4+d6 base, a +2 bonus is astronomical. It moves the minimum roll to 4 and the average to 8.5 (nearly the max). On 2d6, a +2 is strong but leaves room for the "Full Success" (10+) to still feel earned.
+    
+- Step Dice (d4+d6 → d6+d6): This is a great "tangible" sense of growth. If you use d4+d6 as a base, "Leveling Up" a skill could mean changing the d4 to a d6. This increases the maximum potential (10 to 12) without making failure impossible.
+    
+- Dice Pool (Keep Highest): If you use d4 + (2d6 pick highest), you are heavily weighting the result toward the top end. This is mathematically similar to "Advantage" in 5e. It’s a great "Mastery" mechanic because it doesn't raise the maximum possible ceiling, but it drastically raises the floor.
+    
+
+
+
+3. The "Golden Ratio" of Success
+
+Based on Player Theory, players generally feel "competent" when they succeed about 65-70% of the time (including partial successes). If they fail more than 50% of the time, they feel like losers; if they succeed 90% of the time, the game lacks tension.
+
+Here is the suggested success spread for your 3 tiers:
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|Competence Level|Total Success (10+)|Partial Success (7-9)|Failure (6-)|Goal|
+|Incompetent (+0)|~15%|~40%|~45%|Survival is a struggle.|
+|Competent (+2)|~40%|~50%|~10%|You usually get what you want, but with a "cost."|
+|Masterful (+4)|~70%|~25%|~5%|You rarely fail, the question is just "how well?"|
+
+Export to Sheets
+
+
+
+ 4. The Verdict: Which should you pick?
+
+ Pick 2d6 if:
+
+You want a long-term campaign. The wider range (2-12) allows for more "room" for modifiers, gear, and buffs without hitting the mathematical ceiling too fast. It supports PbtA-style thresholds perfectly.
+
+Pick d4 + d6 if:
+
+You want a "gritty" or "bounded" game. Because the max is 10, players will feel the "weight" of the world more. It makes a "10" feel like a legendary achievement because it only happens 4% of the time.
+
+My Recommendation: Stick with 2d6.
+
+The d4 is physically annoying to roll for many players (they don't tumble well), and the 2d6 "peak" at 7 provides a much more satisfying emotional "anchor" for the players' expectations.
+
+To solve the "too consistent" problem you saw in dice pools, keep your bonuses small. In a 2d6 system, a +3 should be the absolute maximum a Master can ever get.
+
+Would you like me to calculate the exact probability shift if you were to use a "Step Die" mechanic (e.g., upgrading a d4 to a d6) for your Masterful tier?
+
+You said
+
+ok so now the second part
+
+lets say i use the 2d6
+
+and i want to add a profficiency bonus( proff being something that the player is good at
+
+what should i pick
+
+Adding static +1, +2 to the result
+
+Using step die for exmaple d6+d8 …
+
+Using dice pool pick highest for example 3d6 pick highest 2
+
+note that static bonus is used in other part of the game (whic make it repetetive and i dont like it) i prefer to use some other mechanic for proff
+
+
+
+2 2.78 failure
+
+3 5.56 failure
+
+4 8.33 failure
+
+5 11.11 failure
+
+6 13.89 failure
+
+7 16.67 partial success
+
+8 13.89 partial success
+
+9 11.11 partial success
+
+10 8.33 success
+
+11 5.56 success
+
+12 2.78 success
+
+At least table
+
+
+
+2 100.00 failure
+
+3 97.22 failure
+
+4 91.67 failure
+
+5 83.33 failure
+
+6 72.22 failure
+
+7 58.33 partial success
+
+8 41.67 partial success
+
+9 27.78 partial success
+
+10 16.67 success
+
+11 8.33 success
+
+12 2.7 success
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Ok i have made a decision
+
+We will use 2d6 as base
+
+- Incompetence will be 3d6 drop highest dice
+    
+- Base is just 2d6
+    
+- Competence (proff applies) will be 3d6 drop lowest
+    
+- Edge has multiple options, my only 
+    
+
+- 4d6 pick highest duo, feels too strong but maybe balanced
+    
+- 3d6 add +1d4 to the success, definitely super powerful getting a 4 on and edges and then having +3 static from other sources is already +7 meaning that anyroll except 2 will result is success. Thats too powerful and doesnt fit the 50%-60% success rates
+    
+- Im against static bonuses because static bonuses will be used for aspects and gear
+    
+
+- Mastery also has multiple options
+    
+
+- Im open for narrative options and NOT mechanical options
+    
+- Mastery should lead either by bonus OR by narrative advantage to around 70% change of success
+    
+
+  
+
+After research i like this
+
+Incompetence: 3d6 Drop Highest.
+
+Base: 2d6.
+
+Proficiency: 3d6 Drop Lowest.
+
+Edge: 4d6 Drop 2 Lowest.
+
+Mastery: 4d6 Drop 2 Lowest AND the player can choose to turn a Partial Success into a Full Success once per scene (Narrative Resource).
+
+  
+  
+  
+
+Ok we got the base system working
+
+Now we need to think about the invocations of gear and aspects,
+
+I want that invokations are reasoce that is generated by fuiliuires some how so the system is self balancing
+
+The idea is that gear and aspects (scene, environment…) can give static bonuses of +1 usually (sometimes “good” gear can give more like +2 form a single invocation, maybe ill keep that as a mechainc for a framwork later on)
+
+Those bonuses need to be invoked to get them, its is similar to fate core where the user can use fate point to use aspects to add to his roll.
+
+  
+
+I want the invocations i can use for example 3 means i can invoke up to 3 princess of gear, or 1 gear 2 env aspects… i cant invoke the same gear or aspect more then once. Meaning that each invocation that is used need to come form a difference source.
+
+Invokations are a direct static bonuses that i can POTENTICALLY use, if i have 4 invokations then its possible i can get up to +4 just for that. But i takes creativity to be able to invoke on all of them.
+
+Now we need to this how we can set up invokations, how the players gains them and not over uses them and how we can use fuliuries to be tied to that
+
+  
+
+Multiple options
+
+- Invocation token = 10 - roll    | no accumulations, invokations reset on every roll
+    
+
+- This means that on every roll i can turn it to a success. Getting a 9 means i have 1 invocation. 1 invocation almost always will get used that means that 9 surly will be a success most time.
+    
+- The question is do i want to let the player to be able to succee potentially on every roll?
+    
+
+- Invocation token are accumulated through failures and partial successes, for each partiall success the player gets 1 token, for every fuliure he gets 2 tokens
+    
+
+- The idea is that they accumulate up to 5 (or another cap) this means that users CANT make every failed roll a success but they will be able to do that every couple of rolls
+    
+- I dont like that because in that system users can try to get fuliures before fights to acculilate tokens
+    
+- I dont like that system aswell because sometimes the players want to make some grand plan and invoke on its aspects for teh fight. Without invokations that i can generate in the roll i will not be able to invoke on them until later in the fight.
+    
+- I dont like that there some aspects that should give the player advantage almost always. For example i have a sword. It should help me during fights. It might not become a full success but if i failed it should feel like it helped.
+    
+- Due to the reasons above i am canceling this accumulation
+    
+
+So system for invocations i choose is Invocation token = 10 - roll    | no accumulations.
+
+Its important to NOTE the giving a player some static minus should be counted for after the roll so invokations take that into account for example.
+
+A player gets a minus 1 due to bleeding
+
+He rolls 2d6 get 8, minus -1 roll total is 7 that means invoktaions tokens are 10-7 = 3 invocation tokens.
+
+  
+
+Ok that works.
+
+  
+
+Let note a point for enemies and tasks which i will later come back to:
+
+Getting a 10+ doesnt always mean that i get to succeed in my task.
+
+Lets take some example
+
+Fight vs a trained guard 
+
+Fight vs a noob guard
+
+Currently in both cases the guards difficulty is the same because its 10+ success for both of them.
+
+I like to keep the success tables the same
+
+So how do i scale enemies?
+
+I think PBTA has the answer with narrative possitioning
+
+The idea is that the player need to create aspects that create some advantage against the conflict
+
+  
+
+For example, an experienced guard would be impossible to win against unless they create 2 aspects against him and invoke on them.
+
+Its important to mention that if the player gets a success for example 10+ get doesnt get invokations. But that doesnt mean he CANT use them, he narratevly has an advantage which counts against the guard but mechanically it doesnt add any bonuses. Just counts against the aspect count vs the guard.
+
+  
+
+Lets tackle this now
+
+Enemies should be described more narratevly then with points,
+
+Invokations can be used against them.
+
+  
+
+Lets give exmaple with 4 guards, noob, trained ,fast, strong, elite
+
+Vs noob
+
+No invocation needed he is the lowest enemy, there is actually natural invocations that can be used against him for example its clear the he is afraid or holding the sword wrongly. Just mentioning that and invoking on that will give plus to the user
+
+- Side note, the amount of invokations that can be used vs an enemy should has some definition to not have stacking invocations. For example noob guard can hold the sword wrong AND be afraid, a player might think that this means he can invoke once on the fear and once on the holding the swrond wrong. Truth is they both come from the same source so they can be invoked only once
+    
+
+Even without invocation a success might kill him instently.
+
+- Side note, a player might describe him self trying to do many things for example,going for the kill or going for a disarm or a grabble attack. One could think that going for the kill alawys should be the goal if they both have the same difficulty. That may be true but meaningful fight usually have more then just killing the enemy, up  to null to make fights more then just killing th enemy. Another point is that going always for the kill doesnt mean it will succees stronger enemies cant be killed even with a success without invocations against them
+    
+
+  
+
+Vs trained
+
+This guard is the average guard. Armored and armed and knows what his doing.
+
+This guard will required at least 2 invocations against him that count as an advantage
+
+- Its time to note the difference between types of invocations, advantageous invokations and non advantageous invokations. For example vs a trained guard i can invoke my sword but thats not an advategoud invocation. It doesnt give me the upper hand it just make the ground field euqll between us.  
+    Advantageous invocations are things that give me the upper hand in some way vs this specific enemy.
+    
+- Invoking my sword can give me advantageous invocation depending what i go against, vs a bear it is a clear advantage and is counted for against the bear
+    
+- The mechanical difference between advantageous invocations and non advantageous invocations are that both give the static bonus of +1 to my roll, so they count for the success BUT non advantageous invocations are not counted as advantageous vs the enemy meaning is i need 2 invocation vs a trained guard, invoking my sword will not count to that. 
+    
+- Distracting the guard, or using some item that can slow him down are advantageous and if i invoke those 2 and get a success then i “kil” him or win the fight.
+    
+- Sometimes getting a success means that i dont get to win but i get to create an aspect for example bleeding in his hand.
+    
+- One mention is that a null should be aware of the player stance vs the enemy stance. If th eplayer is a master swordman then even against a trained guard he is very competent and wouldnt need to invoke to win vs him.
+    
+
+  
+
+Vs fast
+
+- A fast enemy for example is someone that getting a very direct hard hit on will result in one hit kil. but getting to that moment to hit him is hard. So aspects that slow him down will give a good advantage
+    
+
+Vs strong
+
+- A strong enemy is someone that getting hit by will result in a very deadly attack. Using invokations that make me faster then him can result in a win
+    
+
+Vs elite
+
+- An elite enemy is someone who is clearly above the player or players in skill, without carful movement and choices he can defeat them easly in almost all fields.
+- The idea is to create MANY aspects that accumulate vs him. For example an elite bandit that uses a heavy hammer, would need 5 aspect accumulated vs him to get a defeat.
+- One to 2 aspects might come naturally from fighting him and getting him bruised, one aspect can be from a special weapon that is advatagious vs a slow hammer. One aspect can be via some planning that result in him distracted for a moment.
+
+  
+  
+
+Lets get deeper into incompetence and burdens
+
+- Burdens are things are make my life more difficulty, they are a narrative flaw that my character has
+- Burdens will coz the roll to be 3d6 Drop Highest. If a burden AND a proff applies they cancel each other out 
+- edges cannot be applied if a burden is applied
+- Master can still be used
+
+
+ok i cant think of anything else right now, i think this should do it
