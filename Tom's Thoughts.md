@@ -1311,5 +1311,7 @@ Lets get deeper into incompetence and burdens
 - edges cannot be applied if a burden is applied
 - Master can still be used
 
+lets not enemies:
+enemies can invoke vs other player giving them static disatvantage, lets say a player is without shield an enemy can invoke on that 
 
 ok i cant think of anything else right now, i think this should do it
