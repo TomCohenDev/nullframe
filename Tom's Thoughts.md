@@ -1315,3 +1315,83 @@ lets not enemies:
 enemies can invoke vs other player giving them static disatvantage, lets say a player is without shield an enemy can invoke on that 
 
 ok i cant think of anything else right now, i think this should do it
+
+## **Date:** 2026-03-05
+
+
+the core system feels pretty solid but i want to iron out some things
+first this is preety similar to pbta games so inspiration from that.
+2d6 means that bonuses sohuld stack up to +3 to balance things, AND debuffs should stack to minus 3 (minus 3 means a player cannot get a full success)
+
+  
+I am creating a ttrpg system that is a mechup of many different systems for my own goals  
+now Matt Colville who is my hero and the desinger of draw steal belives that in order to make a game you you have to start with a clearly defined goal defined using keywords. what is this game about, what would i would like to see and what you i think is fun.  
+lets try to do that, this i smy current progress but i would liek you to help me defined it. help me by asking me questions which will help dfined it and find MY keywords
+1. Questions about the "Rubber-Band" Mechanic (Invocations)
+When a player rolls poorly (e.g., a 3), they get a massive 7 Invocation Tokens to spend on their gear and environment to claw their way up to a success.
+Fictionally, what does this represent to you? Are they underdogs scraping by on the skin of their teeth? Are they resourceful action heroes relying on their gadgets? Are they tacticians analyzing the battlefield when brute force fails?
+Potential Keyword concepts: Resourceful, Scrappy, Momentum-driven, Tactical, Resilient.
+2. Questions about Enemy Aspects (No HP)
+To defeat a Boss, players don't whittle down a health bar; they must stack 5+ "Advantageous Aspects" (disarming, blinding, flanking, setting traps) before dealing the final blow.
+What does this look like in your head? Does it look like a puzzle? Does it look like a heist where everyone is setting up the pieces? Does it look like an anime team-up combo attack?
+Potential Keyword concepts: Collaborative, Combo-driven, Puzzle-combat, Cinematic, Setup-focused.
+3. Questions about Proficiencies (No Stats)
+You removed MIGHT, AGILITY, etc., entirely. Instead, players are defined by their past experiences ("I learned to fight in the army").
+Why is who they were more important than how much they can lift? Are the characters defined by their trauma/burdens and histories? Is the game about competent professionals doing a job?
+Potential Keyword concepts: Competent, Identity-driven, Freeform, Specialist, Grounded.
+4. Questions about "The Frame" (Modularity)
+You explicitly want this to be a bare-bones skeleton that needs a "Framework" (Cyberpunk, Fantasy, Horror) to be complete.
+Who is this game for? Is it for GMs who love to tinker and hack? Is it meant to jump between genres effortlessly?
+Potential Keyword concepts: Modular, Adaptable, Foundation, Universal, Hacker-friendly.
+5. Questions about Tone and Lethality
+If a player goes up against an Elite Boss with no aspects, they simply cannot win. They will fail or die.
+How lethal and gritty is this game? Are the players superheroes, or are they fragile mortals who only survive because they are smart?
+Potential Keyword concepts: Gritty, Heroic, Lethal, Punishing, Tense.
+
+this is more of a gameplay mechanic then a fiction mechanic, i am trying to find the balkance between the 2. so tactical. someone relieng on his gadets, tactician analyzing the battlefild.. sniper getting highground. a samuria finding an opening
+it should and could be all of those. i want to avoid health bars so thinking of it like a series of "v"'s they need to check, the samuri is too fast, they need to slow him down first. the guaint is too big, they need to drop him.... its like a puzzle but cinematic. like in starwars where they took down the walker with the spinning rope around his legs. whithout that they couldnt really dmg it. but they could try to infiltrate it and take it from inside. there are many options, but its mostly not directly attacking but creating the scene or the winning conditions to win, alot of times, together.
+i want a true diverse experience of a base system that can fit and be combined with many subsystems or as i call them frameworks
+might agility are not relevant in a diplomatic game. technically i could give players 4-3 stats that are relevant to the framewroks or setting of the specific game. but i dont really see a reason for that, with 2d6 up to around +3 would be their bonuses for balance, using edges and invocations is already plenty to get to that. so having ability or stat sscore on top of it is just a layer of crunch that i dont need. i wanted also to have really good proggressiong, with unlimited options to build and play chracters. without clear stats adn having defined proffesinacies which can be anythings with mastery and edges it makes for infinate possabilities for characters and plays. i want to be a moneky sumuria with a mastery in storying bananas i can.
+yes that is true, similar to pbta i want my own set of rules for a narrative focuses tctical game. this game is for gms who love to thinker and make thier own system, its for people who like a smooth deep story telling experience. its for people who want to tell cool epic storys without the system holding them back.
+yes that is true, but if narratevly it makes sense then they die. the gm (null) need to be incontol of the story to make it a cool rewarding story, just dropping a player into a death situations mostly will not fill epic or good. players that dont put the story first and just jump into danger without thinking also will not be rewaded in this sytem
+
+
+Cinematic — one roll, complex actions, movie-pacing, no sluggish turns.
+
+Resourceful — the game rewards players who use what's around them. Invoke the chandelier, the enemy's fear, the darkness. The AT-AT tow cable, not the blaster.
+
+Expressive — no stat blocks, no class lists. Your character is their experiences. A monkey samurai works as well as a grizzled soldier.
+
+Modular — the core is a skeleton. Frameworks are the flesh. Fantasy, cyberpunk, horror — same engine, different car.
+
+
+The PbtA-style 2-6 / 7-9 / 10+ thresholds are battle-tested and you're smart to use them. The drop-highest/drop-lowest scaling for proficiencies is clean and elegant. Rolling 3d6 drop lowest for a proff and 4d6 drop 2 lowest for an edge gives a noticeable but not game-breaking boost. This is the most polished part of the system.
+
+One concern though: **Edge and Mastery roll identically** (4d6 drop 2 lowest). The only difference is the once-per-session partial-to-full upgrade and the narrative protection against the Null breaking your stuff. That mastery bonus feels underwhelming for what's supposed to be the peak of character expertise. A master swordsman and someone who's merely specialized with a sword roll the same dice 99% of the time. I'd consider either giving mastery the partial-to-full upgrade once per _scene_ instead of once per session, or letting mastery automatically succeed on trivial applications of that skill (a master lockpick doesn't roll to open a standard lock — they just do it).
+lets stay that mastery means you cannot fail  (2-9 is martial success)and once per scene can upgrade a partial success to a sucess , even upgrade a 2 to a success
+
+
+When you roll a natural 2 (snake eyes), something catastrophic happens — but the _player_ narrates what goes wrong, not the Null. This sounds counterintuitive, but think about it: players always write worse consequences for themselves than GMs do, because they know what hurts their character the most emotionally. A Null might say "the guard disarms you." The player will say "my father's sword — the only thing I have left of him — shatters."
+
+In exchange, the player banks 3 NP instantly. This makes the worst possible roll in the game into one of the most cinematic, expressive moments at the table. Players will actually get excited about snake eyes instead of groaning.
+
+The reverse: natural 12 (boxcars) lets the player narrate an extraordinary success beyond what they attempted. "I didn't just pick the lock — I realize this is the same mechanism as my mentor's workshop. There's a hidden compartment." Free aspect creation, no cost.
+
+This gives both extremes of the dice a _narrative_ identity, not just a mechanical one.
+
+
+**Burden Flashbacks**
+
+When a player voluntarily invokes their own burden, they get a 30-second flashback. They narrate a brief memory that explains _why_ this burden exists. "My hands are shaking — I remember the fire, the screaming, my sister's face..."
+
+Mechanically it earns them NP as normal. But here's the kicker: if another player's character was present in the flashback (or could have been), that player _also_ gets 1 NP. This incentivizes players to weave their backstories together and creates shared history organically during play rather than in a session zero document nobody reads.
+
+Over time, these micro-flashbacks build the characters' history in front of everyone at the table. By session 5, the group has a shared emotional vocabulary that no amount of pre-written lore could create.
+
+**Scars Replace Burdens**
+
+When a burden is reduced or overcome through narrative play, it doesn't just disappear. It becomes a **Scar** — a permanent mark on the character sheet that has no mechanical penalty but can be invoked _once ever_ for a guaranteed Full Success on a thematically connected roll.
+
+Your character overcame their fear of fire? That burden is gone. But now you have the scar "I walked through the flames." Months later, when the party is trapped in a burning building and everyone is panicking, you invoke your scar: "I've done this before." Automatic success. Cross it off the sheet. It's gone forever.
+
+This makes burden arcs feel like they matter long after they're resolved. It rewards players who engage with their character's flaws by giving them a one-shot moment of absolute heroism connected to their growth. It's the most cinematic possible payoff — the character's darkest moment becomes their greatest weapon, but only once.
