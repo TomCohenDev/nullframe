@@ -1,7 +1,7 @@
 # NullFrame: Rules Summary
 
-**Version:** Working Draft v0.7
-**Last Updated:** 2026-02-19
+**Version:** Working Draft v0.8
+**Last Updated:** 2026-03-05
 
 ---
 
@@ -32,7 +32,7 @@ NullFrame is a narrative-first tabletop RPG designed for cinematic, fast-paced p
 - **Partial Success** — Roll result of 7-9 on 2d6
 - **Failure** — Roll result of 6 or below on 2d6
 - **Invocation Tokens** — Resources generated from low rolls (10 minus your roll result)
-- **Proff** — Proficiency, something your character is good at
+- **Proficiency** — Proficiency, something your character is good at
 - **Edge** — A specialization branching from a proficiency
 
 ### Design Goals
@@ -42,6 +42,15 @@ NullFrame is a narrative-first tabletop RPG designed for cinematic, fast-paced p
 - **Cinematic play** — Players describe creative, multi-part actions
 - **Self-balancing** — Low rolls generate resources; high rolls don't need them
 
+### Design Keywords
+
+These four words define what NullFrame is at its core:
+
+- **Cinematic** — One roll resolves complex actions. Movie pacing, no sluggish turn-by-turn minutiae
+- **Resourceful** — The game rewards players who use what's around them. Invoke the chandelier, the enemy's fear, the darkness. The AT-AT tow cable, not just the blaster
+- **Expressive** — No stat blocks, no class lists. Your character is their experiences. A monkey samurai works as well as a grizzled soldier
+- **Modular** — The core is a skeleton. Frameworks are the flesh. Fantasy, cyberpunk, horror — same engine, different car
+
 ---
 
 ## 2. The Dice System
@@ -50,11 +59,11 @@ NullFrame is a narrative-first tabletop RPG designed for cinematic, fast-paced p
 
 Roll **2d6** and sum the results.
 
-| Roll | Result |
-|------|--------|
-| 2-6 | **Failure** — Things go wrong |
-| 7-9 | **Partial Success** — You succeed, but... |
-| 10+ | **Full Success** — You get what you want |
+| Roll | Result                                    |
+| ---- | ----------------------------------------- |
+| 2-6  | **Failure** — Things go wrong             |
+| 7-9  | **Partial Success** — You succeed, but... |
+| 10+  | **Full Success** — You get what you want  |
 
 ### Partial Success
 
@@ -74,6 +83,16 @@ After every roll, you gain **Invocation Tokens** equal to:
 - Roll a 10? You get 0 tokens.
 
 These tokens let you invoke gear and aspects to boost your result (see [Invocations](#5-invocations)).
+
+### Critical Rolls
+
+**Snake Eyes (natural 2):** Something catastrophic happens — but the *player* narrates what goes wrong, not the Null. Players know what hurts their character most. The Null might say "the guard disarms you." The player will say "my father's sword — the only thing I have left of him — shatters."
+
+In exchange, the player earns **3 NP instantly**. The worst possible roll becomes one of the most cinematic moments at the table.
+
+**Boxcars (natural 12):** The player narrates an extraordinary success beyond what they attempted. They not only achieve their goal — they discover or create something extra. Free aspect creation, no token cost.
+
+Both extremes of the dice have a *narrative* identity, not just a mechanical one.
 
 ### Impossible Actions
 
@@ -111,6 +130,8 @@ Edges are **specializations** that branch from proficiencies. They represent dee
 
 A Mastery is an edge you've completely internalized. The Null cannot invoke disadvantages against your mastery (e.g., if you have sword mastery, the Null can't break your sword to remove your bonus).
 
+**Mastery and Failure:** A character using their mastery cannot truly fail — rolls of 2–9 all count as Partial Success. Only the worst fictional circumstances (not the dice) can stop a master in their domain.
+
 ### Dice Modification
 
 When you have a relevant proff, edge, or mastery, your dice pool changes:
@@ -123,7 +144,7 @@ When you have a relevant proff, edge, or mastery, your dice pool changes:
 | **Edge** applies | 4d6, drop 2 lowest |
 | **Mastery** applies | 4d6, drop 2 lowest |
 
-**Mastery Bonus:** Once per session, you may turn a Partial Success into a Full Success when using your mastery.
+**Mastery Bonus:** Once per scene, you may turn a Partial Success into a Full Success when using your mastery — even turning a natural 2 into a Full Success.
 
 ### Only One Applies
 
@@ -153,9 +174,27 @@ If both a burden AND a proficiency apply to the same roll, they cancel out—rol
 
 **Important:** Edges cannot be used if a burden applies. You're back to base or proff level at best.
 
+### Burden Flashbacks
+
+When a player **voluntarily invokes** their own burden, they take a brief moment — a 30-second flashback — to narrate a memory explaining *why* this burden exists. This earns NP as normal.
+
+**Shared history bonus:** If another character was present in that flashback (or could have been), that player also earns 1 NP. This incentivizes players to weave backstories together organically during play.
+
+### Scars
+
+When a burden is reduced or overcome through narrative play, it doesn't disappear — it becomes a **Scar**.
+
+- Scars have **no mechanical penalty**
+- A scar can be invoked **once, ever**, for a guaranteed Full Success on a thematically connected roll
+- After use, cross it off the sheet permanently
+
+*Example:* Your character overcomes their fear of fire. The burden is gone, but the scar "I walked through the flames" remains. Months later, trapped in a burning building, you invoke it: "I've done this before." Automatic success. It's gone forever.
+
+Scars make burden arcs matter long after they resolve. A character's darkest moment becomes their greatest weapon — but only once.
+
 ### Reducing Burdens
 
-Burdens can be reduced or removed through narrative justification and character growth.
+Burdens can be reduced or removed through narrative justification and character growth. When fully overcome, they become Scars (see above).
 
 ---
 
@@ -330,13 +369,17 @@ The main rules are the skeleton. Frameworks add the flesh. A fantasy framework m
 | No proff | 2d6 |
 | Proff applies | 3d6 drop lowest |
 | Edge applies | 4d6 drop 2 lowest |
-| Mastery | 4d6 drop 2 lowest + once/session partial→full |
+| Mastery | 4d6 drop 2 lowest; no failures (2-9 = partial); once/scene partial→full |
 
 ### Invocations
 - Tokens = 10 - roll result
 - Each token = +1 to result
 - Gear limits: Rusty/Standard 1, Fine 2, Masterwork 3
 - Each source invoked once per roll max
+
+### Critical Rolls
+- Natural 2 (snake eyes): Player narrates catastrophe, earns 3 NP
+- Natural 12 (boxcars): Player narrates extraordinary success, free aspect
 
 ### Enemies
 - Trivial: 0 aspects needed
