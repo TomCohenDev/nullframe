@@ -1911,3 +1911,31 @@ That's where I am. The effort economy needs playtesting. The invocation math nee
 If you've played systems that use d10 pools I want to hear how they felt at the table. If youve tried a mechanic where rolling is optional and costs a resource I especially want to hear what happened. And if you think I missed something and have a flaw I haven't seen yet please tell me.
 
 that's my raw thoughts, for clarification im not saying that the dice roll mechanic i came up with is new or even perfect. im just trying to find what feels right to me and be cleaver about it so i make the game i want to play
+
+## **Date:** 2026-03-07
+
+now that we have a clear dice roll system lets decide on the clean main roll is it 1d10 or 2d10
+well lets look at one a clean main roll represents.  if a player doesnt have any bonuses to that roll then it means he is either attempting something that he isnt good at or doesnt have experience in.
+usually my philosophy is that player that dont have a skill in something might as well just not attepmt it.
+if they a player doesnt have any lockpincking still then even with settle roll he is not allowed to attempt the roll.
+but there are certain actions that should be possible for everyone even if they dont have an experience in that field. for exmaple defending my self. someone jumps at me with a knife, as a soldier it should be easy for me to defend, but as a bard it should be difficult in this instant. a soldier can take a partial success which for might be worth the settle. 
+for the bard he might want to use effort to rule becouse for him taking damage is more dangerous
+to he throws, base roll he has nothing to add to it. should his success rate be 20% 9+ ? or 2d10 with a 36% chance?
+
+i think its pretty clear. a 36% change for an armed bard with nothing to defend himself with is too much
+20 present even is too much for his case. maybe i should look at torns from the suggestions in the reddit post
+
+so the base is 1d10
+ok now we lets see how the system works with the proff and edes and mastery
+proff adds 1d10
+edge 2d10
+master means i cant get a failed or a critical failed dice. 
+so the max roll for now would be 3d10 pick highest that would put the success rate at almost 50% which is enough for engagment
+
+its importent to mention that the linear scale of a 1d10 is not apealing, yet the scale pushes that the player will most likly fail. which means we DONT assume the players are competent by natures. this can change between frameworks.
+
+ok so we have the base lets look at some other mechanics
+
+invokation tokens
+as we siad before invoaktion tokens used to give a static bonus to the roll that can be used AFTER the roll.
+for settle rolls the player has the ability to use

@@ -50,6 +50,7 @@ These four words define what NullFrame is at its core:
 - **Resourceful** — The game rewards players who use what's around them. Invoke the chandelier, the enemy's fear, the darkness. The AT-AT tow cable, not just the blaster
 - **Expressive** — No stat blocks, no class lists. Your character is their experiences. A monkey samurai works as well as a grizzled soldier
 - **Modular** — The core is a skeleton. Frameworks are the flesh. Fantasy, cyberpunk, horror — same engine, different car
+ - **Light** — I want the system to be easy to grab and grasp.
 
 ---
 
