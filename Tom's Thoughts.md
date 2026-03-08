@@ -1929,13 +1929,112 @@ so the base is 1d10
 ok now we lets see how the system works with the proff and edes and mastery
 proff adds 1d10
 edge 2d10
-master means i cant get a failed or a critical failed dice. 
+master means i cant get a failed or a critical failed dice, AND critial for such action is 9 and 10 
 so the max roll for now would be 3d10 pick highest that would put the success rate at almost 50% which is enough for engagment
 
 its importent to mention that the linear scale of a 1d10 is not apealing, yet the scale pushes that the player will most likly fail. which means we DONT assume the players are competent by natures. this can change between frameworks.
 
+
+## **Date:** 2026-03-08
+
+ok one more time lets go over the main roll again
+base is 1d10
+1-2 critical failure. 3-5 failure. 6-8 partial success. 9 success. 10 critical success.
+
+proff is 2d10
+edge is 3d10
+Mastery is 3d10, 1-5 partial success,  8 success, 9-10 critial success
+
+
 ok so we have the base lets look at some other mechanics
 
 invokation tokens
-as we siad before invoaktion tokens used to give a static bonus to the roll that can be used AFTER the roll.
-for settle rolls the player has the ability to use
+as we said before invocation tokens used to give a static bonus to the roll that can be used AFTER the roll.
+for now we only look at the rolling option
+if a player uses effort (means he rolls)
+he genearted invokation tokens 10-the roll.
+using the aspects and gear he may invoke on them (once per gear/ aspect unless it said othereise on it) to gain a +1 to the roll. each token adds plus 1 to the roll 
+for exmaple i
+
+
+
+
+ok let's dive deeper into the actual mechanics of the roll and how this new d10 system interacts with the other pieces of the game. i want to make sure the math and the psychology align.
+
+first, let's dissect the **Settle vs Roll** mechanic and the **Effort** economy.
+
+if a player chooses to Settle, what is the math?
+
+- we establish that a Settle defaults to a **5** (the top of the Failure tier).
+    
+- because the virtual "roll" is a 5, the player generates exactly 5 Invocation Tokens (10 - 5 = 5).
+    
+- to reach a Partial Success (6-8), the player must have 1 to 3 things to invoke.
+    
+- if i Settle at 5, and i invoke my fine sword (+2) and high ground (+1), my total becomes 8. i reached the top of Partial Success.
+    
+- i still have 2 tokens left over, but they are **wasted**. you cannot push a Settle into a Full Success (9+).
+    
+- this is mathematically beautiful. it means Settling gives you a massive pool of tokens, but hard-caps your ceiling. it perfectly reflects a cautious, tactical approach. "i'm not going for the kill, i'm just defending myself and using my armor to take the hit safely."
+    
+
+now, why would a player ever Roll if they can just safely Settle for an 8?
+
+1.    
+2. you can't get a Critical Success (10) without rolling.
+3. you need **Effort** to roll.
+
+wait, let's define the Effort economy. this is the missing link.  
+if rolling is always free, risk-takers will just roll 3d10 every time. there has to be a rhythm.  
+what if **Settling generates Effort, and Rolling costs Effort**?
+
+- Settle: Gain 1 Effort. (You are biding your time, setting up the scene, analyzing the enemy, taking a safer partial success).
+- Roll: Spend 1 Effort. (You are committing to the big cinematic swing, exposing yourself to a Critical Failure).
+
+this creates a literal mechanical heartbeat at the table: Setup -> Payoff.  
+a player Settles (gains Effort) to maneuver into position, taking a Partial Success (maybe they get a minor cut, but they establish the "Flanked" aspect). Next action, they spend that Effort to Roll their 3d10 Edge pool, using the "Flanked" aspect to boost their dice, going for the 9+ kill.  
+this mimics cinematic combat perfectly. no movie fight is just haymaker after haymaker. it's parry, parry, maneuver, BIG STRIKE.
+
+let's look at **Burdens and Incompetence** with the new d10s.  
+if you have a burden, your pool becomes 2d10 keep lowest.  
+let's look at the statistics of 2d10 keep lowest:
+
+- 1-2 (Crit Fail): 36%
+    
+- 3-5 (Failure): 39%
+    
+- 6-8 (Partial): 21%
+    
+- 9-10 (Success): 4%
+    
+
+that is BRUTAL. a 36% chance to Critically Fail.  
+but remember my rule: a Critical Failure means the player narrates the disaster AND gets 3 NP.  
+so if a player voluntarily invokes their burden, they are basically saying "I am ready for things to go horribly wrong, give me my Narrative Points."  
+and even if they roll a 3 (Failure), they generate 7 Invocation Tokens! (10 - 3 = 7). they can use those 7 tokens to invoke their gear, their allies, the environment, and claw that 3 up to a 6 or 7.  
+this perfectly models the fiction of a burdened hero: they mess up, they struggle, but by exhausting every resource and gadget they have, they barely scrape by. the rubber-band mechanic sings here.
+
+how does **Teamwork** function in this?  
+with the Settle/Roll rhythm, teamwork becomes obvious.  
+Player A Settles. They accept a Partial Success (6) to create a new Advantageous Aspect on the boss: "Blinded by pocket sand." They gain 1 Effort for settling.  
+Player B spends 1 Effort to Roll. They roll 3d10 (Edge). They get a 7. They use their tokens to invoke their sword (+1) AND Player A's "Blinded" aspect (+1). Total = 9. Full Success.  
+Player A traded their turn's damage output to set up Player B's finishing blow. No complicated "Help Action" rules needed. The aspect economy handles it naturally.
+
+one edge case to solve:  
+what if a player has 0 Effort and has to roll? (e.g. they are forced into a desperate situation where settling narratively makes no sense).  
+maybe you can Roll with 0 Effort, but you don't get your Proficiency/Edge dice? you just roll the Base 1d10.  
+"If you are exhausted (0 Effort), you can't rely on your expertise. You just rely on luck."  
+i love that. it keeps the game moving but forces players to manage their pacing.
+
+this d10 system is clicking together like puzzle pieces.
+
+- The Settle/Roll choice creates tactical pacing.
+    
+- The Invocation Tokens fix the psychological sting of low rolls.
+    
+- The 2d10 keep lowest makes Burdens terrifying but rewarding.
+    
+- The 10 thresholds are clean and easy to read.
+    
+
+i need to playtest the Settle = +1 Effort / Roll = -1 Effort loop immediately. if that works at the table, the core engine is completely finished.
