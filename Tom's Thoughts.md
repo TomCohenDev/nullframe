@@ -1801,12 +1801,6 @@ main runner ups for dice rolls
 	- NullFrame already has its own pre-roll conversation — the null determining what's possible, the player describing their cinematic action. that's our equivalent of position/effect
 	- the conclusion: the dice chassis is just the chassis. what makes NullFrame not feel like pbta is the invocation rubber band, the aspect system, the enemy design, the proficiency trees, the keywords. none of that lives in which dice you pick up
 
-- where i landed today:
-	- the identity problem is aesthetic, not mathematical. 2d6 is the right chassis for the invocation system
-	- the proficiency expression (3d6 drop lowest, 4d6 drop 2 lowest) already makes the rolling experience feel different from pbta — you're building a hand, not just rolling 2d6+stat
-	- NullFrame is: 2d6 base + drop mechanics for proff/edge + invocation tokens (10 minus roll) + aspect system + enemy aspects instead of HP. that package is not pbta and not fitd. it's its own thing
-	- one open thought: could the d8 in a mixed roll serve as a "wildcard" die with step mechanic for frameworks? still not sure. leave it for a framework experiment
-
 - continued in a second session (gemini) - explored further after reaching the above conclusion:
 	- the reddit devlog also generated community feedback worth noting:
 		- systems recommended to read: Blades in the Dark (FitD), Wildsea (Wild Words SRD), Grimwild (Moxie SRD), The Resistance Toolkit, Daggerheart, Draw Steel, Subversion
@@ -1935,29 +1929,70 @@ so the max roll for now would be 3d10 pick highest that would put the success ra
 its importent to mention that the linear scale of a 1d10 is not apealing, yet the scale pushes that the player will most likly fail. which means we DONT assume the players are competent by natures. this can change between frameworks.
 
 
-## **Date:** 2026-03-08
+## **Date:** 2026-03-09
 
+  
 ok one more time lets go over the main roll again
+
 base is 1d10
+
 1-2 critical failure. 3-5 failure. 6-8 partial success. 9 success. 10 critical success.
 
 proff is 2d10
-edge is 3d10
-Mastery is 3d10, 1-5 partial success,  8 success, 9-10 critial success
 
+edge is 3d10
+
+Mastery is 3d10, 1-6 partial success, 8-7 success, 9-10 critial success
 
 ok so we have the base lets look at some other mechanics
 
 invokation tokens
+
 as we said before invocation tokens used to give a static bonus to the roll that can be used AFTER the roll.
+
 for now we only look at the rolling option
+
 if a player uses effort (means he rolls)
+
 he genearted invokation tokens 10-the roll.
-using the aspects and gear he may invoke on them (once per gear/ aspect unless it said othereise on it) to gain a +1 to the roll. each token adds plus 1 to the roll 
-for exmaple i
 
+using the aspects and gear he may invoke on them (once per gear/ aspect unless it said othereise on it) to gain a +1 to the roll. each token adds plus 1 to the roll
 
+for exmaple if i carry a sword, as long as i fight with it on every action i can invoke on it giving my self a +1.
 
+  
+
+other wanted mechanics
+
+- Critical faliure - the player describes their faluire instead of the Null. Null may overwrite this for the sake of the story
+- Critial success - the player describes their success instead of Null. Null may overwrite this for the sake of the story
+- When you roll a natural 2 or 1, something catastrophic happens — but the _player_ narrates what goes wrong, not the Null. This sounds counterintuitive, but think about it: players might write worse consequences for themselves than GMs do, because they know what hurts their character the most emotionally
+- In exchange, the player banks x NP instantly. This makes the worst possible roll in the game into one of the most cinematic, expressive moments at the table. Players will actually get excited about it.
+- The reverse: natural 10, lets the player narrate an extraordinary success beyond what they attempted. "I didn't just pick the lock — I realize this is the same mechanism as my mentor's workshop. There's a hidden compartment." not suer what exactly the bonus should be in that case maybe also np points but maybe something else
+- This gives both extremes of the dice a _narrative_ identity, not just a mechanical one.
+- Narrative Points (NP) - those are acumilated points for the group in individually. they represent ac urrency that can be used for rerolls and more stuff in the future (WIP). they are put in the middle of the table for everyone to see. each session starts with 4 NP. they DONT accumilate between sessions so using them up is in the best of intrest of the players. they are shared globally meaning the players need to discuss and choose when to apply them.
+- suggested actions for them are: reroll, narrative injection (add piece of information or anything to the story/ scene), flashback - a player creates a flashback scene for his character giving him somekind of bonus).
+- roll or settle, rolling is an option. a player can decide to take settle and get automatically a 5 as if he failed. but he also gets 5 invocations which he can use to get a partial success or a full success but not a critical. that way he cant fail BUT he has to use invocations of gear or aspects to uplift their roll
+- now comes the hard questions:
+- can the user roll or settle as many time as he wants or should we apply somekind of currency to make settle a must before rolling
+- invokations could apply AFTER a settle uplifting the roll granting a success. should rolling enforce a gamble where the user has to invoke his gear BEFORE the roll.
+- another suggestion to think about, maybe in rolling each invocations doest add +1 but add another d10. i need to asses which is preferable. but if the roll failed with
+- the question remines if settle should generate effort. or we just give rolling option freely.
+- the thing is that a player needs to settle for 2 reasons afraid from critical faliure, and to setup for something bigger. why would a player settle insted of rolling and taking a gamble (humans prefer to gamble)
+- we also need to look at burdens how do hey come into play, invocations add plus 1, proff and edges add more dice. so how burdens or aspects ageints the player come into playץ
+- similary to last point how conditions would come into effect, essentially they should be no different then burdens
+- another thing is Stress. how does that come into play. initially i had stresד points accumulate over 3 stages. but now im thinking of something else: im thinking to keep conditions and as invokable aspects ageinst the player, and no health. what happens is that if a sutidation is dier or desprate players can die ona a faliure. the idea is that if there are no invocation avilable, player has been disarmed or accumilated too much injeris, then on a fuilire death is on the table. if he rolls he may get a success or partial. but he may get failiure. and i do want to give players the chance to roll to save themselves even int he face of death it can lead to epic moments. if he doesnt roll he might have to settle, but without invokations its automatic faluire. so in a way their possible invoations is a sign of health. no invocations means they have the lower hand in the scene. its also in way simbulises their creativity as their health. becouse a player might comeup with an idea to invoke on sometihng that might give them a bonus saving him from death.
+- shuold invocations be unlimited? or acumilated to infinity. If partial is free and invocations can upgrade to success, what stops a player with enough gear and aspects from NEVER rolling? They just invoke their way to success every time. this might NOT be an issue, creating more then 3 invocations is not an easy task. but if they do manage to create an aspect that give them a clear advantage for exmaple high ground. this should apply to all actions that invoke from it, it doesn make sense that someone will not benefit from highground due to gameplay mechanics of invokation limit. need to look into this.
+- Flashback, i shoulds like flashback to have some degree of inpact, mechanecly need to think how. good flashback or burden flashback
+- Scars Replace Burdens When a burden is reduced or overcome through narrative play, it doesn't just disappear. It becomes a Scar — a permanent mark on the character sheet that has some emnchaniucaly effect for the benefit of the player.
+- what about advancments? how does a character can advance
+- in blade int he dark there is your position in the scene and the effect of your action. this cant be good idea to add here. maybe add as presence how  muhc precemnce a player has in the scene and effect for actions
+- i would like abilities and titles. that can be defined be the framework, for exmaple someone killed a guard then ihe gets the titlew a gaurd killer which can have benefits and consicounses
+- stress to push yourself futher 
+
+  
+
+  
 
 ok let's dive deeper into the actual mechanics of the roll and how this new d10 system interacts with the other pieces of the game. i want to make sure the math and the psychology align.
 
@@ -1966,75 +2001,40 @@ first, let's dissect the **Settle vs Roll** mechanic and the **Effort** econ
 if a player chooses to Settle, what is the math?
 
 - we establish that a Settle defaults to a **5** (the top of the Failure tier).
-    
 - because the virtual "roll" is a 5, the player generates exactly 5 Invocation Tokens (10 - 5 = 5).
-    
 - to reach a Partial Success (6-8), the player must have 1 to 3 things to invoke.
-    
 - if i Settle at 5, and i invoke my fine sword (+2) and high ground (+1), my total becomes 8. i reached the top of Partial Success.
-    
 - i still have 2 tokens left over, but they are **wasted**. you cannot push a Settle into a Full Success (9+).
-    
 - this is mathematically beautiful. it means Settling gives you a massive pool of tokens, but hard-caps your ceiling. it perfectly reflects a cautious, tactical approach. "i'm not going for the kill, i'm just defending myself and using my armor to take the hit safely."
-    
 
 now, why would a player ever Roll if they can just safely Settle for an 8?
 
-1.    
-2. you can't get a Critical Success (10) without rolling.
-3. you need **Effort** to roll.
+1. you can't get a Critical Success (10) without rolling.
+2. you need **Effort** to roll.
 
-wait, let's define the Effort economy. this is the missing link.  
-if rolling is always free, risk-takers will just roll 3d10 every time. there has to be a rhythm.  
+  
+
+  
+
+wait, let's define the Effort economy. this is the missing link.
+
+if rolling is always free, risk-takers will just roll 3d10 every time. there has to be a rhythm.
+
 what if **Settling generates Effort, and Rolling costs Effort**?
 
 - Settle: Gain 1 Effort. (You are biding your time, setting up the scene, analyzing the enemy, taking a safer partial success).
 - Roll: Spend 1 Effort. (You are committing to the big cinematic swing, exposing yourself to a Critical Failure).
 
-this creates a literal mechanical heartbeat at the table: Setup -> Payoff.  
-a player Settles (gains Effort) to maneuver into position, taking a Partial Success (maybe they get a minor cut, but they establish the "Flanked" aspect). Next action, they spend that Effort to Roll their 3d10 Edge pool, using the "Flanked" aspect to boost their dice, going for the 9+ kill.  
+this creates a literal mechanical heartbeat at the table: Setup -> Payoff.
+
+a player Settles (gains Effort) to maneuver into position, taking a Partial Success (maybe they get a minor cut, but they establish the "Flanked" aspect). Next action, they spend that Effort to Roll their 3d10 Edge pool, using the "Flanked" aspect to boost their dice, going for the 9+ kill.
+
 this mimics cinematic combat perfectly. no movie fight is just haymaker after haymaker. it's parry, parry, maneuver, BIG STRIKE.
 
-let's look at **Burdens and Incompetence** with the new d10s.  
-if you have a burden, your pool becomes 2d10 keep lowest.  
-let's look at the statistics of 2d10 keep lowest:
 
-- 1-2 (Crit Fail): 36%
-    
-- 3-5 (Failure): 39%
-    
-- 6-8 (Partial): 21%
-    
-- 9-10 (Success): 4%
-    
+## **Date:** 2026-03-10
 
-that is BRUTAL. a 36% chance to Critically Fail.  
-but remember my rule: a Critical Failure means the player narrates the disaster AND gets 3 NP.  
-so if a player voluntarily invokes their burden, they are basically saying "I am ready for things to go horribly wrong, give me my Narrative Points."  
-and even if they roll a 3 (Failure), they generate 7 Invocation Tokens! (10 - 3 = 7). they can use those 7 tokens to invoke their gear, their allies, the environment, and claw that 3 up to a 6 or 7.  
-this perfectly models the fiction of a burdened hero: they mess up, they struggle, but by exhausting every resource and gadget they have, they barely scrape by. the rubber-band mechanic sings here.
+i thought of adding the 3 layers of position like in BitD yet it seems to me that the position of the players would be rather obviose, if i have many things to invoke on then im good, if not then im in a bad spot. i would like to use Presence, this should be defined  as a usable source of token that mechanicaly fuel the characters yet using too much of it can develop their burdens
 
-how does **Teamwork** function in this?  
-with the Settle/Roll rhythm, teamwork becomes obvious.  
-Player A Settles. They accept a Partial Success (6) to create a new Advantageous Aspect on the boss: "Blinded by pocket sand." They gain 1 Effort for settling.  
-Player B spends 1 Effort to Roll. They roll 3d10 (Edge). They get a 7. They use their tokens to invoke their sword (+1) AND Player A's "Blinded" aspect (+1). Total = 9. Full Success.  
-Player A traded their turn's damage output to set up Player B's finishing blow. No complicated "Help Action" rules needed. The aspect economy handles it naturally.
+there should be levels of effectivness, lets say a player get a nat 10 crit succ on a boss. that doesnt mean its going to kill him imidiatly, sometimes if might do nothing. the idea if that there are 3 levels of effectivnes for actions i need to find a name for each
 
-one edge case to solve:  
-what if a player has 0 Effort and has to roll? (e.g. they are forced into a desperate situation where settling narratively makes no sense).  
-maybe you can Roll with 0 Effort, but you don't get your Proficiency/Edge dice? you just roll the Base 1d10.  
-"If you are exhausted (0 Effort), you can't rely on your expertise. You just rely on luck."  
-i love that. it keeps the game moving but forces players to manage their pacing.
-
-this d10 system is clicking together like puzzle pieces.
-
-- The Settle/Roll choice creates tactical pacing.
-    
-- The Invocation Tokens fix the psychological sting of low rolls.
-    
-- The 2d10 keep lowest makes Burdens terrifying but rewarding.
-    
-- The 10 thresholds are clean and easy to read.
-    
-
-i need to playtest the Settle = +1 Effort / Roll = -1 Effort loop immediately. if that works at the table, the core engine is completely finished.

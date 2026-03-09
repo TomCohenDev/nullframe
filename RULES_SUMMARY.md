@@ -1,7 +1,7 @@
 # NullFrame: Rules Summary
 
-**Version:** Working Draft v0.8
-**Last Updated:** 2026-03-05
+**Version:** Working Draft v0.9
+**Last Updated:** 2026-03-09
 
 ---
 
@@ -28,11 +28,14 @@ NullFrame is a narrative-first tabletop RPG designed for cinematic, fast-paced p
 ### Key Terms
 
 - **Null** — The Game Master
-- **Success** — Roll result of 10+ on 2d6
-- **Partial Success** — Roll result of 7-9 on 2d6
-- **Failure** — Roll result of 6 or below on 2d6
+- **Critical Failure** — Roll result of 1-2 on a d10
+- **Failure** — Roll result of 3-5 on a d10
+- **Partial Success** — Roll result of 6-8 on a d10
+- **Success** — Roll result of 9 on a d10
+- **Critical Success** — Roll result of 10 on a d10
+- **Settle** — Skipping the roll; treating your result as 5
 - **Invocation Tokens** — Resources generated from low rolls (10 minus your roll result)
-- **Proficiency** — Proficiency, something your character is good at
+- **Proficiency** — Something your character is good at, written as a past experience
 - **Edge** — A specialization branching from a proficiency
 
 ### Design Goals
@@ -50,7 +53,7 @@ These four words define what NullFrame is at its core:
 - **Resourceful** — The game rewards players who use what's around them. Invoke the chandelier, the enemy's fear, the darkness. The AT-AT tow cable, not just the blaster
 - **Expressive** — No stat blocks, no class lists. Your character is their experiences. A monkey samurai works as well as a grizzled soldier
 - **Modular** — The core is a skeleton. Frameworks are the flesh. Fantasy, cyberpunk, horror — same engine, different car
- - **Light** — I want the system to be easy to grab and grasp.
+- **Light** — Easy to grab, easy to grasp. Rules that don't get in the way of the story.
 
 ---
 
@@ -58,21 +61,35 @@ These four words define what NullFrame is at its core:
 
 ### The Basic Roll
 
-Roll **2d6** and sum the results.
+Roll **Xd10 and keep the highest die**.
 
-| Roll | Result                                    |
-| ---- | ----------------------------------------- |
-| 2-6  | **Failure** — Things go wrong             |
-| 7-9  | **Partial Success** — You succeed, but... |
-| 10+  | **Full Success** — You get what you want  |
+| Result | Tier                                                       |
+| ------ | ---------------------------------------------------------- |
+| 1-2    | **Critical Failure** — Something catastrophic happens      |
+| 3-5    | **Failure** — Things go wrong                              |
+| 6-8    | **Partial Success** — You succeed, but...                  |
+| 9      | **Success** — You get what you want                        |
+| 10     | **Critical Success** — Something extraordinary happens     |
+
+The number of dice you roll depends on your proficiency (see [Proficiencies & Edges](#3-proficiencies--edges)).
 
 ### Partial Success
 
-When you roll 7-9, you succeed but with a complication. The Null chooses one:
+When you get 6-8, you succeed but with a complication. The Null chooses one:
 
 - **Success with cost** — You succeed but take damage, lose position, or create a complication
 - **Reduced effect** — You partially achieve your goal (wound instead of kill, partial info instead of full)
 - **Hard choice** — The Null offers a tough choice: succeed but X happens, or back off safely
+
+### Settle vs Roll
+
+On any action, you have two options:
+
+**Settle:** Skip the roll entirely. Your result is treated as a **5** (top of Failure), generating **5 Invocation Tokens**. You can then invoke gear and aspects to push up into Partial Success or even Success (9) — but you **cannot reach Critical Success (10)**. Settling requires 4 invocations to push from 5 to 9.
+
+**Roll:** Pick up your dice and roll. This is the only path to a Critical Success (10). Rolling also exposes you to Critical Failure (1-2).
+
+Rolling is always available — there is no cost or limit on how often you can roll.
 
 ### Invocation Tokens
 
@@ -80,24 +97,27 @@ After every roll, you gain **Invocation Tokens** equal to:
 
 **10 - your roll result**
 
-- Roll a 4? You get 6 tokens.
+- Roll a 3? You get 7 tokens.
+- Roll a 9? You get 1 token.
 - Roll a 10? You get 0 tokens.
+
+On a Settle, you always generate exactly **5 tokens** (10 - 5).
 
 These tokens let you invoke gear and aspects to boost your result (see [Invocations](#5-invocations)).
 
 ### Critical Rolls
 
-**Snake Eyes (natural 2):** Something catastrophic happens — but the *player* narrates what goes wrong, not the Null. Players know what hurts their character most. The Null might say "the guard disarms you." The player will say "my father's sword — the only thing I have left of him — shatters."
+**Critical Failure (1-2):** Something catastrophic happens — but the *player* narrates what goes wrong, not the Null. Players know what hurts their character most. The Null might say "the guard disarms you." The player will say "my father's sword — the only thing I have left of him — shatters."
 
-In exchange, the player earns **3 NP instantly**. The worst possible roll becomes one of the most cinematic moments at the table.
+In exchange, the player earns **NP instantly**. The worst possible roll becomes one of the most cinematic moments at the table.
 
-**Boxcars (natural 12):** The player narrates an extraordinary success beyond what they attempted. They not only achieve their goal — they discover or create something extra. Free aspect creation, no token cost.
+**Critical Success (10):** The player narrates an extraordinary success beyond what they attempted. They not only achieve their goal — they discover or create something extra. Free aspect creation, no token cost.
 
 Both extremes of the dice have a *narrative* identity, not just a mechanical one.
 
 ### Impossible Actions
 
-Some actions cannot be attempted without the right tools, training, or circumstances. A fighter with no lockpicking experience simply cannot pick a lock—no roll allowed. The Null determines what's possible based on the fiction.
+Some actions cannot be attempted without the right tools, training, or circumstances. A fighter with no lockpicking experience simply cannot pick a lock — no roll allowed. The Null determines what's possible based on the fiction.
 
 ---
 
@@ -133,19 +153,26 @@ A Mastery is an edge you've completely internalized. The Null cannot invoke disa
 
 **Mastery and Failure:** A character using their mastery cannot truly fail — rolls of 2–9 all count as Partial Success. Only the worst fictional circumstances (not the dice) can stop a master in their domain.
 
-### Dice Modification
+### Dice Pool
 
 When you have a relevant proff, edge, or mastery, your dice pool changes:
 
 | Situation | Dice Pool |
 |-----------|-----------|
-| **Incompetent** (burden applies) | 3d6, drop highest |
-| **Base** (no proff) | 2d6 |
-| **Proficiency** applies | 3d6, drop lowest |
-| **Edge** applies | 4d6, drop 2 lowest |
-| **Mastery** applies | 4d6, drop 2 lowest |
+| **Base** (no proff) | 1d10 |
+| **Proficiency** applies | 2d10, keep highest |
+| **Edge** applies | 3d10, keep highest |
+| **Mastery** applies | 3d10, keep highest — special tier map (see below) |
 
-**Mastery Bonus:** Once per scene, you may turn a Partial Success into a Full Success when using your mastery — even turning a natural 2 into a Full Success.
+**Mastery Tier Map:** When using your mastery, you cannot fail. The tier thresholds shift:
+
+| Result | Outcome |
+|--------|---------|
+| 1-6    | Partial Success |
+| 7-8    | Success |
+| 9-10   | Critical Success |
+
+A master in their domain always succeeds — the only question is by how much.
 
 ### Only One Applies
 
@@ -163,17 +190,11 @@ Burdens are things that **hinder** your character: fears, injuries, obligations,
 
 ### When Burdens Apply
 
-Either the **Null** or the **player** can invoke a burden when it's narratively relevant.
+Either the **Null** or the **player** can invoke a burden when it's narratively relevant. Burdens can be invoked against both rolls and settles.
 
 ### Mechanical Effect
 
-When a burden applies, you roll **3d6, drop the highest** (same as incompetence).
-
-### Burden vs Proficiency
-
-If both a burden AND a proficiency apply to the same roll, they cancel out—roll the base 2d6.
-
-**Important:** Edges cannot be used if a burden applies. You're back to base or proff level at best.
+*(In development — the exact dice mechanic for burdens is being finalized. The core effect is that burdens impose a meaningful penalty on any relevant action, including settled results.)*
 
 ### Burden Flashbacks
 
@@ -186,7 +207,7 @@ When a player **voluntarily invokes** their own burden, they take a brief moment
 When a burden is reduced or overcome through narrative play, it doesn't disappear — it becomes a **Scar**.
 
 - Scars have **no mechanical penalty**
-- A scar can be invoked **once, ever**, for a guaranteed Full Success on a thematically connected roll
+- A scar can be invoked **once, ever**, for a guaranteed Success on a thematically connected roll
 - After use, cross it off the sheet permanently
 
 *Example:* Your character overcomes their fear of fire. The burden is gone, but the scar "I walked through the flames" remains. Months later, trapped in a burning building, you invoke it: "I've done this before." Automatic success. It's gone forever.
@@ -208,7 +229,8 @@ Invocations let you boost your roll by spending tokens on gear and aspects.
 After rolling, you receive tokens equal to **10 minus your roll result**.
 
 - This is calculated AFTER any penalties (like static minuses from conditions)
-- Tokens do not accumulate between rolls—use them or lose them
+- Tokens do not accumulate between rolls — use them or lose them
+- On a **Settle**, you always receive exactly **5 tokens** (as if you rolled a 5)
 
 ### Using Invocations
 
@@ -230,15 +252,27 @@ Gear has a **quality rating** that limits how many times it can be invoked per r
 
 Each piece of gear or aspect can only be invoked **once per roll**, but you can invoke multiple different items/aspects on the same roll (up to your token count).
 
-### Example
+### Example (Roll)
 
-You roll 2d6 and get 5. That's a Failure with 5 invocation tokens.
+You roll 1d10 and get 4. That's a Failure with 6 invocation tokens.
 
 You have:
 - Fine Sword (max 2 invokes)
 - "Defender is distracted" aspect
 
-You spend 3 tokens: 2 on the sword, 1 on the distraction. Your result becomes 5 + 3 = 8, a Partial Success.
+You spend 3 tokens: 2 on the sword, 1 on the distraction. Your result becomes 4 + 3 = 7, a Partial Success.
+
+### Example (Settle)
+
+You choose to Settle instead of rolling. Your result is a 5 — you generate 5 tokens automatically.
+
+You have:
+- Fine Sword (max 2 invokes)
+- "High ground" aspect
+- "Enemy is wounded" aspect
+- "Poor lighting" aspect
+
+You spend 4 tokens across four different sources. Your result becomes 5 + 4 = 9 — a Success. You needed every invocation you had.
 
 ---
 
@@ -274,11 +308,13 @@ The Null determines what counts as advantageous based on the fiction. This matte
 
 ### Resolution
 
-All conflicts use the same roll: 2d6 (modified by proffs/edges/burdens), boosted by invocations.
+All conflicts use the same roll: Xd10 keep highest (modified by proffs/edges/burdens), boosted by invocations.
 
-- **Full Success (10+):** You achieve your goal
-- **Partial Success (7-9):** You achieve it with a cost or complication
-- **Failure (6-):** Things go wrong; the Null makes a move
+- **Critical Success (10):** You achieve your goal and something extraordinary happens
+- **Success (9):** You achieve your goal
+- **Partial Success (6-8):** You achieve it with a cost or complication
+- **Failure (3-5):** Things go wrong; the Null makes a move
+- **Critical Failure (1-2):** Things go very wrong; the player narrates
 
 ### Enemy Difficulty
 
@@ -323,18 +359,28 @@ Some actions may be narratively ineffective (shouting "behind you!" at a mindles
 
 ## 8. Narrative Points
 
-**NP (Narrative Points)** are earned through good roleplay and storytelling.
+**NP (Narrative Points)** are a shared group resource representing creative momentum and story investment.
+
+### The Pool
+
+- Each session starts with **4 NP** for the group
+- NP is placed in the **center of the table** — visible to everyone
+- NP **does not carry over** between sessions. Use them or lose them
+- Players discuss and decide together when to spend NP
 
 ### Earning NP
 
+- Critical Failure (1-2 on d10) — the player who narrates earns NP
+- Voluntarily invoking a burden
 - Making the story more interesting
-- Voluntarily invoking burdens
 - Creative problem-solving
 - Great character moments
 
 ### Spending NP
 
-*(To be determined — this section is still in development)*
+- **Reroll** — reroll any single die
+- **Narrative Injection** — add a piece of information or a detail to the scene (the window is unlocked; you recognize the guard)
+- **Flashback** — narrate a brief scene from your character's past to establish something useful in the present
 
 ---
 
@@ -356,37 +402,50 @@ The main rules are the skeleton. Frameworks add the flesh. A fantasy framework m
 
 ## Quick Reference
 
+### Settle vs Roll
+- **Settle:** Result = 5, get 5 tokens, max result = 9 (needs 4 invocations). No Critical Success possible.
+- **Roll:** Pick up dice, keep highest. Only path to 10 (Critical Success). No limit on how often you roll.
+
 ### The Roll
-1. Roll 2d6 (modified by proff/edge/burden)
-2. Determine result: 6- Fail, 7-9 Partial, 10+ Success
-3. Calculate invocation tokens: 10 - roll
-4. Spend tokens on gear/aspects (+1 each)
-5. Final result determines outcome
+1. Decide to Settle or Roll
+2. If Rolling: roll Xd10, keep highest
+3. Read the result tier (see table below)
+4. Calculate invocation tokens: 10 - result
+5. Spend tokens on gear/aspects (+1 each)
+6. Final result determines outcome
+
+### Result Tiers
+| Result | Outcome |
+|--------|---------|
+| 1-2 | Critical Failure — player narrates, earn NP |
+| 3-5 | Failure |
+| 6-8 | Partial Success |
+| 9 | Success |
+| 10 | Critical Success — player narrates, free aspect |
 
 ### Dice Pools
 | Situation | Roll |
 |-----------|------|
-| Burden applies | 3d6 drop highest |
-| No proff | 2d6 |
-| Proff applies | 3d6 drop lowest |
-| Edge applies | 4d6 drop 2 lowest |
-| Mastery | 4d6 drop 2 lowest; no failures (2-9 = partial); once/scene partial→full |
+| No proff | 1d10 |
+| Proff applies | 2d10 keep highest |
+| Edge applies | 3d10 keep highest |
+| Mastery | 3d10; tiers shift: 1-6 partial / 7-8 success / 9-10 crit |
 
 ### Invocations
-- Tokens = 10 - roll result
+- Tokens = 10 - roll result (or 5 on a Settle)
 - Each token = +1 to result
 - Gear limits: Rusty/Standard 1, Fine 2, Masterwork 3
 - Each source invoked once per roll max
-
-### Critical Rolls
-- Natural 2 (snake eyes): Player narrates catastrophe, earns 3 NP
-- Natural 12 (boxcars): Player narrates extraordinary success, free aspect
 
 ### Enemies
 - Trivial: 0 aspects needed
 - Standard: 1-2 aspects needed
 - Dangerous: 3-4 aspects needed
 - Boss: 5+ aspects needed
+
+### Narrative Points
+- 4 NP per session, shared pool, no carry-over
+- Spend: Reroll / Narrative Injection / Flashback
 
 ---
 
