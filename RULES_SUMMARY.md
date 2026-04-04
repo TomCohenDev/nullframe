@@ -13,7 +13,7 @@
 4. [Burdens & Bains](#4-burdens--bains)
 5. [Edges, Gear & Invoking](#5-edges-gear--invoking)
 6. [Conflicts & Combat](#6-conflicts--combat)
-7. [Narrative Points & Null Tokens](#7-narrative-points--null-tokens)
+7. [Narrative Points & Storyteller Tokens](#7-narrative-points--storyteller-tokens)
 8. [Frameworks, Plays & Legendary Plays](#8-frameworks-plays--legendary-plays)
 
 ---
@@ -22,11 +22,11 @@
 
 ### What is NullFrame?
 
-NullFrame is a narrative-first tabletop RPG built around fictional leverage instead of HP totals or heavy stat blocks. Characters survive by keeping useful **Edges** in play and avoiding situations where the Null can stack **Bains** against them.
+NullFrame is a narrative-first tabletop RPG built around fictional leverage instead of HP totals or heavy stat blocks. Characters survive by keeping useful **Edges** in play and avoiding situations where the Storyteller can stack **Bains** against them.
 
 ### Key Terms
 
-- **Null** — The Game Master
+- **Storyteller** — The Game Master
 - **Settle** — Skip the roll and treat your raw result as **5**
 - **Roll** — Roll **1d10** and use the natural die result as your raw result
 - **Critical Failure** — A natural **1** on a rolled 
@@ -36,7 +36,7 @@ NullFrame is a narrative-first tabletop RPG built around fictional leverage inst
 - **Critical Success** — A natural **10** on a rolled die, if no Burden blocks success
 - **Edge** — A favorable fictional factor worth **+1**
 - **Invoke** — The act of calling out and using an Edge
-- **Bain** — An unfavorable fictional factor that subtracts from the result when the Null invokes it
+- **Bain** — An unfavorable fictional factor that subtracts from the result when the Storyteller invokes it
 - **Burden** — A defining flaw that caps the action at Partial Success
 - **Presence** — An enemy-side track that shows how much danger, control, and staying power an enemy still has
 - **Proficiency** — A broad learned competence that generally contributes **+1**
@@ -45,7 +45,7 @@ NullFrame is a narrative-first tabletop RPG built around fictional leverage inst
 - **Legendary Play** — A permanent special ability created from a memorable moment in play
 - **Legendary Token** — A limited token a player can spend to turn a legendary moment into a Legendary Play
 - **NP** — Shared player-facing **Narrative Points**
-- **NT** — **Null Tokens**, spent by the Null to invoke Bains
+- **ST** — **Storyteller Tokens**, spent by the Storyteller to invoke Bains
 
 ### Design Goals
 did
@@ -96,8 +96,8 @@ If you **Settle**, you can never critically fail or critically succeed.
 When a character attempts something risky or uncertain:
 
 1. The player describes what they want and how they do it
-2. The Null decides whether the action is possible in the fiction
-3. The Null declares any relevant **Burden** before the roll or Settle
+2. The Storyteller decides whether the action is possible in the fiction
+3. The Storyteller declares any relevant **Burden** before the roll or Settle
 4. The table identifies obvious **Edges** and possible **Bains**
 5. The player chooses to **Settle** or **Roll**
 6. Determine the raw result: **5** if Settling, or the natural d10 result if Rolling
@@ -112,7 +112,7 @@ NullFrame has no separate HP track in the core rules. Instead, surviving danger 
 
 A **Partial Success** always favors the player taking the action.
 
-The player achieves their immediate intent, but the Null adds a cost, complication, or new pressure.
+The player achieves their immediate intent, but the Storyteller adds a cost, complication, or new pressure.
 
 The important rule is:
 
@@ -125,7 +125,7 @@ Examples:
 - If the player escapes on a Partial Success, they still get out, but they lose gear, get separated, or leave an ally exposed
 - If the player investigates on a Partial Success, they still learn something useful, but they also alert the enemy, lose time, or gain a Bain
 
-On a **Partial Success**, the player might still hit, escape, discover the truth, disarm an enemy, or reduce enemy Presence, but the Null also makes things worse. The Null might:
+On a **Partial Success**, the player might still hit, escape, discover the truth, disarm an enemy, or reduce enemy Presence, but the Storyteller also makes things worse. The Storyteller might:
 
 - disarm them
 - separate them from allies
@@ -189,7 +189,7 @@ Examples:
 
 When a Specialty clearly applies, it contributes **+2**.
 
-In practice, a Specialty can also justify invoking a very specific trained method, weapon, or element twice when the Null agrees it is directly tied to that Specialty.
+In practice, a Specialty can also justify invoking a very specific trained method, weapon, or element twice when the Storyteller agrees it is directly tied to that Specialty.
 
 ### Character Start
 
@@ -235,7 +235,7 @@ When a Burden applies:
 
 Even if the player reaches **10+** through Edges, a relevant Burden caps the outcome at **9**.
 
-Both the **Null** and the **player** may invoke a Burden when it is fictionally relevant.
+Both the **Storyteller** and the **player** may invoke a Burden when it is fictionally relevant.
 
 If the Burden creates a unique, dramatic moment and advances the story in an interesting way, it may generate **NP**.
 
@@ -280,11 +280,11 @@ Example: `Broken leg`
 
 ### Invoking Bains
 
-For now, **Bains are invoked by the Null**.
+For now, **Bains are invoked by the Storyteller**.
 
 Each Bain can normally be invoked **once**.
 
-Invoking a Bain costs the Null **1 NT**, regardless of whether the Bain is `-1`, `-2`, or `-3`.
+Invoking a Bain costs the Storyteller **1 ST**, regardless of whether the Bain is `-1`, `-2`, or `-3`.
 
 Bains may come from:
 
@@ -367,7 +367,7 @@ Keeping useful Edges in play is part of how characters stay alive.
 
 If a character loses their weapon, their footing, their allies, or their prepared position, they may lose access to the Edges that let them reach Partial Success safely.
 
-The Null should treat the creation and loss of Edges as one of the main currencies of danger.
+The Storyteller should treat the creation and loss of Edges as one of the main currencies of danger.
 
 ---
 
@@ -379,7 +379,7 @@ Most conflicts can be handled narratively.
 
 The basic loop is:
 
-1. The Null describes the danger
+1. The Storyteller describes the danger
 2. A player says what they do
 3. Relevant Burdens are declared
 4. The player Settles or Rolls
@@ -416,7 +416,7 @@ Use these as default starting points:
 - **Dangerous enemy:** 5 Presence
 - **Boss enemy:** 8 Presence
 
-The Null may adjust these values to fit the scene.
+The Storyteller may adjust these values to fit the scene.
 
 ### Reducing Presence
 
@@ -432,7 +432,7 @@ Not every successful action must reduce Presence. Some actions instead create Ed
 
 ### Presence and Risk
 
-Enemy Presence also tells the Null how hard to push.
+Enemy Presence also tells the Storyteller how hard to push.
 
 - At **high Presence**, the enemy still has strong leverage and can justify harsher Bains and consequences
 - At **low Presence**, the enemy is running out of leverage, and the risk they represent should be lower
@@ -494,7 +494,7 @@ Severe injury, disablement, or death should show up when a character can no long
 
 ---
 
-## 7. Narrative Points & Null Tokens
+## 7. Narrative Points & Storyteller Tokens
 
 ### Narrative Points (NP)
 
@@ -519,22 +519,22 @@ Suggested core uses:
 
 More uses may be added later.
 
-### Null Tokens (NT)
+### Storyteller Tokens (ST)
 
-**NT** are the Null's meta-currency.
+**ST** are the Storyteller's meta-currency.
 
-The Null spends **1 NT** to invoke a Bain against a player's action.
+The Storyteller spends **1 ST** to invoke a Bain against a player's action.
 
-Burdens do **not** cost NT. If a Burden is relevant, the Null or player may bring it in freely.
+Burdens do **not** cost ST. If a Burden is relevant, the Storyteller or player may bring it in freely.
 
-NT may be spent on Bains from:
+ST may be spent on Bains from:
 
 - the scene
 - the enemy
 - the player's current condition
 - an ongoing complication already established in the fiction
 
-The exact NT balance for an encounter is still **WIP** and should be tuned in playtesting.
+The exact ST balance for an encounter is still **WIP** and should be tuned in playtesting.
 
 ---
 
@@ -578,7 +578,7 @@ The exact wording, costs, and conditions of Plays are defined by the Framework.
 
 **Legendary Plays** begin empty. They are created from the moments that become part of the character's legend.
 
-When a player does something truly memorable, effective, or iconic, the Null may allow them to spend **1 Legendary Token** to turn that moment into a new Legendary Play.
+When a player does something truly memorable, effective, or iconic, the Storyteller may allow them to spend **1 Legendary Token** to turn that moment into a new Legendary Play.
 
 This lets the character's greatest moments become permanent abilities later.
 
@@ -586,13 +586,13 @@ If the player chooses not to spend the token immediately, they may define the Le
 
 ### Legendary Tokens
 
-The number of Legendary Tokens available is up to the Null.
+The number of Legendary Tokens available is up to the Storyteller.
 
 For now, a solid default is:
 
 - each player starts with **2 Legendary Tokens** for the story or campaign
 
-These may be refreshed at the Null's discretion.
+These may be refreshed at the Storyteller's discretion.
 
 ---
 
@@ -621,8 +621,8 @@ These may be refreshed at the Null's discretion.
 - Can generate NP when dramatically relevant
 
 ### Bains
-- Invoked by the Null
-- Cost `1 NT` each
+- Invoked by the Storyteller
+- Cost `1 ST` each
 - Usually `-1`, sometimes `-2` or `-3`
 - Normally used once each
 
@@ -636,8 +636,8 @@ These may be refreshed at the Null's discretion.
 - Cost `1 NP` per use
 - Core uses: reroll, narrative injection, flashback, help
 
-### NT
-- Null currency
+### ST
+- Storyteller currency
 - Spent to invoke Bains
 
 ### Combat
