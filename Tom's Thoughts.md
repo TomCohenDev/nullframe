@@ -2038,3 +2038,111 @@ i thought of adding the 3 layers of position like in BitD yet it seems to me tha
 
 there should be levels of effectivness, lets say a player get a nat 10 crit succ on a boss. that doesnt mean its going to kill him imidiatly, sometimes if might do nothing. the idea if that there are 3 levels of effectivnes for actions i need to find a name for each
 
+## **Date:** 2026-03-30
+
+  
+**
+
+1.
+
+lets change it like so, succuess is only a 10. partial is 7-9, failure is 2-6 and critical fail is 1. and settle gives 5 which means they need 2 invocations to get a partial and 5 to get a succuess.
+
+remove invocation cap and generation. invokations can be used as many time as the player wants to upgradfe the role or settle before or after. its not generation tokens, you can jsut call out anything that might give you an advantage/edge.
+
+Critical success is ONLY if the player roll and gets a 10 front he roll. You can reach a 10 via invocations but its not critical.
+
+Its important to mention that invocations kind of linked to health pool, there is no healthpool but a a character can always choose to settle which give me 2 invocations from particle success. At partical success a character dont usually die or get hurt badly. But they might get disarmed or have some invocation against them created. The idea is that if a character gets caught with nothing to invoke from, no weapon no advantage no allies to help then settling cant give him enough to get to particle even if it did the enemy has invocations against him which will cause failure. The only change the player has is to throw the dice and not settle. This is a dire situation where the player can and might die or get hurt badly or disabled. Players need to make sure they always have invocations.
+
+Critical failure or critical success with narration frontier he player that was uniq and advanced the story in an interesting way generates NP.
+
+  
+
+2. 
+
+lets
+
+I prefer to have it differently. I think well keep proficiencies as general descriptions of things the player is good at and they generally give +1. proficiencies also allow to invoke on gear, for example lets say a player has a gun, he can use it but if he doesnt have a Proficiency with it (for example soldier training or such) he cant invoke it to get a plus 1. Same with most weapons or gear that requirest traning. Gear that has a one time use effect or magic effect or something like that can create invocations for example oil lamp or a grenade (no need training with those). Each Proficiency always can give up to +1.
+
+A player can get more proficiencies and they can be defined broadly or specific.
+
+To get a more proficiencies there should be narrative justification for it and the usage of some meta currency (WIP)
+
+  
+
+Edges should renamed to Specialties be defined as progression for proficiencies. They are something specific that would give you a plus 2 allowing you to invoke twice on a gear or twice on some specific element. If you have an Specialties that applies you are playing to your character's best skills. Each character in the game should start with 1 Specialties . Just one that gives them a specific advantage. Specialties HAVE to be something specific from the proficiencies. They are very specific. Currency there is no way to progress something beyond that. So max invocations you can get from something will be +2 if an Specialties applies.
+
+  
+
+Lets remove mastery from the rules. 
+
+  
+
+3.
+
+Burdens
+
+Lets make it simple
+
+When a burden applies you cannot get a success or a critical success in that action. Even with invocations.
+
+They are defining narrative attributes of the character that make him flawed and more interesting, their mechanic doesnt change and they can be invoked by the Null or my the player. It the n narrative around them is good and they advanced the story in an interesting way then they genearrte an NP.
+
+  
+
+Bains are specific conditions that apply always to the relevant rolls and give -1 to the end result. Bains can be temporarily like a broken leg, scratch, smelly. The same description could be fitting for both burden and bain. For example a broken leg could be both. The difference would be that a bain is something that can be solvable or healable and a burden is something definitive of the character. 
+
+For now bains are invoked by the Null. each bain can be invoked only once.
+
+Burdens and bain have NO teirs
+
+  
+
+4.
+
+Currencies
+
+NP is the players currency narrative points and it can be used to reroll or create a narrative injection in the story. I want more things they can do with it and i need suggestions.
+
+They are global currency shared by the players. Any np generated goes to the global pool.
+
+  
+
+Null currency. Yes i agree the null needs some kind of meta currency aswell. This currency is used to invoke bains on the player. Lets call the currency of the null Null Tokens (NT’s) and they can be used to invoke bains on player rolls. Burdens can be invoked feely by the Nulls discretion of player discretion and they do not require any currency to spend.
+
+We need to think how the balance of points need to play out for an encounter. 
+
+Bains can be invoked from the players sheet from their current bains if they relevant or from other sources just as environmental soucers that go agienst the players or form the enemies sheet. For example master swordsman will have some kind of description n number of bains to swordfighting
+
+For example is i fight a master swordsman ther null can invoke using his null tokens to give any attack vs him a bain or -2. Bains by the null can be invoked once. But the bain it self might give -1 -2 -3… depending on the description.
+
+  
+
+Anything that give an advantage to the player (invoke +1) -> Edges 
+
+Anything that gives the player a disadvantage (Null invokes as -1 against the player) -> Bains
+
+Roll is equal to 1d10+Edges(combined from all sources)-Bains( combined from all sources)
+
+  
+  
+
+Well keep 1d10 for now. But i am still trying to figure how to use dice pool inside
+
+  
+  
+
+Combat:
+
+Lets give combat some rules. If the player count is small around 2 for example combat can play narratvly as makes since.
+
+If the player count is 3+ we can create a turn baced system. Where each player has 1 action and 1 reaction. The action and reaction are vague. And can be many things. The idea is to give a room for everybody to play. Monsters also have 1 action and 1 reaction. The turns are completely controlled by the players and they can play how ever they want in want ever order. 
+
+  
+
+Plays and legendary plays. Plays are setting specific abilities/ powers/ manuvaers that make the player’s character special and unique. They are the equivalent of “moves” from pbta. Plays are uniq to a character and usually he can choose from mayn plays to make his build. Plays do not unusually grant a static bonus but they are a narrative aspect the player can use. For example a play might be “i can control fire” another example “i can shoot in a whirl wind hitting anything close” sometimes plays have conditions and sometimes they have costs - it depends on the attached framework description
+
+Legendery Plays, Legendary Plays are something that starts empty and they are filled during play or between sessions. Legendary plays are actions or moments that the player did with his character that would be defined as legendary. A super cool moment. Or a super effective thing they did. If the null allows the player can use 1 Legendary Token from his pool to make it to a legendary play, defining a new ability according to the play that made it legendary. A player can choose to not spend a token and create a new ability in the feature. 
+
+The number of tokens that a players starts with is depending on the null. For now well assume that each player has 2 ledengry tokens to use for their enrite story or campaign. They can be refilled by the null discretion.
+
+**
