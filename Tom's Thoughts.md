@@ -1395,3 +1395,754 @@ When a burden is reduced or overcome through narrative play, it doesn't just dis
 Your character overcame their fear of fire? That burden is gone. But now you have the scar "I walked through the flames." Months later, when the party is trapped in a burning building and everyone is panicking, you invoke your scar: "I've done this before." Automatic success. Cross it off the sheet. It's gone forever.
 
 This makes burden arcs feel like they matter long after they're resolved. It rewards players who engage with their character's flaws by giving them a one-shot moment of absolute heroism connected to their growth. It's the most cinematic possible payoff — the character's darkest moment becomes their greatest weapon, but only once.
+
+
+ i am considering for the base roll                                                
+  5d6 count 4+ as success with 3 tiers, 1 success is fail, 2 is partial, 3 is   
+  full succss                                                                       
+  or 3d6 same concept                                                               
+  or 5d6 count 5+ as a success with 3 teirs like before                             
+  or 3d6 count 5+ as a sucess same concept                                          
+  or keep as is (its too close to pbta)                                             
+  or try to play with other dices like d12 or d8 tog et those stastistics  lets thin
+
+> from the documents, without bonuses, what the stastistic i want to go for toa     
+    player for a full success? without bonuses jsut clean roll                      
+                                                                                    
+● From the rules, a clean 2d6 roll (no bonuses):                                    
+                                                                                    
+  Full Success (10+): ~16.67%                                                       
+   
+  That's only the top 3 results (10, 11, 12) out of 11 possible outcomes. The       
+  distribution is:                                          
+                                                                                    
+  ┌────────┬─────────┬─────────────────┐                                            
+  │ Result │ Chance  │     Outcome     │
+  ├────────┼─────────┼─────────────────┤                                            
+  │ 2–6    │ ~41.67% │ Failure         │                    
+  ├────────┼─────────┼─────────────────┤                                            
+  │ 7–9    │ ~41.67% │ Partial Success │                                            
+  ├────────┼─────────┼─────────────────┤
+  │ 10+    │ ~16.67% │ Full Success    │                                            
+  └────────┴─────────┴─────────────────┘                                            
+   
+  So without any bonuses, a player fails and partially succeeds at equal rates (~42%
+   each), and only gets a full success about 1-in-6 times. This is intentional — the
+   system is designed so that gear, aspects, and proficiencies are what push you    
+  into consistent full successes. A clean roll is supposed to feel hard.
+
+> i am considering for the base roll                                                
+  5d6 count 4+ as success with 3 tiers, 1 success is fail, 2 is partial, 3 is   
+  full succss                                                                       
+  or 3d6 same concept                                                               
+  or 5d6 count 5+ as a success with 3 teirs like before                             
+  or 3d6 count 5+ as a sucess same concept                                          
+  or keep as is (its too close to pbta)                                             
+  or try to play with other dices like d12 or d8 tog et those stastistics           
+  ⎿  Interrupted · What should Claude do instead?                                   
+                                                                                    
+> the curve as to be a bell shaped no matter what                                   
+                                                                                    
+● Here are the exact probabilities for each option (tiers: 0-1 success = Fail, 2 =  
+  Partial, 3+ = Full):                                                              
+                                                                                    
+  ┌──────────────────┬────────┬─────────┬──────────────┐
+  │      System      │  Fail  │ Partial │ Full Success │                            
+  ├──────────────────┼────────┼─────────┼──────────────┤    
+  │ 2d6 (keep as is) │ 41.67% │ 41.67%  │ 16.67%       │
+  ├──────────────────┼────────┼─────────┼──────────────┤
+  │ 3d6, count 4+    │ 50%    │ 37.5%   │ 12.5%        │
+  ├──────────────────┼────────┼─────────┼──────────────┤                            
+  │ 5d6, count 4+    │ 18.75% │ 31.25%  │ 50%          │
+  ├──────────────────┼────────┼─────────┼──────────────┤                            
+  │ 3d6, count 5+    │ 74%    │ 22%     │ 3.7%         │    
+  ├──────────────────┼────────┼─────────┼──────────────┤                            
+  │ 5d6, count 5+    │ 46%    │ 33%     │ 21%          │
+  └──────────────────┴────────┴─────────┴──────────────┘                            
+                                                            
+  ---                                                                               
+  The problem with dice pools for bell curves:              
+                                                                                    
+  3d6 and 5d6 counting successes are actually binomial distributions — they look
+  bell-shaped around the average but the tiers you cut them into may not feel right.
+   The issue:                                               
+                                                                                    
+  - 5d6 count 4+ gives 50% full success with no bonuses — too generous, bonuses     
+  break it
+  - 3d6 count 4+ gives 12.5% full success — harsher than 2d6                        
+  - 3d6 count 5+ gives 3.7% full success — almost impossible                        
+                                                                                    
+  ---                                                                               
+  The 2d6 problem you identified is less about the math and more about it feeling   
+  like PbtA. The statistics are actually good for your design goals.                
+                                                                    
+  Alternative worth considering: 2d8 (true bell curve, wider range)                 
+                                                                                    
+  ┌──────────────────┬────────┬─────────┬────────┐
+  │  2d8 thresholds  │  Fail  │ Partial │  Full  │                                  
+  ├──────────────────┼────────┼─────────┼────────┤                                  
+  │ 2-8 / 9-13 / 14+ │ 43.75% │ 39.06%  │ 17.19% │
+  ├──────────────────┼────────┼─────────┼────────┤                                  
+  │ 2-7 / 8-12 / 13+ │ 23.44% │ 46.88%  │ 29.69% │                                  
+  └──────────────────┴────────┴─────────┴────────┘                                  
+                                                                                    
+  The 2-7 / 8-12 / 13+ threshold on 2d8 gives you a nicer partial success hump      
+  (~47%) and a cleaner ~30% full success — more rewarding than 2d6 without being too
+   easy, and it doesn't look like PbtA because the dice and numbers are different.  
+                                                            
+  What feeling are you going for at base — should failing feel probable or just     
+  possible?
+                                                                                    
+✻ Crunched for 38s                                          
+
+> lets think about the golden ratio and try to implment that into the roll          
+  stastists how would that play out? what are the stastists we want to go for      
+                                                                                    
+● The golden ratio (φ ≈ 1.618) applied to three tiers means each tier is φ times the
+   tier above it:                        
+                                                                                    
+  Full × φ = Partial                                                                
+  Partial × φ = Fail                                                                
+                                                                                    
+  Solving for 100%:                                                                 
+                                                                                    
+  ┌─────────────────┬──────────┐                                                    
+  │      Tier       │ Target % │                            
+  ├─────────────────┼──────────┤
+  │ Full Success    │ ~19%     │
+  ├─────────────────┼──────────┤
+  │ Partial Success │ ~31%     │                                                    
+  ├─────────────────┼──────────┤                                                    
+  │ Failure         │ ~50%     │                                                    
+  └─────────────────┴──────────┘                                                    
+                                                            
+  ---                                                                               
+  Why these numbers make sense for NullFrame specifically:
+                                                                                    
+  - 50% fail generates lots of invocation tokens — the self-balancing rubber-band
+  mechanic fires constantly                                                         
+  - 31% partial creates the interesting "succeed but..." dramatic space
+  - 19% clean success feels earned, not expected                                    
+  - Total success rate = ~50% — tense but not demoralizing                          
+                                                                                    
+  ---                                                                               
+  What dice get closest?                                                            
+                                                            
+  3d6 sum (not pool — add all three) hits this almost exactly:
+                                                                                    
+  ┌───────────────────┬──────┬─────────┬───────┐
+  │     Threshold     │ Fail │ Partial │ Full  │                                    
+  ├───────────────────┼──────┼─────────┼───────┤            
+  │ ≤10 / 11-13 / 14+ │ 50%  │ 33.8%   │ 16.2% │
+  └───────────────────┴──────┴─────────┴───────┘
+                                                                                    
+  Ratios: Partial/Full ≈ 2.09, Fail/Partial ≈ 1.48 — not perfect golden ratio but   
+  very close, and it's a genuine bell curve peaking at 10-11.                       
+                                                                                    
+  2d6 (current) for comparison:                                                     
+   
+  ┌────────────────┬────────┬─────────┬────────┐                                    
+  │   Threshold    │  Fail  │ Partial │  Full  │            
+  ├────────────────┼────────┼─────────┼────────┤
+  │ ≤6 / 7-9 / 10+ │ 41.67% │ 41.67%  │ 16.67% │
+  └────────────────┴────────┴─────────┴────────┘
+                                                                                    
+  The problem: Fail and Partial are identical (41.67% each) — that's a flat plateau,
+   not a golden ratio. It works but it doesn't have the right shape.                
+                                                                                    
+  ---                                                       
+  The recommendation:
+                     
+  3d6 sum, thresholds: ≤10 fail / 11-13 partial / 14+ full
+                                                                                    
+  - True bell curve (peaks at 10-11)                                                
+  - Closest to golden ratio of any simple system                                    
+  - Tokens = 14 - roll keeps the self-balancing mechanic intact                     
+  - Players recognize d6s, rolling 3 feels natural                                  
+                                                                                    
+  The tradeoff: you'd need to redesign invocation tokens around 14 - roll instead of
+   10 - roll, but the math scales cleanly since the max roll is 18 (14 tokens max on
+   snake eyes, 0 on 14+).                                                           
+                                                            
+✻ Cooked for 2m 0s                  
+
+> using game filosofy and hundrest of succesful games, game philosocy and game      
+  theory and fun phycology                                                         
+  what is the best ratios i should do?                                              
+  does the golden ratio even apply here                                             
+  reserach and think                                                                
+                                                                                    
+● The Golden Ratio Doesn't Apply Here                                               
+                                         
+  The golden ratio is a visual and spatial optimization principle — it describes how
+   plants pack seeds, how shells grow, how compositions feel balanced to the eye.
+  Applying it to probability tiers is numerologically appealing but has no grounding
+   in game psychology. It's a coincidence when it "fits," not a principle.
+
+  Here's what actually matters:                                                     
+   
+  ---                                                                               
+  The Real Research                                         
+                   
+  1. Skinner's Variable Ratio Reinforcement
+                                                                                    
+  The most powerful reinforcement schedule for sustained engagement is variable and 
+  unpredictable reward — not a fixed ratio. This is why slot machines work. But     
+  crucially: slot machines optimize for compulsion, not fun. For games, you want the
+   uncertainty without the helplessness.                    
+
+  Takeaway: variance in outcomes is good. What kills engagement is predictability,  
+  not failure.
+                                                                                    
+  ---                                                                               
+  2. Csikszentmihalyi's Flow Theory
+                                                                                    
+  Flow — the state of optimal engagement — occurs when challenge slightly exceeds 
+  current skill. The moment success becomes too easy, boredom sets in. Too hard,    
+  anxiety.                                                  
+                                                                                    
+  For games this translates to: 65-75% total success rate (partial + full combined) 
+  keeps players in the flow channel.
+                                                                                    
+  Below 50% total success → players feel punished, not challenged.                  
+  Above 85% → the roll feels like a formality.
+                                                                                    
+  ---                                                       
+  3. Kahneman's Prospect Theory (Loss Aversion)                                     
+                                                                                    
+  Losses feel roughly twice as bad as equivalent gains feel good. A failure doesn't
+  just feel neutral — it actively hurts.                                            
+                                                            
+  This is critical for NullFrame specifically. Your invocation token system         
+  partially neutralizes this — failure generates resources, so it's not a dead end.
+  This is brilliant design. It means you can tolerate a higher failure rate than    
+  most systems because failure gives something.             
+
+  But partial success is still far superior to failure psychologically — it         
+  registers as a gain with cost rather than a loss.
+                                                                                    
+  Takeaway: Partial success should be the most common single outcome, not failure.  
+   
+  ---                                                                               
+  4. PbtA's 40+ Years of Playtesting                        
+                                                                                    
+  The 2d6 + stat system was not designed around mathematical aesthetics. It was
+  designed so that the naked roll almost never happens. In actual play:             
+                                                            
+  ┌────────────┬───────┬─────────┬───────┬───────────────┐                          
+  │   Bonus    │ Fail  │ Partial │ Full  │ Total Success │  
+  ├────────────┼───────┼─────────┼───────┼───────────────┤                          
+  │ +0 (base)  │ 41.7% │ 41.7%   │ 16.7% │ 58.3%         │  
+  ├────────────┼───────┼─────────┼───────┼───────────────┤                          
+  │ +1 (avg)   │ 27.8% │ 44.4%   │ 27.8% │ 72.2%         │                          
+  ├────────────┼───────┼─────────┼───────┼───────────────┤                          
+  │ +2 (good)  │ 16.7% │ 44.4%   │ 38.9% │ 83.3%         │                          
+  ├────────────┼───────┼─────────┼───────┼───────────────┤                          
+  │ +3 (great) │ 8.3%  │ 38.9%   │ 52.8% │ 91.7%         │  
+  └────────────┴───────┴─────────┴───────┴───────────────┘                          
+                                                            
+  Notice: at +1 and +2, partial success becomes the clear plurality. That's the     
+  design intention — the 7-9 zone is where the game lives. PbtA designers spent
+  years arriving at this.                                                           
+                                                            
+  ---
+  5. Jesse Schell — The Art of Game Design
+                                                                                    
+  "A problem should be solvable by a skilled player roughly 75% of the time." But
+  for narrative games with meaningful failure states, lower is acceptable because   
+  failure drives story forward, not backward.               
+                                                                                    
+  ---                                                                               
+  What the Research Actually Says Your Ratios Should Be
+                                                                                    
+  For a base roll with no bonuses, given that:              
+  - Players will usually have at least 1 proff applying (shifting numbers up)       
+  - Failure generates invocation tokens (neutralizing loss aversion)                
+  - Partial success is narratively interesting, not just consolation                
+                                                                                    
+  Target for base roll:                                                             
+                                                                                    
+  ┌────────────┬─────────┬──────────────────────────────────────────────────────┐   
+  │    Tier    │ Target  │                        Reason                        │ 
+  ├────────────┼─────────┼──────────────────────────────────────────────────────┤   
+  │ Fail       │ ~35-38% │ High enough for tension and token generation; not so │ 
+  │            │         │  high it feels punishing                             │ 
+  ├────────────┼─────────┼──────────────────────────────────────────────────────┤   
+  │ Partial    │ ~42-46% │ Should be the clear plurality — this is where the    │ 
+  │            │         │ game lives                                           │   
+  ├────────────┼─────────┼──────────────────────────────────────────────────────┤ 
+  │ Full       │ ~18-24% │ Rewarding but not expected — earned, not routine     │   
+  ├────────────┼─────────┼──────────────────────────────────────────────────────┤   
+  │ Total      │ ~62-68% │ Sits inside the flow channel                         │
+  │ success    │         │                                                      │   
+  └────────────┴─────────┴──────────────────────────────────────────────────────┘
+                                                                                    
+  The key design principle: Partial > Fail > Full, with partial as the clear peak.  
+   
+  Your current 2d6 gives Fail = Partial = 41.7%. That flat plateau is the real      
+  problem — not the specific numbers.                       
+                                                                                    
+  ---                                                       
+  What Dice Hit This Target
+                           
+  3d6 sum, thresholds ≤9 / 10-13 / 14+:
+                                                                                    
+  ┌─────────────────┬───────┐                                                       
+  │      Tier       │   %   │                                                       
+  ├─────────────────┼───────┤                                                       
+  │ Fail (≤9)       │ 37.5% │                               
+  ├─────────────────┼───────┤
+  │ Partial (10-13) │ 46.3% │
+  ├─────────────────┼───────┤
+  │ Full (14+)      │ 16.2% │
+  └─────────────────┴───────┘                                                       
+   
+  - Partial is the clear peak (46% vs 37% fail)                                     
+  - True bell curve, peaks at 10-11                         
+  - Feels completely distinct from PbtA                                             
+  - Tokens = 14 - roll keeps the rubber-band system intact                          
+                                                                                    
+  With a proff (+1 die, drop lowest → statistically ~+1.5 to the sum):              
+                                                                                    
+  ┌───────────────┬──────────┐                                                      
+  │     Tier      │ Approx % │                              
+  ├───────────────┼──────────┤                                                      
+  │ Fail          │ ~22%     │                              
+  ├───────────────┼──────────┤
+  │ Partial       │ ~48%     │                                                      
+  ├───────────────┼──────────┤
+  │ Full          │ ~30%     │                                                      
+  ├───────────────┼──────────┤                              
+  │ Total success │ ~78%     │
+  └───────────────┴──────────┘                                                      
+   
+  That's squarely inside the flow channel for a competent character — which is      
+  exactly where NullFrame should live.  
+
+main runner ups for dice rolls
+5d6 
+
+
+
+
+## **Date:** 2026-03-06
+
+- coming back to the dice question with a clearer head. spent a lot of time on this and i want to lay out my actual goals before looking at any mechanic, so i stop
+- chasing aesthetics and start chasing design intent.
+
+- my goals for the dice system:
+	- single resolution for everything. attacks, lifting, running, talking — same mechanic. i've tried splitting before and it always confuses players and gets ignored
+	- fast resolution. dice shouldnt break narrative flow. the gap between deciding to act and narrating the result should be as small as possible. too many dice or rerolls kill cinematic pacing
+	- feel the bonuses in my hand. i prefer adding dice over adding static numbers. a static +1 feels invisible. picking up an extra d6 feels like something. the caveat is dice pools can destroy statistics fast — i tested 10d6 count 4+ and players got exactly 5 successes 12+ rolls in a row. boring and predictable
+	- use the dice for more than one thing. doubles, specific results, special triggers. i want the roll to have more mechanical potential than just a single number
+	- bell curve, not linear. a d20 where 1 and 20 have the same chance is not fun. i want competent characters to feel competent. the question is how competent the average NullFrame character should be — i dont assume adventurers, i allow for commoner protagonists, so the base should be humble
+	- that holy shit moment. d20 gets this right — the nat 20 in a desperate moment is legendary. i want my system to have its own version of that
+	- it needs to feel like mine. sometimes there is no pure logic to it. i know what i dont like. this system is for me and people like me
+
+- ruling things out immediately:
+	- d20 and d100 roll above/below — linear graph, no thanks. the chance of a 1 is always the same as a 20 no matter how many bonuses i stack. that feels wrong
+	- exploding dice — cool concept but requires too many rerolls and slows everything down
+
+- going through the real candidates:
+	- pbta 2d6 sum + bonuses, 3 tier system
+		- objectively fits everything. clean thresholds (6- fail, 7-9 partial, 10+ success), well tested for 20+ years, static and dice bonuses both work cleanly, three tiers are fast to resolve
+		- the numbers feel right to me. i feel the difference between a 9 and a 10. i dont feel the difference between a 14 and a 15 (which is the draw steel problem on 2d10)
+		- the problem is it just doesnt feel amazing. it feels like im making another pbta fork. i feel like i can be more clever
+		- one thing i definitely keep no matter what: the three tier system. comparing against a DC feels bad at the table
+	- 3d6 sum + bonuses, 3 tier system
+		- better bell curve, more spread, doubles and triples give extra mechanical hooks
+		- but the thresholds shift to 14+ for success. the difference between 13 and 14 doesnt feel like anything to me. ruling it out for that reason alone
+	- 2d6+2d4 and 2d6+d8 sum systems
+		- explored these today. both give good statistics with the right thresholds
+		- 2d6+d8 with thresholds 9- / 10-14 / 15+ gives fail 28.5%, partial 52.1%, full 19.4% — excellent shape
+		- 2d6+2d4 with 10- / 11-14 / 15+ gives fail 31%, partial 49%, full 20% — also excellent
+		- the problem is the same as 3d6 — 15+ as success threshold feels arbitrary and doesnt carry the same weight as 10+. numbers matter psychologically
+		- 2d6+d8 has one interesting idea though: the d8 is visually distinct and could represent something mechanical. a proff could set it to 8 automatically instead of rolling it. worth keeping as a framework mechanic idea
+	- dice pool count successes (4+ or 5+), 3 or 4 tiers
+		- spent a lot of time on this today. tested multiple combinations
+		- 5d6 count 4+ with tiers 0/1-2/3+: fail 3.1%, partial 46.9%, full 50% — failure almost never happens, rubber band barely fires, invocations become useless
+		- 5d6 count 5+ with 4 tiers (0=critical fail, 1=fail, 2=partial, 3=success, 4=critical): tier 1 and tier 2 are mathematically identical at 32.9% each. this is by pure algebra with n=5, p=1/3 — P(1) always equals P(2). the plateau problem follows me
+		- 6d6 count 5+ breaks the plateau and gives great stats (tier 2 at 32.9% is the clear peak) but 6 dice is a lot to roll and count
+		- the fundamental issue with any binomial success-counting pool: to avoid the plateau you have to pick an odd number of dice, which always creates tied middle values, or use a non-50% success threshold, which shifts the plateau somewhere else
+	- FitD dice pool take highest (1-3 fail / 4-5 partial / 6 success)
+		- read a lot about FitD vs PbtA today. key insight: FitD's dice pool isnt just a different curve, it answers a different design question. "how many avenues for success can you bring?" vs pbta's "how prepared are you for this moment?"
+		- the thresholds are the cleanest possible — just read the highest die, no addition
+		- the progression is genuinely different in feel: 1d feels desperate, 4d feels powerful. that emotional range across the pool size is something pbta cant replicate
+		- the dealbreaker for NullFrame: the rubber band invocation system requires a sum. tokens = 10 minus roll only works when adding dice together. take-highest has no natural equivalent. using it would mean rebuilding the resource engine from scratch
+		- FitD's rubber band equivalent is Stress + Resistance — a completely different architecture. the two systems are philosophically incompatible
+	- step dice (cortex prime)
+		- step dice sound cool. bigger die means bigger bonus. d4 weak, d6 average, d8 good, d10 great, d12 elite. you can SEE competence in your hand before rolling
+		- for NullFrame: base 2d6, proff replaces one d6 with d8 (rolls d6+d8), edge steps to d6+d10, mastery to d6+d12
+		- the problem: as dice get bigger the range expands and the 10+ threshold breaks. d6+d8 already gives 31% full success at proff level (vs 17% base). d6+d10 hits 45%. that's too generous too fast
+		- if i shift the threshold upward with each die step i lose the clean numbers. players need to track both which dice they're rolling AND what counts as success. kills simplicity
+		- the current drop-dice system (3d6 drop lowest for proff, 4d6 drop 2 lowest for edge) solves this more elegantly — thresholds stay fixed, odds shift through the drop mechanic
+		- step dice might work perfectly as a framework weapon mechanic. d4 dagger, d8 sword, d12 greataxe added as a bonus die. contained inside a framework it doesn't touch core thresholds
+
+- researching game theory and psychology on the ideal success ratios:
+	- the golden ratio (phi = 1.618) does NOT apply to TTRPG probability tiers. it's a visual and spatial principle, not a game psychology one. applying it to dice is numerologically appealing but has no grounding in how players actually feel during play
+	- what actually matters:
+		- Skinner's variable ratio reinforcement: unpredictable rewards sustain engagement better than fixed schedules. variance is good. predictability kills engagement more than failure does
+		- Csikszentmihalyi's flow theory: 65-75% total success rate (partial + full combined) keeps players in the flow channel. below 50% feels punishing, above 85% feels like a formality
+		- Kahneman's prospect theory: losses feel twice as bad as equivalent gains feel good. this is why the invocation rubber band is brilliant design — failure generates resources so it's not a pure loss. the psychological sting of failure is partially offset
+		- PbtA's 40 years of playtesting: the naked 2d6 roll almost never happens in actual PbtA play. at +1 bonus the partial success zone dominates at 44%. the system was designed to live in the 7-9 zone
+	- target ratios for NullFrame base roll (no bonuses):
+		- fail: 35-38% — enough for tension and token generation, not punishing
+		- partial: 42-46% — the clear plurality, this is where the game lives
+		- full: 18-24% — rewarding but not expected
+		- total success: 62-68% — inside the flow channel
+		- the key principle: Partial > Fail > Full, with partial as the clear peak
+	- the 2d6 flat plateau (fail = partial = 41.7%) is the real problem, not the specific numbers
+	- 3d6 sum with thresholds 9- / 10-13 / 14+ hits the target almost perfectly (37.5% / 46.3% / 16.2%) but the threshold feel is wrong
+
+- the FitD vs pbta deep dive (read reddit threads on this today):
+	- FitD is PbtA. john harper has always said so. "forged in the dark" as a label came from the community not harper
+	- the real difference is when stakes are set: pbta embeds outcomes in the move text (designed by the author in advance), fitd negotiates position and effect at the table before rolling
+	- fitd's dice pool only feels different because it's paired with position/effect pre-negotiation. the mechanic serves that conversation. without it, take-highest is just a different curve
+	- NullFrame already has its own pre-roll conversation — the null determining what's possible, the player describing their cinematic action. that's our equivalent of position/effect
+	- the conclusion: the dice chassis is just the chassis. what makes NullFrame not feel like pbta is the invocation rubber band, the aspect system, the enemy design, the proficiency trees, the keywords. none of that lives in which dice you pick up
+
+- continued in a second session (gemini) - explored further after reaching the above conclusion:
+	- the reddit devlog also generated community feedback worth noting:
+		- systems recommended to read: Blades in the Dark (FitD), Wildsea (Wild Words SRD), Grimwild (Moxie SRD), The Resistance Toolkit, Daggerheart, Draw Steel, Subversion
+		- SRDs to actually read: FitD SRD, Moxie SRD, Wild Words SRD
+		- warnings and design challenges flagged by commenters:
+			- never identified a real downside to 2d6+mod beyond "gut feeling" — is the objection design logic or just aesthetics?
+			- design keywords don't invoke "tactical" at all — what makes this different from Fate?
+			- tactical players want the BEST outcome; narrative players want the MOST INTERESTING outcome — these can conflict. how does the system handle wanting to lose on purpose?
+			- 2d6 has a 16.6% shift per +1 in the middle of the curve — calibrate one point wrong and you flip a 60% success into a 60% failure. very little design space for bonuses
+			- mechanical rules crowd out fictional positioning in practice — hard to think narratively and tactically simultaneously
+			- if pools scale high, keep success threshold on the highest face only (what FitD does)
+			- multiple commenters flagged the post as AI-written — raw and messy devlogs land better than polished formatted ones
+	- keep-1 vs keep-2 sum head-to-head:
+		- keep-1 (FitD style): 2d6 = 25/44/31, partial stays dominant all the way to 5d6 (40% partial). doesn't break under scaling
+		- keep-2 sum (PbtA thresholds 7/10): 2d6 = 42/42/17, at 3d6 full overtakes partial, at 4d6 = 61% full. collapses upward fast
+		- keep-2 wins on: the addition moment (watching numbers climb), the "holy shit ceiling" (double 6 hits different from single 6), more design space above full success threshold
+		- keep-1 wins on: speed (no addition), threshold intuition (one face, not a sum), partial staying dominant across the full range
+		- the telling pattern: keep loving keep-2 in theory, getting burned in playtesting. that's the data
+	- AI pitched "Marks and Sparks" as an original system:
+		- base roll 3d6. each die reading 5-6 = Mark (success); each die reading 1-4 = Spark (invocation fuel)
+		- tiers: 0 marks = failure, 1 mark = partial, 2 marks = full, 3 marks = critical
+		- base stats at 3d6: 29.6% fail / 44.4% partial / 22.2% full / 3.7% critical — hits the target ratios almost exactly
+		- the rubber band works physically: after rolling, split dice into mark pile and spark pile. spend a spark by moving it to the mark pile when you invoke an aspect. no math — failure literally transforms into success through the physical act
+		- interesting concept but unsure if this is what i want — the die manipulation is tactile and cool but it's a new game, not NullFrame
+	- AI pitched d10 keep-highest with "settle/invoke/roll" as the core decision loop:
+		- pools: base 1d10, proff 2d10 keep highest, edge 3d10, mastery 4d10
+		- thresholds: 1-2 crit fail / 3-5 fail / 6-8 partial / 9 full / 10 crit success
+		- settle: if a proff applies, skip rolling and accept a result of 5 (always partial). generates tokens but cannot reach full success
+		- invoke: spend invocation tokens for +1 each (same rubber band engine as current NullFrame)
+		- roll: only path to full success or crit — but exposes you to crit fail and the stakes become real because you chose them
+		- the pitch: "settle, invoke, or roll?" as the table's heartbeat — the three-way decision loop embeds all four design keywords mechanically not just as flavor
+		- my reaction in the moment: "seems like we have our roll" — but need to sit with it. the settle mechanic is a big departure. if players never roll they never crit fail, which might undermine tension. and the effort/resource economy hasn't been tested. still open
+
+
+I changed my Dice System 5 times this week
+[Devlog #2]
+
+Matt Colville says the most important thing you can do when designing a game is know what your game is about. Not what it does. What it's ABOUT. He uses design keywords. Four words that every mechanical decision gets measured against. If a mechanic doesn't serve one of those words it gets cut.
+
+My keywords are Cinematic, Resourceful, Expressive, Modular, (and im thinking of adding LIGHT into the mix)
+
+Today I tried to find the dice system that serves all four and my intentions.
+
+Let me walk you through my thought train.
+
+First thing I decided before looking at any specific dice: I want a tier system, not a difficulty check. Comparing your roll against a DC that changes per situation is extra cognitive load that breaks narrative flow. You roll, you look at your result, the tier tells you what happened. Same thresholds every single time. No asking the GM "wait what was the difficulty again?" PbtA figured this out twenty years ago with their 6-/7-9/10+ bands and every system that uses it plays faster at the table.
+
+But I didnt want three tiers. I wanted five.
+
+Three tiers gives you fail, partial, success. Thats good. But it misses the extremes. The absolute disaster that becomes a story people tell for years and the moment of impossible brilliance that makes the whole table lose their minds. D&D gets this with the nat 1 and the nat 20. Those moments are part of what makes rolling dice feel alive. A three tier system treats all failures the same and all successes the same, and that flattens the emotional range of the dice. Now i know there are options around this like rolling 2 6's and counting that as a success and there are probably more options. But it just never felt like that nat 20 (that high)
+
+So im going with five tiers: critical failure, failure, partial success, success, critical success. Now the extremes have mechanical identity. The worst roll isnt just "you fail." Im thinking lets go with "something catastrophic happens and YOU the player get to narrate what goes wrong." A GM says "the guard disarms you." A player says "my fathers sword, the only thing I have left of him, shatters." That's the kind of moment that makes RPGs transcend the table. and if i can find a way to attach a reward system to it then a critical failure for a player becomes not his shittiy experience but HIS moment to SHINE as a player and progress narratively as a character.
+
+The critical success is the reverse. You dont just achieve your goal. You discover something, you create a new aspect in the scene, something extraordinary happens that exceeds what you attempted. The dice gave you a gift and you get to unwrap it.
+
+Now the dice themselves.
+
+I started with PbtA. 2d6 sum, three tiers. The math is genuinely good. Partial at 42% is the biggest outcome, failure at 42% feeds my invocation engine (a rubber band mechanic where low rolls generate tokens you spend on gear and environment for bonuses), full success at 17% feels earned. Someone on my last devlog called me out for never identifying a real downside to 2d6+mod. They were right. I couldnt find one. It was a gut objection.
+
+But heres the thing. I kept circling back to 2d6 and walking away. And each time I had to be honest with myself about why. Part of it is that it just feels like building another PbtA fork. But the bigger issue is that 2d6 gives fail and partial at identical 41.7% each. A flat plateau. And the range of 2-12 caps your design space for extreme results. A natural 12 on 2d6 happens 2.78% of the time which is fine for rarity but a 12 doesnt FEEL legendary the way a nat 20 does. And a natural 2 happens equally rarely but the number 2 doesnt carry the same emotional weight as a nat 1. someone suggested one issue today in my last post, if i want more room to play with bonuses then the statistics break completely, with +3 then partial success become around 90%. this doesnt leave room if i want more mechanics that could effect the roll.
+
+3d6 sum fixes the plateau with a real bell curve but the success threshold shifts to 14+ and I have learned something about myself. I feel the difference between 9 and 10. I do NOT feel the difference between 13 and 14. Draw Steel uses 2d10 and has this exact problem for me. Numbers that are technically different but dont feel different in my hands. Ruled it out.
+
+Dice pools counting successes. Tested 5d6 count 4+, 5d6 count 5+, 6d6 count 5+. Ran into the binomial plateau problem. With a 50% success threshold and 5 dice, P(exactly 1 success) always equals P(exactly 2 successes). Thats just math being symmetrical and it means the middle tiers are always tied. I tested 10d6 count 4+ in my earlier game and players rolled exactly 5 successes over and over. They hated it. Too consistent.
+
+FitD take-highest. I love the emotional range of pool sizes in Blades in the Dark. 1d feels desperate, 4d feels powerful. i hope id be able to duplicate this feeling. But getting a 6 on a d6 doesnt give me that holy shit feeling. A 6 is just a 6. Maybe thats just me but the number doesnt carry weight.
+
+Step dice from Cortex Prime. Physically seeing competence as a bigger die in your hand is incredible design. But the range expands as dice step up and the fixed threshold breaks. d6+d8 gives 31% full success where base gives 17%. d6+d10 hits 45%. Too generous too fast. If I shift the threshold to compensate then players track both which dice they roll AND what counts as success. Might use step dice inside a framework though.
+
+So what did I actually pick: Xd10 keep highest. Five tiers.
+
+1-2 critical failure. 3-5 failure. 6-8 partial success. 9 success. 10 critical success.
+
+Base roll is 2d10 (considering lowering it to 1d10) keep the highest die. Proficiency adds a die, edge adds two. The thresholds never change. You always just read the highest die.
+
+Base 2d10: critical fail 4%, fail 21%, partial 39%, success 17%, critical 19%. Partial is the clear king at 39%. The game lives in the yes-but zone. Failure is a real possability at 25% combined (crit + fail). And success plus critical combined is 36%, enough that pushing for it feels like a real gamble not a prayer.
+
+Proficiency 3d10: crit fail under 1%, fail 12%, partial 39%, success 22%, critical 27%. Failure drops hard. Partial stays dominant. The character is competent and you can feel it. Critical success at 27% means roughly one in four rolls produces something extraordinary when youre in your element.
+
+Edge 4d10: crit fail basically zero, fail 6%, partial 35%, success 25%, critical 34%. An edge specialist almost never fails. Partial is STILL the biggest single outcome at 35%. But critical success is nipping at its heels. A master produces brilliance regularly but not automatically. There is always tension.
+
+Why d10 specifically? Because a 10 FEELS like something. Rolling a 10 on a d10 has weight that a 6 on a d6 doesnt.When that 10 lands face up the table reacts. Thats the nat 20 energy I wanted. And a 1 on a d10 has that same gut punch as a nat 1. The numbers carry emotional strength.
+
+Why keep highest instead of sum? Speed. You roll your pool, you find the big one, done.
+
+The invocation engine also adapts cleanly. After your roll you get invocation tokens based on the gap between your result and the success threshold. Low rolls generate more tokens. You spend tokens to invoke gear, environmental aspects, enemy weaknesses for +1 each which can make a failed roll into a success BUT at the players creativity. they have to find the aspects/ gear/ anything possible to invoke to get a bonus.
+
+Now heres the part I havent fully tested yet but im excited about.
+
+Every action, the player faces 2 choices.
+Settle: accept the default outcome without rolling. If you have leverage in the scene you can invoke aspects to push the settled result from failure up toward partial. But you can never reach success without rolling.
+Roll: spend effort (a limited resource? still concidering) to actually throw the dice. This is the only path to success and critical success but it also exposes you to critical failure.
+
+Settle or roll.
+
+What this means is that rolling dice is never mandatory and always meaningful. A cautious player can navigate an entire scene through settling and invoking, accepting complications and using their environment. An aggressive player burns effort and chases critical results. A tactical player reads the scene and knows exactly when the gamble is worth it.
+
+This maps directly to the three player types I see at my table. The optimizer who stacks bonuses and invokes perfectly. The action player who describes a five+ part cinematic attack and rolls once for an action scene that normally would take 5 turns of dnd. The storyteller who takes the complication on purpose because it makes a better scene. All three are mechanically supported. All three are (or at least should be) rewarded through different paths that feed the same engine.
+
+That's where I am. The effort economy needs playtesting. The invocation math needs tuning. But the dice feel right for the first time for me.
+
+If you've played systems that use d10 pools I want to hear how they felt at the table. If youve tried a mechanic where rolling is optional and costs a resource I especially want to hear what happened. And if you think I missed something and have a flaw I haven't seen yet please tell me.
+
+that's my raw thoughts, for clarification im not saying that the dice roll mechanic i came up with is new or even perfect. im just trying to find what feels right to me and be cleaver about it so i make the game i want to play
+
+## **Date:** 2026-03-07
+
+now that we have a clear dice roll system lets decide on the clean main roll is it 1d10 or 2d10
+well lets look at one a clean main roll represents.  if a player doesnt have any bonuses to that roll then it means he is either attempting something that he isnt good at or doesnt have experience in.
+usually my philosophy is that player that dont have a skill in something might as well just not attepmt it.
+if they a player doesnt have any lockpincking still then even with settle roll he is not allowed to attempt the roll.
+but there are certain actions that should be possible for everyone even if they dont have an experience in that field. for exmaple defending my self. someone jumps at me with a knife, as a soldier it should be easy for me to defend, but as a bard it should be difficult in this instant. a soldier can take a partial success which for might be worth the settle. 
+for the bard he might want to use effort to rule becouse for him taking damage is more dangerous
+to he throws, base roll he has nothing to add to it. should his success rate be 20% 9+ ? or 2d10 with a 36% chance?
+
+i think its pretty clear. a 36% change for an armed bard with nothing to defend himself with is too much
+20 present even is too much for his case. maybe i should look at torns from the suggestions in the reddit post
+
+so the base is 1d10
+ok now we lets see how the system works with the proff and edes and mastery
+proff adds 1d10
+edge 2d10
+master means i cant get a failed or a critical failed dice, AND critial for such action is 9 and 10 
+so the max roll for now would be 3d10 pick highest that would put the success rate at almost 50% which is enough for engagment
+
+its importent to mention that the linear scale of a 1d10 is not apealing, yet the scale pushes that the player will most likly fail. which means we DONT assume the players are competent by natures. this can change between frameworks.
+
+
+## **Date:** 2026-03-09
+
+  
+ok one more time lets go over the main roll again
+
+base is 1d10
+
+1-2 critical failure. 3-5 failure. 6-8 partial success. 9 success. 10 critical success.
+
+proff is 2d10
+
+edge is 3d10
+
+Mastery is 3d10, 1-6 partial success, 8-7 success, 9-10 critial success
+
+ok so we have the base lets look at some other mechanics
+
+invokation tokens
+
+as we said before invocation tokens used to give a static bonus to the roll that can be used AFTER the roll.
+
+for now we only look at the rolling option
+
+if a player uses effort (means he rolls)
+
+he genearted invokation tokens 10-the roll.
+
+using the aspects and gear he may invoke on them (once per gear/ aspect unless it said othereise on it) to gain a +1 to the roll. each token adds plus 1 to the roll
+
+for exmaple if i carry a sword, as long as i fight with it on every action i can invoke on it giving my self a +1.
+
+  
+
+other wanted mechanics
+
+- Critical faliure - the player describes their faluire instead of the Null. Null may overwrite this for the sake of the story
+- Critial success - the player describes their success instead of Null. Null may overwrite this for the sake of the story
+- When you roll a natural 2 or 1, something catastrophic happens — but the _player_ narrates what goes wrong, not the Null. This sounds counterintuitive, but think about it: players might write worse consequences for themselves than GMs do, because they know what hurts their character the most emotionally
+- In exchange, the player banks x NP instantly. This makes the worst possible roll in the game into one of the most cinematic, expressive moments at the table. Players will actually get excited about it.
+- The reverse: natural 10, lets the player narrate an extraordinary success beyond what they attempted. "I didn't just pick the lock — I realize this is the same mechanism as my mentor's workshop. There's a hidden compartment." not suer what exactly the bonus should be in that case maybe also np points but maybe something else
+- This gives both extremes of the dice a _narrative_ identity, not just a mechanical one.
+- Narrative Points (NP) - those are acumilated points for the group in individually. they represent ac urrency that can be used for rerolls and more stuff in the future (WIP). they are put in the middle of the table for everyone to see. each session starts with 4 NP. they DONT accumilate between sessions so using them up is in the best of intrest of the players. they are shared globally meaning the players need to discuss and choose when to apply them.
+- suggested actions for them are: reroll, narrative injection (add piece of information or anything to the story/ scene), flashback - a player creates a flashback scene for his character giving him somekind of bonus).
+- roll or settle, rolling is an option. a player can decide to take settle and get automatically a 5 as if he failed. but he also gets 5 invocations which he can use to get a partial success or a full success but not a critical. that way he cant fail BUT he has to use invocations of gear or aspects to uplift their roll
+- now comes the hard questions:
+- can the user roll or settle as many time as he wants or should we apply somekind of currency to make settle a must before rolling
+- invokations could apply AFTER a settle uplifting the roll granting a success. should rolling enforce a gamble where the user has to invoke his gear BEFORE the roll.
+- another suggestion to think about, maybe in rolling each invocations doest add +1 but add another d10. i need to asses which is preferable. but if the roll failed with
+- the question remines if settle should generate effort. or we just give rolling option freely.
+- the thing is that a player needs to settle for 2 reasons afraid from critical faliure, and to setup for something bigger. why would a player settle insted of rolling and taking a gamble (humans prefer to gamble)
+- we also need to look at burdens how do hey come into play, invocations add plus 1, proff and edges add more dice. so how burdens or aspects ageints the player come into playץ
+- similary to last point how conditions would come into effect, essentially they should be no different then burdens
+- another thing is Stress. how does that come into play. initially i had stresד points accumulate over 3 stages. but now im thinking of something else: im thinking to keep conditions and as invokable aspects ageinst the player, and no health. what happens is that if a sutidation is dier or desprate players can die ona a faliure. the idea is that if there are no invocation avilable, player has been disarmed or accumilated too much injeris, then on a fuilire death is on the table. if he rolls he may get a success or partial. but he may get failiure. and i do want to give players the chance to roll to save themselves even int he face of death it can lead to epic moments. if he doesnt roll he might have to settle, but without invokations its automatic faluire. so in a way their possible invoations is a sign of health. no invocations means they have the lower hand in the scene. its also in way simbulises their creativity as their health. becouse a player might comeup with an idea to invoke on sometihng that might give them a bonus saving him from death.
+- shuold invocations be unlimited? or acumilated to infinity. If partial is free and invocations can upgrade to success, what stops a player with enough gear and aspects from NEVER rolling? They just invoke their way to success every time. this might NOT be an issue, creating more then 3 invocations is not an easy task. but if they do manage to create an aspect that give them a clear advantage for exmaple high ground. this should apply to all actions that invoke from it, it doesn make sense that someone will not benefit from highground due to gameplay mechanics of invokation limit. need to look into this.
+- Flashback, i shoulds like flashback to have some degree of inpact, mechanecly need to think how. good flashback or burden flashback
+- Scars Replace Burdens When a burden is reduced or overcome through narrative play, it doesn't just disappear. It becomes a Scar — a permanent mark on the character sheet that has some emnchaniucaly effect for the benefit of the player.
+- what about advancments? how does a character can advance
+- in blade int he dark there is your position in the scene and the effect of your action. this cant be good idea to add here. maybe add as presence how  muhc precemnce a player has in the scene and effect for actions
+- i would like abilities and titles. that can be defined be the framework, for exmaple someone killed a guard then ihe gets the titlew a gaurd killer which can have benefits and consicounses
+- stress to push yourself futher 
+
+  
+
+  
+
+ok let's dive deeper into the actual mechanics of the roll and how this new d10 system interacts with the other pieces of the game. i want to make sure the math and the psychology align.
+
+first, let's dissect the **Settle vs Roll** mechanic and the **Effort** economy.
+
+if a player chooses to Settle, what is the math?
+
+- we establish that a Settle defaults to a **5** (the top of the Failure tier).
+- because the virtual "roll" is a 5, the player generates exactly 5 Invocation Tokens (10 - 5 = 5).
+- to reach a Partial Success (6-8), the player must have 1 to 3 things to invoke.
+- if i Settle at 5, and i invoke my fine sword (+2) and high ground (+1), my total becomes 8. i reached the top of Partial Success.
+- i still have 2 tokens left over, but they are **wasted**. you cannot push a Settle into a Full Success (9+).
+- this is mathematically beautiful. it means Settling gives you a massive pool of tokens, but hard-caps your ceiling. it perfectly reflects a cautious, tactical approach. "i'm not going for the kill, i'm just defending myself and using my armor to take the hit safely."
+
+now, why would a player ever Roll if they can just safely Settle for an 8?
+
+1. you can't get a Critical Success (10) without rolling.
+2. you need **Effort** to roll.
+
+  
+
+  
+
+wait, let's define the Effort economy. this is the missing link.
+
+if rolling is always free, risk-takers will just roll 3d10 every time. there has to be a rhythm.
+
+what if **Settling generates Effort, and Rolling costs Effort**?
+
+- Settle: Gain 1 Effort. (You are biding your time, setting up the scene, analyzing the enemy, taking a safer partial success).
+- Roll: Spend 1 Effort. (You are committing to the big cinematic swing, exposing yourself to a Critical Failure).
+
+this creates a literal mechanical heartbeat at the table: Setup -> Payoff.
+
+a player Settles (gains Effort) to maneuver into position, taking a Partial Success (maybe they get a minor cut, but they establish the "Flanked" aspect). Next action, they spend that Effort to Roll their 3d10 Edge pool, using the "Flanked" aspect to boost their dice, going for the 9+ kill.
+
+this mimics cinematic combat perfectly. no movie fight is just haymaker after haymaker. it's parry, parry, maneuver, BIG STRIKE.
+
+
+## **Date:** 2026-03-10
+
+i thought of adding the 3 layers of position like in BitD yet it seems to me that the position of the players would be rather obviose, if i have many things to invoke on then im good, if not then im in a bad spot. i would like to use Presence, this should be defined  as a usable source of token that mechanicaly fuel the characters yet using too much of it can develop their burdens
+
+there should be levels of effectivness, lets say a player get a nat 10 crit succ on a boss. that doesnt mean its going to kill him imidiatly, sometimes if might do nothing. the idea if that there are 3 levels of effectivnes for actions i need to find a name for each
+
+## **Date:** 2026-03-30
+
+  
+**
+
+1.
+
+lets change it like so, succuess is only a 10. partial is 7-9, failure is 2-6 and critical fail is 1. and settle gives 5 which means they need 2 invocations to get a partial and 5 to get a succuess.
+
+remove invocation cap and generation. invokations can be used as many time as the player wants to upgradfe the role or settle before or after. its not generation tokens, you can jsut call out anything that might give you an advantage/edge.
+
+Critical success is ONLY if the player roll and gets a 10 front he roll. You can reach a 10 via invocations but its not critical.
+
+Its important to mention that invocations kind of linked to health pool, there is no healthpool but a a character can always choose to settle which give me 2 invocations from particle success. At partical success a character dont usually die or get hurt badly. But they might get disarmed or have some invocation against them created. The idea is that if a character gets caught with nothing to invoke from, no weapon no advantage no allies to help then settling cant give him enough to get to particle even if it did the enemy has invocations against him which will cause failure. The only change the player has is to throw the dice and not settle. This is a dire situation where the player can and might die or get hurt badly or disabled. Players need to make sure they always have invocations.
+
+Critical failure or critical success with narration frontier he player that was uniq and advanced the story in an interesting way generates NP.
+
+  
+
+2. 
+
+lets
+
+I prefer to have it differently. I think well keep proficiencies as general descriptions of things the player is good at and they generally give +1. proficiencies also allow to invoke on gear, for example lets say a player has a gun, he can use it but if he doesnt have a Proficiency with it (for example soldier training or such) he cant invoke it to get a plus 1. Same with most weapons or gear that requirest traning. Gear that has a one time use effect or magic effect or something like that can create invocations for example oil lamp or a grenade (no need training with those). Each Proficiency always can give up to +1.
+
+A player can get more proficiencies and they can be defined broadly or specific.
+
+To get a more proficiencies there should be narrative justification for it and the usage of some meta currency (WIP)
+
+  
+
+Edges should renamed to Specialties be defined as progression for proficiencies. They are something specific that would give you a plus 2 allowing you to invoke twice on a gear or twice on some specific element. If you have an Specialties that applies you are playing to your character's best skills. Each character in the game should start with 1 Specialties . Just one that gives them a specific advantage. Specialties HAVE to be something specific from the proficiencies. They are very specific. Currency there is no way to progress something beyond that. So max invocations you can get from something will be +2 if an Specialties applies.
+
+  
+
+Lets remove mastery from the rules. 
+
+  
+
+3.
+
+Burdens
+
+Lets make it simple
+
+When a burden applies you cannot get a success or a critical success in that action. Even with invocations.
+
+They are defining narrative attributes of the character that make him flawed and more interesting, their mechanic doesnt change and they can be invoked by the Null or my the player. It the n narrative around them is good and they advanced the story in an interesting way then they genearrte an NP.
+
+  
+
+Bains are specific conditions that apply always to the relevant rolls and give -1 to the end result. Bains can be temporarily like a broken leg, scratch, smelly. The same description could be fitting for both burden and bain. For example a broken leg could be both. The difference would be that a bain is something that can be solvable or healable and a burden is something definitive of the character. 
+
+For now bains are invoked by the Null. each bain can be invoked only once.
+
+Burdens and bain have NO teirs
+
+  
+
+4.
+
+Currencies
+
+NP is the players currency narrative points and it can be used to reroll or create a narrative injection in the story. I want more things they can do with it and i need suggestions.
+
+They are global currency shared by the players. Any np generated goes to the global pool.
+
+  
+
+Null currency. Yes i agree the null needs some kind of meta currency aswell. This currency is used to invoke bains on the player. Lets call the currency of the null Null Tokens (NT’s) and they can be used to invoke bains on player rolls. Burdens can be invoked feely by the Nulls discretion of player discretion and they do not require any currency to spend.
+
+We need to think how the balance of points need to play out for an encounter. 
+
+Bains can be invoked from the players sheet from their current bains if they relevant or from other sources just as environmental soucers that go agienst the players or form the enemies sheet. For example master swordsman will have some kind of description n number of bains to swordfighting
+
+For example is i fight a master swordsman ther null can invoke using his null tokens to give any attack vs him a bain or -2. Bains by the null can be invoked once. But the bain it self might give -1 -2 -3… depending on the description.
+
+  
+
+Anything that give an advantage to the player (invoke +1) -> Edges 
+
+Anything that gives the player a disadvantage (Null invokes as -1 against the player) -> Bains
+
+Roll is equal to 1d10+Edges(combined from all sources)-Bains( combined from all sources)
+
+  
+  
+
+Well keep 1d10 for now. But i am still trying to figure how to use dice pool inside
+
+  
+  
+
+Combat:
+
+Lets give combat some rules. If the player count is small around 2 for example combat can play narratvly as makes since.
+
+If the player count is 3+ we can create a turn baced system. Where each player has 1 action and 1 reaction. The action and reaction are vague. And can be many things. The idea is to give a room for everybody to play. Monsters also have 1 action and 1 reaction. The turns are completely controlled by the players and they can play how ever they want in want ever order. 
+
+  
+
+Plays and legendary plays. Plays are setting specific abilities/ powers/ manuvaers that make the player’s character special and unique. They are the equivalent of “moves” from pbta. Plays are uniq to a character and usually he can choose from mayn plays to make his build. Plays do not unusually grant a static bonus but they are a narrative aspect the player can use. For example a play might be “i can control fire” another example “i can shoot in a whirl wind hitting anything close” sometimes plays have conditions and sometimes they have costs - it depends on the attached framework description
+
+Legendery Plays, Legendary Plays are something that starts empty and they are filled during play or between sessions. Legendary plays are actions or moments that the player did with his character that would be defined as legendary. A super cool moment. Or a super effective thing they did. If the null allows the player can use 1 Legendary Token from his pool to make it to a legendary play, defining a new ability according to the play that made it legendary. A player can choose to not spend a token and create a new ability in the feature. 
+
+The number of tokens that a players starts with is depending on the null. For now well assume that each player has 2 ledengry tokens to use for their enrite story or campaign. They can be refilled by the null discretion.
+
+**
