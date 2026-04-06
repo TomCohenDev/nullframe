@@ -146,13 +146,17 @@ Use some combination of:
 This framework uses the following structure for player characters.
 ## 1. Choose Race
 
-Each race provides:
-- 2 Proficiency options (choose one)
-- 2 Psionic Plays options (choose one)
+Race gives identity, social pressure, and place in Athas.
 
-Race should give identity and direction, but should remain lighter than Path.
+In this first playable version, race gives **no mechanical benefit by itself**.
 
-## 2. Choose Path
+## 2. Choose 1 Heritage or Background Proficiency
+
+Choose **1** from the shared Athasian proficiency list below.
+
+This represents upbringing, lived experience, culture, social position, or survival history.
+
+## 3. Choose Path
 
 Each Path provides:
 - **2 Proficiency choices** from a list of 4
@@ -161,17 +165,25 @@ Each Path provides:
 
 Path is the main gameplay identity of the character.
 
-## 3. Write Core Character Elements
+## 4. Choose 1 General Psionic Play
+
+Choose **1** from the shared general psionics list below.
+
+This reflects the setting assumption that psionic potential can appear across Athas, not only inside one race or one Path.
+
+## 5. Write Core Character Elements
 
 After choosing Race and Path, the player also defines:
 - Burdens
 - starting gear
 - name / origin / social position
-- Proficiencies from race and path
+- 1 Heritage or Background Proficiency
+- additional Proficiencies from path
 - Specialties from path
+- 1 General Psionic Play
 - Plays from path
 
-## 4. Edges in Play
+## 6. Edges in Play
 
 **Edges keep their normal NullFrame meaning.**
 
@@ -210,11 +222,6 @@ Use this structure for each race:
 **Identity:** [1-2 sentence summary]  
 **Athas Role:** [How they are seen in Tyr / the wastes]
 
-**Choose 1 Race Proficiency:**
-
-- [Option 1]
-- [Option 2]
-
 **Notes:**
 - [Optional fiction notes]
 - [Optional social pressure notes]
@@ -226,13 +233,7 @@ Use this structure for each race:
 
 **Identity:** Adaptable, ambitious, and socially dominant across the Tablelands. Humans survive everywhere by persistence, daring, and flexibility. The most widespread people of Athas, found in the city-states, slave tribes, merchant dynasties, templarates, and the wastes.
 
-**Choose 1 Race Proficiency:**
-- **City Born** — You know the manners, tensions, bargains, and social dangers of life inside a city-state.
-- **Wastelander** — You know how to travel, bargain, and endure beyond the walls where law is thin and survival is personal.
-
-**Choose 1 Racial Psionic Play:**
-- **Iron Resolve** — Once per scene, clear mental hesitation, fear, or social pressure. Name one emotion that can give you an edge and invoke on it untill something shakes you off the emotion.
-- **Adaptable Speech** — You can mimic speech patterns and style of any human in any kind of society.
+**Athas Role:** The dominant people of the city-states and the broadest social category in Tyr, found everywhere from noble houses to caravans to slave lines.
 
 **Notes:**
 - Humans are the dominant people of the city-states and the most broadly adaptable race in Athas.
@@ -242,13 +243,7 @@ Use this structure for each race:
 
 **Identity:** Bred for labour, battle, and endurance, muls are relentless, hard, and difficult to break. Common in slave pits, quarries, arenas, and military service; feared, exploited, and valued for sheer durability.
 
-**Choose 1 Race Proficiency:**
-- **Arena-Bred** — You have fought in the arena and know your way around many types of combat encounters.
-- **Slave-Pit Bred** — You know forced labour, punishment, and how to keep going when others collapse.
-
-**Choose 1 Racial Psionic Play:**
-- **Drive Through Pain** — Once per scene, ignore a penalty from strain, fatigue, or minor injury for one action.
-- **Unyielding Body** — Once per session, brace yourself and remain standing when otherwise you would have fallen down.
+**Athas Role:** Living symbols of brutality, exploitation, and endurance; seen in Tyr as pit fighters, labor assets, guards, rebels, and survivors.
 
 **Notes:**
 - Muls are sterile and usually born through brutal slave-breeding programs.
@@ -258,29 +253,27 @@ Use this structure for each race:
 
 **Identity:** Swift desert runners, traders, raiders, liars, and survivors. Elves live in motion and thrive in open land.  Known throughout Athas as runners, scouts, raiders, traders, and opportunists; trusted mainly within their own tribes.
 
-**Choose 1 Race Proficiency:**
-- **Desert Runner** — You know long-distance running, open-ground movement, and how to endure the wastes in motion.
-- **Tribal Trader-Raider** — You know bargaining, swindling, scouting routes, and taking advantage before others do.
-
-**Choose 1 Racial Psionic Play:**
-- **Fleet Thought** — Once per scene, act first in a tense moment of movement, escape, or pursuit.
-- **Read the Opening** — Once per scene, sense the easiest weak point in a negotiation, call it out and invoke on it.
+**Athas Role:** Tribal runners, scouts, traders, raiders, and smugglers who move between city and wasteland more freely than most people ever can.
 
 **Notes:**
 - Elves are intensely tribal and distrust outsiders, even other elves from other tribes.
 - They prize speed, freedom, and immediate advantage.
 
+### Half-Elf
+
+**Identity:** Caught between worlds and rarely fully accepted by either, half-elves survive through adaptability, caution, and reading people fast. They often live as messengers, scouts, intermediaries, drifters, or outsiders who have learned not to rely on belonging.
+
+**Athas Role:** Useful go-betweens, suspect outsiders, and practical survivors who can move through several social spaces without truly being claimed by any of them.
+
+**Notes:**
+- Half-elves are often treated as untrustworthy, rootless, or available to be used by stronger powers.
+- Their social position in Athas often rewards flexibility, observation, and emotional self-protection.
+
 ### Dwarf
 
 **Identity:** Serious, driven, and defined by purpose. Dwarves are relentless when they commit themselves to a task.  Labourers, smiths, mercenaries, traders, and stubborn allies or enemies whose commitments run deeper than convenience.
 
-**Choose 1 Race Proficiency:**
-- **Unbreakable Focus** — You know how to fix yourself on a goal and keep working through resistance, pain, and distraction.
-- **Stone and Steel Craft** — You know hard labour, metalwork, salvage, and enduring practical craft.
-
-**Choose 1 Racial Psionic Play:**
-- **Focus Lock** — Once per scene, cut through confusion and commit fully to one immediate task, pursuit, or objective.
-- **Stubborn Mind** — Once per scene, resist distraction, manipulation, or mental pressure through sheer will.
+**Athas Role:** Respected for stubborn reliability and feared for the same trait when their focus turns against someone; common as workers, crafters, traders, and hard allies.
 
 **Notes:**
 - Dwarven life is shaped by focus: a chosen purpose that defines effort and identity.
@@ -290,13 +283,7 @@ Use this structure for each race:
 
 **Identity:** Massive, imitative, and overwhelming. Half-giants combine terrible strength with social uncertainty and shifting identity.  Labourers, guards, soldiers, gladiators, raiders, and cultural imitators shaped by whoever currently leads them.
 
-**Choose 1 Race Proficiency:**
-- **Crushing Strength** — You know how to break, carry, shove, hold, and overpower by brute force.
-- **Imitative Instinct** — You know how to quickly copy the visible habits, posture, and methods of people stronger or more established than you.
-
-**Choose 1 Racial Psionic Play:**
-- **Dominant Presence** — Once per scene, project such force that lesser opposition hesitates before challenging you.
-- **Shift With the Pack** — Once per scene, quickly align your instincts with the dominant mood or role in the current scene so you can function without hesitation.
+**Athas Role:** Huge laborers, enforcers, soldiers, and arena monsters whose presence changes every scene even before they speak.
 
 **Notes:**
 
@@ -308,16 +295,6 @@ Use this structure for each race:
 **Identity:** Tireless insect hunters who live for the hunt, move fast, need little, and think in terms of clutch and pack.  
 **Athas Role:** Feared wasteland hunters, strange but formidable allies, and relentless trackers who never truly rest.
 
-**Choose 1 Race Proficiency:**
-
-- **Pack Hunter** — You know how to track, corner, isolate, and kill as part of a hunting group.
-- **Sleepless Wanderer** — You know how to travel, watch, and stay dangerous without the rhythms other people depend on.
-
-**Choose 1 Racial Psionic Play:**
-
-- **Hunter’s Sense** — Once per scene, instantly pick out the most vulnerable prey, route, or target in sight.
-- **Clutch Bond** — Once per scene, instinctively coordinate with an ally you currently accept as your own, creating immediate nonverbal teamwork.
-
 **Notes:**
 
 - Thri-kreen do not think like humanoids and tend to interpret social life through dominance, hunting, and pack bonds.
@@ -328,16 +305,6 @@ Use this structure for each race:
 **Identity:** Fierce, agile, deeply rooted in ancient jungle culture, and often baffled or disgusted by the Tablelands.  
 **Athas Role:** Rare outsiders from the Forest Ridge; scouts, hunters, fierce traditionalists, and protectors of the natural world.
 
-**Choose 1 Race Proficiency:**
-
-- **Forest Ridge Hunter** — You know stealth, stalking, ambush, and survival in living terrain.
-- **Keeper of the Old Ways** — You know oral tradition, ritual meaning, and how to judge things by harmony with people and place rather than wealth.
-
-**Choose 1 Racial Psionic Play:**
-
-- **Hunter’s Stillness** — Once per scene, become unnervingly quiet and hard to notice before striking, moving, or observing.
-- **Primal Warning** — Once per scene, feel an instinctive alarm when something nearby is wrong, predatory, or despoiling.
-
 **Notes:**
 
 - Halflings are culturally insular, strongly anti-slavery, and often have trouble understanding city customs.
@@ -346,16 +313,6 @@ Use this structure for each race:
 ### Pterran
 **Identity:** Reptilian children of the Earth Mother, earnest, ceremonial, and guided by chosen life paths.  
 **Athas Role:** Rare travellers from beyond the Ringing Mountains; spiritual wanderers, defenders of nature, and cautious observers of the Tablelands.
-
-**Choose 1 Race Proficiency:**
-
-- **Path of the Warrior** — You know guarded movement, practical defense, and protecting your people through discipline.
-- **Path of the Druid** — You know the land, living things, and how to recognize threats to the Earth Mother.
-
-**Choose 1 Racial Psionic Play:**
-
-- **Path of the Mind** — Once per scene, briefly reach out with disciplined thought to sense emotional friction, deception, or hidden tension.
-- **Earth Mother’s Calm** — Once per scene, steady yourself or an ally by returning focus to breath, ground, and purpose.
 
 **Notes:**
 
@@ -367,17 +324,51 @@ Use this structure for each race:
 **Identity:** Mountain-dwelling bird-people of freedom, height, and distance, uneasy in confinement and protective of their own space.  
 **Athas Role:** Rare outsiders from aeries and mountain tribes; scouts, raiders, toll-keepers, and sky-watchers seldom comfortable in cities.
 
-**Choose 1 Race Proficiency:**
-- **Sky Hunter** — You know how to scout from above, strike from height, and read terrain at a distance.
-- **Mountain Watcher** — You know perches, routes, winds, and how to notice danger long before it arrives.
-
-**Choose 1 Racial Psionic Play:**
-- **Heightened Awareness** — Once per scene, gain an immediate sense of the widest threat pattern around you.
-- **Open-Sky Instinct** — Once per scene, push through hesitation and find the clearest route to freedom, height, or escape.
-
 **Notes:**
 - Aarakocra are intensely freedom-loving and often claustrophobic.
 - They are often suspicious of lowland politics and prefer distance, altitude, and clear air.
+
+---
+
+## Shared Heritage and Background Proficiencies
+
+Every player character chooses **1** of the following, regardless of race.
+
+These are intentionally about upbringing, role, survival history, and social position in Athas rather than biology.
+
+- **City-State Survivor** — You know the manners, bargains, dangers, and pressure points of life inside a city-state.
+- **Arena-Bred** — You know staged violence, intimidation, crowd instincts, and how fighters behave under pressure.
+- **Slave-Pit Survivor** — You know forced labour, punishment, control, and how to endure under brutal authority.
+- **Desert Runner** — You know open-ground movement, pursuit, escape, and long-distance endurance in the wastes.
+- **Wasteland Guide** — You know routes, camps, water discipline, and practical survival beyond the walls.
+- **Caravan Trader** — You know bargaining, convoy life, scarcity, routes, and reading deals before they sour.
+- **Tribal Raider** — You know ambush, fast strikes, scouting, and taking advantage before others can react.
+- **Hunter of the Wastes** — You know tracking, stalking, ambush, and killing dangerous prey.
+- **Forest Ridge Scout** — You know living terrain, stealth, and moving through difficult wilderness with patience.
+- **Mountain Watcher** — You know high routes, winds, vantage points, and spotting danger before it closes.
+- **Stone and Bone Crafter** — You know repair, salvage, hard labour, and practical craft with Athas's harsh materials.
+- **Court Survivor** — You know etiquette, rank, suspicion, and how power speaks before it gives orders.
+- **Temple or Templar Servant** — You know ritual discipline, obedience, observation, and how authority organizes itself.
+- **Keeper of the Old Ways** — You know oral tradition, taboo, ritual meaning, and how communities preserve identity under pressure.
+
+---
+
+## General Psionic Plays
+
+Every player character may choose **1** of the following, regardless of race.
+
+These are meant to be broad wild talents, not full Path-defining powers.
+
+- **Iron Resolve** — Once per scene, clear fear, hesitation, or social pressure. Name one emotion driving you and invoke on it until something meaningfully shakes you out of it.
+- **Drive Through Pain** — Once per scene, ignore strain, fatigue, or a minor injury for one action.
+- **Fleet Thought** — Once per scene, act first in a moment of movement, escape, or pursuit.
+- **Read the Opening** — Once per scene, sense the easiest weakness in a negotiation, chase, or confrontation and call it out as an Edge.
+- **Stubborn Mind** — Once per scene, resist distraction, manipulation, or mental pressure through sheer force of will.
+- **Heightened Awareness** — Once per scene, get an immediate sense of the biggest threat pattern, hidden tension, or unstable point in the scene.
+- **Dominant Presence** — Once per scene, project enough force that lesser opposition hesitates before pressing you.
+- **Silent Coordination** — Once per scene, coordinate instantly with an ally without speech, creating immediate nonverbal teamwork.
+- **Instinct Alarm** — Once per scene, feel a warning that something nearby is predatory, wrong, or about to break loose.
+- **Grounded Calm** — Once per scene, steady yourself or an ally by clearing panic, confusion, or emotional spiraling.
 
 ---
 
@@ -386,9 +377,10 @@ Use this structure for each race:
 When finalising races for playtesting, keep the following true:
 
 - Race should stay lighter than Path.
-- Race should push identity, upbringing, and instinct.
-- Race Proficiencies should stay broad and easy to invoke.
-- Racial Psionic Plays should feel common, natural, and setting-wide rather than path-defining.
+- Race should push identity, social role, and cultural pressure.
+- Race should not carry mechanical bonuses in this first playable version.
+- Heritage and background should carry the broad starting proficiency choice.
+- General psionic plays should feel common, natural, and setting-wide rather than path-defining.
 - Path should remain the main source of stronger specialization.
 
 ---
@@ -397,44 +389,60 @@ When finalising races for playtesting, keep the following true:
 ## Path Purpose
 
 Paths are the main build identity for the framework.
-
 A Path is a **general set of Plays** a player can choose from. It should also shape:
-
 - the character’s main role in the setting
-
 - likely Proficiencies
-
 - likely Specialties
-
 - what kind of scenes the character shines in
-
 
 Paths should feel native to **Tyr and Athas**, not generic fantasy.
 
 ---
 
-## Current Path Placeholder List
+## Path Families and Subpaths
 
-> Replace, rename, combine, or expand these as needed.
+For this framework, a player chooses a **subpath** as their actual Path.
 
-- Gladiator
+The larger grouping is only there to organize the Dark Sun class space.
 
-- Wastelander
+### Warrior Paths
 
-- Templar
+- **Fighter** — disciplined weapon master, soldier, mercenary, or hardened bodyguard
+- **Gladiator** — arena killer, crowd fighter, show warrior, or escaped pit champion
+- **Ranger** — wasteland hunter, scout, tracker, and survivor of the deep desert
 
-- Sorcerer
+### Arcane Paths
 
-- Psion
+- **Defiler** — arcane caster who draws power with no regard for the land
+- **Preserver** — arcane caster who works carefully to avoid ravaging the world
+- **Illusionist** — subtle arcane deceiver focused on misdirection, concealment, and false appearances
 
-- Intriguer
+### Priest Paths
+
+- **Cleric** — servant of elemental power and the harsh forces that still answer prayer on Athas
+- **Templar** — agent of a sorcerer-king, empowered through authority, fear, and political hierarchy
+- **Druid** — protector of a place, spring, hidden grove, or living region of Athas
+
+### Rogue Paths
+
+- **Thief** — infiltrator, cutpurse, scout, burglar, and underworld operator
+- **Bard** — poisoner, manipulator, performer, spy, and social predator
+- **Trader** — caravan operator, fixer, broker, smuggler, and master of scarcity deals
+
+### Exclusions and Scope Notes
+
+- **Paladin** has no place in Athas and is intentionally excluded.
+- **General psionics** are available to everyone through the shared psionic play list.
+- A dedicated **Psion** subpath can be added later if playtesting shows that general psionics are not enough.
 
 
 ---
 
-## Path Design Template
+## Subpath Design Template
 
-### [Path Name]
+### [Subpath Name]
+
+**Path Family:** [Warrior / Arcane / Priest / Rogue]
 
 **Role in Tyr / Athas:** [1-2 sentence summary]  
 **Core Fantasy:** [What this path lets the player do]
@@ -447,20 +455,15 @@ Paths should feel native to **Tyr and Athas**, not generic fantasy.
 **Choose [1 or 2] Additional Proficiencies:**
 
 - [Option 1]
-
 - [Option 2]
-
 - [Option 3]
-
 - [Option 4]
 
 
 **Choose 2 Specialties:**
 
 - [Option 1]
-
 - [Option 2]
-
 - [Option 3]
 
 - [Option 4]
@@ -488,276 +491,18 @@ Paths should feel native to **Tyr and Athas**, not generic fantasy.
 
 ---
 
-## Path Drafting Section
+## First Draft Development Order
 
-### Gladiator
+Not every subpath needs full rules immediately.
 
-**Role in Tyr / Athas:** [Fill in]  
-**Core Fantasy:** [Fill in]
+Suggested first-pass subpaths for playtesting Tyr are:
 
-**Automatic Proficiency:**
-
-- [Fill in]
-
-
-**Choose Additional Proficiencies:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 2 Specialties:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 3 Plays:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-### Wastelander
-
-**Role in Tyr / Athas:** [Fill in]  
-**Core Fantasy:** [Fill in]
-
-**Automatic Proficiency:**
-
-- [Fill in]
-
-
-**Choose Additional Proficiencies:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 2 Specialties:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 3 Plays:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-### Templar
-
-**Role in Tyr / Athas:** [Fill in]  
-**Core Fantasy:** [Fill in]
-
-**Automatic Proficiency:**
-
-- [Fill in]
-
-
-**Choose Additional Proficiencies:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 2 Specialties:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 3 Plays:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-### Sorcerer
-
-**Role in Tyr / Athas:** [Fill in]  
-**Core Fantasy:** [Fill in]
-
-**Automatic Proficiency:**
-
-- [Fill in]
-
-
-**Choose Additional Proficiencies:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 2 Specialties:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 3 Plays:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-### Psion
-
-**Role in Tyr / Athas:** [Fill in]  
-**Core Fantasy:** [Fill in]
-
-**Automatic Proficiency:**
-
-- [Fill in]
-
-
-**Choose Additional Proficiencies:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 2 Specialties:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 3 Plays:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-### Intriguer
-
-**Role in Tyr / Athas:** [Fill in]  
-**Core Fantasy:** [Fill in]
-
-**Automatic Proficiency:**
-
-- [Fill in]
-
-
-**Choose Additional Proficiencies:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 2 Specialties:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-
-**Choose 3 Plays:**
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
-
-- [Fill in]
+- **Gladiator**
+- **Ranger**
+- **Defiler**
+- **Templar**
+- **Bard**
+- **Trader**
 
 
 ---
@@ -776,6 +521,10 @@ Working assumption:
 
 - psionics are distinct from magic
 
+- every player character may begin with 1 general psionic play
+
+- in the current scope, psionics are handled through general psionic plays rather than a dedicated Psion path
+
 - psionics should appear in both player options and the setting atmosphere
 
 
@@ -783,11 +532,9 @@ Working assumption:
 
 - How common is a wild talent among ordinary people?
 
-- Is every player character assumed to have at least minor psionic sensitivity?
+- Does the framework need a dedicated Psion subpath later, or are general psionic plays enough for the first version?
 
-- How strong should the Psion Path be compared to Sorcerer?
-
-- Will psionics appear only through the Psion Path, or also through race / general plays / setting rules?
+- How subtle versus obvious should general psionic plays feel in moment-to-moment play?
 
 
 ## Framework Placeholder
@@ -995,19 +742,25 @@ Use this framework first for:
 
 Before deeper rules work, complete:
 
-1. all race proficiency lists
+1. all race write-ups
 
-2. 4-6 final Paths
+2. 1 shared heritage / background proficiency list
 
-3. 5 Plays for each Path
+3. 1 shared general psionic play list
 
-4. 2-4 Specialties for each Path
+4. 4 path families and 12 subpaths listed
 
-5. starting gear packages
+5. 4-6 first-pass subpaths fully developed
 
-6. a short Tyr faction list
+6. 5 Plays for each developed subpath
 
-7. a short pressure / Bain list
+7. 2-4 Specialties for each developed subpath
+
+8. starting gear packages
+
+9. a short Tyr faction list
+
+10. a short pressure / Bain list
 
 
 ---
@@ -1057,7 +810,7 @@ reference kept above
 
 - Which Paths are essential for first playtest?
 
-- How much psionics should show up outside the Psion Path?
+- Do general psionic plays already cover the amount of psionics needed for the first playtest?
 
 - How much of Dark Sun should be adapted faithfully versus simplified?
 

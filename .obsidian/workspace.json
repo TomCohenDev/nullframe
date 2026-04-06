@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RULES_SUMMARY.md",
+                "file": "Tom's Thoughts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RULES_SUMMARY"
-            }
-          },
-          {
-            "id": "39c19cdcc2fd0a67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RULES_SUMMARY.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RULES_SUMMARY"
+              "title": "Tom's Thoughts"
             }
           },
           {
@@ -69,6 +55,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Tom's Thoughts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tom's Thoughts"
+            }
+          },
+          {
+            "id": "66f08f55cc0528fc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
+          },
+          {
+            "id": "6cf801321e9c6197",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "RULES_SUMMARY.md",
                 "mode": "source",
                 "source": false
@@ -76,9 +88,23 @@
               "icon": "lucide-file",
               "title": "RULES_SUMMARY"
             }
+          },
+          {
+            "id": "8dea283718798dfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_frameworks/THE_DARK_SUN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "THE_DARK_SUN"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -98,7 +124,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -110,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Marks",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +157,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -241,24 +268,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39c19cdcc2fd0a67",
+  "active": "8dea283718798dfa",
   "lastOpenFiles": [
-    "Tom's Thoughts.md",
     "RULES_SUMMARY.md",
+    "04_frameworks/THE_DARK_SUN.md",
     "PLAYTEST_WEREWOLF_HUNTERS.md",
-    "AGREED_CHANGES.md",
-    "AI CRITICS.md",
-    "RULES_SUMMARY.md.tmp.45808.1773076208258",
-    "RULES_SUMMARY.md.tmp.45808.1773076199370",
-    "RULES_SUMMARY.md.tmp.45808.1773076190805",
-    "RULES_SUMMARY.md.tmp.45808.1773076186157",
-    "RULES_SUMMARY.md.tmp.45808.1773076171590",
-    "RULES_SUMMARY.md.tmp.45808.1773076154219",
-    "RULES_SUMMARY.md.tmp.45808.1773076143394",
-    "RULES_SUMMARY.md.tmp.45808.1773076135361",
-    "RULES_SUMMARY.md.tmp.45808.1773076127923",
-    "RULES_SUMMARY.md.tmp.45808.1773076118601",
+    "Tom's Thoughts.md",
     "README.md",
+    "AI CRITICS.md",
+    "AGREED_CHANGES.md",
     "04_frameworks/BLOODWYRD_SUMMARY.md",
     "04_frameworks/HEROIC_FANTASY_SUMMARY.md",
     "Untitled.canvas",
@@ -266,6 +284,7 @@
     "04_frameworks/README.md",
     "04_frameworks/WYRDWOOD.md",
     "04_frameworks/WYRDWOOD_CHARACTER_SHEET.md",
+    "04_frameworks",
     "01_manuscript/02_characters/02_stats_and_capacity.md",
     "01_manuscript/02_characters/01_creation_flow.md",
     "02_assets/templates/character_sheet_v01.md",
@@ -279,6 +298,14 @@
     "01_manuscript/00_front_matter/02_table_of_contents.md",
     "01_manuscript/00_front_matter/01_the_pitch.md",
     "01_manuscript/00_front_matter/00_title_credits.md",
-    "01_manuscript/02_characters/05_progression.md"
+    "online_sheet/sheet.html.tmp.60784.1768075629164",
+    "online_sheet/sheet.html.tmp.60784.1768075575118",
+    "01_manuscript/02_characters/09_power_levels.md.tmp.60784.1768075510278",
+    "01_manuscript/02_characters/08_flaws.md.tmp.60784.1768074206366",
+    "01_manuscript/02_characters/08_flaws.md.tmp.60784.1768073003406",
+    "01_manuscript/00_front_matter/01_the_pitch.md.tmp.60784.1767996516736",
+    "01_manuscript/00_front_matter/01_the_pitch.md.tmp.60784.1767996504778",
+    "online_sheet/sheet.html.tmp.60784.1767995282492",
+    "01_manuscript/02_characters/09_power_levels.md.tmp.60784.1767995228508"
   ]
 }
