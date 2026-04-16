@@ -39,8 +39,8 @@ NullFrame is a narrative-first tabletop RPG built around fictional leverage inst
 - **Bain** — An unfavorable fictional factor that subtracts from the result when the Storyteller invokes it
 - **Burden** — A defining flaw that caps the action at Partial Success
 - **Presence** — An enemy-side track that shows how much danger, control, and staying power an enemy still has
-- **Proficiency** — A broad learned competence that generally contributes **+1**
-- **Specialty** — A very specific advancement from a Proficiency that contributes **+2**
+- **Proficiency** — A broad learned competence that gates what actions and gear can be invoked as Edges and justifies the creation of situational Edges in the fiction
+- **Specialty** — A narrow concrete focus under a Proficiency that contributes **+1** when it clearly applies
 - **Play** — A setting-specific ability, power, maneuver, or special action granted by a Framework
 - **Legendary Play** — A permanent special ability created from a memorable moment in play
 - **Legendary Token** — A limited token a player can spend to turn a legendary moment into a Legendary Play
@@ -155,7 +155,15 @@ They are written as lived experience:
 - "I hunted beasts in the marsh for years"
 - "I learned to read people in the royal court"
 
-When a Proficiency clearly applies, it generally contributes **+1**.
+A Proficiency does **not** grant a flat bonus by itself. It is **fictional license** — the basis for arguing that an Edge is plausible in the first place. A broad Proficiency expands the range of situations where you can plausibly invoke Edges; it does not guarantee a +1. The Storyteller still must agree that the fiction supports any Edge in the moment.
+
+Proficiency does three jobs:
+
+1. **Gates invocations** — it establishes that certain actions and gear are within the character's competence, so they can be argued as Edges at all
+2. **Justifies situational Edges** — it lets the player point to the fiction and say "my background covers this"
+3. **Anchors Specialties** — it is the container that Specialties hang off of
+
+Broad Proficiencies are not overpowered because breadth only expands fictional reach, not mechanical output.
 
 ### Training and Gear
 
@@ -177,32 +185,32 @@ Examples:
 
 ### Specialties
 
-**Specialties** are very specific advancements from a Proficiency.
+**Specialties** are narrow, concrete focuses that hang off a specific Proficiency the character has.
 
 They represent the part of a character's skill set where they are most dangerous, reliable, or impressive.
 
 Examples:
 
-- `I trained as a soldier` -> `Rifle marksmanship`
-- `I studied medicine in war camps` -> `Battlefield surgery`
-- `I hunted beasts in the marsh for years` -> `Tracking through wetlands`
+- `I trained as a soldier` → `Rifle marksmanship`
+- `I studied medicine in war camps` → `Battlefield surgery`
+- `I hunted beasts in the marsh for years` → `Tracking through wetlands`
 
-When a Specialty clearly applies, it contributes **+2**.
+When a Specialty clearly applies, it contributes **+1**.
 
-In practice, a Specialty can also justify invoking a very specific trained method, weapon, or element twice when the Storyteller agrees it is directly tied to that Specialty.
+Multiple Specialties can hang off the same Proficiency. This is the intended way to build a character — pick a few broad Proficiencies, then stack specific Specialties under them to define what the character is actually good at.
 
 ### Character Start
 
 As a default starting point:
 
 - each character begins with about **3 Proficiencies**
-- each character begins with **1 Specialty**
+- each character begins with **2 Specialties**, each hanging off one of their Proficiencies
+
+A player may put both Specialties under the same Proficiency if they want to double down on a particular area.
 
 ### Advancement
 
-Characters may gain more Proficiencies through narrative justification and a meta-currency or progression system defined by the table or Framework.
-
-For now, anything beyond that is **WIP**.
+Specialties are chosen at character creation. A future system will let players earn and add new Specialties through play. For now, this is **WIP**.
 
 ### No Mastery
 
@@ -610,10 +618,10 @@ These may be refreshed at the Storyteller's discretion.
 - Natural `10` = Critical Success, if no Burden blocks success
 
 ### Proficiencies & Specialties
-- Proficiency = usually `+1`
-- Specialty = usually `+2`
+- Proficiency does not give a flat bonus — it is fictional license to invoke Edges and gates trained gear
+- Specialty = `+1` when it clearly applies
 - Proficiencies also allow trained gear to be invoked
-- Default start: about `3 Proficiencies` and `1 Specialty`
+- Default start: about `3 Proficiencies` and `2 Specialties`
 
 ### Burdens
 - Declared before the action
