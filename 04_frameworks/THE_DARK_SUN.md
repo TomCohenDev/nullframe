@@ -9,6 +9,7 @@ playable race list
 - Thri-kreen
 - Halfling
 - Pterran
+- Ssurran
 - Aarakocra
 
 refrence https://athas.org/articles/lawful-stupid-blog-repost-2-dark-sun-races/attachments/Blog%2002%20-%20Dark%20Sun%20Races.pdf
@@ -336,20 +337,21 @@ Every player character chooses **1** of the following, regardless of race.
 
 These are intentionally about upbringing, role, survival history, and social position in Athas rather than biology.
 
-- **City-State Survivor** — You know the manners, bargains, dangers, and pressure points of life inside a city-state.
-- **Arena-Bred** — You know staged violence, intimidation, crowd instincts, and how fighters behave under pressure.
-- **Slave-Pit Survivor** — You know forced labour, punishment, control, and how to endure under brutal authority.
-- **Desert Runner** — You know open-ground movement, pursuit, escape, and long-distance endurance in the wastes.
-- **Wasteland Guide** — You know routes, camps, water discipline, and practical survival beyond the walls.
-- **Caravan Trader** — You know bargaining, convoy life, scarcity, routes, and reading deals before they sour.
-- **Tribal Raider** — You know ambush, fast strikes, scouting, and taking advantage before others can react.
-- **Hunter of the Wastes** — You know tracking, stalking, ambush, and killing dangerous prey.
-- **Forest Ridge Scout** — You know living terrain, stealth, and moving through difficult wilderness with patience.
-- **Mountain Watcher** — You know high routes, winds, vantage points, and spotting danger before it closes.
-- **Stone and Bone Crafter** — You know repair, salvage, hard labour, and practical craft with Athas's harsh materials.
-- **Court Survivor** — You know etiquette, rank, suspicion, and how power speaks before it gives orders.
-- **Temple or Templar Servant** — You know ritual discipline, obedience, observation, and how authority organizes itself.
-- **Keeper of the Old Ways** — You know oral tradition, taboo, ritual meaning, and how communities preserve identity under pressure.
+Urban & Social
+- City-State Underbelly: I survived the cutthroat alleys, black markets, and political traps of the city.
+- Power Player: I’ve navigated the lethal etiquette of courts, temples, and the sorcerer-king's inner circle.
+Oppression & Endurance
+- Broken Chain Survivor: I endured the slave-pits, ziggurat labor, and the lash of the overseer.
+- Psionic Outcast: I've hidden my mental talents from the Templars' inquisitions.
+Wilderness & Survival
+- Wasteland Nomad: I know the hidden springs, safest paths, and the art of crossing the shimmering wastes.
+- Apex Predator: I’ve tracked and killed the most dangerous beasts and raiders of Athas.
+- Remote Specialist: I’ve mastered the unique dangers of the Forest Ridges or the high Mountain peaks.
+Trade & Craft
+- Scavenger-Crafter: I’ve forged tools from obsidian and bone and salvaged value from the ruins of the Old World.
+- Caravan Broker: I’ve managed the logistics of scarcity, bargaining and leading convoys through the dunes.
+Culture & Lore
+- Keeper of the Old Ways: I’ve preserved the secret histories, taboos, and oral traditions of my people.
 
 ---
 
