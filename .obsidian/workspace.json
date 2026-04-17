@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tom's Thoughts.md",
+                "file": "04_frameworks/THE_DARK_SUN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tom's Thoughts"
+              "title": "THE_DARK_SUN"
             }
           }
         ]
@@ -186,14 +186,14 @@
   },
   "active": "72664bb5841409e0",
   "lastOpenFiles": [
-    "RULES_SUMMARY.md",
-    "04_frameworks/THE_DARK_SUN.md",
     "04_frameworks/THE_DARK_SUN_NOTES.md",
+    "04_frameworks/THE_DARK_SUN.md",
+    "Tom's Thoughts.md",
+    "RULES_SUMMARY.md",
     "03_playtest/feedback/issue_tracker.md",
     "04_frameworks/HEROIC_FANTASY_SUMMARY.md",
     "04_frameworks/BLOODWYRD_SUMMARY.md",
     "PLAYTEST_WEREWOLF_HUNTERS.md",
-    "Tom's Thoughts.md",
     "AGREED_CHANGES.md",
     "AI CRITICS.md",
     "RULES_SUMMARY.md.tmp.45808.1773076208258",
