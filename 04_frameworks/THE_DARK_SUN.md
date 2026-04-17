@@ -130,16 +130,7 @@ Use some combination of:
 # Character Creation Structure
 
 This framework uses the following structure for player characters.
-## 1. Choose Race
-
-Race gives identity, social pressure, and place in Athas.
-## 2. Choose 1 Heritage or Background Proficiency
-
-Choose **1** from the shared Athasian proficiency list below.
-
-This represents upbringing, lived experience, culture, social position, or survival history.
-
-## 3. Choose Path
+## 1. Choose Path
 
 Each Path provides:
 - **2 Proficiency choices** from a list of 4
@@ -147,6 +138,16 @@ Each Path provides:
 - **3 Plays chosen from a list of 5**
 
 Path is the main gameplay identity of the character.
+
+## 2. Choose Race
+
+Race gives identity, social pressure, and place in Athas.
+
+## 3. Choose 1 Heritage or Background Proficiency
+
+Choose **1** from the shared Athasian proficiency list below.
+
+This represents upbringing, lived experience, culture, social position, or survival history.
 
 ## 4. Choose 1 General Psionic Play
 
@@ -204,7 +205,7 @@ Proficiencies and Specialties help justify Edges in play.
 **Notes:**
 - Humans are the dominant people of the city-states and the most broadly adaptable race in Athas.
 - Human appearance can vary widely, including subtle strange traits shaped by Athas.
-
+![[Pasted image 20260417190534.png]]
 ### Mul
 
 **Identity:** Bred for labour, battle, and endurance, muls are relentless, hard, and difficult to break. Common in slave pits, quarries, arenas, and military service; feared, exploited, and valued for sheer durability.
@@ -214,7 +215,7 @@ Proficiencies and Specialties help justify Edges in play.
 **Notes:**
 - Muls are sterile and usually born through brutal slave-breeding programs.
 - They are physically imposing but socially marked by slavery, ownership, and exploitation.
-
+![[Pasted image 20260417190301.png]]
 ### Elf
 
 **Identity:** Swift desert runners, traders, raiders, liars, and survivors. Elves live in motion and thrive in open land.  Known throughout Athas as runners, scouts, raiders, traders, and opportunists; trusted mainly within their own tribes.
@@ -224,7 +225,7 @@ Proficiencies and Specialties help justify Edges in play.
 **Notes:**
 - Elves are intensely tribal and distrust outsiders, even other elves from other tribes.
 - They prize speed, freedom, and immediate advantage.
-
+![[ChatGPT Image Apr 17, 2026, 06_49_12 PM.png]]
 ### Half-Elf
 
 **Identity:** Caught between worlds and rarely fully accepted by either, half-elves survive through adaptability, caution, and reading people fast. They often live as messengers, scouts, intermediaries, drifters, or outsiders who have learned not to rely on belonging.
@@ -234,7 +235,7 @@ Proficiencies and Specialties help justify Edges in play.
 **Notes:**
 - Half-elves are often treated as untrustworthy, rootless, or available to be used by stronger powers.
 - Their social position in Athas often rewards flexibility, observation, and emotional self-protection.
-
+![[Pasted image 20260417190320.jpg]]
 ### Dwarf
 
 **Identity:** Serious, driven, and defined by purpose. Dwarves are relentless when they commit themselves to a task.  Labourers, smiths, mercenaries, traders, and stubborn allies or enemies whose commitments run deeper than convenience.
@@ -245,6 +246,7 @@ Proficiencies and Specialties help justify Edges in play.
 - Dwarven life is shaped by focus: a chosen purpose that defines effort and identity.
 - Dwarves are deeply communal but highly private about what matters most to them.
 
+![[ChatGPT Image Apr 17, 2026, 06_48_09 PM.png|485]]
 ### Half-Giant
 
 **Identity:** Massive, imitative, and overwhelming. Half-giants combine terrible strength with social uncertainty and shifting identity.  Labourers, guards, soldiers, gladiators, raiders, and cultural imitators shaped by whoever currently leads them.
@@ -255,7 +257,7 @@ Proficiencies and Specialties help justify Edges in play.
 
 - Half-giants are famous for size, social awkwardness, and being shaped by nearby stronger personalities.
 - Everything around them is harder to fit, carry, buy, or avoid breaking.
-
+![[Pasted image 20260417185320.png]]
 ### Thri-kreen
 
 **Identity:** Tireless insect hunters who live for the hunt, move fast, need little, and think in terms of clutch and pack.  
@@ -265,7 +267,7 @@ Proficiencies and Specialties help justify Edges in play.
 
 - Thri-kreen do not think like humanoids and tend to interpret social life through dominance, hunting, and pack bonds.
 - They require little water and no sleep, which changes how they move through the world.
-
+![[Pasted image 20260417190144.png]]
 ### Halfling
 
 **Identity:** Fierce, agile, deeply rooted in ancient jungle culture, and often baffled or disgusted by the Tablelands.  
@@ -275,6 +277,8 @@ Proficiencies and Specialties help justify Edges in play.
 
 - Halflings are culturally insular, strongly anti-slavery, and often have trouble understanding city customs.
 - They are small, fast, and far more dangerous than many outsiders assume.
+[![300px-Halfling2-1-|433](https://static.wikia.nocookie.net/darksun-dragonswake/images/6/62/300px-Halfling2-1-.jpg/revision/latest/scale-to-width-down/220?cb=20190627153546)
+
 
 ### Pterran
 **Identity:** Reptilian children of the Earth Mother, earnest, ceremonial, and guided by chosen life paths.  
@@ -285,6 +289,9 @@ Proficiencies and Specialties help justify Edges in play.
 - Pterrans are shaped by ritual, gratitude, and devotion to Athas as the Earth Mother.
 - In the source material, the Path of the Mind is viewed with some suspicion even within pterran society.
 
+![[Pasted image 20260417185111.png|534]]
+
+
 ### Aarakocra
 
 **Identity:** Mountain-dwelling bird-people of freedom, height, and distance, uneasy in confinement and protective of their own space.  
@@ -293,6 +300,11 @@ Proficiencies and Specialties help justify Edges in play.
 **Notes:**
 - Aarakocra are intensely freedom-loving and often claustrophobic.
 - They are often suspicious of lowland politics and prefer distance, altitude, and clear air.
+
+
+![[ChatGPT Image Apr 17, 2026, 06_51_52 PM.png]]
+
+
 
 ---
 
