@@ -12,7 +12,7 @@
 
 This framework adapts **Rimaer** into NullFrame as a setting-specific layer focused on:
 
-- colony survival after a 1,500-year cryosleep displacement
+- colony survival after a 400-year cryosleep displacement
 - triage, scarcity, and hard choices with real consequences
 - exploration of a planet-spanning anomalous marsh
 - the slow discovery of what destroyed human civilization
@@ -26,7 +26,7 @@ This framework is intended as a **lightweight starting framework** for playtesti
 
 ## Setting in One Sentence
 
-Humans destroyed their own world worshipping a god that never existed, and 1,500 years later 4,400 colonists wake from cryosleep to survive in the wreckage.
+Humans destroyed their own world worshipping a god that never existed, and 400 years later 4,400 colonists wake from cryosleep into a post-apocalyptic ruin — alongside survivors who never left, or who slept in vaults, or who were modified to outlive the fall.
 
 ---
 
@@ -45,13 +45,14 @@ Humans destroyed their own world worshipping a god that never existed, and 1,500
 
 **The Oasis** is the central location for this framework.
 
-It is the first colony ship of the Pioneer Fleet. It carried 5,000 colonists in cryosleep for a planned 10-year journey to a habitable world 200 light-years away. The Cult of the Fourth sabotaged the main Korenfeld Drive mid-transit. A backup drive spent 1,500 years resolving the ship back to stable three-dimensional state.
+It is the first colony ship of the Pioneer Fleet. It carried 5,000 colonists in cryosleep for a planned 10-year journey to a habitable world 200 light-years away. The Cult of the Fourth sabotaged the main Korenfeld Drive mid-transit. A backup drive spent 400 years resolving the ship back to stable three-dimensional state.
 
 ~4,400 colonists survived. 600 died in their pods.
 
 The ship now sits on the surface of Rimaer-Prime — the world they left — crashed and on its side.
 
 It is associated with:
+
 - the colony's only shelter and infrastructure
 - fabricators, seed banks, livestock embryos, cultural and scientific archives
 - decaying systems and degrading life support
@@ -64,11 +65,14 @@ It is associated with:
 
 The story begins at and around **the Oasis crash site**.
 
-The colonists expected to arrive on a new world. Instead they woke above the world they left, 1,500 years later, with no transmissions, no government, and orbit decaying. They had to land.
+The colonists expected to arrive on a new world. Instead they woke above the world they left, 400 years later, with no transmissions, no government, and orbit decaying. They had to land.
+
+Four centuries is long enough for civilization to collapse, ruins to go feral, and new cultures to form — but short enough that scavengers still fight over Pantheon wreckage, vaults still open, and some survivors remember the world before.
 
 ### Starting Campaign Assumption
 
 The players are colonists shaped by a peak civilization that no longer exists:
+
 - doctors
 - engineers
 - soldiers
@@ -83,6 +87,7 @@ The players are colonists shaped by a peak civilization that no longer exists:
 ### Early Campaign Pressure
 
 Use some combination of:
+
 - life support and shelter urgency
 - food and clean water scarcity
 - wounded and dying colonists
@@ -99,15 +104,18 @@ Use some combination of:
 
 This framework uses the following structure for player characters.
 
+**Default assumption:** you are an **Oasis colonist** who woke from the ship's cryopods. With Storyteller agreement, you may instead be a **surface survivor** — a vault wakee, a longevity-modded elder, or someone recruited from a marsh enclave — using the same mechanical steps but swapping the narrative frame (see *Who Survived on the Surface*).
+
 ## 1. Choose Pre-Cryo Background
 
 Choose **1** from the shared background proficiency list below.
 
-This represents who you were before you volunteered for the Pioneer Fleet — your civilian life, education, and experience on Rimaer-Prime.
+For colonists, this is who you were before you volunteered for the Pioneer Fleet — civilian life, education, and experience on old Rimaer-Prime. For surface survivors, adapt the same list: vault wakees pick a life interrupted at stasis; longevity survivors pick what they did before the Fall; enclave-born may pick the closest equivalent their enclave preserves.
 
 ## 2. Choose Colony Division (Path)
 
 Each Colony Division provides:
+
 - **2 Proficiency choices** from a list of 4
 - **2 Specialty choices** from a list of 4
 - **3 Plays chosen from a list of 5**
@@ -124,21 +132,23 @@ This reflects the fact that every colonist went through screening, training, and
 
 Every character begins with **one Burden**.
 
-1,500 years of cryosleep, 600 dead in their pods, a civilization gone, and a world turned to marsh. Nobody wakes from that clean.
+400 years of cryosleep, 600 dead in their pods, a civilization gone, and a world turned to marsh. Nobody wakes from that clean.
 
 Work with the Storyteller to define what your character carries.
 
 **Common Examples:**
-- *Someone I loved was in pod 2247* — grief for a colonist who didn't wake
-- *I still think we can go home* — denial about the scope of the disaster
-- *I heard something during the sleep* — unexplained sensory memory from cryostasis
-- *I don't trust the chain of command anymore* — faith in institutional authority is broken
-- *The fog makes me freeze* — visceral fear response to the anomalous environment
-- *I keep counting heads* — compulsive need to account for everyone, driven by survivor guilt
+
+- _Someone I loved was in pod 2247_ — grief for a colonist who didn't wake
+- _I still think we can go home_ — denial about the scope of the disaster
+- _I heard something during the sleep_ — unexplained sensory memory from cryostasis
+- _I don't trust the chain of command anymore_ — faith in institutional authority is broken
+- _The fog makes me freeze_ — visceral fear response to the anomalous environment
+- _I keep counting heads_ — compulsive need to account for everyone, driven by survivor guilt
 
 ## 5. Write Core Character Elements
 
 After choosing Background and Division, the player also defines:
+
 - starting gear (from colony stores or salvage)
 - name / age / origin / social position on old Rimaer-Prime
 - 1 Pre-Cryo Background Proficiency
@@ -153,6 +163,7 @@ After choosing Background and Division, the player also defines:
 **Edges keep their normal NullFrame meaning.**
 
 They are not chosen at character creation as a separate build category. Edges are still:
+
 - favorable fictional factors
 - gear, position, allies, preparation, information, environment, or weaknesses
 - invoked during play for +1
@@ -169,7 +180,7 @@ Every player character chooses **1** of the following, regardless of Colony Divi
 
 These represent civilian life, education, and lived experience from Rimaer-Prime before the Pioneer Fleet.
 
-- **Concord Civil Servant** — You know institutions, procedure, politics, and how authority organizes itself when it still works.
+- **Pantheon Civil Servant** — You know institutions, procedure, politics, and how authority organizes itself when it still works.
 - **Academic Researcher** — You know theory, analysis, peer review, and how to find answers in data nobody else reads.
 - **Corporate Specialist** — You know commerce, contracts, resource allocation, and reading people who want something from you.
 - **Military Veteran** — You know discipline, threat assessment, weapons handling, and how groups behave under sustained pressure.
@@ -210,6 +221,7 @@ These are baseline competencies and instincts from Pioneer Fleet screening, cryo
 Colony Divisions are the main build identity for the framework.
 
 A Division is the character's assigned role on the Oasis. It shapes:
+
 - the character's main contribution to the colony
 - likely Proficiencies
 - likely Specialties
@@ -228,21 +240,25 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 **Core Fantasy:** You are the one they bring the dying to. You decide who gets treated first, what resources get spent, and when to tell someone there's nothing more you can do.
 
 **Automatic Proficiency:**
+
 - Medical training and patient care
 
 **Choose 2 Additional Proficiencies:**
+
 - Emergency surgery under field conditions
 - Psychological evaluation and crisis intervention
 - Pharmacology and chemical treatment
 - Pathology and disease identification
 
 **Choose 2 Specialties:**
+
 - Battlefield triage
 - Cryogenic recovery complications
 - Trauma stabilization
 - Psychological first response
 
 **Choose 3 Plays:**
+
 - **Triage Protocol** — Once per scene, assess multiple wounded or sick and immediately identify who can be saved, who can wait, and who is beyond help. The Storyteller answers honestly.
 - **Steady Hands** — Once per scene, perform a critical medical procedure under pressure without penalty from environmental Bains. Fear, noise, shaking ground — your hands don't care.
 - **Improvised Treatment** — Once per scene, treat a wound or condition using inadequate tools or substituted materials. It works, but name the cost or limitation.
@@ -258,21 +274,25 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 **Core Fantasy:** Everything is broken, degrading, or not designed for this. You make it work anyway. When it can't work, you build something new from what's left.
 
 **Automatic Proficiency:**
+
 - Mechanical systems and structural repair
 
 **Choose 2 Additional Proficiencies:**
+
 - Power generation and energy management
 - Fabrication and materials science
 - Structural design and construction
 - Shipboard systems and computer architecture
 
 **Choose 2 Specialties:**
+
 - Improvised repair with salvaged parts
 - Power grid stabilization
 - Habitat construction
 - Oasis system diagnostics
 
 **Choose 3 Plays:**
+
 - **Jury-Rig** — Once per scene, make a broken or damaged system work temporarily. It holds, but name how long and what happens when it fails.
 - **Structural Read** — Once per scene, assess a structure, vehicle, or machine and know its weak point, remaining lifespan, or hidden flaw. The Storyteller answers honestly.
 - **Power Budget** — Once per scene, redistribute power or resources across colony systems to keep one critical thing running when there isn't enough for everything. Name what goes dark.
@@ -288,21 +308,25 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 **Core Fantasy:** You understand things other people don't. That understanding is the colony's best weapon and its heaviest burden. Knowledge in Rimaer doesn't save you — it just tells you exactly how bad things are.
 
 **Automatic Proficiency:**
+
 - Scientific analysis and research methodology
 
 **Choose 2 Additional Proficiencies:**
+
 - Biology and xenobiology (anomalous life forms)
 - Physics and Korenfeld theory
 - Geology, ecology, and environmental science
 - Data analysis and archival research
 
 **Choose 2 Specialties:**
+
 - Anomalous material identification
 - Korenfeld Drive mechanics
 - Marsh ecosystem analysis
 - Pre-collapse historical research
 
 **Choose 3 Plays:**
+
 - **Hypothesis** — Once per scene, propose a testable explanation for something the colony doesn't understand. The Storyteller tells you whether you're on the right track, wrong, or asking the wrong question.
 - **Specimen Analysis** — Once per scene, examine an anomalous sample, creature, or phenomenon and learn one true fact about its origin, composition, or behavior.
 - **Archival Recovery** — Once per scene, pull something useful from the Oasis databanks, the cultural archive, or a recovered data source. The information exists — you just have to know what to ask for.
@@ -318,21 +342,25 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 **Core Fantasy:** You are the line. When something comes out of the marsh, when a supply run goes wrong, when the colony fractures — you are the one holding the weapon and making the call.
 
 **Automatic Proficiency:**
+
 - Combat training and tactical awareness
 
 **Choose 2 Additional Proficiencies:**
+
 - Ranged weapons and marksmanship
 - Close-quarters combat and restraint
 - Perimeter defense and fortification
 - Reconnaissance and threat assessment
 
 **Choose 2 Specialties:**
+
 - Firefight coordination
 - Anomalous threat response
 - Colony perimeter operations
 - Escort and extraction
 
 **Choose 3 Plays:**
+
 - **Threat Sweep** — Once per scene, clear or assess an area and know whether it's safe, compromised, or actively dangerous. The Storyteller answers honestly about what's present.
 - **Suppressive Action** — Once per scene, pin down, drive back, or create a window of safety through sustained fire, noise, or physical intimidation. Enemies cannot advance for one action.
 - **Protective Escort** — Once per scene, designate a person or group under your protection. While escorting them, any attack or threat targets you first, and you gain an Edge on actions to keep them safe.
@@ -348,21 +376,25 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 **Core Fantasy:** Survival is not a single dramatic moment — it's whether anyone eats next week. You understand what grows, what's safe, what's poisonous, and what the marsh will let you take.
 
 **Automatic Proficiency:**
+
 - Food production and ecosystem management
 
 **Choose 2 Additional Proficiencies:**
+
 - Botany and hydroponics
 - Animal husbandry and livestock management
 - Water purification and treatment
 - Foraging and field ecology
 
 **Choose 2 Specialties:**
+
 - Marsh-adapted cultivation
 - Anomalous plant identification
 - Water source assessment
 - Seed bank and embryo management
 
 **Choose 3 Plays:**
+
 - **Safe to Eat** — Once per scene, assess a food or water source and know whether it's safe, contaminated, or anomalous. The Storyteller answers honestly.
 - **Growth Assessment** — Once per scene, evaluate land, soil, or a growing environment and know whether it can sustain crops, what it needs, and what will fail.
 - **Emergency Ration** — Once per scene, stretch existing food or water supplies further than they should go. It works, but name the long-term cost.
@@ -378,21 +410,25 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 **Core Fantasy:** The colony is a system, and systems fail without someone managing them. You are the one who sees the whole picture, makes the hard calls about allocation, and holds the social fabric together when people start fracturing.
 
 **Automatic Proficiency:**
+
 - Logistics, coordination, and resource management
 
 **Choose 2 Additional Proficiencies:**
+
 - Communications systems and signal analysis
 - Supply chain and inventory management
 - Social leadership and conflict resolution
 - Strategic planning and crisis management
 
 **Choose 2 Specialties:**
+
 - Colony resource allocation
 - Inter-faction negotiation
 - Broadcast and signal interpretation
 - Expedition planning
 
 **Choose 3 Plays:**
+
 - **Resource Audit** — Once per scene, assess the colony's current state in one specific area (food, power, morale, personnel, materiel) and know exactly how much is left and how long it lasts.
 - **Coordinate Action** — Once per scene, organize a group effort. Everyone involved gains an Edge on their next action toward the shared goal, provided they follow the plan.
 - **Read the Room** — Once per scene, assess the social dynamics of a group — who's about to break, who's hiding something, who's holding things together, and where the fault lines are.
@@ -405,7 +441,7 @@ Divisions should feel native to **colony survival on a hostile world**, not gene
 
 ## Current Direction
 
-Anomalies are the primary environmental threat. They are not supernatural — they are damaged atomic structure spreading from the Cult's failed Korenfeld Drive activations 1,500 years ago.
+Anomalies are the primary environmental threat. They are not supernatural — they are damaged atomic structure spreading from the Cult's failed Korenfeld Drive activations 400 years ago.
 
 All anomalies trace to botched atomic rewrites that have spread, mutated, and reached a kind of broken equilibrium.
 
@@ -421,7 +457,7 @@ Working assumption:
 
 - prolonged exposure to anomalous zones changes living tissue
 - effects range from minor (discoloration, organ displacement) to severe (loss of identity, dissolution)
-- the marsh-dwellers have adapted over 1,500 years of low-grade exposure — the colonists have not
+- surface survivors and marsh-dwellers have adapted over 400 years of low-grade exposure — the colonists have not
 - exposure should create **Bains** first, then **Burdens** if sustained
 - anomaly exposure should be tracked narratively, not through a detailed subsystem in this first version
 
@@ -434,33 +470,55 @@ Working assumption:
 
 ---
 
+# Who Survived on the Surface
+
+## Current Direction
+
+The Fall killed the Pantheon, but not everyone. Over **400 years**, scattered humans endured through three broad paths — Fallout-scale post-apocalypse, not deep antiquity:
+
+### Cryo Vaults and Bunker Stasis
+
+Emergency shelters, military black sites, wealthy escape pods, and cult experiments left **stasis stockpiles** across the planet. Timers failed, power died, or schedules staggered — vaults still crack open. A wakee may believe they slept months ago; they are four centuries late. Some enclaves are entire vault populations who woke together and never left the marsh belt.
+
+### Longevity Modifications
+
+Pantheon elite, military officers, researchers, and cult test subjects with **prolonged-life gene mods or rejuvenation regimens** lived through most or all of the interval. A few are still alive with fractured personal memory of the Fall. They are rare, feared, and often treated as elders, monsters, or living relics.
+
+### Born Survivors
+
+Most surface humans are **descendants** — twelve to sixteen generations removed from the collapse. They grew up in scrap towns, peat forts, and salvage caravans. Technology ranges from tribal salvage to patchwork industrial pockets, depending on what ruins their ancestors held.
+
+---
+
 # The Marsh-Dwellers
 
 ## Current Direction
 
-Approximately 8 million humans survive on Rimaer-Prime, divided into hundreds of tribal and feudal cultures at roughly medieval technology level.
+Hundreds of thousands to low millions of humans survive on Rimaer-Prime, clustered in the wetland belt and ruin-cities where life still grows. They are not one people — vault wakees, longevity elders, scavenger republics, and peat tribes share the marsh and fight over the same Pantheon wreckage.
 
-They have adapted through 1,500 years of anomalous exposure:
-- no longer quite the same species, but still recognizably human
+They have adapted through **400 years** of anomalous exposure and generational drift:
+
+- visibly changed in some bloodlines, but still recognizably human
 - living in the marshes because the marshes are where life still grows
 - survival rituals developed without understanding their origins
-- garbled memories of a golden age
+- garbled memories of a golden age — stories, not lived experience, except among vault wakees and longevity survivors
 - may worship "the God" (a degraded version of the Cult of the Fourth's theology) without knowing its origin
 
 ### Marsh-Dweller Relationship to Colonists
 
 This is one of the framework's central tensions:
 
-- the colonists carry technology, knowledge, and resources the marsh-dwellers need
-- the marsh-dwellers carry 1,500 years of survival knowledge the colonists desperately need
+- the colonists carry intact Pioneer Fleet technology, archives, and industrial capacity the surface desperately needs
+- marsh-dwellers carry four centuries of local survival knowledge, ruin maps, and anomaly lore the colonists lack
 - neither group fully understands the other
 - the power imbalance is real and morally complicated
-- the colonists may be seen as gods, invaders, ancestors, or prey depending on the culture
+- the colonists may be seen as gods, invaders, ancestors returned, or prey depending on the culture
+- a vault wakee and an Oasis colonist can both claim to be "from before" — and both be right
 
 ### Open Questions
 
 - How many distinct marsh-dweller cultures should the first playtest include?
-- Can players create marsh-dweller characters, or is the framework colonist-only for now?
+- Can players create marsh-dweller, vault-wake, or longevity-survivor characters, or is the framework colonist-only for now?
 - How should language barriers be handled?
 
 ---
@@ -531,6 +589,7 @@ These categories should be tracked at a high narrative level:
 ### Colony Management in Play
 
 Working assumption:
+
 - colony status should be visible and consequential but not a spreadsheet
 - resource scarcity creates Bains against colony-level actions
 - resource abundance creates Edges
@@ -646,7 +705,7 @@ Suggested starting list:
 The Oasis detected a faint signal on an unofficial frequency — a low, irregular pulse broadcasting from the surface. It has been broadcasting for a very long time.
 
 - origin unknown
-- not recognizable as Concord technology
+- not recognizable as Pantheon technology
 - purpose unknown
 - a major campaign hook
 
@@ -692,7 +751,7 @@ All lore lives in `/Users/tomcohen/github/ttrpg_stories/rimaer/` organized by ca
 
 ## Open Design Questions
 
-- Should marsh-dweller characters be playable in the first version, or colonists only?
+- Should surface-survivor characters (vault wake, longevity mod, enclave-born) be fully supported in the first version, or colonists only?
 - How abstract should colony resource management be? (RimWorld granularity vs. narrative-only)
 - Should there be a formal anomaly exposure mechanic or narrative tracking?
 - How should the framework handle colonist death and replacement characters?

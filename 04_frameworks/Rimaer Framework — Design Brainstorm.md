@@ -25,6 +25,69 @@ The framework should make players feel like **colonists in a hostile sci-fi surv
 
 If a mechanic doesn't reinforce one of those, it shouldn't be in the framework.
 
+### Timeline and Surface Survivors (Fallout-scale)
+
+- **The Fall** — Cult sabotage triggers Korenfeld cascade; Pantheon collapses; planet becomes marsh.
+- **~400 years** — Oasis backup drive resolves; colonists wake above dead Rimaer-Prime. Long enough for post-apocalypse: ruins, factions, xenotype drift, garbled myth — not so long that the old world is only archaeology.
+- **Who else is still here:**
+  - **Cryo vaults / bunker stasis** — staggered or failed timers; new populations still waking.
+  - **Longevity mods** — Pantheon elite, military, researchers, cult subjects who lived through most of the interval.
+  - **Born survivors** — twelve to sixteen generations in scrap towns, peat forts, and salvage caravans.
+- **Tone reference:** Fallout (wasteland + pre-war wakees) more than deep-time lost civilization.
+
+### 🛠️ ENGINEERING & MAINTENANCE
+
+The blue-collar grease monkeys who kept the Oasis running and are now responsible for jury-rigging a dead colony.
+
+- **Zero-G Shipbreaker:** Specialized in deep-space exterior repairs and salvage. Masters of Jury Rigging and Zero-G.
+- **Heavy Machinery Operator:** Drives the massive terrestrial rovers, loaders, and deep-core drills. High Heavy Machinery and Driving.
+- **Structural Engineer:** The builders of the colony. They plan bulkheads, containment cells, and defensive walls. High Engineering and Construction.
+- **Reactor / Power Systems Tech:** Responsible for keeping the lights on and the heaters running. High Physics and Mechanical Repair.
+- **Cybernetics Technician:** Installed and repaired bionic limbs and Pantheon-issued augments before the crash. High Cybernetics and Robotics.
+- **Sanitation / Recycler:** The unglamorous job of turning waste into water and fertilizer. Desensitized to awful conditions.
+
+### 🔬 SCIENCE & RESEARCH
+
+The minds meant to catalog a new world. They have the knowledge to save the colony, but usually panic first when the anomalies breach.
+
+- **Planetologist:** Expert in alien geology, climate patterns, and planetary ecology. High Geology and Planetology.
+- **Xenobiologist / Pathologist:** Brought to study indigenous flora/fauna; now stuck studying nightmarish flesh-anomalies. High Biology and Pathology.
+- **Hydroponics Agronomist:** Responsible for the colony's food supply. Masters of Hydroponics, Botany, and synthetic soil.
+- **Astrogator / Drive Specialist:** Theoretical physicists who understand the Korenfeld physics required to fix the ship's drive. High Astrogation and Mathematics.
+- **Deep-Space Archaeologist:** Brought along to study pre-Pantheon ruins or anomalous artifacts. High Archaeology and History.
+- **Sophontologist:** Studies human, alien, and artificial intelligence. Highly theoretical, borderline Xenoesotericism.
+
+### 🩺 MEDICAL & SUPPORT
+
+Responsible for keeping the fragile human body and mind intact against hostile environments and horrific stress.
+
+- **Trauma Surgeon:** The doctor you want when a colonist is missing a limb or needs an emergency bionic installation. High Surgery and First Aid.
+- **Pharmacologist / Chemist:** Synthesizes everything from combat stims to painkillers. Often at high risk for chemical dependency. High Chemistry.
+- **Cryo-Stasis Technician:** Managed the deep-sleep pods. Knows how to safely wake people up (or put them back under).
+- **Colony Psychologist:** Manages the severe mental stress of the colonists. Doubles as a Warden for prisoners. High Psychology and Social.
+- **Ration Quartermaster / Cook:** Turns bio-paste, hunted marsh meat, and soy into something that won't cause a mental break.
+- **Geneticist:** Sent to monitor the long-term genetic drift of the colony; now essential for xenotype extraction. High Genetics.
+
+### 🪖 SECURITY & TACTICAL
+
+Pantheon military or private security. They shoot things, guard things, and die violently so the scientists can run away.
+
+- **Pantheon Marine Sergeant:** Standard military issue. Heavy armor, strict discipline, high Military Training and Firearms.
+- **Close-Quarters Breacher:** Specialized in ship-boarding and tight-corridor combat. High Athletics and Close-Quarters Combat.
+- **Brig Warden / Corrections Officer:** Police force for the colony. Used to dealing with riots, contraband, and unruly colonists. High Psychology and Tactics.
+- **Artillery / Explosives Tech:** The person you call when you need to blow a hole in an anomaly nest or a marsh rock face. High Explosives and Gunnery.
+- **Internal Security Operative:** Pantheon spies and detectives looking for contraband, cultists, and traitors. High Hacking and Criminology.
+
+### 🎭 ADMINISTRATION
+
+Bureaucrats and specialists who manage the human element of the 4,400 souls.
+
+- **Pantheon Magistrate / Diplomat:** Legal arbiters and politicians. Highly adept at Negotiation.
+- **Ideologue / Moral Guide:** A priest or philosopher for one of the colony’s sanctioned belief systems. High Theology or Philosophy.
+- **Oasis Archivist:** Librarians of the Pantheon database. They maintain the historical memory of humanity. High Linguistics and Computers.
+- **Colony Entertainer:** Actors, comedians, athletes, artists, or musicians brought to maintain colony morale over decades. Vital for preventing mental breaks.
+- **Propagandist:** Shapes the narrative for the masses. Very good at manipulating the colony's overall mood track.
+
 ---
 
 ## 2. What This Framework Adds On Top of NullFrame Core
@@ -49,7 +112,7 @@ If a mechanic doesn't reinforce one of those, it shouldn't be in the framework.
 - **Resources & Stockpile** — food, water, materials, medicine, components
 - **Research Tree** — restoration of lost knowledge, drive reconstruction
 - **Projects & Construction** — what the colony is building this week
-- **Faction Relations** — surviving descendants, cults, scavengers
+- **Faction Relations** — vault enclaves, longevity survivors, marsh descendants, cults, scavengers
 - **Trade** — barter, exotic goods, bionics
 - **Time-of-day / Calendar** — campaign clock, season, days survived
 - **Weather & Marsh State** — environmental Bains driven by the world
@@ -61,7 +124,7 @@ If a mechanic doesn't reinforce one of those, it shouldn't be in the framework.
 - **Drive Reconstruction Track** — the long-term hope/escape system
 - **Cult Activity Tracker** — the Cult of the Fourth and splinters
 - **Anomaly Codex** — what the colony has identified, contained, survived
-- **Memory Fragments** — recovered Concord knowledge, partial truths
+- **Memory Fragments** — recovered Pantheon knowledge, partial truths
 
 ---
 
@@ -79,128 +142,56 @@ This isn't a class — it's their job role on the Oasis when they boarded.
 
 At creation players should first think of the backstory they want tfor their character. Each backstory can grant:
 
-- 3 **Proficiency** (need a possible list for reference)
-- 2 **Specialty** (need a possible list for reference)
-- A small **trait** or **Burden seed**
-- Starting possessions
-- Relationship with other npcs (at least one tie)
+- 3 **Proficiencies/jobs from the list or make up your own** (see job list for reference)
+- 2 **Specialties, specific skills which you are better then most** (need a possible list for reference)
+- 2 **burdens/ traits**
+- Starting Possessions
+- At least 1 Relationship hook with other npcs (you can make up your own npc)
 
 ### Step 3 — Traits
 
-RimWorld-style permanent personality traits. Pick **2 traits**, one of which can be replaced by a Burden if the player prefers.
+permanent personality traits. Pick **2 traits**, one of which can be replaced by a Burden if the player prefers.
 
-Trait categories to mirror:
 
-- 😊 **Mood traits** — Optimist, Pessimist, Volatile, Steady
-- 🎯 **Combat traits** — Trigger-Happy, Careful Shooter, Brawler, Coward, Bloodlust
-- 🧠 **Cognitive traits** — Quick Learner, Slow Thinker, Great Memory, Absent-Minded
-- ⚙️ **Work traits** — Industrious, Lazy, Tireless, Slothful
-- 💊 **Chemical traits** — Chemical Interest, Chemical Fascination, Teetotaler
-- 👁️ **Strange traits** — Pyromaniac, Body Modder, Body Purist, Psychically Sensitive
-- 💔 **Social traits** — Abrasive, Kind, Beautiful, Ugly, Jealous
+**Psychological & Emotional**
+*   **Volatile:** Your emotional state is highly unstable. You are quick to anger, panic, or despair, making you prone to sudden outbursts or breakdowns when the pressure mounts.
+*   **Pessimist:** You always see the worst in a situation. Even in moments of victory or comfort, you dwell on the inevitable doom, making it hard for you to ever feel truly content.
+*   **Optimist:** You always look on the bright side, sometimes blinding yourself to realism. You maintain hope and cheerfulness even in the most dire or hopeless situations.
+*   **Neurotic:** You are highly driven and work at a frantic pace, but your nerves are tightly wound. You are easily rattled and deeply disturbed by failure, pressure, or horrific sights.
+*   **Jealous:** You cannot stand seeing others with more than you. You become bitterly resentful if anyone else has better living quarters, equipment, or status.
+*   **Greedy:** You have a burning desire for wealth and high-value items. You feel deeply unsatisfied and irritable unless you are hoarding or carrying precious materials.
+*   **Hyper-Empathetic:** You feel the pain of others as if it were your own. Witnessing suffering, injury, or death in any creature leaves you deeply distressed and emotionally compromised.
+*   **Claustrophobic:** You are terrified of confined spaces. Being trapped in narrow ship corridors, ventilation shafts, or deep underground causes you to panic.
+*   **Body Modder:** You feel a profound disconnect with your natural flesh. You view the baseline human body as weak or flawed and possess a burning desire to replace your organic parts with cybernetics and augments.
 
-Some traits become Burdens mechanically (Pyromaniac, Coward, Chemical Fascination). Some are pure flavor + small Edge enablers.
+**Physical & Combat**
+*   **Wimp:** You have zero tolerance for physical pain. Even minor scrapes, burns, or bruises can cause you to weep, collapse, or go into shock.
+*   **Slowpoke:** You are physically sluggish and slow to react. You tend to be the last one out of a collapsing ruin and lag behind during a retreat.
+*   **Trigger-Happy:** You prefer volume of fire over precision. You shoot fast and recklessly, rarely taking time to aim, making you a severe danger to anything standing near your target.
+*   **Careful Shooter:** You are obsessive about lining up the perfect shot. You take far too long to aim, often hesitating while the chaos of battle unfolds around you.
+*   **Brawler:** You prefer to solve problems with your fists or a blade. You deeply distrust or disdain ranged weapons and refuse to use them, no matter how deadly the enemy is.
+*   **Sickly:** Your immune system is deeply compromised. You are always the first to catch a fever, succumb to infections, or react poorly to the toxic environment.
+*   **Klutz:** You are remarkably uncoordinated. You routinely drop tools, trip over your own feet during an escape, or knock things over when absolute silence is required.
 
-### Step 4 — Skills
+**Habits & Lifestyle**
+*   **Teetotaler:** You strictly avoid mind-altering substances. You completely refuse to consume alcohol, narcotics, or chemical stims, even when they could save your life or ease your suffering.
+*   **Absent-Minded:** Your mind often wanders. You frequently forget crucial details like locking doors, securing restraints, or packing enough supplies for a journey.
+*   **Loud:** You are naturally noisy. You have a booming voice, heavy footsteps, and a complete inability to move subtly, making stealth nearly impossible for you.
+*   **Squeamish:** You have a weak stomach for blood and viscera. You cannot handle medical triage, butcher animals, or witness gore without becoming nauseous or fainting.
 
-#### 🔬 Science & Knowledge
-**Trained / Proficiency tier**
-- Linguistics
-- Biology
-- First Aid
-- Hydroponics
-- Geology
-- Mathematics
-- Theology
-- Archaeology
-- Chemistry
-- Plant cultivation _(RimWorld)_
-- Animal handling _(RimWorld)_
-**Expert / Specialty tier**
-- Psychology
-- Genetics
-- Pathology
-- Botany
-- Planetology
-- Mysticism _(reframe as "anomaly studies")_
-- Drug synthesis _(RimWorld)_
-- Surgical preparation
-- Marsh ecology _(Rimaer)_
-- Concord history _(Rimaer)_
-**Master / Mastery tier**
-- Sophontology
-- Xenobiology
-- Surgery
-- Xenoesotericism _(reframe as "anomaly mastery")_
-- Korenfeld physics _(Rimaer endgame)_
-#### 🛠️ Engineering & Tech
-**Trained / Proficiency tier**
-- Computers
-- Mechanical repair
-- Heavy machinery
-- Scavenging
-- Driving
-- Mining _(RimWorld)_
-- Construction _(RimWorld)_
-- Crafting _(RimWorld)_
-- Cooking _(RimWorld)_
-**Expert / Specialty tier**
-- Engineering
-- Hacking
-- Vehicle specialization
-- Asteroid mining _(reframe: deep salvage)_
-- Jury rigging
-- Industrial fabrication
-- Power systems
-- Bionic installation _(Rimaer)_
-- Containment construction _(Rimaer)_
-**Master / Mastery tier**
-- Cybernetics
-- Robotics
-- Artificial intelligence
-- Drive reconstruction _(Rimaer endgame)_
-#### 🪐 Space & Navigation
-**Trained / Proficiency tier**
-- Zero-G
-- Piloting
-- Rimwise _(reframe: "Marshwise" — knowing the wetlands of Rimaer)_
-**Expert / Specialty tier**
-- Astrogation
-- Physics
-**Master / Mastery tier**
-- Hyperspace _(reframe: "Korenfeld navigation")_
-#### ⚔️ Combat
-**Trained / Proficiency tier**
-- Military training
-- Athletics
-- Shooting _(RimWorld)_
-- Melee _(RimWorld)_
-**Expert / Specialty tier**
-- Gunnery
-- Firearms
-- Close-quarters combat
-- Tactics
-- Explosives
-- Anti-anomaly combat _(Rimaer)_
-**Master / Mastery tier**
-- Weapon specialization
-- Command
-#### 🎭 Soft Skills
-**Trained / Proficiency tier**
-- Art
-- Social _(RimWorld)_
-- Recreation _(RimWorld — performance, music, crafted entertainment)_
-**Expert / Specialty tier**
-- Negotiation
-- Performance
-- Manipulation
-- Interrogation
-**Master / Mastery tier**
-- Diplomacy
-- Cult deprogramming _(Rimaer)_
+**Social & Interpersonal**
+*   **Abrasive:** You are naturally rude and condescending. Your harsh words and lack of a filter make people instantly dislike talking to you, ruining negotiations and friendships alike.
+*   **Stubborn:** You are entirely unwilling to admit you are wrong. Once you make a decision, you refuse to change course, even when overwhelming evidence proves it to be a fatal mistake.
+*   **Misogynist / Misandrist:** You hold a deep-seated contempt for men or women. You openly disrespect them, refuse their authority, and constantly antagonize them.
+*   **Creepy Breathing / Annoying Voice:** There is something deeply grating about your presence. People naturally find it unpleasant and want to avoid being in the same room as you for very long.
+*   **Kind:** You are deeply empathetic and gentle. You go out of your way to comfort others, offer a kind word, and avoid cruelty, often putting the emotional well-being of the group above your own comfort.
+*   **Ugly:** You possess features that others find deeply unpleasant to look at. People tend to unconsciously avoid you, meaning you generally make a poor first impression in social situations.
+*   **Beautiful:** You are strikingly attractive. While people are easily charmed by your presence and eager to do you favors, your looks constantly provoke bitter jealousy among allies and draw dangerous, obsessive attention from enemies.
+
+
 ### Step 5 — Proficiencies
 
-NullFrame core. Backstories grant 2 Proficiencies. 
+NullFrame core. Backstories grant 2 Proficiencies.
 
 Total at start: **3 Proficiencies**.
 
@@ -240,9 +231,9 @@ Proposed Paths (mapped to RimWorld pawn archetypes + colony roles):
 
 #### Outlier Paths
 
-- 📚 **Archivist** — Concord history, anomaly study, broad intellectual work
-- 🕵️ **Operative** — espionage, social engineering, infiltration (Concord internal security)
-- ⛓️ **Survivor** — for PCs with non-standard origins (creepjoiner, late-revealed background, accidental colonist)
+- 📚 **Archivist** — Pantheon history, anomaly study, broad intellectual work
+- 🕵️ **Operative** — espionage, social engineering, infiltration (Pantheon internal security)
+- ⛓️ **Survivor** — for PCs with non-standard origins (creepjoiner, late-revealed background, accidental colonist, **vault wake**, **longevity elder**, **enclave recruit**)
 
 That's 15 Paths. Probably too many for first draft — recommend developing **6-8 fully** for first playtest and stubbing the rest.
 
@@ -253,7 +244,7 @@ That's 15 Paths. Probably too many for first draft — recommend developing **6-
 - **Anomaly-touched** (gained through play, not chargen)
 - **Cult survivor** (Burden-driven, not Play-driven)
 
-If you want a similar "wild talent" system, replace it with: **Concord Implant** — every colonist has one minor pre-installed augment from their training. Pick **1** from a list of 8-10. These are small, mechanically modest, but reinforce the sci-fi feel.
+If you want a similar "wild talent" system, replace it with: **Pantheon Implant** — every colonist has one minor pre-installed augment from their training. Pick **1** from a list of 8-10. These are small, mechanically modest, but reinforce the sci-fi feel.
 
 Examples:
 
@@ -279,7 +270,7 @@ Borrowed from RimWorld's Ideology DLC. The **colony as a group** picks an ideolo
 Suggested starting ideologies for the Oasis colonists (they all left with these, established before launch):
 
 - **The Scientific Method** — secular, empiricist, pro-research, anti-mysticism
-- **Concord Loyalists** — the dead government's beliefs, hierarchy, duty, lawfulness
+- **Pantheon Loyalists** — the dead government's beliefs, hierarchy, duty, lawfulness
 - **Pioneer Spirit** — frontier ethos, self-reliance, suspicion of authority
 - **Humanist Compact** — preservation of unmodified humanity, distrust of bionics/genes
 - **Transhumanist Future** — embrace augmentation, body modification, post-humanity
@@ -294,22 +285,22 @@ The cult ideologies (Cult of the Fourth, etc.) exist in the world but aren't pla
 
 These should be specific to the Rimaer setting:
 
-- _I cannot bring myself to harm a Concord-era artifact_
+- _I cannot bring myself to harm a Pantheon-era artifact_
 - _I freeze when I see anomalous geometry_
 - _I will not trust anyone who survived on the surface_
 - _I cannot refuse a request from another colonist_
-- _I still believe the Concord will come for us_
+- _I still believe the Pantheon will come for us_
 
 ### Step 11 — Starting Gear & Possessions
 
-A **Concord Standard Issue** kit, plus 1-2 items from backstory possessions, plus 1 item from Path.
+A **Pantheon Standard Issue** kit, plus 1-2 items from backstory possessions, plus 1 item from Path.
 
-Concord Standard Issue (everyone gets):
+Pantheon Standard Issue (everyone gets):
 
 - Sealed work coverall
-- Personal tablet (Concord database access)
+- Personal tablet (Pantheon database access)
 - Standard ration pack (3 days)
-- Concord ID
+- Pantheon ID
 - Subdermal comm
 
 Backstory and Path add specific gear (a sidearm for Marines, a medkit for Medics, etc.)
@@ -326,13 +317,13 @@ One sentence per other PC: how do you know them, and what do you owe each other?
 
 A character's Skill in the relevant area lets them invoke an Edge **without** needing a Proficiency justification, scaled by Skill level:
 
-|Skill Level|Edge Use|
-|---|---|
-|0|None — needs Proficiency to invoke this domain|
-|1|Once per session|
-|2|Once per scene|
-|3|At will|
-|4|At will, plus +1 to other PCs' related rolls when assisting|
+| Skill Level | Edge Use                                                    |
+| ----------- | ----------------------------------------------------------- |
+| 0           | None — needs Proficiency to invoke this domain              |
+| 1           | Once per session                                            |
+| 2           | Once per scene                                              |
+| 3           | At will                                                     |
+| 4           | At will, plus +1 to other PCs' related rolls when assisting |
 
 Skills also gate which Plays a Path can pick. (Some Plays require Skill 2+ in a relevant domain.)
 
@@ -342,17 +333,17 @@ Each PC has a **Mood** track: -3 (broken) to +3 (inspired).
 
 Mood shifts based on **Moodlets**: temporary modifiers tied to events.
 
-|Moodlet Examples|Shift|
-|---|---|
-|Slept on the ground|-1 (1 day)|
-|Witnessed an anomaly without screaming|-1 (1 week)|
-|Attended ritual / meal with the colony|+1 (1 day)|
-|Fellow colonist died|-2 (1 week)|
-|Drug high|+1 (4 hours)|
-|Drug crash|-2 (12 hours)|
-|Killed a human|-1 (3 days)|
-|Successful research breakthrough|+2 (1 week)|
-|Spouse / close friend died|-3 (2 weeks)|
+| Moodlet Examples                       | Shift         |
+| -------------------------------------- | ------------- |
+| Slept on the ground                    | -1 (1 day)    |
+| Witnessed an anomaly without screaming | -1 (1 week)   |
+| Attended ritual / meal with the colony | +1 (1 day)    |
+| Fellow colonist died                   | -2 (1 week)   |
+| Drug high                              | +1 (4 hours)  |
+| Drug crash                             | -2 (12 hours) |
+| Killed a human                         | -1 (3 days)   |
+| Successful research breakthrough       | +2 (1 week)   |
+| Spouse / close friend died             | -3 (2 weeks)  |
 
 **Mood and Mechanics:**
 
@@ -454,7 +445,7 @@ Each PC has body slots that can hold augmentations:
 
 - **Prosthetic** — replaces a missing/damaged part. Restores function but no bonus.
 - **Bionic** — replaces a part with mechanical superior. Grants a permanent +1 Edge in a related domain.
-- **Archotech** — relics from Concord ultratech, rare salvage. Grants a Play.
+- **Archotech** — relics from Pantheon ultratech, rare salvage. Grants a Play.
 
 ### 6.3 Sample Augmentations
 
@@ -485,7 +476,7 @@ Augmentation creates **mood divisions**. The Humanist Compact ideology penalizes
 
 ### 7.1 Not Available at Start
 
-The colonists begin as **Baseliners** — standard human stock. Gene modification was Concord-restricted technology, and the equipment to do it is buried in the ruins below or aboard the Oasis but not yet operational.
+The colonists begin as **Baseliners** — standard human stock. Gene modification was Pantheon-restricted technology, and the equipment to do it is buried in the ruins below or aboard the Oasis but not yet operational.
 
 ### 7.2 Recovery Path
 
@@ -498,7 +489,7 @@ The colony can pursue gene tech as a research arc:
 
 ### 7.3 Xenotypes (Surviving Descendant Variants)
 
-The 1500-year drift has produced **degraded xenotypes** among marsh descendants. These are NPC-only initially but can become PC options:
+Four centuries of drift and anomaly exposure have produced **degraded xenotypes** among marsh descendants and vault populations. These are NPC-only initially but can become PC options:
 
 - **Margfolk** — squat, web-footed, low-light vision, weak immune system
 - **Ghostkin** — pale, anomaly-touched, unsettling presence, partial precognition
@@ -519,7 +510,7 @@ Following RimWorld's metabolic efficiency model: powerful positive genes increas
 
 ### 8.1 Origin
 
-All anomalies on Rimaer are **botched atomic rewrites** from the Cult's drive activations during the disaster. They are not supernatural. They are physics gone wrong, slowly equilibrating over 1,500 years. Treated like Dead Space necromorphs / Annihilation effects rather than Lovecraft entities.
+All anomalies on Rimaer are **botched atomic rewrites** from the Cult's drive activations during the disaster. They are not supernatural. They are physics gone wrong, slowly equilibrating over 400 years. Treated like Dead Space necromorphs / Annihilation effects rather than Lovecraft entities.
 
 ### 8.2 Anomaly Tier System
 
@@ -536,7 +527,7 @@ The colony advances tiers by:
 - Surviving long enough (passive)
 - Investigating ruins (active)
 - Approaching cult activation sites (active)
-- Recovering Concord drive components (active — escape requires this, but it costs)
+- Recovering Pantheon drive components (active — escape requires this, but it costs)
 
 ### 8.3 Containment
 
@@ -573,7 +564,7 @@ A campaign-long document tracking every anomaly the colony has identified, conta
 
 Three parallel tracks, drawn from RimWorld with Rimaer additions:
 
-**Standard Research** — recovering Concord knowledge from the library
+**Standard Research** — recovering Pantheon knowledge from the library
 
 - Improves colony tech, unlocks gear, structures, drugs
 - Driven by Intellectual skill at a research bench
@@ -643,7 +634,7 @@ Standard categories:
 - ⚡ Power
 - 🔩 Materials (split: metals, polymers, electronics)
 - 🩸 Bioferrite-equivalent (anomaly material)
-- 💎 Concord-tech components (rare)
+- 💎 Pantheon-tech components (rare)
 
 Update at end of every session. When something hits zero, it's a crisis.
 
@@ -665,12 +656,12 @@ When colony mood is low: **defections, theft, faction formation, schism.**
 
 ### 11.1 Factions to Develop
 
-- 🌿 **The Margfolk** — descendant tribes of the marsh; tribal-tier; probably hostile-curious at first
+- 🌿 **The Margfolk** — marsh enclaves (vault-born, enclave-born, and mixed); tribal-to-scavenger tier; hostile-curious at first
 - 🏚️ **The Reclaimers** — scavenger pirates working old ruins; industrial-tier; pure profit motive
 - 👁️ **The Drowned Choir** — surviving Cult of the Fourth descendants; cult-tier; long-term antagonist
-- 🪦 **The Pilgrims** — wandering survivors who blame the Concord and worship the dead world
+- 🪦 **The Pilgrims** — wandering survivors who blame the Pantheon and worship the dead world
 - 🛰️ **The Watcher Station** — the unknown orbital observer
-- 🏛️ **Concord Remnant Outposts** (if any survive — to be decided per campaign)
+- 🏛️ **Pantheon Remnant Outposts** (if any survive — to be decided per campaign)
 
 ### 11.2 Trade Mechanics
 
@@ -726,7 +717,7 @@ This means some "combats" are puzzle encounters where the answer is research, no
 
 Three rough tiers of weapons available:
 
-**Concord Standard (PCs start with)**
+**Pantheon Standard (PCs start with)**
 
 - Pulse rifles, sidearms, shock batons, ceramic body armor
 - High quality but limited ammo
@@ -762,7 +753,7 @@ Cult Activity affects:
 
 ### 13.2 The Drowned Choir's Goal
 
-Long-term antagonist faction. They believe the Concord's failure proved the cult right. They want to **complete the original ritual** — finish what the founders started 1,500 years ago. They are wrong. They are also numerous and deeply patient.
+Long-term antagonist faction. They believe the Pantheon's failure proved the cult right. They want to **complete the original ritual** — finish what the founders started 400 years ago. They are wrong. They are also numerous, patient across generations, and some of their elders remember the Fall firsthand.
 
 ### 13.3 Hidden Cult Members
 
@@ -792,7 +783,7 @@ To get the framework playable, prioritize developing in this order:
 3. ✅ 12 traits (mood / combat / cognitive / chemical, mix)
 4. ✅ Skill list with Edge mechanics defined
 5. ✅ 6-8 Paths fully written (recommend: Marine, Engineer, Medic, Agronomist, Drive Specialist, Archivist, Operative, Augmenter)
-6. ✅ Concord Implant list (10 options)
+6. ✅ Pantheon Implant list (10 options)
 7. ✅ 5 starting Ideologies
 8. ✅ Mood / Mental Break rules
 9. ✅ Drug list (10 drugs across 3 tiers)
