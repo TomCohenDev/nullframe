@@ -450,7 +450,7 @@ The system is **moderately swingy at baseline** but **highly consistent at high 
 
 ### What Narrative Injection Offers That Those Don't
 
-|Feature|Blades|Fate|Cortex|NullFrame|
+|Feature|Blades|Fate|Cortex|Diaphragma|
 |---|---|---|---|---|
 |Focus-after-rolling|✗|✗|✗|✓|
 |Intent-sets-difficulty|Partial|✗|✗|✓|
@@ -462,9 +462,9 @@ The system is **moderately swingy at baseline** but **highly consistent at high 
 
 ### Where It Is Strictly Weaker
 
-- **Character differentiation (vs Blades):** Blades has playbooks with unique abilities. NullFrame has... Anchors.
-- **Aspect economy (vs Fate):** Fate's invoke/compel cycle creates dynamic play. NullFrame's aspects are static bonuses.
-- **Modularity (vs Cortex):** Cortex can be configured for any genre with dial-tuning. NullFrame requires Frameworks that don't exist.
+- **Character differentiation (vs Blades):** Blades has playbooks with unique abilities. Diaphragma has... Anchors.
+- **Aspect economy (vs Fate):** Fate's invoke/compel cycle creates dynamic play. Diaphragma's aspects are static bonuses.
+- **Modularity (vs Cortex):** Cortex can be configured for any genre with dial-tuning. Diaphragma requires Frameworks that don't exist.
 
 ### How to Sharpen Identity
 
@@ -793,9 +793,9 @@ The core resolution engine is solid, but the ecosystem around it is confused. Yo
 
 ### 7) Comparison & Positioning
 
-1.  **Blades in the Dark:** *NullFrame* lacks the distinct "Position/Effect" grid, creating less clarity on risks. However, *NullFrame* is much faster to resolve (one roll vs action/resist/stress).
-2.  **Cortex Prime:** *NullFrame* is essentially Cortex without the complex dice sizes. *NullFrame* is faster, but Cortex handles "Effect" better (using the size of the effect die).
-3.  **Draw Steel / D&D 4e:** *NullFrame* wants this tactical feel but lacks the keywords (Push, Slow, Daze, Flank).
+1.  **Blades in the Dark:** *Diaphragma* lacks the distinct "Position/Effect" grid, creating less clarity on risks. However, *Diaphragma* is much faster to resolve (one roll vs action/resist/stress).
+2.  **Cortex Prime:** *Diaphragma* is essentially Cortex without the complex dice sizes. *Diaphragma* is faster, but Cortex handles "Effect" better (using the size of the effect die).
+3.  **Draw Steel / D&D 4e:** *Diaphragma* wants this tactical feel but lacks the keywords (Push, Slow, Daze, Flank).
 
 **Unique Value:** The "Spend Resource AFTER Roll" mechanic combined with "Stat Caps Resource Spend" is the USP. Lean into that. That is the one mechanic here that feels fresh and solves the "wasted turn" problem.
 

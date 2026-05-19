@@ -1,6 +1,6 @@
 # Rimaer Framework — Design Brainstorm
 
-**Status:** Working draft, pre-skeleton **Purpose:** Capture every mechanic, system, and content area to build into the NullFrame Rimaer framework before locking the structure **Last Updated:** 2026-05-08
+**Status:** Working draft, pre-skeleton **Purpose:** Capture every mechanic, system, and content area to build into the Diaphragma Rimaer framework before locking the structure **Last Updated:** 2026-05-08
 
 ---
 
@@ -8,7 +8,7 @@
 
 The Rimaer framework is the bridge between three things:
 
-- **NullFrame's mechanical core** — narrative resolution, Edges/Bains/Burdens, Proficiencies/Specialties/Plays
+- **Diaphragma's mechanical core** — narrative resolution, Edges/Bains/Burdens, Proficiencies/Specialties/Plays
 - **The Rimaer setting** — sci-fi colonists, the wreck of the Oasis, the marsh, the truth of the dead world
 - **The RimWorld feel** — colony management, named pawns, mood, ideology, anomalies, gear, drugs, bionics, gene mods, scarcity, slow progress under pressure
 - **Mothership 1E** feel and influenced
@@ -90,7 +90,7 @@ Bureaucrats and specialists who manage the human element of the 4,400 souls.
 
 ---
 
-## 2. What This Framework Adds On Top of NullFrame Core
+## 2. What This Framework Adds On Top of Diaphragma Core
 
 ### 2.1 New player-facing systems
 
@@ -100,7 +100,7 @@ Bureaucrats and specialists who manage the human element of the 4,400 souls.
 - **Addiction & Drugs** — chemical dependency as a real mechanical hazard
 - **Bionics & Cybernetics** — augmentations slot into body parts, grant Edges/Plays
 - **Genes & Xenotypes** — biological modifications, traits, abilities
-- **Skills** — RimWorld-style numerical tracker that feeds into NullFrame Edges
+- **Skills** — RimWorld-style numerical tracker that feeds into Diaphragma Edges
 - **Traits** — RimWorld-style permanent personality features
 - **Backstories** — RimWorld-style two-part personal history
 - **Ideology** — chosen belief systems with mechanical effects
@@ -191,13 +191,13 @@ permanent personality traits. Pick **2 traits**, one of which can be replaced by
 
 ### Step 5 — Proficiencies
 
-NullFrame core. Backstories grant 2 Proficiencies.
+Diaphragma core. Backstories grant 2 Proficiencies.
 
 Total at start: **3 Proficiencies**.
 
 ### Step 6 — Specialties
 
-Total at start: **2 Specialties** (matches NullFrame default).
+Total at start: **2 Specialties** (matches Diaphragma default).
 
 ### Step 7 — Path (Specialization)
 
@@ -281,7 +281,7 @@ The cult ideologies (Cult of the Fourth, etc.) exist in the world but aren't pla
 
 ### Step 10 — Burdens
 
-**1-2 Burdens** chosen at character creation. NullFrame core mechanic — the defining flaws.
+**1-2 Burdens** chosen at character creation. Diaphragma core mechanic — the defining flaws.
 
 These should be specific to the Rimaer setting:
 
@@ -311,7 +311,7 @@ One sentence per other PC: how do you know them, and what do you owe each other?
 
 ---
 
-## 4. Skills, Mood, and Mental State (RimWorld Layer on NullFrame)
+## 4. Skills, Mood, and Mental State (RimWorld Layer on Diaphragma)
 
 ### 4.1 Skills as Edge Enablers
 
@@ -686,9 +686,9 @@ Treat carefully. Worth flagging as a content topic with players in session zero.
 
 ## 12. Combat and Encounters in Rimaer
 
-### 12.1 NullFrame Combat Stays
+### 12.1 Diaphragma Combat Stays
 
-The core NullFrame combat rules apply: Settle/Roll, Edges, Bains, Burdens, Presence for enemies. No major changes.
+The core Diaphragma combat rules apply: Settle/Roll, Edges, Bains, Burdens, Presence for enemies. No major changes.
 
 ### 12.2 Setting-Specific Bains
 

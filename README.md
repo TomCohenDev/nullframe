@@ -36,7 +36,7 @@ A narrative-focused TTRPG that combines crunchy dice pool mechanics with player 
 ## Repository Structure
 
 ```
-NullFrame/
+Diaphragma/
 ├── README.md                 # You are here
 ├── RULES_SUMMARY.md          # Complete core rules (v0.3) - Single comprehensive reference
 │

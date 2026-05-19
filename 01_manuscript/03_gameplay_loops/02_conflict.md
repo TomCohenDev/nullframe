@@ -1,6 +1,6 @@
 # Conflict: Combat
 
-Combat in NullFrame uses the same core loop as any other action. You declare your intent, build your pool, roll, and count Successes. The difference is the stakes.
+Combat in Diaphragma uses the same core loop as any other action. You declare your intent, build your pool, roll, and count Successes. The difference is the stakes.
 
 ---
 

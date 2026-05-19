@@ -33,7 +33,7 @@ Players may choose an ancestry that grants a minor bonus:
 **Halfling** - Lucky (Once per session, reroll any check and take the better result)
 **Half-Orc** - Powerful (+1d6 to Might-based intimidation and raw strength)
 
-**Note:** These are light mechanical touches. NullFrame focuses on Anchors/Burdens over racial mechanics.
+**Note:** These are light mechanical touches. Diaphragma focuses on Anchors/Burdens over racial mechanics.
 
 ### Starting Gear
 

@@ -1,6 +1,6 @@
 curr# Pacing: Scenes vs Downtime
 
-NullFrame alternates between **Scenes** (action, risk, rolls) and **Downtime** (recovery, planning, roleplay).
+Diaphragma alternates between **Scenes** (action, risk, rolls) and **Downtime** (recovery, planning, roleplay).
 
 ---
 

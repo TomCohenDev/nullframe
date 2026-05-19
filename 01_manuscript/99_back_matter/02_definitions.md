@@ -88,4 +88,4 @@ A glossary of key terms.
 
 If you succeed on the roll, your Intent happens. No "you hit but didn't do enough damage." No "you persuaded him but he still won't do it." Success means what you described becomes true.
 
-This is the most important rule in NullFrame. Use it. Trust it. It makes the game better.
+This is the most important rule in Diaphragma. Use it. Trust it. It makes the game better.

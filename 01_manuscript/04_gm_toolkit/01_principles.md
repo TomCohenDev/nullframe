@@ -1,6 +1,6 @@
 # GM Principles
 
-Running NullFrame is about facilitating play, not controlling the story. These principles guide you.
+Running Diaphragma is about facilitating play, not controlling the story. These principles guide you.
 
 ---
 
@@ -108,7 +108,7 @@ Adjust accordingly. The economy should _flow_.
 
 ## Improvisation
 
-NullFrame is designed for improvisation. You don't need to prep everything.
+Diaphragma is designed for improvisation. You don't need to prep everything.
 
 **Single-number NPCs:** Level determines everything (Difficulty to affect, threat they pose).
 

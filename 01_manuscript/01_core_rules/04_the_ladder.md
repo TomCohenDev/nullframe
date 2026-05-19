@@ -1,6 +1,6 @@
 # The Ladder: Ambition vs Difficulty
 
-This is the most important rule in NullFrame:
+This is the most important rule in Diaphragma:
 
 **If you succeed on the roll, your Intent happens. Period.**
 

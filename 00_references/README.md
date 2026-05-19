@@ -1,6 +1,6 @@
 # Reference Materials
 
-Research, inspiration, and source documents for NullFrame design.
+Research, inspiration, and source documents for Diaphragma design.
 
 ---
 

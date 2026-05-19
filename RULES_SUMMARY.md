@@ -1,4 +1,4 @@
-# NullFrame: Rules Summary
+# Diaphragma: Rules Summary
 
 **Version:** Working Draft v1.0
 **Last Updated:** 2026-03-30
@@ -20,9 +20,19 @@
 
 ## 1. Core Concepts
 
-### What is NullFrame?
+### What is Diaphragma?
 
-NullFrame is a narrative-first tabletop RPG built around fictional leverage instead of HP totals or heavy stat blocks. Characters survive by keeping useful **Edges** in play and avoiding situations where the Storyteller can stack **Bains** against them.
+Diaphragma is a narrative-first tabletop RPG engine for cinematic, high-stakes stories.
+
+It is not a complete setting by itself. It is a strong core of rules designed to be built on. Each campaign uses a **Framework**: a setting-specific layer that adds genre, tone, character options, powers, enemies, gear, and special rules.
+
+Diaphragma is for tables that want freedom without losing structure. Players describe bold actions, use their surroundings, invoke useful details, and create the conditions needed to overcome danger. The rules do not ask "which stat do you roll?" first. They ask: **what are you trying to do, what gives you leverage, and what is standing in your way?**
+
+Combat is not about standing still and trading attacks. Dangerous enemies are problems to solve. A master duelist may need to be distracted. A giant may need to be brought down. A machine may need to be sabotaged. A monster may need to be exposed before it can be harmed.
+
+Diaphragma supports turns, grids, and structure when useful — but they are tools, not the default. The intended experience is fast, fictional, and cinematic: fewer rolls, stronger consequences, and scenes that move like stories instead of board games.
+
+**One-sentence identity:** Diaphragma is a modular narrative RPG about finding the opening between danger and victory.
 
 ### Key Terms
 
@@ -48,12 +58,13 @@ NullFrame is a narrative-first tabletop RPG built around fictional leverage inst
 - **ST** — **Storyteller Tokens**, spent by the Storyteller to invoke Bains
 
 ### Design Goals
-did
-- **Cinematic** — Big actions, bold declarations, few rolls
-- **Resourceful** — The fiction around you matters as much as the die
-- **Expressive** — Characters are defined by experiences, not stat arrays
-- **Modular** — Frameworks can add genre-specific rules on top of the core
-- **Light** — The table should discuss the scene, not a stack of subsystems
+
+- **Cinematic** — One roll can resolve a complex action. Scenes move quickly and dramatically.
+- **Resourceful** — The best advantage is found in the fiction: gear, terrain, allies, information, preparation, enemy weakness.
+- **Setup-driven** — Major threats are overcome by creating openings, not by repeating attacks.
+- **Expressive** — Characters are built from experiences, Burdens, specialties, and memorable moments — not fixed stat arrays.
+- **Modular** — The core rules are a foundation. Frameworks add genre-specific mechanics, powers, roles, and threats.
+- **Narrative-first** — The fiction decides what can happen. The rules decide what it costs.
 
 ---
 
@@ -61,7 +72,7 @@ did
 
 ### The Core Die
 
-NullFrame uses **1d10**.
+Diaphragma uses **1d10**.
 
 You always choose one of two approaches:
 
@@ -108,7 +119,7 @@ When a character attempts something risky or uncertain:
 
 ### Partial Success and Staying Alive
 
-NullFrame has no separate HP track in the core rules. Instead, surviving danger is mostly about whether you still have enough fictional leverage to reach **Partial Success**.
+Diaphragma has no separate HP track in the core rules. Instead, surviving danger is mostly about whether you still have enough fictional leverage to reach **Partial Success**.
 
 A **Partial Success** always favors the player taking the action.
 
@@ -563,7 +574,7 @@ A Framework may define:
 
 ### Plays
 
-**Plays** are setting-specific abilities, powers, maneuvers, or special actions. They are the closest thing NullFrame has to PbtA-style moves.
+**Plays** are setting-specific abilities, powers, maneuvers, or special actions. They are the closest thing Diaphragma has to PbtA-style moves.
 
 Plays are usually unique to a character build and chosen from a larger list provided by the Framework.
 

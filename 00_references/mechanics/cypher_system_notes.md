@@ -1,6 +1,6 @@
 # Cypher System — Design Notes
 
-> Reference material for NullFrame design decisions.  
+> Reference material for Diaphragma design decisions.  
 > See the full analysis in the original document for details.
 
 ---

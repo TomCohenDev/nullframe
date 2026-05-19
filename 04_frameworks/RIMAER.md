@@ -10,7 +10,7 @@
 
 ## Framework Purpose
 
-This framework adapts **Rimaer** into NullFrame as a setting-specific layer focused on:
+This framework adapts **Rimaer** into Diaphragma as a setting-specific layer focused on:
 
 - colony survival after a 400-year cryosleep displacement
 - triage, scarcity, and hard choices with real consequences
@@ -163,7 +163,7 @@ See **Play List** below.
 
 ## 7. Edges in Play
 
-**Edges keep their normal NullFrame meaning.**
+**Edges keep their normal Diaphragma meaning.**
 
 They are not chosen at character creation. Edges are:
 
@@ -427,7 +427,7 @@ Do something reckless and unexpected. If your description is genuinely creative 
 
 # Legendary Plays
 
-Legendary Plays follow the **NullFrame core rules** (see RULES_SUMMARY.md, Section 8).
+Legendary Plays follow the **Diaphragma core rules** (see RULES_SUMMARY.md, Section 8).
 
 They begin empty and are **created from play** — not chosen at character creation. When a character does something truly memorable or iconic, the Storyteller may offer the chance to spend a **Legendary Token** to turn that moment into a permanent ability.
 

@@ -1,4 +1,4 @@
-# NullFrame Character Sheet — Draft v0.1
+# Diaphragma Character Sheet — Draft v0.1
 
 ---
 

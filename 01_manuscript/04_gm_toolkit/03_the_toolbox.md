@@ -179,11 +179,11 @@ These are **modular rules** you can add to the core game without breaking it. Mi
 
 Because you structured the Toolbox this way, you can release expansions later without rewriting the book.
 
-**Future Expansion 1:** "NullFrame: Neon Streets" (Adds Cyberware rules to the Toolbox)
+**Future Expansion 1:** "Diaphragma: Neon Streets" (Adds Cyberware rules to the Toolbox)
 
-**Future Expansion 2:** "NullFrame: Iron Kingdoms" (Adds Castle Management to the Toolbox)
+**Future Expansion 2:** "Diaphragma: Iron Kingdoms" (Adds Castle Management to the Toolbox)
 
-**Future Expansion 3:** "NullFrame: Cosmic Horror" (Adds expanded Horror rules to the Toolbox)
+**Future Expansion 3:** "Diaphragma: Cosmic Horror" (Adds expanded Horror rules to the Toolbox)
 
 The core game remains 50 pages. The expansions just plug into the Toolbox.
 

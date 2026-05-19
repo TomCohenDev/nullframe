@@ -39,7 +39,7 @@ That makes it one of the most playable starting locations in the setting, becaus
 
 ## Framework Purpose
 
-This framework adapts **Dark Sun** into NullFrame as a setting-specific layer focused on:
+This framework adapts **Dark Sun** into Diaphragma as a setting-specific layer focused on:
 
 - survival in a dying world
 - oppression within the city-state of Tyr
@@ -169,7 +169,7 @@ After choosing Race and Path, the player also defines:
 
 ## 6. Edges in Play
 
-**Edges keep their normal NullFrame meaning.**
+**Edges keep their normal Diaphragma meaning.**
 
 They are not chosen at character creation as a separate build category.
 Edges are still:
@@ -980,7 +980,7 @@ The choice of method is a _conversation at the table,_ not a dice roll. The inte
 
 Not every spell takes the same energy. A caster lighting a candle draws almost nothing. A caster leveling a building draws enough life to kill a grove. The Null and the player work out the scale together before the cast resolves.
 
-NullFrame magic uses three tiers of scale, tied to the Play rhythm:
+Diaphragma magic uses three tiers of scale, tied to the Play rhythm:
 
 ### Cantrip Scale — _small, incidental, free_
 

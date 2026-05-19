@@ -1,6 +1,6 @@
 # The White Fang Lie
 
-## One-Hour NullFrame Playtest
+## One-Hour Diaphragma Playtest
 
 ### Playtest Goals
 

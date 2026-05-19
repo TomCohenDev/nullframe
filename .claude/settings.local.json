@@ -3,7 +3,14 @@
     "allow": [
       "Bash(powershell:*)",
       "Bash(xargs ls:*)",
-      "Bash(find /Users/tomcohen/github/nullframe -type d -name *rimaer* -o -type d -name *framework*)"
+      "Bash(find /Users/tomcohen/github/diaphragma -type d -name *rimaer* -o -type d -name *framework*)",
+      "Bash(typst fonts *)",
+      "Bash(findstr /i \"barlow\")",
+      "WebFetch(domain:typst.app)",
+      "Bash(typst compile *)"
     ]
-  }
+  },
+  "disabledMcpjsonServers": [
+    "supabase"
+  ]
 }

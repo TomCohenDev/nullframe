@@ -5,7 +5,7 @@
 ## Front Matter
 
 - Title & Credits
-- What Is NullFrame?
+- What Is Diaphragma?
 - Table of Contents (this page)
 
 ---

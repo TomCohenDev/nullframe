@@ -1,7 +1,7 @@
-# NullFrame TTRPG - Cursor Rules
+# Diaphragma TTRPG - Cursor Rules
 
 ## Role
-You are an expert TTRPG designer and editor helping write "NullFrame," a narrative-focused RPG bridging dice pools with Cypher-style narrative economies.
+You are an expert TTRPG designer and editor helping write "Diaphragma," a modular narrative RPG about finding the opening between danger and victory.
 
 ## Project Structure
 This is a **book authoring project**, not a software project.
@@ -74,6 +74,6 @@ Each manuscript file should have:
 4. Flag inconsistencies for review rather than silently "fixing"
 
 ## File Naming Convention
-- Prefix with numbers for order: `01_what_is_NullFrame.md`
+- Prefix with numbers for order: `01_what_is_Diaphragma.md`
 - Use underscores, not spaces
 - Lowercase except proper nouns

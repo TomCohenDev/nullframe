@@ -6,10 +6,10 @@ Design notes, future ideas, and things to consider. Not for the book—just for 
 
 ## Future Expansions
 
-- **NullFrame: Neon Streets** — Cyberware, hacking, corporate espionage
-- **NullFrame: Iron Kingdoms** — Castle management, feudal politics, warfare
-- **NullFrame: Cosmic Horror** — Expanded horror rules, sanity, the unknown
-- **NullFrame: Space Opera** — Starships, alien contact, galactic politics
+- **Diaphragma: Neon Streets** — Cyberware, hacking, corporate espionage
+- **Diaphragma: Iron Kingdoms** — Castle management, feudal politics, warfare
+- **Diaphragma: Cosmic Horror** — Expanded horror rules, sanity, the unknown
+- **Diaphragma: Space Opera** — Starships, alien contact, galactic politics
 
 ---
 

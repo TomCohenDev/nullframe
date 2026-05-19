@@ -11,7 +11,7 @@ Compiled outputs go here.
 ```bash
 # Example (not yet implemented)
 cd 01_manuscript
-pandoc **/*.md -o ../dist/NullFrame_alpha.pdf --toc
+pandoc **/*.md -o ../dist/Diaphragma_alpha.pdf --toc
 ```
 
 ---
@@ -20,12 +20,12 @@ pandoc **/*.md -o ../dist/NullFrame_alpha.pdf --toc
 
 | File | Version | Date | Notes |
 |------|---------|------|-------|
-| *(none yet)* | | | |
+| `diaphragma-players-book.pdf` | Players Book | 2026-05 | Typst build from `book/main.typ` |
 
 ---
 
 ## Version Naming
 
-- `NullFrame_alpha_v0.1.pdf` — Early drafts, incomplete
-- `NullFrame_beta_v1.0.pdf` — Feature complete, testing
-- `NullFrame_v1.0.pdf` — Release candidate
+- `Diaphragma_alpha_v0.1.pdf` — Early drafts, incomplete
+- `Diaphragma_beta_v1.0.pdf` — Feature complete, testing
+- `Diaphragma_v1.0.pdf` — Release candidate

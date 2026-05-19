@@ -1,6 +1,6 @@
 # Core Mechanics: The Roll
 
-In **NullFrame**, some actions or situations call for a roll so the story moves forward with unexpected results. This chapter explains how to build your dice hand, resolve actions, and use your identity to shape the outcome.
+In **Diaphragma**, some actions or situations call for a roll so the story moves forward with unexpected results. This chapter explains how to build your dice hand, resolve actions, and use your identity to shape the outcome.
 
 > **Before We Start: Anatomy of a Character**
 > To make a roll, you need to know what is on your character sheet:
@@ -131,7 +131,7 @@ Every character has four stats. Each stat has:
 
 ### 2. Your Approach Defines the Stat
 
-In NullFrame, actions are not locked to specific stats. You use the stat that matches your description.
+In Diaphragma, actions are not locked to specific stats. You use the stat that matches your description.
 
 | Stat          | Domain                                                   |
 | :------------ | :------------------------------------------------------- |

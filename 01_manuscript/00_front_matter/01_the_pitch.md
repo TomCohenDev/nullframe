@@ -1,6 +1,6 @@
-# What Is NullFrame?
+# What Is Diaphragma?
 
-NullFrame is a tabletop RPG about **creating epic cinematic stories through fast, tactical play**.
+Diaphragma is a modular narrative RPG about **finding the opening between danger and victory** — epic cinematic stories through fast, tactical play.
 
 It walks the narrow line between crunchy mechanics and narrative freedom. You build dice pools, spend resources, and make choices—but every roll is about **what you want to happen**, not just whether you hit or miss.
 
@@ -14,7 +14,7 @@ Want to kill the dragon with a fork? That's 10 marks. Can you build a pool big e
 
 You're a master sniper taking an impossible shot. In most games, you roll, you hit or miss, you move on.
 
-In NullFrame, you roll your dice pool and count your **Successes** (d6s showing 5-6). If your number of success is equal or above the difficulty rating the you succeeded in your intent!
+In Diaphragma, you roll your dice pool and count your **Successes** (d6s showing 5-6). If your number of success is equal or above the difficulty rating the you succeeded in your intent!
 
 But you also have **Injections**—special abilities defined on your character sheet. Those injections can complete chance the scene even in retrospect!
 
@@ -65,7 +65,7 @@ You're not asking the GM if these things are true. You're _making_ them true—w
 
 ## What Kind of Stories?
 
-NullFrame is **setting-agnostic**. The core mechanics work for:
+Diaphragma is **setting-agnostic**. The core mechanics work for:
 
 - **Cyberpunk:** Hackers, mercenaries, corporate espionage
 - **Fantasy:** Swords, sorcery, dungeon delving

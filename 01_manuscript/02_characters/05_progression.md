@@ -130,7 +130,7 @@ When setting-specific content is released (magic systems, cybernetics, psionics,
 
 These systems will be modular—GMs can add them to their campaign or ignore them entirely.
 
-**For now:** The core NullFrame system does not include setting-specific abilities. They will be released as expansion content.
+**For now:** The core Diaphragma system does not include setting-specific abilities. They will be released as expansion content.
 
 ---
 
@@ -237,6 +237,6 @@ See **The Economy** chapter for detailed NP award guidelines.
 
 ## Final Thought
 
-Progression in NullFrame isn't just about getting mechanically stronger. It's about growing your character narratively—facing your Burdens, mastering your skills, and becoming a legend.
+Progression in Diaphragma isn't just about getting mechanically stronger. It's about growing your character narratively—facing your Burdens, mastering your skills, and becoming a legend.
 
 **Spend your NP. Tell your story. Become who you're meant to be.**

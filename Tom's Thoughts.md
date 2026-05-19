@@ -66,11 +66,11 @@ i use one focus point for success and my sword grands me 1 success as well (impa
 
 ## **Date:** 2026-01-29
 
-im going to change the the of the game to NullFrame
+im going to change the the of the game to Diaphragma
 it just sounds coolder and the idea is that the players write stories in the framework the gm (null) desgined. 
 there could be many meanings to that name that would fit.
 the game master will be called Null, or the Null or whatwever.
-The game has the additions called frameworks which its desgined to work with so NullFrame it is (with capital N and F).
+The game has the additions called frameworks which its desgined to work with so Diaphragma it is (with capital N and F).
 
 I have become obssesd with a new dice mechanics called Presence.
 i fell in love with this system, first ill define my issues and problems that called for this dice throw system:
@@ -212,7 +212,7 @@ ok! it has been decieded. there are NO stats in the main rules.
 my resons are the following:
 * stats force the player to pick one at all times to a roll, im not sure i like that. and this exmaple shows why, i have a mighty player with background on heavy lifting but he has no combat experience. he goes and fights a bear, it that case his might can help ageinst the bear and bonuses will apply. in another case he tries to fight a martial artist. in that case his might will do nothing, the martial artist can eaither douge OR even is he takes a hit hel knows how to get hit to take minimal damage. those cases show clearly the problem. the player does the same action but the context could allow or not allow to use the might. in the latter case might wouldnt help at all ONLY combat experience. only if he manages to actually hit directly then maybe might would add bonus effect.
 * another reason is that different settings can have different stats that can help. in a heavy diplonatic setting, might or agility doesnt do much. and having 4 main stats regarding the expected conflics is more meaningful. so differtent frameworks should lead to having different stats. this by it self is not an issue, the issue become when the main rules already have the stat. so in that case, would they overwrite? . no, it confusing. if there will be stats, they should be extentions of the framework added.
-it would be good to add and emfesis that the main rules are basebone, they could allow to runa. game, but the system NullFrame is really ment to be built with added frameworks.
+it would be good to add and emfesis that the main rules are basebone, they could allow to runa. game, but the system Diaphragma is really ment to be built with added frameworks.
 
 OK then the quastion become, how do i seperate myself from others. how is my character special.
 the answer is through: profficiencies, burdens, aspects, gear, path (from framework)
@@ -348,7 +348,7 @@ lets break it down:
 		  1. that along with gear, aspects, prof, should put charaters at about 75% to succeding tasks at thier level if they utulize their kit correctly. min maxing with players palying perfectly should put them between 85%-90% precent chance for tasks for their level.
 
   What Still Needs Work                                                                                                                          
-  - The NP reward for burdens is missing now. You redesigned burdens mechanically but didn't address: why would a player ever voluntarily invoke their burden? The Cypher-style intrusion works because players get XP. What do NullFrame players get?                                          
+  - The NP reward for burdens is missing now. You redesigned burdens mechanically but didn't address: why would a player ever voluntarily invoke their burden? The Cypher-style intrusion works because players get XP. What do Diaphragma players get?                                          
   - Gear and Aspects still undefined. You wrote "not sure" for both. They're in a holding pattern.                                                 
   - Prof advancement tree isn't defined. You like the concept (soldier → sharpshooter) but haven't decided:                                       
 	  - How many advancements can branch from one proff?                                                                                             
@@ -1517,7 +1517,7 @@ This makes burden arcs feel like they matter long after they're resolved. It rew
   └─────────────────┴──────────┘                                                    
                                                             
   ---                                                                               
-  Why these numbers make sense for NullFrame specifically:
+  Why these numbers make sense for Diaphragma specifically:
                                                                                     
   - 50% fail generates lots of invocation tokens — the self-balancing rubber-band
   mechanic fires constantly                                                         
@@ -1613,7 +1613,7 @@ This makes burden arcs feel like they matter long after they're resolved. It rew
   Losses feel roughly twice as bad as equivalent gains feel good. A failure doesn't
   just feel neutral — it actively hurts.                                            
                                                             
-  This is critical for NullFrame specifically. Your invocation token system         
+  This is critical for Diaphragma specifically. Your invocation token system         
   partially neutralizes this — failure generates resources, so it's not a dead end.
   This is brilliant design. It means you can tolerate a higher failure rate than    
   most systems because failure gives something.             
@@ -1717,7 +1717,7 @@ This makes burden arcs feel like they matter long after they're resolved. It rew
   └───────────────┴──────────┘                                                      
    
   That's squarely inside the flow channel for a competent character — which is      
-  exactly where NullFrame should live.  
+  exactly where Diaphragma should live.  
 
 main runner ups for dice rolls
 5d6 
@@ -1735,7 +1735,7 @@ main runner ups for dice rolls
 	- fast resolution. dice shouldnt break narrative flow. the gap between deciding to act and narrating the result should be as small as possible. too many dice or rerolls kill cinematic pacing
 	- feel the bonuses in my hand. i prefer adding dice over adding static numbers. a static +1 feels invisible. picking up an extra d6 feels like something. the caveat is dice pools can destroy statistics fast — i tested 10d6 count 4+ and players got exactly 5 successes 12+ rolls in a row. boring and predictable
 	- use the dice for more than one thing. doubles, specific results, special triggers. i want the roll to have more mechanical potential than just a single number
-	- bell curve, not linear. a d20 where 1 and 20 have the same chance is not fun. i want competent characters to feel competent. the question is how competent the average NullFrame character should be — i dont assume adventurers, i allow for commoner protagonists, so the base should be humble
+	- bell curve, not linear. a d20 where 1 and 20 have the same chance is not fun. i want competent characters to feel competent. the question is how competent the average Diaphragma character should be — i dont assume adventurers, i allow for commoner protagonists, so the base should be humble
 	- that holy shit moment. d20 gets this right — the nat 20 in a desperate moment is legendary. i want my system to have its own version of that
 	- it needs to feel like mine. sometimes there is no pure logic to it. i know what i dont like. this system is for me and people like me
 
@@ -1768,11 +1768,11 @@ main runner ups for dice rolls
 		- read a lot about FitD vs PbtA today. key insight: FitD's dice pool isnt just a different curve, it answers a different design question. "how many avenues for success can you bring?" vs pbta's "how prepared are you for this moment?"
 		- the thresholds are the cleanest possible — just read the highest die, no addition
 		- the progression is genuinely different in feel: 1d feels desperate, 4d feels powerful. that emotional range across the pool size is something pbta cant replicate
-		- the dealbreaker for NullFrame: the rubber band invocation system requires a sum. tokens = 10 minus roll only works when adding dice together. take-highest has no natural equivalent. using it would mean rebuilding the resource engine from scratch
+		- the dealbreaker for Diaphragma: the rubber band invocation system requires a sum. tokens = 10 minus roll only works when adding dice together. take-highest has no natural equivalent. using it would mean rebuilding the resource engine from scratch
 		- FitD's rubber band equivalent is Stress + Resistance — a completely different architecture. the two systems are philosophically incompatible
 	- step dice (cortex prime)
 		- step dice sound cool. bigger die means bigger bonus. d4 weak, d6 average, d8 good, d10 great, d12 elite. you can SEE competence in your hand before rolling
-		- for NullFrame: base 2d6, proff replaces one d6 with d8 (rolls d6+d8), edge steps to d6+d10, mastery to d6+d12
+		- for Diaphragma: base 2d6, proff replaces one d6 with d8 (rolls d6+d8), edge steps to d6+d10, mastery to d6+d12
 		- the problem: as dice get bigger the range expands and the 10+ threshold breaks. d6+d8 already gives 31% full success at proff level (vs 17% base). d6+d10 hits 45%. that's too generous too fast
 		- if i shift the threshold upward with each die step i lose the clean numbers. players need to track both which dice they're rolling AND what counts as success. kills simplicity
 		- the current drop-dice system (3d6 drop lowest for proff, 4d6 drop 2 lowest for edge) solves this more elegantly — thresholds stay fixed, odds shift through the drop mechanic
@@ -1785,7 +1785,7 @@ main runner ups for dice rolls
 		- Csikszentmihalyi's flow theory: 65-75% total success rate (partial + full combined) keeps players in the flow channel. below 50% feels punishing, above 85% feels like a formality
 		- Kahneman's prospect theory: losses feel twice as bad as equivalent gains feel good. this is why the invocation rubber band is brilliant design — failure generates resources so it's not a pure loss. the psychological sting of failure is partially offset
 		- PbtA's 40 years of playtesting: the naked 2d6 roll almost never happens in actual PbtA play. at +1 bonus the partial success zone dominates at 44%. the system was designed to live in the 7-9 zone
-	- target ratios for NullFrame base roll (no bonuses):
+	- target ratios for Diaphragma base roll (no bonuses):
 		- fail: 35-38% — enough for tension and token generation, not punishing
 		- partial: 42-46% — the clear plurality, this is where the game lives
 		- full: 18-24% — rewarding but not expected
@@ -1798,8 +1798,8 @@ main runner ups for dice rolls
 	- FitD is PbtA. john harper has always said so. "forged in the dark" as a label came from the community not harper
 	- the real difference is when stakes are set: pbta embeds outcomes in the move text (designed by the author in advance), fitd negotiates position and effect at the table before rolling
 	- fitd's dice pool only feels different because it's paired with position/effect pre-negotiation. the mechanic serves that conversation. without it, take-highest is just a different curve
-	- NullFrame already has its own pre-roll conversation — the null determining what's possible, the player describing their cinematic action. that's our equivalent of position/effect
-	- the conclusion: the dice chassis is just the chassis. what makes NullFrame not feel like pbta is the invocation rubber band, the aspect system, the enemy design, the proficiency trees, the keywords. none of that lives in which dice you pick up
+	- Diaphragma already has its own pre-roll conversation — the null determining what's possible, the player describing their cinematic action. that's our equivalent of position/effect
+	- the conclusion: the dice chassis is just the chassis. what makes Diaphragma not feel like pbta is the invocation rubber band, the aspect system, the enemy design, the proficiency trees, the keywords. none of that lives in which dice you pick up
 
 - continued in a second session (gemini) - explored further after reaching the above conclusion:
 	- the reddit devlog also generated community feedback worth noting:
@@ -1824,12 +1824,12 @@ main runner ups for dice rolls
 		- tiers: 0 marks = failure, 1 mark = partial, 2 marks = full, 3 marks = critical
 		- base stats at 3d6: 29.6% fail / 44.4% partial / 22.2% full / 3.7% critical — hits the target ratios almost exactly
 		- the rubber band works physically: after rolling, split dice into mark pile and spark pile. spend a spark by moving it to the mark pile when you invoke an aspect. no math — failure literally transforms into success through the physical act
-		- interesting concept but unsure if this is what i want — the die manipulation is tactile and cool but it's a new game, not NullFrame
+		- interesting concept but unsure if this is what i want — the die manipulation is tactile and cool but it's a new game, not Diaphragma
 	- AI pitched d10 keep-highest with "settle/invoke/roll" as the core decision loop:
 		- pools: base 1d10, proff 2d10 keep highest, edge 3d10, mastery 4d10
 		- thresholds: 1-2 crit fail / 3-5 fail / 6-8 partial / 9 full / 10 crit success
 		- settle: if a proff applies, skip rolling and accept a result of 5 (always partial). generates tokens but cannot reach full success
-		- invoke: spend invocation tokens for +1 each (same rubber band engine as current NullFrame)
+		- invoke: spend invocation tokens for +1 each (same rubber band engine as current Diaphragma)
 		- roll: only path to full success or crit — but exposes you to crit fail and the stakes become real because you chose them
 		- the pitch: "settle, invoke, or roll?" as the table's heartbeat — the three-way decision loop embeds all four design keywords mechanically not just as flavor
 		- my reaction in the moment: "seems like we have our roll" — but need to sit with it. the settle mechanic is a big departure. if players never roll they never crit fail, which might undermine tension. and the effort/resource economy hasn't been tested. still open
