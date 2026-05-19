@@ -57,9 +57,21 @@
   #text(font: font-display, fill: rgb("#aaaaaa"), weight: 700, size: 11pt, tracking: 4pt)[PLAYERS RULEBOOK]
 
   #line(length: 100%, stroke: 0.5pt + rgb("#444"))
-  #v(5mm)
-  #columns(2, gutter: 8mm)[
-    #outline(title: none, depth: 2)
+  #v(10mm)
+  #pad(bottom: 16mm)[
+    #columns(2, gutter: 8mm)[
+      #outline(title: none, depth: 2)
+    ]
+  ]
+
+  #place(bottom)[
+    #line(length: 100%, stroke: 0.3pt + rgb("#444"))
+    #v(2.5mm)
+    #text(font: font-body, fill: rgb("#aaaaaa"), size: 8.5pt)[
+      Written by Tom Cohen
+      #linebreak()
+      Inspired by PbtA, Blades in the Dark, Mothership, Cortex Prime, and the Cypher System
+    ]
   ]
 ]
 
@@ -102,8 +114,6 @@ You'll read the room, find the angle, use your surroundings, exploit the weaknes
 
   #rule-title("What You Need")
 
-  #v(1mm)
-
   #grid(
     columns: (14mm, 1fr),
     column-gutter: 2mm,
@@ -129,35 +139,57 @@ You'll read the room, find the angle, use your surroundings, exploit the weaknes
 
   I've run a lot of different games. I love a tactical fight, positioning, setup, finding the angle that wins the moment. I also love the sessions where a player stops describing what they do and starts describing who they are while they do it.
 
-  For a long time, those two things felt like they were working against each other. Tactical games rewarded careful mechanical play, but the narration got thin. Narrative games let the story breathe, but felt that i am missing some of that crunch that made a tactical play so rewarding. You can play narratively in a tactical game — but the system doesn't help you. That weight falls entirely on the players, and most tables can't sustain it session after session.
+  For a long time, those two things felt like they were working against each other. Tactical games rewarded careful mechanical play, but the narration got thin. Narrative games let the story breathe, but felt that I am missing some of that crunch that made a tactical play so rewarding. You can play narratively in a tactical game, but the system doesn't help you. That weight falls entirely on the players, and I felt like my tables can't sustain it during sessions.
 
-  What I wanted was a play style where doing the smart thing and telling a good story were the same action. Where invoking the chandelier and explaining why your character would think of that were both rewarded — not separate modes of play.
+  What I wanted was a play style where doing the smart thing and telling a good story were both rewarded by the table. Sometimes you do the smart thing, sometimes you do the cool thing. Sometimes you do the crazy thing. Sometimes you do the stupid thing. But all of it is part of the story, and all of it is part of the table.
 
-  I also run a lot of one-shots. Different settings every few weeks — a heist, a horror crawl, a war story. Every time I had to teach a new system or bend the tone to fit rules that weren't built for the genre. I wanted one engine I could trust across all of it, and change the world by swapping the Framework, not the rulebook.
-
-  *Diaphragma* is that engine.
+  I also run a lot of one shots. Different settings every few weeks: a heist, a horror crawl, a war story. Every time I had to teach a new system or bend the tone to fit rules that weren't built for the genre. I wanted one engine I could trust across all of it, and change the world by swapping the Framework, not the rulebook.
 
   #colbreak()
 
   #rule-title("Four Design Commitments")
 
-  #v(2mm)
-
   #let keyword(label, desc) = {
     pill(label, width: 100%)
     v(1.5mm)
-    pad(left: 1mm)[#text(size: 7.5pt)[#desc]]
+    pad(left: 1mm)[#desc]
     v(4mm)
   }
 
-  #keyword("Cinematic", "One roll resolves a complex action — the sprint, the grab, the swing. No turn-by-turn breakdown. You describe the whole thing and roll once.")
-  #keyword("Resourceful", "Bonuses come from the fiction: the high ground you took, the darkness, the gear in your hand. Clever play earns mechanical advantage.")
-  #keyword("Expressive", "No stat scores. No class list. Your character is written as lived experience: 'I trained as a soldier.' 'I read law at university.' That history is what you roll with.")
-  #keyword("Modular", "The core rules ship without a setting. They pair with a Framework — a layer that adds the world, the tone, and the genre. Same engine, different game.")
-
-
+  #keyword("Cinematic", "One roll covers a complex action. You describe the whole move and roll once.")
+  #keyword("Resourceful", "Bonuses come from what is in the scene. The high ground you took, the darkness you moved through, the gear in your hand. Smart play earns real mechanical advantage.")
+  #keyword("Expressive", "Your character is built from lived experience. I trained as a soldier. I read law at university. That history is what you roll with. I want to enable the player to play the fantasy character they want to play")
+  #keyword("Modular", "The core rules ship without a setting. They are designed to pair with a Framework, a layer your Storyteller builds that adds the world, the tone, and the genre. Same engine, different game.")
 
 ]
+
+// #v(1fr)
+
+#align(center)[
+  *Diaphragma* is that engine.
+  #v(1mm)
+  This is my attempt to find that thin line between crunch and narrative freedom.
+]
+
+#v(5mm)
+
+#block(
+  width: 100%,
+  fill: black,
+  inset: (x: 5mm, y: 4.5mm),
+)[
+  #align(center)[
+    #text(font: font-body, fill: white, size: 9pt, style: "italic")[
+      "A game is a series of interesting choices."
+    ]
+    #v(2mm)
+    #text(font: font-display, fill: rgb("#888888"), size: 7pt, weight: 700, tracking: 1pt)[
+      SID MEIER
+    ]
+  ]
+]
+
+#v(3mm)
 
 #pagebreak()
 
@@ -170,103 +202,60 @@ You'll read the room, find the angle, use your surroundings, exploit the weaknes
 #v(2mm)
 
 #grid(
-  columns: (1fr, 1fr),
-  column-gutter: 4mm,
-  row-gutter: 3mm,
+  columns: (1fr, 28mm),
+  column-gutter: 6mm,
+  align: (left + top, center + horizon),
+  [
+    #rule-title("The Die")
+    Diaphragma uses one die: a *d10*. Before you roll, choose to *Settle* for a fixed 5, or *Roll* and take what the die gives you. The result is then modified by Edges (+1 each) and Bains (-1 each). 
+    
+    Final result: 2–6 Failure, 7–9 Partial Success, 10+ Success.
 
-  shadow-box([
-    #text(font: font-display, weight: 700, size: 9pt)[SETTLE OR ROLL]
-    #v(1mm)
-    Play it safe (*Settle*, raw result = 5) or risk it (*Roll*, 1d10). One die. No pools. You choose every time.
-  ]),
-
-  shadow-box([
-    #text(font: font-display, weight: 700, size: 9pt)[EDGES & BAINS]
-    #v(1mm)
-    Favorable fiction adds *+1* per Edge. Unfavorable fiction subtracts. The scene around you matters as much as the die.
-  ]),
-
-  shadow-box([
-    #text(font: font-display, weight: 700, size: 9pt)[PARTIAL SUCCESS]
-    #v(1mm)
-    A result of 7–9. You get what you wanted — but it costs you something. *The game lives here.*
-  ]),
-
-  shadow-box([
-    #text(font: font-display, weight: 700, size: 9pt)[NARRATIVE POINTS]
-    #v(1mm)
-    A shared group currency earned from dramatic moments. Spend to reroll, inject a scene fact, or help an ally.
-  ]),
+    A natural *1* is always a Critical Failure. A natural *10* is a Critical Success.
+  ],
+  [#image("../assets/d10.png", width: 100%)],
 )
 
-#v(3mm)
+#v(1mm)
 
-#columns(2, gutter: 4mm)[
-
-  #rule-title("Design Goals")
-
-  #tag("Cinematic",       "One roll, one strong scene moment")
-  #v(0.5mm)
-  #tag("Resourceful",     "Gear, terrain, allies, information")
-  #v(0.5mm)
-  #tag("Setup-driven",    "Create openings, don't grind")
-  #v(0.5mm)
-  #tag("Expressive",      "Built from experience, not stat arrays")
-  #v(0.5mm)
-  #tag("Modular",         "Frameworks add the genre layer")
-  #v(0.5mm)
-  #tag("Narrative-first", "Fiction first, rules second")
-
-  #colbreak()
-
-  #rule-title("Frameworks")
-
-  *The core rules are not the whole game.* *Diaphragma* is designed to be paired with a Framework — a campaign layer that adds what the core intentionally leaves open:
-
+#let concept-box(title, desc) = block(
+  width: 100%,
+  fill: white,
+  stroke: 0.9pt + black,
+  inset: 3mm,
+  below: 0pt,
+)[
+  #text(font: font-display, weight: 700, size: 9pt)[#title]
   #v(1mm)
-
-  #grid(
-    columns: (1fr, 1fr),
-    column-gutter: 2mm,
-    row-gutter: 0.5mm,
-    tag("Setting", ""),     tag("Tone", ""),
-    tag("Archetypes", ""),  tag("Powers", ""),
-    tag("Gear", ""),        tag("Enemies", ""),
-    tag("Advancement", ""), tag("Special Rules", ""),
-  )
-
-  #v(2mm)
-
-  A horror Framework adds panic, injury, and fragile gear. A cyberpunk Framework adds hacking, cyberware, and corporate heat. A mythic fantasy Framework adds oaths, relics, and divine bargains. *The same core engine supports all of them.*
-
+  #desc
 ]
-
-#pagebreak()
-
-// ─────────────────────────────────────────────
-//  Page: How to Read This Book + ToC
-// ─────────────────────────────────────────────
-
-#top-title("How to Read This Book")
-
-#v(3mm)
 
 #grid(
   columns: (1fr, 1fr),
-  column-gutter: 4mm,
-
-  grey-box([
-    #text(font: font-display, weight: 700, size: 9pt)[IF YOU'RE A PLAYER]
-    #v(1.5mm)
-    Read *Chapters 1–3.* Start with Chapter 1 to understand how the game works, then Chapter 2 to build your character.
-  ]),
-
-  grey-box([
-    #text(font: font-display, weight: 700, size: 9pt)[IF YOU'RE THE STORYTELLER]
-    #v(1.5mm)
-    Read everything. Chapter 4 is yours. The Back Matter has all tables and reference sheets.
-  ]),
+  column-gutter: 3mm,
+  align: top,
+  [
+    #concept-box("SETTLE OR ROLL",     [Before rolling, choose: *Settle* treats your result as 5, *Roll* means you pick up the d10 and take whatever comes.])
+    #v(3mm)
+    #concept-box("PARTIAL SUCCESS",    [A final result of 7–9. You progress the story, but the Storyteller adds a cost, complication, or new pressure.])
+    #v(3mm)
+    #concept-box("BURDENS",            [A flaw. When a Burden is relevant, the best possible result is *Partial Success*. Full Success is off the table regardless of Edges.])
+    #v(3mm)
+    #concept-box("STORYTELLER TOKENS", [The Storyteller's resource for pushing back. Spend *1 ST* to invoke a Bain against a player action. The Storyteller starts each scene with a set number. Burdens never cost ST.])
+    #v(3mm)
+    #concept-box("PLAYS",              [Special abilities tied to a Framework. Things your character can do that the core rules do not cover: powers, maneuvers, and techniques defined by the setting.])
+  ],
+  [
+    #concept-box("EDGES & BAINS",      [Edges are favorable factors worth *+1* each: gear, position, preparation, enemy weakness. Bains are unfavorable factors that subtract *-1* each.])
+    #v(3mm)
+    #concept-box("NARRATIVE POINTS",   [A pool shared by all players. Earned when critical moments happen. Spend *1 NP* for cool effects or narrative boosts.])
+    #v(3mm)
+    #concept-box("PROFICIENCIES & SPECIALTIES",      [Your character's background, written as lived experience. Determines what actions and gear you can invoke as Edges.])
+    #v(3mm)
+    #concept-box("FRAMEWORKS",         [A rules layer added on top of the core system. Each Framework defines a setting: its tone, character options, powers, gear, enemies, and any special rules.])
+    #v(3mm)
+    #concept-box("LEGENDARY PLAYS",    [Created from a specific moment in play. Spends a *Legendary Token*, to make it a permanent ability])
+  ],
 )
-
 
 #pagebreak()

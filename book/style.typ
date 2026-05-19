@@ -66,7 +66,7 @@
 #let rule-title(title) = block(
   width: 100%,
   above: 1mm,
-  below: 1.5mm,
+  below: 2.5mm,
 )[
   #grid(
     columns: (auto, 1fr),
@@ -255,8 +255,8 @@
       columns: cols,
       fill: (_, row) => if row == 0 { black } else if calc.odd(row) { grey } else { white },
       inset: (x: 2mm, y: 1.5mm),
-      ..headers.map(h => text(font: font-display, fill: white, weight: 700, size: 7pt, tracking: 0.5pt)[#upper(h)]),
-      ..rows.flatten().map(cell => text(size: 7.5pt)[#cell]),
+      ..headers.map(h => align(center)[#text(font: font-display, fill: white, weight: 700, size: 7pt, tracking: 0.5pt)[#upper(h)]]),
+      ..rows.flatten().map(cell => align(center)[#text(size: 8.5pt)[#cell]]),
     )
   ]
 }

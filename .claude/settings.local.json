@@ -7,7 +7,9 @@
       "Bash(typst fonts *)",
       "Bash(findstr /i \"barlow\")",
       "WebFetch(domain:typst.app)",
-      "Bash(typst compile *)"
+      "Bash(typst compile *)",
+      "Bash(Rename-Item *)",
+      "PowerShell(Rename-Item *)"
     ]
   },
   "disabledMcpjsonServers": [

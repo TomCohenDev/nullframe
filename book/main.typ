@@ -18,6 +18,7 @@
 #set text(
   font: "Barlow",
   size: 8.5pt,
+  weight: 400,
 )
 
 #set par(
