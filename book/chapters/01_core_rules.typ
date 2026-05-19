@@ -433,13 +433,13 @@ These are the two main ways the fiction pushes back against the characters.
     )
   )
 
-  #colbreak()
+  #v(2mm)
 
   #rule-title("The Flow of Play")
 
-  NP flows from dramatic moments. Critical rolls, and bold narration all put currency into the pool. The group decides together how to spend it.
+  NP flows from dramatic moments. Critical rolls, leaned-into Burdens, and bold narration all put currency into the pool. The group decides together how to spend it.
 
-  #v(2mm)
+  #v(20mm)
 
   #scene-quote[
     *Storyteller:* "Ashford is watching you. He knows you're not who you said you were."
@@ -453,9 +453,10 @@ These are the two main ways the fiction pushes back against the characters.
     *Storyteller:* "His eyes move. You have until the waltz ends."
   ]
 
-  #v(2mm)
 
-  #image("../assets/np.png", width: 100%, height: 38mm, fit: "cover")
+
+
+  #image("../assets/np.png", width: 100%)
 
 ]
 
@@ -471,11 +472,11 @@ These are the two main ways the fiction pushes back against the characters.
 
   #rule-title("Plays")
 
-  *Plays* are setting-specific abilities, powers, maneuvers, or special actions defined by the Framework. They are the closest thing Diaphragma has to PbtA-style moves.
+  *Plays* are setting specific abilities, powers, maneuvers, or special actions defined by the Framework.
 
   #v(1mm)
 
-  Plays do not grant a flat bonus by themselves. Instead, they:
+  Plays are not intended to grant a flat bonus by themselves. Instead, they:
 
   - Create new fictional possibilities
   - Establish new Edges that would not otherwise exist
@@ -494,15 +495,18 @@ These are the two main ways the fiction pushes back against the characters.
 
   The exact wording, costs, and conditions of Plays are defined by the Framework your Storyteller is running.
 
-  #colbreak()
+  #v(2mm)
+
+  #image("../assets/plays.png", width: 90%)
+
 
   #rule-title("Legendary Plays")
 
-  *Legendary Plays* are not chosen at character creation. They begin empty and are *created from play* — from the moments that become part of the character's legend.
+  *Legendary Plays* are not chosen at character creation. They begin empty and are *created from play*, from the moments that become part of the character's legend.
 
   #v(1mm)
 
-  When a player does something truly memorable, effective, or iconic, the Storyteller may offer them the chance to spend *1 Legendary Token* to lock that moment in as a permanent ability.
+  When a player does something truly memorable, effective, or iconic at the table, the Storyteller may offer them the chance to spend *1 Legendary Token* to lock that moment in as a permanent ability. This can also be done by the player themselves.
 
   #v(2mm)
 
@@ -516,7 +520,242 @@ These are the two main ways the fiction pushes back against the characters.
 
   #rule-title("Legendary Tokens")
 
-  Each player starts with *2 Legendary Tokens* for the story or campaign. If a player does not spend the token immediately, they may define the Legendary Play later. Tokens may be refreshed at the Storyteller's discretion.
+  Each player starts with *2 Legendary Tokens* for the story or campaign. Tokens may be refreshed at the Storyteller's discretion.
+
+]
+
+#pagebreak()
+
+// ── Conflict ──────────────────────────────────
+
+#top-title("Conflict")
+
+#v(2mm)
+
+Conflict in Diaphragma covers any situation where opposing forces clash: a negotiation, a chase, a fight, a standoff, a desperate argument. The rules do not change based on the type of conflict. The fiction determines the stakes; the dice resolve the uncertainty.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("How Conflict Works")
+
+  A conflict is a scene with *active opposition*. Something is pushing back and the outcome is not certain. Both sides want something, and at least one side is willing to act to get it.
+
+  #v(1mm)
+
+  The Storyteller frames the situation, who is involved, what is at stake, and what success and failure look like for both sides. Then the scene plays out through a series of actions and rolls.
+
+  #v(2mm)
+
+  #rule-title("Types of Conflict")
+
+  All conflicts use the same resolution. The fiction changes; the rules do not.
+
+  #v(1mm)
+
+  #tag("Combat", "")
+  #v(1mm)
+  #tag("Negotiation / persuasion", "")
+  #v(1mm)
+  #tag("Chase / pursuit", "")
+  #v(1mm)
+  #tag("Standoff / intimidation", "")
+  #v(1mm)
+  #tag("Social maneuvering", "")
+  #v(1mm)
+  #tag("Sabotage / race against time", "")
+
+  #v(2mm)
+
+  #rule-title("Ending a Conflict")
+
+  A conflict ends when one side achieves their goal, can no longer act, or chooses to disengage. The Storyteller narrates the outcome based on where the fiction landed, not just the last roll.
+
+  #colbreak()
+
+  #rule-title("The 10 Second Cut")
+
+  When multiple characters act at the same time, a firefight, a brawl, a chaotic negotiation, the Storyteller *cuts the scene into 10 second moments*.
+
+  #v(1mm)
+
+  Each 10 second window is one beat of actions everyone took - one round. Everyone at the table declares what their character does in that window. The Storyteller resolves each action in the order that makes the most fictional sense, then cuts to the next moment.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[HOW A MOMENT PLAYS OUT]
+    #v(2mm)
+    #grid(
+      columns: (8mm, 1fr),
+      column-gutter: 2mm,
+      row-gutter: 3mm,
+      align: (center + horizon, left + horizon),
+      [#pill("1", width: 100%)], [The Storyteller describes the current state of the scene.],
+      [#pill("2", width: 100%)], [Each player declares what their character does in the next 10 seconds.],
+      [#pill("3", width: 100%)], [The Storyteller calls any Bains. Players identify Edges.],
+      [#pill("4", width: 100%)], [Rolls are resolved. The fiction advances.],
+      [#pill("5", width: 100%)], [Cut to the next moment. Repeat until the conflict resolves.],
+    )
+  ])
+
+  #v(2mm)
+
+  #rule-title("Simultaneous Actions")
+
+  Actions within the same 10 second window are considered simultaneous. If two characters are shooting at each other, both rolls happen. A character who goes down in this window still completes their declared action, they land the hit before they drop.
+
+]
+
+#pagebreak()
+
+// ── Conflict Clocks ───────────────────────────
+
+#top-title("Conflict Clocks")
+
+#v(2mm)
+
+There are no hit points in Diaphragma. Every conflict — a fight, a chase, a negotiation, a standoff — has a *Clock*: a dial divided into segments. Players fill segments by succeeding. When the clock is full, the conflict resolves in their favor.
+
+#v(1mm)
+
+You are not chipping away at a health bar. You are building *momentum* — stacking fictional advantages, gaining ground, pushing the situation toward resolution.
+
+#v(3mm)
+
+#let pip(on) = box(
+  width: 4.5mm,
+  height: 4.5mm,
+  radius: 50%,
+  fill: if on { black } else { white },
+  stroke: 0.7pt + black,
+)
+
+#let clock-row(label, total, done) = block(width: 100%, below: 3mm)[
+  #grid(
+    columns: (32mm, 1fr),
+    column-gutter: 3mm,
+    align: (left + horizon, left + horizon),
+    text(size: 7.5pt, weight: 600)[#upper(label)],
+    grid(
+      columns: (auto,) * total,
+      column-gutter: 1.5mm,
+      ..range(total).map(i => pip(i < done))
+    )
+  )
+]
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Filling the Clock")
+
+  Each action in a conflict rolls normally. Based on the result, the clock advances:
+
+  #v(1mm)
+
+  #nf-table(
+    ("Result", "Effect"),
+    (
+      ("Critical Failure", "Fill 0. The Storyteller fills 1 on the enemy clock."),
+      ("Failure",          "Fill 0. Storyteller adds pressure or complication."),
+      ("Partial Success",  "Fill 1. But the Storyteller adds a cost or twist."),
+      ("Success",          "Fill 1. Clean progress."),
+      ("Critical Success", "Fill 2. Describe the moment."),
+    )
+  )
+
+  #v(2mm)
+
+  #rule-title("Different Approaches")
+
+  The Storyteller can require that at least *two or three different Proficiencies* contribute before the clock fills — forcing the group to use different characters and approaches rather than repeating the same action. This keeps conflict dynamic and prevents one player from soloing every scene.
+
+  #colbreak()
+
+  #rule-title("Clock Difficulty")
+
+  The number of segments reflects the difficulty of the opposition. The Storyteller sets this before the conflict begins.
+
+  #v(2mm)
+
+  #clock-row("Trivial",   3, 2)
+  #clock-row("Capable",   5, 3)
+  #clock-row("Dangerous", 8, 4)
+  #clock-row("Climactic", 10, 4)
+
+  #v(3mm)
+
+  #rule-title("Counter-Clocks")
+
+  The Storyteller may also run a *Counter-Clock* — the enemy's own progress. The bomb is ticking. The villain's ritual is advancing. The alarm is spreading.
+
+  #v(1mm)
+
+  If the enemy clock fills before the players' clock does, the situation turns against them — the conflict ends badly, or escalates to something worse. Both clocks filling at once means chaos: the Storyteller decides what that looks like.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[EXAMPLE]
+    #v(1.5mm)
+    The players fight a veteran mercenary (8-segment clock). The mercenary's bodyguard is calling for backup (6-segment counter-clock). Every missed roll or failed action ticks the counter-clock. Fill the mercenary's clock before reinforcements arrive — or deal with both.
+  ])
+
+]
+
+#pagebreak()
+
+// ── Frameworks ────────────────────────────────
+
+#top-title("Frameworks")
+
+#v(2mm)
+
+The core rules of Diaphragma ship without a setting. They are a complete engine — resolution, characters, conflict — but they do not tell you what the world looks like, who the enemies are, or what makes this story different from the last one. That is what a *Framework* does.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("What Is a Framework?")
+
+  A *Framework* is a setting layer that sits on top of the core rules. It defines:
+
+  - The *world* — its tone, history, and feel
+  - *Character options* — what kinds of characters exist
+  - *Plays* — special abilities, powers, and maneuvers available in this setting
+  - *Gear* — what equipment means and what it can do
+  - *Threats* — the enemies, factions, and forces pushing back
+  - *Special rules* — any mechanics specific to this genre or story
+
+  #v(2mm)
+
+  The core rules do not change between Frameworks. The same d10, the same Edges and Bains, the same result tiers. The Framework adds the color, the stakes, and the fiction on top.
+
+  #v(2mm)
+
+  #rule-title("Swapping Frameworks")
+
+  Want to run a heist one week and a war story the next? Swap the Framework. The players keep the same rules, learn the new setting, and play. The engine is the same. The game is different.
+
+  #colbreak()
+
+  #rule-title("What Players See")
+
+  Players interact with the Framework through their *Proficiencies*, their *Plays*, and the fictional context of every roll. A soldier in a war Framework and a courier in a city Framework both use the same resolution — but what they can do, what they carry, and what threatens them are entirely different.
+
+  #v(2mm)
+
+  #rule-title("What the Storyteller Does")
+
+  The Storyteller picks a Framework before the first session and shares what players need to know: the setting, what character types are available, and any setting-specific rules. Everything else in this book handles the rest.
+
+  #v(2mm)
+
+  #callout("No Framework?")[
+    You can run Diaphragma without a published Framework — just agree on a setting with your group and define Plays as needed. The core rules are designed to work with any fiction the table agrees on.
+  ]
 
 ]
 

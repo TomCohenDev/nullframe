@@ -19,11 +19,11 @@
     columns: (auto, 1fr, auto),
     column-gutter: 1.5mm,
     align: (left + bottom, left + bottom, right + bottom),
-    text(font: font-display, fill: white, weight: 900, size: 11pt, tracking: 0.5pt)[#upper(it.body())],
+    text(font: font-display, fill: white, weight: 900, size: 11pt, tracking: 0.5pt)[#upper(outline-body(it))],
     box(width: 1fr)[
       #pad(x: 1mm)[#text(fill: rgb("#555"), size: 7pt)[#repeat[. ]]]
     ],
-    text(font: font-display, fill: white, weight: 900, size: 11pt)[#it.page()],
+    text(font: font-display, fill: white, weight: 900, size: 11pt)[#outline-page(it)],
   )
 }
 
@@ -35,11 +35,11 @@
       columns: (auto, 1fr, auto),
       column-gutter: 1mm,
       align: (left + bottom, left + bottom, right + bottom),
-      text(fill: rgb("#e0e0e0"), size: 9pt)[#it.body()],
+      text(fill: rgb("#e0e0e0"), size: 9pt)[#outline-body(it)],
       box(width: 1fr)[
         #pad(x: 1mm)[#text(fill: rgb("#555555"), size: 6pt)[#repeat[. ]]]
       ],
-      text(fill: rgb("#bbbbbb"), size: 9pt)[#it.page()],
+      text(fill: rgb("#bbbbbb"), size: 9pt)[#outline-page(it)],
     )
   ]
 }
@@ -70,7 +70,7 @@
     #text(font: font-body, fill: rgb("#aaaaaa"), size: 8.5pt)[
       Written by Tom Cohen
       #linebreak()
-      Inspired by PbtA, Blades in the Dark, Mothership, Cortex Prime, and the Cypher System
+      Inspired by PbtA, Blades in the Dark, Mothership, Cortex Prime, FATE and the Cypher System
     ]
   ]
 ]
@@ -119,8 +119,11 @@ You'll read the room, find the angle, use your surroundings, exploit the weaknes
     column-gutter: 2mm,
     row-gutter: 2mm,
     align: (right + horizon, left + horizon),
-    [#pill("Dice", width: 100%)],   [One d10.],
-    [#pill("Sheets", width: 100%)], [Character sheets PDF],
+    [#pill("Dice", width: 100%)],    [One d10.],
+    [#pill("Sheets", width: 100%)],  [Character sheets PDF],
+    [#pill("Friends", width: 100%)], [2–5 players and a Storyteller.],
+    [#pill("Drinks", width: 100%)],  [Something to keep the table going.],
+    [#pill("Snacks", width: 100%)],  [Essential. Non negotiable.],
   )
 
 ]

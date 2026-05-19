@@ -14,9 +14,7 @@
 
 // Outline helpers (Typst <0.14 used fields; 0.14+ uses methods — avoid `it.field()`).
 #let outline-body(it) = {
-  if type(it) == content {
-    it
-  } else if it.has("body") {
+  if it.has("body") {
     it.body
   } else {
     it.body()
