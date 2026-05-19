@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(powershell:*)",
-      "Bash(xargs ls:*)"
+      "Bash(xargs ls:*)",
+      "Bash(find /Users/tomcohen/github/nullframe -type d -name *rimaer* -o -type d -name *framework*)"
     ]
   }
 }

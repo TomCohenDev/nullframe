@@ -3,7 +3,7 @@
 **Framework Status:** Draft Skeleton
 **World:** Rimaer-Prime
 **Primary Starting Location:** The Oasis crash site
-**Tone:** Tragic science fiction horror / colony survival
+**Tone:** Tragic science fiction "eldritch cultic" horror / colony survival
 **Inspiration:** RimWorld, The Thing (1982), Annihilation, Roadside Picnic
 
 ---
@@ -17,7 +17,7 @@ This framework adapts **Rimaer** into NullFrame as a setting-specific layer focu
 - exploration of a planet-spanning anomalous marsh
 - the slow discovery of what destroyed human civilization
 - horror rooted in human consequence, not the supernatural
-- character identity through pre-cryo background, colony role, proficiencies, specialties, and plays
+- character identity through proficiencies, specialties, traits, and plays
 - the weight of knowledge that does not help
 
 This framework is intended as a **lightweight starting framework** for playtesting.
@@ -26,7 +26,7 @@ This framework is intended as a **lightweight starting framework** for playtesti
 
 ## Setting in One Sentence
 
-Humans destroyed their own world worshipping a god that never existed, and 400 years later 4,400 colonists wake from cryosleep into a post-apocalyptic ruin — alongside survivors who never left, or who slept in vaults, or who were modified to outlive the fall.
+Humans destroyed their own world worshipping a god that never existed, and 400 years later 4,400 colonists wake from cryosleep into a post-apocalyptic ruin — alongside survivors who never left, or who slept in vaults, or who were modified to outlive the fall. (dont show this to players)
 
 ---
 
@@ -100,69 +100,72 @@ Use some combination of:
 
 ---
 
-# Character Creation Structure
+# Character Creation
 
-This framework uses the following structure for player characters.
+**Default assumption:** you are an **Oasis colonist** who just woke from the ship's cryopods. You had a life, a career, and relationships on old Rimaer-Prime before you volunteered for the Pioneer Fleet. Now all of that is 400 years gone.
 
-**Default assumption:** you are an **Oasis colonist** who woke from the ship's cryopods. With Storyteller agreement, you may instead be a **surface survivor** — a vault wakee, a longevity-modded elder, or someone recruited from a marsh enclave — using the same mechanical steps but swapping the narrative frame (see *Who Survived on the Surface*).
+## 1. Choose 2 Proficiencies
 
-## 1. Choose Pre-Cryo Background
+Your proficiencies are your **jobs** — the roles you held on the Oasis or in your life before boarding. Choose **2** from the job list below, or create your own with Storyteller approval.
 
-Choose **1** from the shared background proficiency list below.
+Proficiencies don't grant a flat bonus. They are **fictional license** — the basis for arguing that Edges apply, for using trained gear, and for anchoring your Specialties.
 
-For colonists, this is who you were before you volunteered for the Pioneer Fleet — civilian life, education, and experience on old Rimaer-Prime. For surface survivors, adapt the same list: vault wakees pick a life interrupted at stasis; longevity survivors pick what they did before the Fall; enclave-born may pick the closest equivalent their enclave preserves.
+See **Proficiency Reference** below for the full list.
 
-## 2. Choose Colony Division (Path)
+## 2. Choose 2 Specialties
 
-Each Colony Division provides:
+Specialties are narrow, specific skills that hang off your proficiencies. When a specialty clearly applies, you may invoke it for **+2** (instead of the standard +1 for a normal invocation).
 
-- **2 Proficiency choices** from a list of 4
-- **2 Specialty choices** from a list of 4
-- **3 Plays chosen from a list of 5**
+Choose **2** from the reference list below, or create your own. Each should connect to at least one of your proficiencies.
 
-Your Colony Division is your assigned role on the Oasis and the main gameplay identity of the character.
+See **Specialty Reference** below.
 
-## 3. Choose 1 General Survivor Play
+## 3. Choose 2 Traits
 
-Choose **1** from the shared survivor play list below.
+Traits are permanent personality features that define how your character behaves, especially under pressure. Choose **2** from the trait list below, or create your own.
 
-This reflects the fact that every colonist went through screening, training, and preparation before boarding the Oasis. These are baseline competencies that any colonist might draw on under pressure.
+Traits are narrative anchors. They tell the table who this person is when things go wrong. A trait can become the basis for a Burden during play if the fiction demands it.
 
-## 4. Define Starting Burden
+See **Trait List** below.
 
-Every character begins with **one Burden**.
+## 4. Starting Possessions
 
-400 years of cryosleep, 600 dead in their pods, a civilization gone, and a world turned to marsh. Nobody wakes from that clean.
+Every colonist was issued a **Pantheon Standard Kit** before boarding. Beyond that, you can assume your character has reasonable personal belongings and professional tools appropriate to their life and proficiencies.
 
-Work with the Storyteller to define what your character carries.
+**If you'd have it, you have it.** If it's rare, dangerous, or colony-critical, ask the Storyteller.
 
-**Common Examples:**
+See **Starting Kits** below for reference.
 
-- _Someone I loved was in pod 2247_ — grief for a colonist who didn't wake
-- _I still think we can go home_ — denial about the scope of the disaster
-- _I heard something during the sleep_ — unexplained sensory memory from cryostasis
-- _I don't trust the chain of command anymore_ — faith in institutional authority is broken
-- _The fog makes me freeze_ — visceral fear response to the anomalous environment
-- _I keep counting heads_ — compulsive need to account for everyone, driven by survivor guilt
+## 5. Relationship Hooks
 
-## 5. Write Core Character Elements
+Define at least **1 relationship** with another character (PC or NPC). This can be someone from your pre-cryo life, someone from boarding, or someone you've connected with since waking.
 
-After choosing Background and Division, the player also defines:
+**Examples:**
 
-- starting gear (from colony stores or salvage)
-- name / age / origin / social position on old Rimaer-Prime
-- 1 Pre-Cryo Background Proficiency
-- additional Proficiencies from Division
-- Specialties from Division
-- 1 General Survivor Play
-- Plays from Division
-- 1 Starting Burden
+- _I owe Dr. Vasquez my life — she pulled me out of a collapsed cryo bay._
+- _Sergeant Hollis and I served together. We don't talk about what happened on the transit station._
+- _I promised Mara's mother I'd look after her. Mara doesn't know._
+- _There's a colonist in pod block 7 who recognized me. I don't know how._
+- _I trained the kid — Rivera — before launch. They're better than me now, and I'm proud and terrified._
+- _Someone in administration buried my disciplinary record. I don't know who or why._
+- _I was in love with someone who didn't make it through cryosleep._
+- _I share a bunk with Okafor. We argue about everything but I trust them completely._
 
-## 6. Edges in Play
+## 6. Choose 1 Play
+
+Plays are narrative tools — actions, instincts, or signature moves that let you create moments in play. They are not numerical bonuses. They are permissions to do something creative, dramatic, or unexpected.
+
+Choose **1** from the Play List below.
+
+Your play can be related to your proficiencies or completely unrelated. It reflects who you are as a person, not just your job on the manifest.
+
+See **Play List** below.
+
+## 7. Edges in Play
 
 **Edges keep their normal NullFrame meaning.**
 
-They are not chosen at character creation as a separate build category. Edges are still:
+They are not chosen at character creation. Edges are:
 
 - favorable fictional factors
 - gear, position, allies, preparation, information, environment, or weaknesses
@@ -172,268 +175,337 @@ Proficiencies and Specialties help justify Edges in play.
 
 ---
 
-# Pre-Cryo Backgrounds
+# Proficiency Reference
 
-## Shared Background Proficiency List
+Your proficiencies are drawn from the Oasis crew manifest. Choose **2** from the list below, or create your own with Storyteller approval.
 
-Every player character chooses **1** of the following, regardless of Colony Division.
+### Engineering & Maintenance
 
-These represent civilian life, education, and lived experience from Rimaer-Prime before the Pioneer Fleet.
+The blue-collar grease monkeys who kept the Oasis running and are now responsible for jury-rigging a dead colony.
 
-- **Pantheon Civil Servant** — You know institutions, procedure, politics, and how authority organizes itself when it still works.
-- **Academic Researcher** — You know theory, analysis, peer review, and how to find answers in data nobody else reads.
-- **Corporate Specialist** — You know commerce, contracts, resource allocation, and reading people who want something from you.
-- **Military Veteran** — You know discipline, threat assessment, weapons handling, and how groups behave under sustained pressure.
-- **Medical Professional** — You know triage, diagnosis, treatment protocols, and how bodies fail.
-- **Spacer** — You know orbital work, zero-g operations, EVA procedure, and how to keep fragile systems running in hostile environments.
-- **Law Enforcement** — You know investigation, de-escalation, crowd dynamics, and how violence starts before anyone throws a punch.
-- **Community Organizer** — You know group dynamics, mediation, public trust, and how to hold fractured people together.
-- **Trades Worker** — You know materials, tools, physical labor, and how to fix things that weren't designed to break the way they broke.
-- **Agricultural Specialist** — You know soil, growth cycles, ecosystems, food production, and what living things need to survive.
-- **Artist or Educator** — You know morale, communication, patience, and how to make people care about something beyond their immediate fear.
-- **Wilderness Surveyor** — You know fieldwork, terrain assessment, specimen collection, and how to move through environments that don't want you there.
+- **Zero-G Shipbreaker** — Deep-space exterior repairs and salvage. Jury-rigging and zero-G operations.
+- **Heavy Machinery Operator** — Terrestrial rovers, loaders, and deep-core drills.
+- **Structural Engineer** — Bulkheads, containment cells, defensive walls. Colony construction.
+- **Reactor / Power Systems Tech** — Keeping the lights on and the heaters running. Power generation and distribution.
+- **Cybernetics Technician** — Installation and repair of bionic limbs and Pantheon-issued augments.
+- **Sanitation / Recycler** — Turning waste into water and fertilizer. Desensitized to awful conditions.
 
----
+### Science & Research
 
-# General Survivor Plays
+The minds meant to catalog a new world. They have the knowledge to save the colony, but usually panic first when the anomalies breach.
 
-Every player character may choose **1** of the following, regardless of Colony Division.
+- **Planetologist** — Alien geology, climate patterns, and planetary ecology.
+- **Xenobiologist / Pathologist** — Indigenous flora and fauna. Now studying anomalous flesh.
+- **Hydroponics Agronomist** — Colony food supply. Hydroponics, botany, and synthetic soil.
+- **Astrogator / Drive Specialist** — Korenfeld physics. Theoretical work required to fix the drive.
+- **Deep-Space Archaeologist** — Pre-Pantheon ruins and anomalous artifacts.
+- **Sophontologist** — Human, alien, and artificial intelligence. Highly theoretical.
 
-These are baseline competencies and instincts from Pioneer Fleet screening, cryo-prep training, and the kind of person who volunteers to leave everything behind.
+### Medical & Support
 
-- **Adrenaline Override** — Once per scene, push through pain, exhaustion, or a minor injury to complete one action at full capacity.
-- **Trained Calm** — Once per scene, steady yourself or an ally by cutting through panic, confusion, or emotional spiraling. Name the thing you focus on.
-- **Quick Assessment** — Once per scene, read a situation and immediately identify the most urgent threat or the most exploitable weakness.
-- **Colonial Discipline** — Once per scene, follow through on a declared plan despite chaos, fear, or changing conditions. The plan must have been stated before the pressure hit.
-- **Survival Reflex** — Once per scene, act on instinct when ambushed, surprised, or caught off-guard. You don't freeze — you move.
-- **Jury-Rig Thinking** — Once per scene, identify an improvised use for something in the immediate environment that nobody else saw. Create an Edge from it.
-- **Shared Burden** — Once per scene, take on part of another character's immediate problem — physical load, emotional weight, or danger — to give them an Edge on their next action.
-- **Pattern Recognition** — Once per scene, notice something wrong, inconsistent, or out of place that others have overlooked. The Storyteller gives you one true detail.
-- **Hard Prioritization** — Once per scene, make a triage call that everyone else hesitates on. Declare what gets saved and what gets sacrificed. Gain an Edge on the action to save it.
-- **Last Resort Composure** — Once per scene, when all Edges are gone and the situation is collapsing, find one calm breath. Settle at 6 instead of 5 for one action.
+Responsible for keeping the fragile human body and mind intact against hostile environments and horrific stress.
 
----
+- **Trauma Surgeon** — Emergency surgery and bionic installation. The doctor you want when limbs are missing.
+- **Pharmacologist / Chemist** — Synthesizes combat stims, painkillers, and medicine. Risk of dependency.
+- **Cryo-Stasis Technician** — Managed the deep-sleep pods. Knows how to wake people up or put them back under.
+- **Colony Psychologist** — Managing the severe mental stress of 4,400 displaced humans.
+- **Ration Quartermaster / Cook** — Turning bio-paste and marsh meat into something that won't cause a mental break.
+- **Geneticist** — Monitoring genetic drift. Essential for xenotype work if equipment is recovered.
 
-# Colony Divisions (Paths)
+### Security & Tactical
 
-## Division Purpose
+Pantheon military or private security. They shoot things, guard things, and die violently so the scientists can run away.
 
-Colony Divisions are the main build identity for the framework.
+- **Pantheon Marine Sergeant** — Standard military. Heavy armor, strict discipline, firearms.
+- **Close-Quarters Breacher** — Ship-boarding and tight-corridor combat.
+- **Brig Warden / Corrections Officer** — Colony police. Riots, contraband, and unruly colonists.
+- **Artillery / Explosives Tech** — The person you call when you need to blow a hole in something.
+- **Internal Security Operative** — Pantheon spies and detectives. Contraband, cultists, and traitors.
 
-A Division is the character's assigned role on the Oasis. It shapes:
+### Administration
 
-- the character's main contribution to the colony
-- likely Proficiencies
-- likely Specialties
-- what kind of scenes the character shines in
+Bureaucrats and specialists who manage the human element of the 4,400 souls.
 
-Divisions should feel native to **colony survival on a hostile world**, not generic sci-fi.
-
----
-
-## The Six Divisions
-
-### Medical Corps
-
-**Role in the Colony:** Doctors, surgeons, psychiatrists, pharmacists, and field medics. The people who keep everyone alive and functioning — physically and mentally.
-
-**Core Fantasy:** You are the one they bring the dying to. You decide who gets treated first, what resources get spent, and when to tell someone there's nothing more you can do.
-
-**Automatic Proficiency:**
-
-- Medical training and patient care
-
-**Choose 2 Additional Proficiencies:**
-
-- Emergency surgery under field conditions
-- Psychological evaluation and crisis intervention
-- Pharmacology and chemical treatment
-- Pathology and disease identification
-
-**Choose 2 Specialties:**
-
-- Battlefield triage
-- Cryogenic recovery complications
-- Trauma stabilization
-- Psychological first response
-
-**Choose 3 Plays:**
-
-- **Triage Protocol** — Once per scene, assess multiple wounded or sick and immediately identify who can be saved, who can wait, and who is beyond help. The Storyteller answers honestly.
-- **Steady Hands** — Once per scene, perform a critical medical procedure under pressure without penalty from environmental Bains. Fear, noise, shaking ground — your hands don't care.
-- **Improvised Treatment** — Once per scene, treat a wound or condition using inadequate tools or substituted materials. It works, but name the cost or limitation.
-- **Read the Body** — Once per scene, examine a living person or a corpse and learn one true fact about what happened to them — cause of injury, exposure to anomalous material, time of death, or state of health.
-- **Hold Them Together** — Once per scene, keep a dying or breaking person stable and conscious through force of presence, skill, and refusal to let go. They get one more action or one more conversation before the fiction catches up.
+- **Pantheon Magistrate / Diplomat** — Legal arbiters and politicians. Negotiation and authority.
+- **Ideologue / Moral Guide** — Priest or philosopher. Colony belief systems and morale.
+- **Oasis Archivist** — Librarians of the Pantheon database. Historical memory of humanity.
+- **Colony Entertainer** — Actors, musicians, athletes. Vital for preventing mental breaks.
+- **Propagandist** — Shapes the narrative. Manipulates collective mood.
 
 ---
 
-### Engineering Division
+# Specialty Reference
 
-**Role in the Colony:** Mechanics, builders, power specialists, fabricators, and systems technicians. The people who keep the lights on, the walls standing, and the machines running.
+Specialties are narrow, concrete skills. When a specialty clearly applies, invoke it for **+2** (instead of the usual +1). Choose **2** from the list below, or create your own. Each should connect to at least one of your proficiencies.
 
-**Core Fantasy:** Everything is broken, degrading, or not designed for this. You make it work anyway. When it can't work, you build something new from what's left.
+### Combat & Tactical
+- Close-quarters fighting
+- Marksmanship
+- Demolitions and breaching
+- Tactical coordination
+- Threat assessment
+- Perimeter defense
+- Firefight under pressure
+- Non-lethal restraint
 
-**Automatic Proficiency:**
+### Medical & Biological
+- Trauma surgery
+- Pharmacology and drug synthesis
+- Psychological first aid
+- Cryogenic recovery procedures
+- Disease and infection identification
+- Prosthetic and bionic fitting
+- Toxicology
+- Field medicine under fire
 
-- Mechanical systems and structural repair
+### Engineering & Technical
+- Structural repair
+- Power grid management
+- Fabrication and machining
+- Ship systems diagnostics
+- Jury-rigging with salvage
+- Heavy machinery operation
+- Cybernetics installation
+- Atmospheric systems
 
-**Choose 2 Additional Proficiencies:**
+### Science & Analysis
+- Specimen analysis
+- Korenfeld theory
+- Anomaly identification
+- Archival and data research
+- Marsh ecology
+- Geological survey
+- Genetic sequencing
+- Signal analysis and decryption
 
-- Power generation and energy management
-- Fabrication and materials science
-- Structural design and construction
-- Shipboard systems and computer architecture
+### Social & Administrative
+- Negotiation and diplomacy
+- Crowd management
+- Propaganda and messaging
+- Interrogation
+- Morale and recreation management
+- Resource allocation and logistics
+- Legal mediation
+- Public speaking
 
-**Choose 2 Specialties:**
-
-- Improvised repair with salvaged parts
-- Power grid stabilization
-- Habitat construction
-- Oasis system diagnostics
-
-**Choose 3 Plays:**
-
-- **Jury-Rig** — Once per scene, make a broken or damaged system work temporarily. It holds, but name how long and what happens when it fails.
-- **Structural Read** — Once per scene, assess a structure, vehicle, or machine and know its weak point, remaining lifespan, or hidden flaw. The Storyteller answers honestly.
-- **Power Budget** — Once per scene, redistribute power or resources across colony systems to keep one critical thing running when there isn't enough for everything. Name what goes dark.
-- **Fabricate Solution** — Once per scene, build, modify, or repurpose a piece of equipment to solve an immediate problem. Requires materials and time — name both.
-- **Controlled Demolition** — Once per scene, bring something down, break something open, or destroy something dangerous in a precise and intentional way. If there's a safe way to wreck it, you find it.
-
----
-
-### Science Division
-
-**Role in the Colony:** Researchers, biologists, geologists, physicists, and analysts. The people who figure out what happened to the world, what the anomalies are, and whether the Korenfeld Drive can be rebuilt.
-
-**Core Fantasy:** You understand things other people don't. That understanding is the colony's best weapon and its heaviest burden. Knowledge in Rimaer doesn't save you — it just tells you exactly how bad things are.
-
-**Automatic Proficiency:**
-
-- Scientific analysis and research methodology
-
-**Choose 2 Additional Proficiencies:**
-
-- Biology and xenobiology (anomalous life forms)
-- Physics and Korenfeld theory
-- Geology, ecology, and environmental science
-- Data analysis and archival research
-
-**Choose 2 Specialties:**
-
-- Anomalous material identification
-- Korenfeld Drive mechanics
-- Marsh ecosystem analysis
-- Pre-collapse historical research
-
-**Choose 3 Plays:**
-
-- **Hypothesis** — Once per scene, propose a testable explanation for something the colony doesn't understand. The Storyteller tells you whether you're on the right track, wrong, or asking the wrong question.
-- **Specimen Analysis** — Once per scene, examine an anomalous sample, creature, or phenomenon and learn one true fact about its origin, composition, or behavior.
-- **Archival Recovery** — Once per scene, pull something useful from the Oasis databanks, the cultural archive, or a recovered data source. The information exists — you just have to know what to ask for.
-- **Calculated Risk** — Once per scene, assess the odds of a dangerous action before it's taken. The Storyteller gives you the most likely outcome and the worst-case scenario.
-- **Breakthrough** — Once per session, connect two or more pieces of information that nobody else has linked. The Storyteller reveals one hidden relationship between known facts.
+### Survival & Field
+- Tracking and pathfinding
+- Foraging and scavenging
+- Water purification
+- Navigation without instruments
+- Stealth movement
+- Shelter construction
+- Animal handling
+- Zero-G maneuvering
 
 ---
 
-### Security Division
+# Trait List
 
-**Role in the Colony:** Soldiers, tactical officers, guards, weapons specialists, and perimeter defense. The people who stand between the colony and everything that wants to end it.
+Choose **2 traits** from the list below, or create your own. Traits define how your character acts — they are narrative, not directly mechanical. A trait can become the basis for a Burden during play if the fiction demands it.
 
-**Core Fantasy:** You are the line. When something comes out of the marsh, when a supply run goes wrong, when the colony fractures — you are the one holding the weapon and making the call.
+### Psychological & Emotional
+- **Volatile** — Emotionally unstable. Quick to anger, panic, or despair under pressure.
+- **Pessimist** — Always sees the worst. Dwells on doom even in moments of comfort.
+- **Optimist** — Always sees the bright side, sometimes at the expense of realism.
+- **Neurotic** — Driven and frantic. Works hard but rattles easily under failure or horror.
+- **Jealous** — Can't stand others having more. Resentful of better quarters, gear, or status.
+- **Greedy** — Burns for wealth and valuables. Unsatisfied without something to hoard.
+- **Hyper-Empathetic** — Feels others' pain as your own. Witnessing suffering leaves you wrecked.
+- **Claustrophobic** — Terrified of confined spaces. Ship corridors and vents trigger panic.
+- **Body Modder** — Disconnected from natural flesh. Craves cybernetic and bionic replacement.
 
-**Automatic Proficiency:**
+### Physical & Combat
+- **Wimp** — Zero pain tolerance. Minor injuries cause collapse or shock.
+- **Slowpoke** — Physically sluggish. Always last out of a collapsing ruin.
+- **Trigger-Happy** — Volume over precision. Shoots fast and reckless. Dangerous to bystanders.
+- **Careful Shooter** — Obsessive about the perfect shot. Hesitates while chaos unfolds.
+- **Brawler** — Fists and blades only. Distrusts ranged weapons no matter the threat.
+- **Sickly** — Compromised immune system. First to catch fever, infection, or react to toxins.
+- **Klutz** — Remarkably uncoordinated. Drops tools, trips during escapes, knocks things over.
 
-- Combat training and tactical awareness
+### Habits & Lifestyle
+- **Teetotaler** — Refuses all mind-altering substances, even when they'd help.
+- **Absent-Minded** — Frequently forgets crucial details. Unlocked doors, unsecured gear.
+- **Loud** — Booming voice, heavy footsteps. Stealth is not your thing.
+- **Squeamish** — Weak stomach. Can't handle blood, gore, or medical triage.
 
-**Choose 2 Additional Proficiencies:**
-
-- Ranged weapons and marksmanship
-- Close-quarters combat and restraint
-- Perimeter defense and fortification
-- Reconnaissance and threat assessment
-
-**Choose 2 Specialties:**
-
-- Firefight coordination
-- Anomalous threat response
-- Colony perimeter operations
-- Escort and extraction
-
-**Choose 3 Plays:**
-
-- **Threat Sweep** — Once per scene, clear or assess an area and know whether it's safe, compromised, or actively dangerous. The Storyteller answers honestly about what's present.
-- **Suppressive Action** — Once per scene, pin down, drive back, or create a window of safety through sustained fire, noise, or physical intimidation. Enemies cannot advance for one action.
-- **Protective Escort** — Once per scene, designate a person or group under your protection. While escorting them, any attack or threat targets you first, and you gain an Edge on actions to keep them safe.
-- **Combat Assessment** — Once per scene, evaluate an enemy or hostile group and determine its most dangerous capability, its weakness, and whether fighting is worth the cost.
-- **Controlled Retreat** — Once per scene, get people out. If the situation is lost, you can organize a withdrawal that saves lives instead of spending them. Name who you're leaving behind and what you're abandoning.
-
----
-
-### Agricultural Division
-
-**Role in the Colony:** Botanists, farmers, ecologists, animal handlers, and food production specialists. The people who turn a hostile marsh into something that keeps 4,400 people fed.
-
-**Core Fantasy:** Survival is not a single dramatic moment — it's whether anyone eats next week. You understand what grows, what's safe, what's poisonous, and what the marsh will let you take.
-
-**Automatic Proficiency:**
-
-- Food production and ecosystem management
-
-**Choose 2 Additional Proficiencies:**
-
-- Botany and hydroponics
-- Animal husbandry and livestock management
-- Water purification and treatment
-- Foraging and field ecology
-
-**Choose 2 Specialties:**
-
-- Marsh-adapted cultivation
-- Anomalous plant identification
-- Water source assessment
-- Seed bank and embryo management
-
-**Choose 3 Plays:**
-
-- **Safe to Eat** — Once per scene, assess a food or water source and know whether it's safe, contaminated, or anomalous. The Storyteller answers honestly.
-- **Growth Assessment** — Once per scene, evaluate land, soil, or a growing environment and know whether it can sustain crops, what it needs, and what will fail.
-- **Emergency Ration** — Once per scene, stretch existing food or water supplies further than they should go. It works, but name the long-term cost.
-- **Read the Ecosystem** — Once per scene, observe the local environment and learn one true fact about what lives here, what the food chain looks like, or what seasonal pattern is coming.
-- **Nurture Under Pressure** — Once per scene, keep something alive that is dying — a crop, an animal, or a biological system — through focused attention and applied knowledge. It stabilizes, but name what it needs next.
+### Social & Interpersonal
+- **Abrasive** — Rude and condescending. Ruins negotiations and friendships.
+- **Stubborn** — Refuses to change course even when proven wrong.
+- **Kind** — Deeply empathetic and gentle. Puts others' well-being above your own.
+- **Ugly** — Features others find unpleasant. Poor first impressions.
+- **Beautiful** — Strikingly attractive. Draws attention, charm, jealousy, and obsession.
+- **Creepy Presence** — Something about you makes people want to leave the room.
 
 ---
 
-### Operations Division
+# Starting Kits
 
-**Role in the Colony:** Logistics coordinators, communications specialists, administrators, and community leaders. The people who decide what gets built, who goes where, and how 4,400 people organize themselves into something that doesn't collapse.
+Every colonist receives a **Pantheon Standard Issue** kit. Beyond that, your character can reasonably be assumed to have personal and professional belongings appropriate to their life and proficiencies.
 
-**Core Fantasy:** The colony is a system, and systems fail without someone managing them. You are the one who sees the whole picture, makes the hard calls about allocation, and holds the social fabric together when people start fracturing.
+**Rule of thumb:** If you'd have it, you have it. If it's rare, dangerous, or colony-critical, ask the Storyteller.
 
-**Automatic Proficiency:**
+### Pantheon Standard Issue (Everyone)
+- Sealed work coverall
+- Personal tablet (Pantheon database access)
+- Standard ration pack (3 days)
+- Water canteen
+- Flashlight
+- Pantheon ID
+- Subdermal comm implant
 
-- Logistics, coordination, and resource management
+### Reference Kits
 
-**Choose 2 Additional Proficiencies:**
+These are not mandatory picks — they're examples of what someone in a given role would likely have been issued or acquired.
 
-- Communications systems and signal analysis
-- Supply chain and inventory management
-- Social leadership and conflict resolution
-- Strategic planning and crisis management
+- **Medical Kit** — Field surgical tools, limited pharmaceuticals, portable diagnostic scanner, biohazard gloves
+- **Engineering Kit** — Multi-tool, repair components, portable welder, diagnostic tablet, sealant spray
+- **Science Kit** — Sample containers, portable analyzer, data tablet with archive access, field notebook
+- **Security Kit** — Sidearm, light body armor, tactical communications unit, restraints
+- **Agriculture Kit** — Soil testing kit, seed samples, water testing equipment, field journal, cutting tools
+- **Operations Kit** — Communications unit, colony manifest access, resource tracking tablet, signal booster
+- **Technician Kit** — Electronics toolkit, cable tester, soldering iron, spare wiring, headlamp
+- **Field Kit** — Machete, compass, waterproof bag, rope (30m), flare gun, basic first aid
 
-**Choose 2 Specialties:**
+---
 
-- Colony resource allocation
-- Inter-faction negotiation
-- Broadcast and signal interpretation
-- Expedition planning
+# Play List
 
-**Choose 3 Plays:**
+Plays are narrative tools. They don't give you numbers — they give you **permission** to do something creative, dramatic, or unexpected. Each play is a key that unlocks a type of moment. Your play can relate to your proficiencies or not — it reflects who you are, not just your job.
 
-- **Resource Audit** — Once per scene, assess the colony's current state in one specific area (food, power, morale, personnel, materiel) and know exactly how much is left and how long it lasts.
-- **Coordinate Action** — Once per scene, organize a group effort. Everyone involved gains an Edge on their next action toward the shared goal, provided they follow the plan.
-- **Read the Room** — Once per scene, assess the social dynamics of a group — who's about to break, who's hiding something, who's holding things together, and where the fault lines are.
-- **Signal Work** — Once per scene, work with communications equipment to send, receive, boost, or decode a transmission. If there's something out there, you can reach it or listen to it.
-- **Hard Call** — Once per scene, make a resource allocation or personnel decision that nobody else wants to make. The colony benefits, but name who or what pays the price.
+Choose **1** at character creation.
+
+## Per-Scene Plays
+
+These plays can be used **once per scene**.
+
+### Read Between the Lines
+Study a person, document, or scene carefully. Ask the Storyteller one question about it. They answer honestly.
+
+### Ghost Move
+You were already somewhere else. Retroactively declare that you moved to a different position before the current moment began. Describe how you got there.
+
+### Desperate Improvisation
+When you have no good options, describe a solution using only what's in the scene right now. If the table finds it genuinely creative, it works — but the Storyteller names the cost.
+
+### Jury-Rig the Scene
+Establish one detail about the current location that hasn't been mentioned. ("There's a maintenance hatch here." "This used to be a med bay." "That conduit is leaking coolant.") If it fits the fiction, it's real.
+
+### Make a Scene
+Draw every eye to yourself. Everyone in the area — ally, enemy, bystander — is focused on you for one beat. What happens in that window is your call.
+
+### Brace for Impact
+Before danger hits, declare you're ready for it. You don't avoid it, but you choose how it lands — and you're still standing, still in the scene, still acting.
+
+### Echo
+When someone else fails or things go wrong, describe how you turn their bad moment into your opening. You build on disaster.
+
+### Confessional
+Reveal something true and hidden about your character to someone in the scene. The vulnerability shifts the dynamic. Honesty becomes its own kind of leverage.
+
+## Per-Session Plays
+
+These plays can be used **once per session**. They are more dramatic and have larger narrative impact.
+
+### I Know a Guy
+Declare that you know someone relevant to the current situation. Describe the connection. They exist in the fiction now. The Storyteller decides their disposition and what they want.
+
+### Invoke the Past
+Describe a moment from before the Oasis that's relevant to what's happening right now. Introduce a fact, a preparation, or a connection. The fiction adjusts to include it.
+
+### Plan B
+When a plan falls apart, reveal that you expected this. Describe the backup you prepared. It's real — but the Storyteller tells you what's missing or incomplete.
+
+### Sacrifice Play
+Destroy, lose, or permanently give up something that matters to guarantee a single outcome. The sacrifice must be real and the outcome must be specific.
+
+### Dead Man's Gambit
+Do something reckless and unexpected. If your description is genuinely creative and surprising, the usual complications and environmental pressures don't apply to this one action. Fortune favors the bold.
+
+---
+
+# Legendary Plays
+
+Legendary Plays follow the **NullFrame core rules** (see RULES_SUMMARY.md, Section 8).
+
+They begin empty and are **created from play** — not chosen at character creation. When a character does something truly memorable or iconic, the Storyteller may offer the chance to spend a **Legendary Token** to turn that moment into a permanent ability.
+
+Each player starts with **2 Legendary Tokens** for the campaign. These may be refreshed at the Storyteller's discretion.
+
+**Examples of Legendary Plays that might emerge in Rimaer:**
+
+- _"The Vasquez Maneuver"_ — During a marsh evacuation, Dr. Vasquez stabilized a dying colonist while being dragged through knee-deep water. Now, once per session, she can perform emergency treatment under conditions that would normally make it impossible.
+- _"Hold the Corridor"_ — Sergeant Park held a collapsing bulkhead alone for three minutes while the science team escaped. Now, once per session, when Park declares they won't move, nothing can move them.
+- _"Read the Fog"_ — Okafor noticed a pattern in the anomalous fog that saved the scouting party. Now, once per scene, Okafor can read environmental anomalies and know which direction is safe.
+
+---
+
+# Downtime Activities
+
+Between sessions or during extended downtime in the fiction, characters can pursue personal projects, relationships, and self-improvement. Downtime uses a **progress track** system.
+
+## Resolution
+
+1. Choose a downtime activity
+2. Roll **2d10** and add the total to the activity's progress track
+3. You make **1 roll per day** of in-fiction downtime
+4. When the progress track reaches its **threshold**, the activity completes
+
+## Thresholds
+
+The threshold depends on the complexity and ambition of what you're attempting:
+
+| Complexity | Threshold | Examples                                                                          |
+| ---------- | --------- | --------------------------------------------------------------------------------- |
+| Quick      | 20        | Patch a wound, have a meaningful conversation, basic foraging                     |
+| Standard   | 50        | Build a useful tool, form a real bond, complete a study                           |
+| Major      | 80        | Significant research, install cybernetics, craft a weapon, earn hostile NPC trust |
+| Monumental | 120+      | Gene modification, major construction, breakthrough discovery, deep infiltration  |
+
+If a roll pushes progress past the threshold, the excess is lost — it doesn't carry over to a new project.
+
+## Available Activities
+
+### Research
+Pursue knowledge. Study specimens, archives, anomalies, or ruins. Progress fills toward answering a specific question, unlocking a technology, or understanding a threat.
+
+_"I'm spending the week studying the anomalous tissue samples we recovered."_
+
+### Craft
+Build, repair, or modify equipment. Create something new from salvage, colony stores, or marsh materials. Progress fills toward completing an item, modification, or installation.
+
+_"I'm fabricating replacement seals for the eastern airlock."_
+
+### Bond
+Spend meaningful time with an NPC or PC. Progress fills toward deepening a relationship, earning trust, building an alliance, or mending a rift.
+
+_"I'm eating meals with the marsh-dweller delegation every day this week."_
+
+### Recover
+Heal injuries, treat addiction, process trauma, or rest. Progress fills toward removing a Bain, reducing a Burden's grip, or clearing a condition.
+
+_"I'm going through withdrawal. I'm not leaving my bunk."_
+
+### Train
+Practice a skill, study a discipline, or learn from someone with expertise. Progress fills toward earning a new Specialty or expanding capability in a specific area.
+
+_"Rivera is teaching me to shoot. I'm terrible at it."_
+
+### Augment
+Install, modify, or adapt cybernetics or gene modifications. **Requires the colony to have the necessary facilities and materials.** Progress fills toward completing the procedure.
+
+_"The cybernetics bay is online. I'm getting the arm replaced."_
+
+### Explore
+Scout nearby areas, map the marsh, investigate leads, or follow up on rumors. Progress fills toward discovering a location, resource, threat, or opportunity.
+
+_"I'm following the drainage channels south to see where the water goes."_
+
+### Socialize
+Engage with the colony at large — run a recreation event, give a speech, organize a gathering, or simply be present. Progress fills toward shifting colony morale, spreading information, or establishing reputation.
+
+_"I'm putting on a show for the colonists in hab-block 3. They need it."_
 
 ---
 
@@ -642,21 +714,6 @@ Likely categories:
 - improvised gear (built from marsh materials and colony scrap)
 - marsh-dweller trade goods (acquired through contact)
 
-### Starting Gear
-
-Characters begin with gear issued from colony stores based on their Division assignment.
-
-**Gear Kits (choose 1 based on Division):**
-
-- **Medical Kit** — field surgical tools, limited pharmaceuticals, diagnostic scanner (battery-dependent)
-- **Engineering Kit** — multi-tool, repair components, portable welder, diagnostic tablet
-- **Science Kit** — sample containers, portable analyzer, data tablet with Oasis archive access
-- **Security Kit** — sidearm, body armor (light), tactical communications unit
-- **Agriculture Kit** — soil testing kit, seed samples, water testing equipment, field journal
-- **Operations Kit** — communications unit, colony manifest access, resource tracking tablet
-
-All kits include: standard-issue clothing, water canteen, emergency rations (3 days), flashlight, personal ID.
-
 ---
 
 # Creatures and Threats
@@ -686,12 +743,7 @@ Threats should come from the marsh, from within the colony, and from the discove
 Suggested starting list:
 
 - **Command Staff** — Oasis leadership, chain of command, institutional authority
-- **Drive Research Group** — scientists and engineers focused on Korenfeld reconstruction
-- **Frontier Advocates** — colonists who want to explore, expand, and make contact with marsh-dwellers
-- **Consolidation Bloc** — colonists who want to fortify, conserve resources, and wait
-- **The Grieving** — colonists who have not accepted the situation and are psychologically collapsing
-- **Breakaway Groups** — colonists who want to leave the Oasis entirely and find their own way
-
+- continue later
 ## External Factions
 
 - Marsh-dweller cultures (multiple, varied, to be developed)
@@ -726,16 +778,15 @@ Use this framework first for:
 
 Before deeper rules work, complete:
 
-1. all 6 Division write-ups with full proficiency, specialty, and play lists
-2. 1 shared pre-cryo background proficiency list
-3. 1 shared general survivor play list
-4. starting gear packages per Division
-5. colony resource tracking guidelines
-6. a short colony faction list
-7. a short anomaly encounter list
-8. 2-3 marsh-dweller cultures sketched
-9. the Broadcast as a first-session hook
-10. a short setting pressure / Bain list
+1. character creation flow with proficiency, specialty, trait, and play lists
+2. starting kit packages for reference
+4. colony resource tracking guidelines
+5. a short colony faction list
+6. a short anomaly encounter list
+7. 2-3 marsh-dweller cultures sketched
+8. the Broadcast as a first-session hook
+9. a short setting pressure / Bain list
+10. downtime activity rules and thresholds
 
 ---
 
