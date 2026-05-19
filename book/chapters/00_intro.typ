@@ -44,6 +44,23 @@
   ]
 }
 
+// Level 3 — sub-section entries
+#show outline.entry.where(level: 3): it => {
+  v(1mm, weak: true)
+  pad(left: 6mm)[
+    #grid(
+      columns: (auto, 1fr, auto),
+      column-gutter: 1mm,
+      align: (left + bottom, left + bottom, right + bottom),
+      text(fill: rgb("#888888"), size: 7.5pt)[#outline-body(it)],
+      box(width: 1fr)[
+        #pad(x: 1mm)[#text(fill: rgb("#444444"), size: 5.5pt)[#repeat[. ]]]
+      ],
+      text(fill: rgb("#888888"), size: 7.5pt)[#outline-page(it)],
+    )
+  ]
+}
+
 #page(
   fill: black,
   margin: (x: 9mm, top: 10mm, bottom: 14mm),
@@ -60,7 +77,7 @@
   #v(10mm)
   #pad(bottom: 16mm)[
     #columns(2, gutter: 8mm)[
-      #outline(title: none, depth: 2)
+      #outline(title: none, depth: 3)
     ]
   ]
 

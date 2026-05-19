@@ -616,11 +616,11 @@ Conflict in Diaphragma covers any situation where opposing forces clash: a negot
 
 #v(2mm)
 
-There are no hit points in Diaphragma. Every conflict — a fight, a chase, a negotiation, a standoff — has a *Clock*: a dial divided into segments. Players fill segments by succeeding. When the clock is full, the conflict resolves in their favor.
+There are no hit points in Diaphragma. Every conflict, a fight, a chase, a negotiation, a standoff, has a *Clock*: a dial divided into segments. Players fill segments by succeeding. When the clock is full, the conflict resolves in their favor.
 
 #v(1mm)
 
-You are not chipping away at a health bar. You are building *momentum* — stacking fictional advantages, gaining ground, pushing the situation toward resolution.
+You are building *momentum* — stacking fictional advantages, gaining ground, pushing the situation toward resolution.
 
 #v(3mm)
 
@@ -657,7 +657,6 @@ You are not chipping away at a health bar. You are building *momentum* — stack
   #nf-table(
     ("Result", "Effect"),
     (
-      ("Critical Failure", "Fill 0. The Storyteller fills 1 on the enemy clock."),
       ("Failure",          "Fill 0. Storyteller adds pressure or complication."),
       ("Partial Success",  "Fill 1. But the Storyteller adds a cost or twist."),
       ("Success",          "Fill 1. Clean progress."),
@@ -669,7 +668,7 @@ You are not chipping away at a health bar. You are building *momentum* — stack
 
   #rule-title("Different Approaches")
 
-  The Storyteller can require that at least *two or three different Proficiencies* contribute before the clock fills — forcing the group to use different characters and approaches rather than repeating the same action. This keeps conflict dynamic and prevents one player from soloing every scene.
+  The Storyteller can require that at least *two or three different Proficiencies* contribute before the clock fills, forcing the group to use different characters and approaches rather than repeating the same action. This keeps conflict dynamic and prevents one player from soloing every scene.
 
   #colbreak()
 
@@ -686,9 +685,9 @@ You are not chipping away at a health bar. You are building *momentum* — stack
 
   #v(3mm)
 
-  #rule-title("Counter-Clocks")
+  #rule-title("Counter Clocks")
 
-  The Storyteller may also run a *Counter-Clock* — the enemy's own progress. The bomb is ticking. The villain's ritual is advancing. The alarm is spreading.
+  The Storyteller may also run a *Counter Clock* — the enemy's own progress. The bomb is ticking. The villain's ritual is advancing. The alarm is spreading.
 
   #v(1mm)
 

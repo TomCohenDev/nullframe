@@ -75,6 +75,19 @@
   )
 ]
 
+#let sub-title(title) = {
+  heading(level: 3, numbering: none)[#title]
+  block(
+    width: 100%,
+    inset: (top: 1.5mm, bottom: 1.5mm),
+    fill: rgb("#333333"),
+  )[
+    #align(center)[
+      #text(font: font-display, fill: white, weight: 700, size: 11pt, tracking: 0.8pt)[#upper(title)]
+    ]
+  ]
+}
+
 #let section-rule(title) = block(
   width: 100%,
   above: 3mm,

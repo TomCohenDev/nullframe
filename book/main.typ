@@ -27,14 +27,15 @@
 )
 
 // Suppress default heading rendering — headings are only used for outline tracking;
-// chapter-opener() and top-title() provide the visual display.
+// chapter-opener(), top-title(), and sub-title() provide the visual display.
 #show heading.where(level: 1): it => []
 #show heading.where(level: 2): it => []
+#show heading.where(level: 3): it => []
 
 // Chapter includes — comment out any chapter to skip it during editing
 #include "chapters/00_intro.typ"
 #include "chapters/01_core_rules.typ"
-#include "chapters/02_characters.typ"
-#include "chapters/03_gameplay.typ"
+// #include "chapters/02_characters.typ"   // TODO: in progress
+// #include "chapters/03_gameplay.typ"      // TODO: in progress
 #include "chapters/04_gm_toolkit.typ"
-#include "chapters/99_back_matter.typ"
+// #include "chapters/99_back_matter.typ"   // TODO: in progress
