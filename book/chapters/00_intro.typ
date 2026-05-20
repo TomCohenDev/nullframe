@@ -12,12 +12,23 @@
 //  Page: Table of Contents  (Mothership-style dark)
 // ─────────────────────────────────────────────
 
+#let heading-body-text(h) = {
+  // Safely extract the text string from a heading body regardless of whether
+  // the body is a plain text element or a content sequence.
+  let b = h.body
+  if b.has("text") { lower(b.text) }
+  else if b.has("children") {
+    lower(b.children.map(c => if c.has("text") { c.text } else { "" }).join(""))
+  }
+  else { repr(b) }
+}
+
 #let toc-in-frameworks(it) = {
   let target = it.element.location()
   let chapter = none
   for h in query(heading) {
     if h.level == 1 {
-      chapter = lower(h.body.text)
+      chapter = heading-body-text(h)
     }
     if h.location() == target {
       return chapter == "frameworks"
@@ -72,6 +83,25 @@
   ]
 }
 
+// Special case: framework sub-sections are primary navigation items (e.g. Character Creation
+// in The Oasis), not minor sub-headings. Styled more prominently and uppercased to match the
+// black-header visual language used by oasis-rules-header().
+#let toc-entry-l3-framework(it) = {
+  v(2mm, weak: true)
+  pad(left: 5mm)[
+    #grid(
+      columns: (auto, 1fr, auto),
+      column-gutter: 1mm,
+      align: (left + bottom, left + bottom, right + bottom),
+      text(font: font-display, fill: rgb("#cccccc"), size: 8pt, tracking: 0.3pt)[#upper(outline-body(it))],
+      box(width: 1fr)[
+        #pad(x: 1mm)[#text(fill: rgb("#555555"), size: 6pt)[#repeat[. ]]]
+      ],
+      text(font: font-display, fill: rgb("#bbbbbb"), size: 8pt)[#outline-page(it)],
+    )
+  ]
+}
+
 #let toc-column(frameworks: false) = {
   show outline.entry: it => {
     if toc-in-frameworks(it) != frameworks {
@@ -82,7 +112,14 @@
     } else if it.level == 2 {
       toc-entry-l2(it)
     } else if it.level == 3 {
-      toc-entry-l3(it)
+      // Frameworks use oasis-rules-header() for section titles — a different visual
+      // language than sub-title() used in regular chapters. Route to the framework
+      // variant so these entries have the right weight in the right column.
+      if frameworks {
+        toc-entry-l3-framework(it)
+      } else {
+        toc-entry-l3(it)
+      }
     }
   }
   outline(title: none, depth: 3)

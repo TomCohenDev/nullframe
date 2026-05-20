@@ -32,19 +32,8 @@
   ]
 ]
 
-// ── local helper: lore section header (visual only, no TOC entry) ──
-#let oasis-header(title) = block(
-  width: 100%,
-  inset: (top: 2mm, bottom: 2mm),
-  fill: black,
-)[
-  #align(center)[
-    #text(font: font-display, fill: white, weight: 700, size: 15pt, tracking: 1pt)[#upper(title)]
-  ]
-]
-
-// ── local helper: rules section header (oasis visual + level-3 TOC entry) ──
-#let oasis-rules-header(title) = {
+// ── local helper: all Oasis section headers register in the TOC ──
+#let oasis-header(title) = {
   heading(level: 3, numbering: none)[#title]
   block(
     width: 100%,
@@ -56,6 +45,7 @@
     ]
   ]
 }
+#let oasis-rules-header = oasis-header
 
 // ── The Setting ───────────────────────────────
 
@@ -358,7 +348,7 @@ Eight people hold authority over 4,400 lives. They were selected before launch f
 
   #rule-title("Key Figures")
 
-  #set par(spacing: 0.4em)
+  #set par(leading: 0.4em)
 
   *Prime Prefect — Maren Solvi* #linebreak()
   Holds the Pantheon legal charter and final authority over all colony decisions. A career administrator from Rimaer's civil governance. She spent twenty years managing planetary infrastructure projects. She has never managed a disaster. She is learning.
@@ -711,16 +701,20 @@ Choose *1 Play* at character creation. Plays are not bonuses — they are *permi
 
 #pagebreak()
 
-// ── Traits & Running the Oasis ────────────────
+// ── Traits ────────────────────────────────────
 
 #rule-title("Traits")
 
 #v(2mm)
 
 Traits define how your character acts under pressure. They are permanent personality anchors — and can become the basis for a Burden when the fiction demands it.
-#v(1mm)
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
   *Psychological*
-  #v(-2mm)
+  #v(1mm)
   #nf-table(
     ("Trait", "Description"),
     (
@@ -736,10 +730,10 @@ Traits define how your character acts under pressure. They are permanent persona
     )
   )
 
-
+  #v(2mm)
 
   *Physical*
-  #v(-2mm)
+  #v(1mm)
   #nf-table(
     ("Trait", "Description"),
     (
@@ -752,9 +746,11 @@ Traits define how your character acts under pressure. They are permanent persona
       ("Klutz",           "Drops tools, trips, and disrupts at the worst moments"),
     )
   )
-#linebreak()
+
+  #colbreak()
+
   *Habits*
-  #v(-2mm)
+  #v(1mm)
   #nf-table(
     ("Trait", "Description"),
     (
@@ -765,9 +761,10 @@ Traits define how your character acts under pressure. They are permanent persona
     )
   )
 
+  #v(2mm)
 
   *Social*
-  #v(-2mm)
+  #v(1mm)
   #nf-table(
     ("Trait", "Description"),
     (
@@ -797,12 +794,17 @@ Traits define how your character acts under pressure. They are permanent persona
     The most useful Traits are not the ones that never come up — they are the ones that surface at the worst possible moment and cost something real.
   ]
 
-  #colbreak()
+]
 
-  
+#pagebreak()
 
+// ── Running the Oasis ────────────────────────
 
-  #oasis-header("Running the Oasis")
+#oasis-header("Running the Oasis")
+
+#v(2mm)
+
+#columns(2, gutter: 4mm)[
 
   The Oasis is survival science fiction with a horror edge. The horror is consequential. The world didn't break because of monsters. It broke because of people, their choices, and an aftermath that outlives every choice made.
 
@@ -811,6 +813,18 @@ Traits define how your character acts under pressure. They are permanent persona
   Your colonists are not heroes arriving to fix things. They are survivors trying to build something survivable in a world still paying for something they weren't there to witness.
 
   #v(2mm)
+
+  The colony is a pressure system: food, power, morale, and security all degrade without maintenance. Let the players feel that weight every session.
+
+  #v(1mm)
+
+  The surface is an antagonist. Not a monster. Not a faction. The marsh grinds without intent. Sessions without encounters — just the marsh, the wrong sound, the missing team member, the thing that came back different — are sessions doing their job.
+
+  #v(1mm)
+
+  Reward investigation with information that hurts. The truth of this world is recoverable. It does not help.
+
+  #colbreak()
 
   #grey-box([
     #text(font: font-display, weight: 700, size: 8pt)[WHAT PLAYERS KNOW AT SESSION ONE]
@@ -826,16 +840,338 @@ Traits define how your character acts under pressure. They are permanent persona
     Why the world ended. What the anomalies are. Whether the drive can be rebuilt. Whether the colony still wants to leave once it understands why it came back.
   ])
 
-  #v(2mm)
+]
 
-  The colony is a pressure system: food, power, morale, and security all degrade without maintenance. Let the players feel that weight every session.
+#pagebreak()
+#pagebreak()
 
-  #v(1mm)
+// ─────────────────────────────────────────────
+// DIAPHRAGMA — CHARACTER MANIFEST
+// Mothership-ship-manifest inspired layout
+// narrative-first, single page
+// ─────────────────────────────────────────────
 
-  The surface is an antagonist. Not a monster. Not a faction. The marsh grinds without intent. Sessions without encounters — just the marsh, the wrong sound, the missing team member, the thing that came back different — are sessions doing their job.
+#let ink = rgb("#2a2a2a")
+#let soft = rgb("#e8e8ec")
+#let pale = rgb("#f2f3f7")
+#let rule = rgb("#cfd2da")
+#let sub = rgb("#717784")
 
-  #v(1mm)
+#let cap(t) = text(
+  font: font-display,
+  size: 6.2pt,
+  weight: 700,
+  tracking: 0.8pt,
+  fill: ink,
+)[#upper(t)]
 
-  Reward investigation with information that hurts. The truth of this world is recoverable. It does not help.
+#let tiny(t) = text(
+  font: font-display,
+  size: 5pt,
+  weight: 700,
+  tracking: 0.5pt,
+  fill: sub,
+)[#upper(t)]
 
+#let note(t) = text(
+  size: 6pt,
+  fill: sub,
+)[#t]
 
+#let line-fill(h: 6.8mm) = block(
+  width: 100%,
+  height: h,
+  fill: pale,
+  stroke: 0.45pt + rule,
+  radius: 1.6mm,
+)[]
+
+#let lines(n, h: 6.2mm) = {
+  for _ in range(n) {
+    line-fill(h: h)
+    v(1.1mm)
+  }
+}
+
+#let pill(left, right, w: 26mm) = block(
+  width: w,
+  height: 8.5mm,
+  fill: pale,
+  stroke: 0.9pt + ink,
+  radius: 5mm,
+  inset: 0pt,
+)[
+  #grid(
+    columns: (1fr, 0.75fr),
+    column-gutter: 0pt,
+    align: center + horizon,
+    block(stroke: (right: 0.7pt + ink), inset: 0pt, width: 100%, height: 100%)[
+      #align(center + horizon)[
+        #text(font: font-display, size: 8pt, weight: 700, fill: rgb("#5970a8"))[#left]
+      ]
+    ],
+    [
+      #align(center + horizon)[
+        #text(font: font-display, size: 7pt, weight: 700)[#right]
+      ]
+    ],
+  )
+]
+
+#let panel(title, body, h: auto) = block(
+  width: 100%,
+  height: h,
+  fill: soft,
+  stroke: 1pt + ink,
+  radius: 4mm,
+  inset: (x: 2.6mm, top: 2.2mm, bottom: 2.6mm),
+)[
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 2mm,
+    align: horizon,
+    cap(title),
+    block(width: 100%, height: 0.7pt, fill: ink)[],
+  )
+  #v(1.8mm)
+  #body
+]
+
+#let tagbox(title, h: 7mm) = [
+  #tiny(title)
+  #v(0.6mm)
+  #line-fill(h: h)
+]
+
+#let checkline(label) = [
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 2mm,
+    align: horizon,
+    text(font: font-display, size: 6pt, weight: 700)[□],
+    tiny(label),
+  )
+]
+
+#block(width: 100%, fill: ink, inset: (x: 4mm, top: 4mm, bottom: 3.5mm), radius: 3mm)[
+  #grid(
+    columns: (1fr, auto),
+    align: bottom,
+    text(font: font-display, fill: white, weight: 700, size: 16pt, tracking: 2.4pt)[DIAPHRAGMA® CHARACTER MANIFEST],
+    text(font: font-display, fill: rgb("#c7cad1"), size: 6pt, tracking: 0.8pt)[THE OASIS],
+  )
+]
+
+#v(3mm)
+
+// ─────────────────────────────────────────────
+// TOP BAND
+// ─────────────────────────────────────────────
+
+#grid(
+  columns: (63mm, 29mm, 1fr, 48mm),
+  column-gutter: 3mm,
+  align: top,
+
+  // LEFT ID
+  panel("Identity", [
+    #tagbox("Character Name", h: 8mm)
+    #v(1.2mm)
+    #tagbox("Pronouns", h: 7mm)
+    #v(1.2mm)
+    #tagbox("Role / Profession", h: 7mm)
+    #v(1.2mm)
+    #tagbox("High Concept", h: 15mm)
+  ], h: 68mm),
+
+  // SMALL STAT-LIKE FLAGS
+  panel("Story Flags", [
+    #align(center)[
+      #text(font: font-display, size: 5pt, weight: 700, tracking: 0.5pt)[BEFORE CRYO]
+    ]
+    #v(0.6mm)
+    #line-fill(h: 10mm)
+    #v(1.3mm)
+
+    #align(center)[
+      #text(font: font-display, size: 5pt, weight: 700, tracking: 0.5pt)[WHAT WAKING CHANGED]
+    ]
+    #v(0.6mm)
+    #line-fill(h: 10mm)
+    #v(1.3mm)
+
+    #align(center)[
+      #text(font: font-display, size: 5pt, weight: 700, tracking: 0.5pt)[TROUBLE / CRACK]
+    ]
+    #v(0.6mm)
+    #line-fill(h: 10mm)
+  ], h: 68mm),
+
+  // MAIN CENTER TOP
+  panel("Proficiencies + Play", [
+    #grid(
+      columns: (1fr, 1fr, 28mm),
+      column-gutter: 2.5mm,
+      align: top,
+      [
+        #tiny("Proficiency 1")
+        #line-fill()
+      ],
+      [
+        #tiny("Specialty")
+        #line-fill()
+      ],
+      [
+        #tiny("Play Reset")
+        #v(0.8mm)
+        #checkline("Scene")
+        #v(1.1mm)
+        #checkline("Session")
+      ],
+    )
+    #v(1.5mm)
+    #grid(
+      columns: (1fr, 1fr),
+      column-gutter: 2.5mm,
+      [
+        #tiny("Proficiency 2")
+        #line-fill()
+      ],
+      [
+        #tiny("Specialty")
+        #line-fill()
+      ],
+    )
+    #v(1.5mm)
+    #tiny("Play Name")
+    #line-fill()
+    #v(1.2mm)
+    #tiny("What it lets you do")
+    #lines(2)
+  ], h: 68mm),
+
+  // RIGHT LIST
+  panel("Relationships", [
+    #pill("1", "")
+    #v(1mm)
+    #note[Track the people who matter most.]
+    #v(1.6mm)
+    #lines(7, h: 6mm)
+  ], h: 68mm),
+)
+
+#v(3mm)
+
+// ─────────────────────────────────────────────
+// LOWER BAND
+// ─────────────────────────────────────────────
+
+#grid(
+  columns: (58mm, 1fr, 56mm),
+  column-gutter: 3mm,
+  align: top,
+
+  // LEFT SIDEBAR
+  panel("Traits + Burdens", [
+    #grid(
+      columns: (6mm, 1fr),
+      column-gutter: 1.6mm,
+      align: top,
+
+      // 01
+      [
+        #align(center + horizon)[
+          circle(radius: 2.2mm, stroke: 0.8pt + ink, fill: pale)
+        ]
+      ],
+      [
+        #cap("01 Trait")
+        #line-fill(h: 8mm)
+        #v(0.6mm)
+        #tiny("Burden Form")
+        #line-fill(h: 11mm)
+      ],
+
+      // 02
+      [
+        #align(center + horizon)[
+          circle(radius: 2.2mm, stroke: 0.8pt + ink, fill: pale)
+        ]
+      ],
+      [
+        #cap("02 Trait")
+        #line-fill(h: 8mm)
+        #v(0.6mm)
+        #tiny("Burden Form")
+        #line-fill(h: 11mm)
+      ],
+
+      // 03
+      [
+        #align(center + horizon)[
+          circle(radius: 2.2mm, stroke: 0.8pt + ink, fill: pale)
+        ]
+      ],
+      [
+        #cap("03 Additional Burden")
+        #line-fill(h: 8mm)
+        #v(0.6mm)
+        #tiny("When It Matters")
+        #line-fill(h: 11mm)
+      ],
+    )
+    #v(2mm)
+    #align(center)[
+      #pill("NP", "", w: 26mm)
+    ]
+  ], h: 124mm),
+
+  // BIG CENTER
+  panel("Journal / Portrait / Scene Notes", [
+    #note[
+      Use this for sketching the character, tracking evolving facts, drawing a location, or marking key discoveries.
+    ]
+    #v(2mm)
+    #lines(13, h: 6.1mm)
+  ], h: 124mm),
+
+  // RIGHT STACK
+  panel("Kit", [
+    #pill("3", "")
+    #v(1.2mm)
+    #tiny("Only write gear that actually matters")
+    #v(1mm)
+    #lines(5, h: 6mm)
+    #v(1.8mm)
+
+    #grid(
+      columns: (1fr, 1fr),
+      column-gutter: 2mm,
+      [
+        #cap("Conditions")
+        #v(1mm)
+        #lines(3, h: 6mm)
+      ],
+      [
+        #cap("Legendary")
+        #v(1mm)
+        #tiny("Play Name")
+        #line-fill(h: 7mm)
+        #v(0.7mm)
+        #tiny("Tokens")
+        #v(1mm)
+        #grid(
+          columns: (auto, auto),
+          column-gutter: 3mm,
+          circle(radius: 3.2mm, stroke: 0.8pt + ink, fill: pale),
+          circle(radius: 3.2mm, stroke: 0.8pt + ink, fill: pale),
+        )
+      ],
+    )
+    #v(1.8mm)
+
+    #cap("Open Questions")
+    #v(1mm)
+    #lines(2, h: 6mm)
+  ], h: 124mm),
+)
