@@ -783,5 +783,35 @@ The core rules of Diaphragma ship without a setting. They are a complete engine 
   ]
 
 ]
+#v(4mm)
+
+
+#rule-title("Creating Your Own Framework")
+
+#v(2mm)
+
+#columns(2, gutter: 4mm)[
+
+  You don't need a published Framework to run Diaphragma. Define three things: the world's tone, what players can be, and what threatens them. The engine handles the rest.
+
+  #v(1mm)
+
+  A Framework can be as small as one page. A tone sentence. A list of Proficiencies. A handful of Plays. That's enough to run a session.
+
+  #colbreak()
+
+  #grid(
+    columns: (8mm, 1fr),
+    column-gutter: 2mm,
+    row-gutter: 2.5mm,
+    align: (center + horizon, left + horizon),
+    [#pill("1", width: 100%)], [*Tone:* One sentence. What does this world feel like and what does it cost to live in it?],
+    [#pill("2", width: 100%)], [*Characters:* What roles exist? Write 8–12 Proficiencies that cover the range of who your players can be.],
+    [#pill("3", width: 100%)], [*Plays:* Write 6–10 Plays that let players do things specific to this setting — things the core rules alone don't cover.],
+    [#pill("4", width: 100%)], [*Threats:* Name 3–5 things that actively push back. Give each a Clock size and a signature Bain.],
+  )
+
+]
+
 
 #pagebreak()

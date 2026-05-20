@@ -40,7 +40,7 @@
 
 ---
 
-## Chapter 4: GM Toolkit
+## Chapter 4: Storyteller Toolkit
 
 1. Principles
 2. NPCs and Threats

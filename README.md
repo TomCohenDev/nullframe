@@ -49,7 +49,7 @@ Diaphragma/
 │   ├── 01_core_rules/        # Core mechanics
 │   ├── 02_characters/        # Character creation
 │   ├── 03_gameplay_loops/    # Pacing, conflict, consequences
-│   ├── 04_gm_toolkit/        # GM principles and tools
+│   ├── 04_gm_toolkit/        # Storyteller principles and tools
 │   └── 99_back_matter/       # Reference tables
 │
 ├── 02_assets/                # Visual components

@@ -1,7 +1,7 @@
 #import "../style.typ": *
 
 // ─────────────────────────────────────────────
-//  Chapter 4: GM Toolkit
+//  Chapter 4: Storyteller Toolkit
 // ─────────────────────────────────────────────
 
 #page(
@@ -13,7 +13,7 @@
     #align(right)[#counter(page).display()]
   ],
 )[
-  #heading(level: 1, numbering: none)[GM Toolkit]
+  #heading(level: 1, numbering: none)[Storyteller Toolkit]
   #place(center + horizon)[
     #align(center)[
       #text(
@@ -42,59 +42,50 @@
 
 #v(2mm)
 
-Your job isn't to tell a good story. Your job is to create an honest situation and get out of the way. The story takes care of itself.
+Your job is to tell a good story. You do by creating an honest situation see your players try to figure it out. The story takes care of itself.
 
 #v(3mm)
 
 #columns(2, gutter: 4mm)[
 
-  #rule-title("1. Be an Impartial Referee")
+  #rule-title("Be an Impartial Referee")
 
-  Don't protect your players from the dice. When they Roll and get a 2, that's their problem. Own it. The game only works if your players trust that the die means something. Shield them once and they'll never believe a threat is real again.
-
-  #v(1mm)
-
-  They chose to Roll. They chose to Settle. Those choices are theirs. Let the results be theirs too.
+  Don't protect your players from the dice. When they Roll and get a 2, Own it, make it a cool complication, a cool moment in the fiction, even if it it means the character is in trouble. 
 
   #v(2mm)
 
-  #rule-title("2. Establish Clear Stakes Before the Roll")
+  #rule-title("Establish Clear Stakes Before the Roll")
 
   Before any roll, say what happens if they fail. Say what it costs. If a Bain applies, declare it now, not after. Your players make better decisions when they understand the situation. That's good storytelling and more rewarding for the players.
 
-  #colbreak()
+  #v(2mm)
 
-  #rule-title("3. Keep the Numbers in the Fiction")
+  #rule-title("Keep the Numbers in the Fiction")
 
   When a Bain lands, tell them what it looks like. The smoke stings their eyes. The mud pulls at their boots. The number on the sheet means nothing if the fiction doesn't back it up. Numbers describe the world. Don't let them replace it.
 
   #v(2mm)
 
-  #rule-title("4. Drive Tension Through the Edge Economy")
+  #rule-title("Drive Tension Through the Edge Economy")
 
   Edges are your players' footing. Your job is to take that footing away. The torch burns down. Cover gets destroyed. An ally falls. When there's nothing left to invoke, the die becomes something your players are genuinely afraid of.
 
   #v(1mm)
 
-  Keep that fear alive. It's the whole game.
+  Keep that tension alive.
+    #v(2mm)
 
-]
-
-#v(3mm)
-
-#columns(2, gutter: 4mm)[
-
-  #rule-title("5. Only Roll When Stakes Are High")
+  #rule-title("Only Roll When Stakes Are High")
 
   Save the dice for when it hurts. If the character is trained and nothing is actively pushing back, they succeed. No roll needed. If the situation is impossible, they fail. No roll possible.
 
   #v(1mm)
 
-  Call for a roll only when the outcome is genuinely uncertain, there is active opposition, and failure carries a real cost. Over-rolling slows the game to a crawl and makes competent characters look incompetent.
+  Call for a roll only when the outcome is genuinely uncertain, there is active opposition, and failure carries a real cost. 
 
   #v(2mm)
 
-  #rule-title("6. Fail Forward, Always")
+  #rule-title("Fail Forward, Always")
 
   A failed roll is not a dead end. A Failure (2–6) or a Partial Success (7–9) must always move the fiction forward. Never tell a player "nothing happens."
 
@@ -104,13 +95,15 @@ Your job isn't to tell a good story. Your job is to create an honest situation a
 
 
   #v(2mm)
-  #rule-title("7. Say the Quiet Part Loud")
 
-  Subtlety will murder your social encounters. Guessing whether an NPC is lying is tedious and kills momentum.
+  #rule-title("7. Create Drama")
+
+  Drama is two people who both can't have what they want at the same time. That's the whole formula. Your job is to put those people in the same scene and make sure the situation gets worse before it gets better.
 
   #v(1mm)
 
-  If an NPC is untrustworthy, say so outright: *"They're smiling, but they are clearly lying to you."* Knowing the truth is out there — and scrambling to find leverage to expose it — creates immediate, actionable drama.
+  Give every scene at least one competing interest. A guard who wants to go home and a player who needs to get past. An ally who needs the truth and a player who can't afford to tell it. The dice decide who gets what. Your players decide what it means.
+
 
   #v(2mm)
 
@@ -121,8 +114,10 @@ Your job isn't to tell a good story. Your job is to create an honest situation a
   #v(1mm)
 
   They can usually only do one. Set up simultaneous Conflict Clocks for each goal. The one they ignore is where the session's best moment comes from.
-
 ]
+
+
+
 
 #pagebreak()
 
@@ -152,7 +147,7 @@ NPCs don't have hit points. You're not tracking damage, you're tracking how clos
     [#pill("1", width: 100%)], [*Conflict Clock:* How much effort does it take to overcome this threat? Set the size before the scene begins.],
     [#pill("2", width: 100%)], [*Threat Bains:* What does fighting this thing cost? What conditions does it force onto your players?],
     [#pill("3", width: 100%)], [*Counter Clock (Optional):* What is this threat doing while your players act? Give it an agenda.],
-    [#pill("4", width: 100%)], [*Edges & Bains:* What gives your players advantage — or strips it away? Set these from the fiction, not a stat block.],
+    [#pill("4", width: 100%)], [*Edges & Bains:* What gives your players advantage, or strips it away? Set these from the fiction, and write it onto the NPC's sheet.],
   )
 
   #v(2mm)
@@ -191,31 +186,12 @@ NPCs don't have hit points. You're not tracking damage, you're tracking how clos
     )
   )
 
-  #colbreak()
-
   #rule-title("Running Threats in Conflict")
 
   When your players roll against a threat: a *Success* ticks their clock forward. A *Failure* or *Partial Success* ticks the threat's Counter Clock or drops a Bain on them. Keep it moving. Something always changes.
 
   #v(2mm)
 
-  #rule-title("Simultaneous Actions")
-
-  Everything in a 10-second window happens at once. If an NPC goes down in the same round they attack, their hit still lands. Don't walk it back. It's more interesting if it lands.
-
-  #v(2mm)
-
-  #grey-box([
-    #text(font: font-display, weight: 700, size: 8pt)[COUNTER CLOCK EXAMPLES]
-    #v(1.5mm)
-    #tag("Calling for Backup", "6 seg")
-    #v(1mm)
-    #tag("Spreading Fire", "8 seg")
-    #v(1mm)
-    #tag("Ritual Completion", "10 seg")
-    #v(1mm)
-    #tag("Structural Collapse", "4 seg")
-  ])
 
 ]
 
@@ -267,7 +243,6 @@ The Conflict Clock is your primary instrument. Learn to use it well and the rest
 
   #scene-quote[They patched the wound *Hastily* — the patient carries *Fragile* as a Burden for the rest of the scene.]
 
-  #colbreak()
 
   #rule-title("Reading Failed Rolls")
 
@@ -371,19 +346,7 @@ The Conflict Clock is your primary instrument. Learn to use it well and the rest
 
 #columns(2, gutter: 4mm)[
 
-  #rule-title("Say the Quiet Part Loud")
 
-  Don't make your players guess whether an NPC is lying. Make the caginess obvious. Say it out loud — or put it directly on the clock:
-
-  #v(1mm)
-
-  #scene-quote[*"Something's off here. You suffer the Suspicious Negotiator −1 Bain on this clock."*]
-
-  #v(1mm)
-
-  Now the question isn't whether they're being deceived. It's what your players do about it. That's the more interesting question.
-
-  #v(2mm)
 
   #rule-title("Social Conflict Uses Clocks")
 

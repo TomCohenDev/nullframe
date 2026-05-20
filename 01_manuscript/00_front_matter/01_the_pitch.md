@@ -97,7 +97,7 @@ See the Table of Contents for a complete chapter listing.
 - **Chapter 1 (Core Rules):** How dice work. Start here.
 - **Chapter 2 (Characters):** Building your character.
 - **Chapter 3 (Gameplay Loops):** Combat, scenes, consequences.
-- **Chapter 4 (GM Toolkit):** Running the game.
+- **Chapter 4 (Storyteller Toolkit):** Running the game.
 - **Back Matter:** Tables, glossary, sheets.
 
 If you're a player, read Chapters 1-3.  

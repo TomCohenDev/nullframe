@@ -12,8 +12,21 @@
 //  Page: Table of Contents  (Mothership-style dark)
 // ─────────────────────────────────────────────
 
-// Level 1 — chapter headers
-#show outline.entry.where(level: 1): it => {
+#let toc-in-frameworks(it) = {
+  let target = it.element.location()
+  let chapter = none
+  for h in query(heading) {
+    if h.level == 1 {
+      chapter = lower(h.body.text)
+    }
+    if h.location() == target {
+      return chapter == "frameworks"
+    }
+  }
+  false
+}
+
+#let toc-entry-l1(it) = {
   v(7mm, weak: true)
   grid(
     columns: (auto, 1fr, auto),
@@ -27,8 +40,7 @@
   )
 }
 
-// Level 2 — section entries
-#show outline.entry.where(level: 2): it => {
+#let toc-entry-l2(it) = {
   v(1.8mm, weak: true)
   pad(left: 3mm)[
     #grid(
@@ -44,8 +56,7 @@
   ]
 }
 
-// Level 3 — sub-section entries
-#show outline.entry.where(level: 3): it => {
+#let toc-entry-l3(it) = {
   v(1mm, weak: true)
   pad(left: 6mm)[
     #grid(
@@ -59,6 +70,22 @@
       text(fill: rgb("#888888"), size: 7.5pt)[#outline-page(it)],
     )
   ]
+}
+
+#let toc-column(frameworks: false) = {
+  show outline.entry: it => {
+    if toc-in-frameworks(it) != frameworks {
+      return
+    }
+    if it.level == 1 {
+      toc-entry-l1(it)
+    } else if it.level == 2 {
+      toc-entry-l2(it)
+    } else if it.level == 3 {
+      toc-entry-l3(it)
+    }
+  }
+  outline(title: none, depth: 3)
 }
 
 #page(
@@ -76,9 +103,13 @@
   #line(length: 100%, stroke: 0.5pt + rgb("#444"))
   #v(10mm)
   #pad(bottom: 16mm)[
-    #columns(2, gutter: 8mm)[
-      #outline(title: none, depth: 3)
-    ]
+    #grid(
+      columns: (1fr, 1fr),
+      column-gutter: 8mm,
+      align: top,
+      toc-column(frameworks: false),
+      toc-column(frameworks: true),
+    )
   ]
 
   #place(bottom)[
