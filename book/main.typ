@@ -38,4 +38,5 @@
 // #include "chapters/02_characters.typ"   // TODO: in progress
 // #include "chapters/03_gameplay.typ"      // TODO: in progress
 #include "chapters/04_gm_toolkit.typ"
+#include "chapters/05_frameworks.typ"
 // #include "chapters/99_back_matter.typ"   // TODO: in progress

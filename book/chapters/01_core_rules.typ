@@ -4,10 +4,40 @@
 //  Chapter 1: Core Rules
 // ─────────────────────────────────────────────
 
-#chapter-opener("Core Rules", subtitle: "How the game works. Start here.")
+#page(
+  paper: "a5",
+  margin: (x: 9mm, top: 8mm, bottom: 14mm),
+  background: image("../assets/core-rules.png", width: 100%, height: 100%, fit: "cover"),
+  footer: context [
+    #set text(font: font-display, size: 7pt, weight: 600, tracking: 0.5pt)
+    #align(right)[#counter(page).display()]
+  ],
+)[
+  #heading(level: 1, numbering: none)[Core Rules]
+  #place(center + horizon)[
+    #align(center)[
+      #text(
+        font: font-display,
+        fill: white,
+        weight: 700,
+        size: 32pt,
+        tracking: 5pt,
+        stroke: 0.8pt + black,
+      )[CORE RULES]
+      #v(3mm)
+      #text(
+        font: font-body,
+        fill: white,
+        weight: 400,
+        size: 9pt,
+        tracking: 1pt,
+      )[How the game works. Start here.]
+    ]
+  ]
+]
 
 // ── Core Resolution ───────────────────────────
-// Full width: the Settle/Roll comparison needs the full page to breathe
+
 
 #top-title("Core Resolution")
 
@@ -616,11 +646,7 @@ Conflict in Diaphragma covers any situation where opposing forces clash: a negot
 
 #v(2mm)
 
-There are no hit points in Diaphragma. Every conflict, a fight, a chase, a negotiation, a standoff, has a *Clock*: a dial divided into segments. Players fill segments by succeeding. When the clock is full, the conflict resolves in their favor.
-
-#v(1mm)
-
-You are building *momentum* — stacking fictional advantages, gaining ground, pushing the situation toward resolution.
+There are no hit points in Diaphragma. Every conflict, a fight, a chase, a negotiation, a standoff, has a *Clock*: a dial divided into segments. Players fill segments by succeeding. When the clock is full, the conflict resolves in their favor. You are stacking fictional advantages toward resolution.
 
 #v(3mm)
 
@@ -632,10 +658,10 @@ You are building *momentum* — stacking fictional advantages, gaining ground, p
   stroke: 0.7pt + black,
 )
 
-#let clock-row(label, total, done) = block(width: 100%, below: 3mm)[
+#let clock-row(label, total, done) = block(width: 80%, below: 3mm)[
   #grid(
     columns: (32mm, 1fr),
-    column-gutter: 3mm,
+    column-gutter: -13mm,
     align: (left + horizon, left + horizon),
     text(size: 7.5pt, weight: 600)[#upper(label)],
     grid(
@@ -668,37 +694,37 @@ You are building *momentum* — stacking fictional advantages, gaining ground, p
 
   #rule-title("Different Approaches")
 
-  The Storyteller can require that at least *two or three different Proficiencies* contribute before the clock fills, forcing the group to use different characters and approaches rather than repeating the same action. This keeps conflict dynamic and prevents one player from soloing every scene.
-
-  #colbreak()
+  The Storyteller can require that *different Proficiencies* contribute before the clock fills, forcing the group to use different characters and approaches rather than repeating the same action. This keeps conflict dynamic and prevents one player from soloing every scene.
+  #v(2mm)
 
   #rule-title("Clock Difficulty")
 
   The number of segments reflects the difficulty of the opposition. The Storyteller sets this before the conflict begins.
 
-  #v(2mm)
-
   #clock-row("Trivial",   3, 2)
   #clock-row("Capable",   5, 3)
   #clock-row("Dangerous", 8, 4)
   #clock-row("Climactic", 10, 4)
+  #colbreak()
+  #image("../assets/conflict.png", width: 100%)
+
 
   #v(3mm)
 
   #rule-title("Counter Clocks")
 
-  The Storyteller may also run a *Counter Clock* — the enemy's own progress. The bomb is ticking. The villain's ritual is advancing. The alarm is spreading.
+  The Storyteller may also run a *Counter Clock*, the enemy's own progress. The bomb is ticking. The villain's ritual is advancing. The alarm is spreading.
 
   #v(1mm)
 
-  If the enemy clock fills before the players' clock does, the situation turns against them — the conflict ends badly, or escalates to something worse. Both clocks filling at once means chaos: the Storyteller decides what that looks like.
+  If the enemy clock fills before the players' clock does, the situation turns against them, the conflict ends badly, or escalates to something worse.
 
-  #v(2mm)
+  #v(1mm)
 
   #grey-box([
     #text(font: font-display, weight: 700, size: 8pt)[EXAMPLE]
     #v(1.5mm)
-    The players fight a veteran mercenary (8-segment clock). The mercenary's bodyguard is calling for backup (6-segment counter-clock). Every missed roll or failed action ticks the counter-clock. Fill the mercenary's clock before reinforcements arrive — or deal with both.
+    The players fight a veteran mercenary (8 segment clock). The mercenary's bodyguard is calling for backup (6 segment counter clock). Every missed roll or failed action ticks the counter clock. Fill the mercenary's clock before reinforcements arrive.. or deal with both.
   ])
 
 ]

@@ -261,7 +261,7 @@ You'll read the room, find the angle, use your surroundings, exploit the weaknes
     #v(3mm)
     #concept-box("BURDENS",            [A flaw. When a Burden is relevant, the best possible result is *Partial Success*. Full Success is off the table regardless of Edges.])
     #v(3mm)
-    #concept-box("STORYTELLER TOKENS", [The Storyteller's resource for pushing back. Spend *1 ST* to invoke a Bain against a player action. The Storyteller starts each scene with a set number. Burdens never cost ST.])
+    #concept-box("CONFLICT CLOCKS", [Every conflict has a Clock: a dial of segments players fill through successful actions. When full, the conflict resolves. The Storyteller may run a *Counter Clock*, the enemy's own progress against the players.])
     #v(3mm)
     #concept-box("PLAYS",              [Special abilities tied to a Framework. Things your character can do that the core rules do not cover: powers, maneuvers, and techniques defined by the setting.])
   ],
@@ -274,7 +274,7 @@ You'll read the room, find the angle, use your surroundings, exploit the weaknes
     #v(3mm)
     #concept-box("FRAMEWORKS",         [A rules layer added on top of the core system. Each Framework defines a setting: its tone, character options, powers, gear, enemies, and any special rules.])
     #v(3mm)
-    #concept-box("LEGENDARY PLAYS",    [Created from a specific moment in play. Spends a *Legendary Token*, to make it a permanent ability])
+    #concept-box("LEGENDARY PLAYS",    [Created from super awesome moments during play. A player may spend a *Legendary Token*, to make it a permanent ability for his character.])
   ],
 )
 

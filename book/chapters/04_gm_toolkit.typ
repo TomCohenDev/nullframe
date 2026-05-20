@@ -4,44 +4,16 @@
 //  Chapter 4: GM Toolkit
 // ─────────────────────────────────────────────
 
-#chapter-opener("GM Toolkit", subtitle: "Running the game.")
-
-// ── 4.1 Principles ────────────────────────────
-
-#top-title("Principles")
-
-// TODO: content from 01_manuscript/04_gm_toolkit/01_principles.md
-
-#pagebreak()
-
-// ── 4.2 NPCs & Threats ────────────────────────
-
-#top-title("NPCs and Threats")
-
-// TODO: content from 01_manuscript/04_gm_toolkit/02_npcs_threats.md
-
-#pagebreak()
-
-// ── 4.3 The Toolbox ───────────────────────────
-
-#top-title("The Toolbox")
-
-// TODO: content from 01_manuscript/04_gm_toolkit/03_the_toolbox.md
-
-#pagebreak()
-
-// ── Frameworks ────────────────────────────────
-
 #page(
   paper: "a5",
   margin: (x: 9mm, top: 8mm, bottom: 14mm),
-  background: image("../assets/frameworks.png", width: 100%, height: 100%, fit: "cover"),
+  background: image("../assets/gm-toolkit.png", width: 100%, height: 100%, fit: "cover"),
   footer: context [
     #set text(font: font-display, size: 7pt, weight: 600, tracking: 0.5pt)
     #align(right)[#counter(page).display()]
   ],
 )[
-  #heading(level: 1, numbering: none)[Frameworks]
+  #heading(level: 1, numbering: none)[GM Toolkit]
   #place(center + horizon)[
     #align(center)[
       #text(
@@ -51,305 +23,766 @@
         size: 32pt,
         tracking: 5pt,
         stroke: 0.8pt + black,
-      )[FRAMEWORKS]
+      )[STORYTELLER TOOLKIT]
+      #v(3mm)
+      #text(
+        font: font-body,
+        fill: white,
+        weight: 400,
+        size: 9pt,
+        tracking: 1pt,
+      )[Running the game.]
     ]
   ]
 ]
 
-// ── The Oasis ─────────────────────────────────
+// ── 4.1 Principles ────────────────────────────
 
-#page(
-  paper: "a5",
-  margin: (x: 9mm, top: 8mm, bottom: 14mm),
-  background: image("../assets/the-oasis.png", width: 100%, height: 100%, fit: "cover"),
-  footer: context [
-    #set text(font: font-display, size: 7pt, weight: 600, tracking: 0.5pt)
-    #align(right)[#counter(page).display()]
-  ],
-)[
-  #heading(level: 1, numbering: none)[The Oasis]
-  #block(width: 100%, fill: black, inset: (x: 4mm, top: 6mm, bottom: 5mm))[
-    #text(font: font-display, fill: white, weight: 700, size: 24pt, tracking: 0.5pt)[THE OASIS]
-    #v(1.5mm)
-    #text(font: font-body, fill: midgrey, size: 8pt)[A colony survival framework.]
-  ]
-  #place(bottom)[
-    #block(width: 100%, fill: black, inset: (x: 5mm, top: 5mm, bottom: 5mm))[
-      #text(font: font-body, fill: white, size: 9pt)[
-        A colony ship carrying 5,000 sleeping settlers woke 400 years too late — above the world they left, which died while they slept. Now 4,400 survivors live in a crashed ship on the edge of an alien marsh, surrounded by ruins they don't remember losing.
-        #v(1.5mm)
-        THE OASIS is for tables that want survival with weight: hard choices, real consequences, and a mystery that does not resolve neatly. It is built for one-shots and campaigns alike, and designed to be picked up fast.
-      ]
-    ]
-  ]
-]
+#top-title("Principles")
 
 #v(2mm)
 
+Your job isn't to tell a good story. Your job is to create an honest situation and get out of the way. The story takes care of itself.
+
+#v(3mm)
+
 #columns(2, gutter: 4mm)[
 
-  #rule-title("The Setting")
+  #rule-title("1. Be an Impartial Referee")
 
-  The colony ship *Oasis* carried 5,000 people in cryosleep on a planned 10-year voyage to a new world. A cult sabotaged the Korenfeld Drive mid-transit. A backup drive spent *400 years* resolving the ship back to stable space.
-
-  #v(1mm)
-
-  ~4,400 colonists survived. The ship crashed on the surface of *Rimaer-Prime* — the world they left. No transmissions. No government. Orbit decaying. They had to land.
+  Don't protect your players from the dice. When they Roll and get a 2, that's their problem. Own it. The game only works if your players trust that the die means something. Shield them once and they'll never believe a threat is real again.
 
   #v(1mm)
 
-  Four centuries is enough time for civilization to collapse, ruins to go feral, and new cultures to form. It is also short enough that scavengers still fight over wreckage, vaults still open, and some survivors remember the world before.
+  They chose to Roll. They chose to Settle. Those choices are theirs. Let the results be theirs too.
 
   #v(2mm)
 
-  #rule-title("Tone")
+  #rule-title("2. Establish Clear Stakes Before the Roll")
 
-  Tragic science fiction. Colony survival. Eldritch horror rooted in human consequence, not the supernatural. Inspired by *RimWorld*, *The Thing*, *Annihilation*, and *Roadside Picnic*.
-
-  #v(1mm)
-
-  There is no god. The Cult invented one and that act of invention killed everyone. No villain survives to overthrow. No justice to extract. Only the long, slow, inhuman aftermath — and 4,400 people who need to eat tomorrow.
-
-  #v(2mm)
-
-  #rule-title("Core Pressures")
-
-  #tag("Food and water scarcity", "")
-  #v(1mm)
-  #tag("Shelter and power degradation", "")
-  #v(1mm)
-  #tag("Anomalous terrain surrounding the crash site", "")
-  #v(1mm)
-  #tag("First contact with marsh-dwellers", "")
-  #v(1mm)
-  #tag("Political fractures inside the colony", "")
-  #v(1mm)
-  #tag("The mystery of the surface broadcast", "")
+  Before any roll, say what happens if they fail. Say what it costs. If a Bain applies, declare it now, not after. Your players make better decisions when they understand the situation. That's good storytelling and more rewarding for the players.
 
   #colbreak()
 
-  #rule-title("Character Creation")
+  #rule-title("3. Keep the Numbers in the Fiction")
 
-  You are an *Oasis colonist* who just woke from cryosleep. You had a career, relationships, and a life on old Rimaer-Prime before you boarded. All of that is 400 years gone.
+  When a Bain lands, tell them what it looks like. The smoke stings their eyes. The mud pulls at their boots. The number on the sheet means nothing if the fiction doesn't back it up. Numbers describe the world. Don't let them replace it.
+
+  #v(2mm)
+
+  #rule-title("4. Drive Tension Through the Edge Economy")
+
+  Edges are your players' footing. Your job is to take that footing away. The torch burns down. Cover gets destroyed. An ally falls. When there's nothing left to invoke, the die becomes something your players are genuinely afraid of.
 
   #v(1mm)
+
+  Keep that fear alive. It's the whole game.
+
+]
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("5. Only Roll When Stakes Are High")
+
+  Save the dice for when it hurts. If the character is trained and nothing is actively pushing back, they succeed. No roll needed. If the situation is impossible, they fail. No roll possible.
+
+  #v(1mm)
+
+  Call for a roll only when the outcome is genuinely uncertain, there is active opposition, and failure carries a real cost. Over-rolling slows the game to a crawl and makes competent characters look incompetent.
+
+  #v(2mm)
+
+  #rule-title("6. Fail Forward, Always")
+
+  A failed roll is not a dead end. A Failure (2–6) or a Partial Success (7–9) must always move the fiction forward. Never tell a player "nothing happens."
+
+  #v(1mm)
+
+  Escalate instead. They get the door open, but their tools break. They land the shot, but burn through their last ammunition. Every roll should drop your players into a new, more complicated situation.
+
+
+  #v(2mm)
+  #rule-title("7. Say the Quiet Part Loud")
+
+  Subtlety will murder your social encounters. Guessing whether an NPC is lying is tedious and kills momentum.
+
+  #v(1mm)
+
+  If an NPC is untrustworthy, say so outright: *"They're smiling, but they are clearly lying to you."* Knowing the truth is out there — and scrambling to find leverage to expose it — creates immediate, actionable drama.
+
+  #v(2mm)
+
+  #rule-title("8. Force the Triad: Survive, Solve, or Save")
+
+  Don't let them have it all. When a crisis hits, put your players in a vice. Force them to choose between three competing pressures: survive the immediate lethal hazard, solve the mystery or stop the countdown, save an innocent or a vital asset.
+
+  #v(1mm)
+
+  They can usually only do one. Set up simultaneous Conflict Clocks for each goal. The one they ignore is where the session's best moment comes from.
+
+]
+
+#pagebreak()
+
+// ── 4.2 NPCs & Threats ────────────────────────
+
+#top-title("NPCs and Threats")
+
+#v(2mm)
+
+NPCs don't have hit points. You're not tracking damage, you're tracking how close they are to being overcome. That distinction matters.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Creating a Threat")
+
+  Every NPC, monster, or hazard needs three things.
+
+  #v(2mm)
 
   #grid(
     columns: (8mm, 1fr),
     column-gutter: 2mm,
     row-gutter: 3mm,
     align: (center + horizon, left + horizon),
-    [#pill("1", width: 100%)], [Choose *2 Proficiencies* from the crew manifest — your jobs and roles on the Oasis.],
-    [#pill("2", width: 100%)], [Choose *2 Specialties* that hang off your proficiencies for +2 when they clearly apply.],
-    [#pill("3", width: 100%)], [Choose *2 Traits* — permanent personality features that define how you act under pressure.],
-    [#pill("4", width: 100%)], [Receive your *Pantheon Standard Kit*. Assume any tools appropriate to your proficiencies.],
-    [#pill("5", width: 100%)], [Define *1 relationship* with another character — someone from before cryo or since waking.],
-    [#pill("6", width: 100%)], [Choose *1 Play* — a narrative tool that gives you permission to do something creative or dramatic.],
+    [#pill("1", width: 100%)], [*Conflict Clock:* How much effort does it take to overcome this threat? Set the size before the scene begins.],
+    [#pill("2", width: 100%)], [*Threat Bains:* What does fighting this thing cost? What conditions does it force onto your players?],
+    [#pill("3", width: 100%)], [*Counter Clock (Optional):* What is this threat doing while your players act? Give it an agenda.],
+    [#pill("4", width: 100%)], [*Edges & Bains:* What gives your players advantage — or strips it away? Set these from the fiction, not a stat block.],
   )
 
   #v(2mm)
 
-  #callout("If You'd Have It")[
-    Colonists don't inventory every item. If something fits your proficiency and your life on the Oasis, you have it. If it's rare, dangerous, or colony-critical — ask the Storyteller.
-  ]
+  #rule-title("Setting Edges & Bains from the Fiction")
+
+  Don't decide "this enemy gives a −1 Bain." Decide what this threat *looks like* and let the fiction tell you the modifier.
+
+  #v(1mm)
+
+  A sniper on a high ridge doesn't grant *Exposed −1* because you decided to balance the encounter. It does because your players are standing in the open. That's what happens in the open.
+
+  #v(1mm)
+
+  Ask: what does this thing do to the people fighting it? Then give that a name.
+
+  #v(1.5mm)
+
+  #scene-quote[*"The beast is twice your height. If it pins you, you aren't getting up alone — that's Pinned −2 until someone pulls you clear."*]
+
+  #v(1mm)
+
+  #scene-quote[*"The fire is spreading. You can still fight, but you can't see clearly. Blinded by Smoke −1 until you're out of this corridor."*]
+
+  #v(2mm)
+
+  #rule-title("Clock Difficulty")
+
+  #nf-table(
+    ("Tier", "Segments", "Example"),
+    (
+      ("Trivial",   "4",  "A lone guard, a locked door"),
+      ("Capable",   "6",  "Trained mercenaries, a minor hazard"),
+      ("Dangerous", "8",  "Armored anomaly, collapsing facility"),
+      ("Climactic", "10+", "Faction leader in their stronghold"),
+    )
+  )
+
+  #colbreak()
+
+  #rule-title("Running Threats in Conflict")
+
+  When your players roll against a threat: a *Success* ticks their clock forward. A *Failure* or *Partial Success* ticks the threat's Counter Clock or drops a Bain on them. Keep it moving. Something always changes.
+
+  #v(2mm)
+
+  #rule-title("Simultaneous Actions")
+
+  Everything in a 10-second window happens at once. If an NPC goes down in the same round they attack, their hit still lands. Don't walk it back. It's more interesting if it lands.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[COUNTER CLOCK EXAMPLES]
+    #v(1.5mm)
+    #tag("Calling for Backup", "6 seg")
+    #v(1mm)
+    #tag("Spreading Fire", "8 seg")
+    #v(1mm)
+    #tag("Ritual Completion", "10 seg")
+    #v(1mm)
+    #tag("Structural Collapse", "4 seg")
+  ])
 
 ]
 
 #pagebreak()
 
-// ── Rimaer: Proficiencies ─────────────────────
+// ── 4.3 The Toolbox ───────────────────────────
 
-#top-title("Rimaer: Proficiencies")
+#top-title("The Toolbox")
 
 #v(2mm)
 
-Choose *2 proficiencies* from the crew manifest below, or create your own with Storyteller approval.
+The Conflict Clock is your primary instrument. Learn to use it well and the rest of the game runs itself.
 
 #v(3mm)
 
 #columns(2, gutter: 4mm)[
 
-  #rule-title("Engineering & Maintenance")
+  #rule-title("Conflict Clocks as Your Tool")
 
-  #tag("Zero-G Shipbreaker", "")
-  #v(1mm)
-  #tag("Heavy Machinery Operator", "")
-  #v(1mm)
-  #tag("Structural Engineer", "")
-  #v(1mm)
-  #tag("Reactor / Power Systems Tech", "")
-  #v(1mm)
-  #tag("Cybernetics Technician", "")
-  #v(1mm)
-  #tag("Sanitation / Recycler", "")
+  You set the size. You decide when it starts. You decide what filling it means. Set the clock before the conflict begins — your players need to know what they're up against. A clock that appears mid-scene feels arbitrary. One declared upfront is a promise.
 
-  #v(3mm)
+  #v(1mm)
 
-  #rule-title("Science & Research")
+  *Size controls pacing.* A 4-segment clock resolves fast. Use it for skirmishes and minor obstacles. A 10-segment clock makes your players feel the weight. Don't pick the size based on how tough the enemy "should" be. Pick it based on how much this conflict deserves.
 
-  #tag("Planetologist", "")
-  #v(1mm)
-  #tag("Xenobiologist / Pathologist", "")
-  #v(1mm)
-  #tag("Hydroponics Agronomist", "")
-  #v(1mm)
-  #tag("Astrogator / Drive Specialist", "")
-  #v(1mm)
-  #tag("Deep-Space Archaeologist", "")
-  #v(1mm)
-  #tag("Sophontologist", "")
+  #v(2mm)
 
-  #v(3mm)
+  #rule-title("The Counter Clock")
 
-  #rule-title("Medical & Support")
+  The Counter Clock is the threat's agenda. It ticks when your players fail or pay the cost of a partial success. When it fills, something real happens — backup arrives, the fire spreads, the ritual completes.
 
-  #tag("Trauma Surgeon", "")
   #v(1mm)
-  #tag("Pharmacologist / Chemist", "")
+
+  #callout("Show the Counter Clock")[
+    Don't hide it. Put it in the open and let your players watch it fill. Visible pressure creates better decisions. Better decisions make better scenes.
+  ]
+
+  #v(2mm)
+
+  #rule-title("Complications")
+
+  When a partial success needs a cost, don't just pick a Bain at random. Look at the verb. How did they do it — and how does that change what comes next?
+
   #v(1mm)
-  #tag("Cryo-Stasis Technician", "")
+
+  #scene-quote[They picked the lock *Noisily* — the *Heard −1* Bain applies to the next action in the corridor.]
+
   #v(1mm)
-  #tag("Colony Psychologist", "")
-  #v(1mm)
-  #tag("Ration Quartermaster / Cook", "")
-  #v(1mm)
-  #tag("Geneticist", "")
+
+  #scene-quote[They patched the wound *Hastily* — the patient carries *Fragile* as a Burden for the rest of the scene.]
 
   #colbreak()
 
-  #rule-title("Security & Tactical")
+  #rule-title("Reading Failed Rolls")
 
-  #tag("Pantheon Marine Sergeant", "")
-  #v(1mm)
-  #tag("Close-Quarters Breacher", "")
-  #v(1mm)
-  #tag("Brig Warden / Corrections Officer", "")
-  #v(1mm)
-  #tag("Artillery / Explosives Tech", "")
-  #v(1mm)
-  #tag("Internal Security Operative", "")
+  Every roll moves the fiction. Even a failure.
 
-  #v(3mm)
+  #v(1.5mm)
 
-  #rule-title("Administration")
+  #callout("Failure (2–6)")[
+    The attempt fails and things get worse.
+    #v(1mm)
+    Tick a Counter Clock, inflict a severe Bain (−2), or destroy an Edge.
+  ]
 
-  #tag("Pantheon Magistrate / Diplomat", "")
   #v(1mm)
-  #tag("Ideologue / Moral Guide", "")
-  #v(1mm)
-  #tag("Oasis Archivist", "")
-  #v(1mm)
-  #tag("Colony Entertainer", "")
-  #v(1mm)
-  #tag("Propagandist", "")
 
-  #v(3mm)
+  #callout("Partial Success (7–9)")[
+    They get what they wanted. Something is different now.
+    #v(1mm)
+    Progress their clock but inflict a Bain (−1) or introduce new pressure.
+  ]
 
-  #rule-title("Pantheon Standard Kit")
+  #v(2mm)
 
-  Every colonist receives:
+  #rule-title("Failing Forward")
 
-  - Sealed work coverall
-  - Personal tablet (Pantheon database access)
-  - Standard ration pack (3 days)
-  - Water canteen + flashlight
-  - Pantheon ID + subdermal comm implant
+  Ask yourself: what changed? Not what didn't happen — what new problem just entered the scene? A failure that produces nothing is a missed opportunity. Don't let it happen.
 
 ]
 
 #pagebreak()
 
-// ── Rimaer: Plays ─────────────────────────────
+// ── 4.4 Pacing, Tension & Clues ──────────────
 
-#top-title("Rimaer: Plays & Traits")
+#top-title("Pacing, Tension & Clues")
 
 #v(2mm)
 
 #columns(2, gutter: 4mm)[
 
-  #rule-title("Plays")
+  #rule-title("Counter Clocks as Omens")
 
-  Choose *1 Play* at character creation. Plays are not bonuses — they are *permissions* to do something creative, dramatic, or unexpected. Per-scene plays reset each scene. Per-session plays reset each session.
-
-  #v(2mm)
-
-  #rule-title("Per-Scene")
-
-  #tag("Read Between the Lines", "")
-  #v(0.5mm)
-  Study a person, document, or scene. Ask the Storyteller one honest question.
-  #v(2mm)
-  #tag("Ghost Move", "")
-  #v(0.5mm)
-  Retroactively declare you moved to a different position before the current moment.
-  #v(2mm)
-  #tag("Desperate Improvisation", "")
-  #v(0.5mm)
-  Solve a problem using only what's in the scene right now. If the table finds it genuinely creative, it works — but the Storyteller names the cost.
-  #v(2mm)
-  #tag("Jury-Rig the Scene", "")
-  #v(0.5mm)
-  Establish one detail about the current location that hasn't been mentioned yet.
-  #v(2mm)
-  #tag("Make a Scene", "")
-  #v(0.5mm)
-  Draw every eye to yourself for one beat. You choose what happens in that window.
-  #v(2mm)
-  #tag("Brace for Impact", "")
-  #v(0.5mm)
-  Danger hits, but you choose how it lands — and you're still standing.
-  #v(2mm)
-  #tag("Echo", "")
-  #v(0.5mm)
-  When someone else fails, turn their bad moment into your opening.
-  #v(2mm)
-  #tag("Confessional", "")
-  #v(0.5mm)
-  Reveal something true and hidden. Vulnerability becomes leverage.
-
-  #colbreak()
-
-  #rule-title("Per-Session")
-
-  #tag("I Know a Guy", "")
-  #v(0.5mm)
-  Declare you know someone relevant. Describe the connection. They exist now.
-  #v(2mm)
-  #tag("Invoke the Past", "")
-  #v(0.5mm)
-  Introduce a fact, preparation, or connection from before the Oasis. The fiction adjusts.
-  #v(2mm)
-  #tag("Plan B", "")
-  #v(0.5mm)
-  When a plan falls apart, reveal the backup you prepared — but the Storyteller says what's missing.
-  #v(2mm)
-  #tag("Sacrifice Play", "")
-  #v(0.5mm)
-  Destroy or give up something that matters to guarantee one specific outcome.
-  #v(2mm)
-  #tag("Dead Man's Gambit", "")
-  #v(0.5mm)
-  Do something reckless and unexpected. If it's genuinely creative, complications don't apply.
-
-  #v(3mm)
-
-  #rule-title("Traits (Choose 2)")
-
-  Traits define how your character acts under pressure. They are narrative anchors — and can become the basis for a Burden when the fiction demands it.
+  Tension isn't a jump scare. It's the thing your players can see coming that they can't stop. Use the Counter Clock as a public countdown — and put it in the open.
 
   #v(1mm)
 
+  Describe what each tick looks like. The lights start to flicker. Scratching in the vents gets closer. A cooling system begins to hiss. Your players watch it fill. Now they have to decide what to do about it.
+
+  #v(2mm)
+
+  #rule-title("Never Roll to Find Clues")
+
+  If your players look in the right place and ask the right questions, they find the clue. No roll. The roll tests what they do under pressure — not whether they find things out.
+
+  #v(1mm)
+
+  Treat discovered clues as *Edges*. A player who digs through the terminal gets *Deciphered Blueprint Data +1* going into the next clock. Don't make them roll for it.
+
+  #v(1mm)
+
+  #callout("When to Call the Roll")[
+    Guards are pounding on the door. The fire is spreading. *Now* call for the roll to search the desk.
+  ]
+
+  #colbreak()
+
+  #rule-title("The Triad of Choice")
+
+  Design high-stakes scenes around three competing priorities. Your players can usually only handle two. Sometimes just one. That's the point.
+
+  #v(1.5mm)
+
+  #tag("Survive", "Deal with immediate lethal hazards")
+  #v(1mm)
+  #tag("Solve", "Find the root of the problem")
+  #v(1mm)
+  #tag("Save", "Rescue someone or protect an asset")
+
+  #v(2mm)
+
+  Set up three *Conflict Clocks* running at the same time. Force your players to split up, argue about priorities, and live with whichever clock they let run. The one they ignore is where the session's best moment comes from.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[EXAMPLE]
+    #v(1.5mm)
+    Venting radiation — *Survive* clock, 4 segments. The containment seal needs repair — *Solve* clock, 6 segments. An injured colonist has to be pulled out — *Save* clock, 8 segments.
+    #v(1mm)
+    Three players. Three clocks. One of them is getting left behind.
+  ])
+
+]
+
+#pagebreak()
+
+// ── 4.5 Social Encounters & Negotiation ──────
+
+#top-title("Social Encounters & Negotiation")
+
+#v(2mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Say the Quiet Part Loud")
+
+  Don't make your players guess whether an NPC is lying. Make the caginess obvious. Say it out loud — or put it directly on the clock:
+
+  #v(1mm)
+
+  #scene-quote[*"Something's off here. You suffer the Suspicious Negotiator −1 Bain on this clock."*]
+
+  #v(1mm)
+
+  Now the question isn't whether they're being deceived. It's what your players do about it. That's the more interesting question.
+
+  #v(2mm)
+
+  #rule-title("Social Conflict Uses Clocks")
+
+  A negotiation, a seduction, a tense standoff — same structure as a fight. Set the segments based on how hard this person is to move.
+
+  #v(1.5mm)
+
   #nf-table(
-    ("Psychological", "Physical", "Social"),
+    ("Tier", "Social Example"),
     (
-      ("Volatile",          "Wimp",           "Abrasive"),
-      ("Pessimist",         "Trigger-Happy",  "Stubborn"),
-      ("Optimist",          "Careful Shooter","Kind"),
-      ("Neurotic",          "Brawler",        "Loud"),
-      ("Hyper-Empathetic",  "Sickly",         "Creepy Presence"),
-      ("Claustrophobic",    "Klutz",          "Absent-Minded"),
+      ("Trivial",   "A frightened informant"),
+      ("Capable",   "A suspicious merchant"),
+      ("Dangerous", "A hardened faction leader"),
+      ("Climactic", "The council vote"),
     )
   )
+
+  #colbreak()
+
+  #rule-title("Establish Leverage Before the Roll")
+
+  Ask your player what they're bringing to the table. Blackmail, supplies, a position of strength — something. If they have it, it's an Edge. If they don't, say so. Say what the ceiling is.
+
+  #v(1.5mm)
+
+  #callout("Strong Leverage")[
+    Grant a positional *Edge (+1)*.
+  ]
+
+  #v(1mm)
+
+  #callout("No Leverage")[
+    Declare a *Bain (−1)* or cap the clock at Partial Success until they find some.
+  ]
+
+  #v(2mm)
+
+  #rule-title("Partial Success Costs")
+
+  On a social clock, partial success means the clock moves — but something is now different. A concession slipped out. A new demand arrived. Someone overheard. It shouldn't feel free.
+
+]
+
+#pagebreak()
+
+// ── 4.6 Violent Conflicts & Enemy Design ─────
+
+#top-title("Violent Conflicts & Enemy Design")
+
+#v(2mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Never Say 'You Miss'")
+
+  When a player rolls 2–6 in a fight, something still happens. The shot hits something. The environment changes. Pressure goes somewhere new.
+
+  #v(1mm)
+
+  #scene-quote[*"The shot misses but ruptures a pressurized line behind them. Everyone in the corridor now suffers the Blinding Steam −1 Bain."*]
+
+  #v(1mm)
+
+  That failure is now a situation. Situations are more interesting than misses.
+
+  #v(2mm)
+
+  #rule-title("Defeat Doesn't Mean Death")
+
+  When a clock resolves against your players, look past death. Capture them. Seal the door. Strip their gear and leave them stranded. Death ends a story. A bad situation starts a new one.
+
+  #v(1mm)
+
+  The best scenes come from the worst outcomes. Don't waste them on a fade to black.
+
+  #colbreak()
+
+  #rule-title("Enemy Variety Through Bains")
+
+  The clock size tells you how long a fight lasts. The Bains tell you what it costs. Two enemies with the same clock size should feel completely different to fight.
+
+  #v(1.5mm)
+
+  #nf-table(
+    ("Enemy", "Signature Bain"),
+    (
+      ("Giant beast",        "Pinned −2, Terrified −1"),
+      ("Sniper",             "Exposed −1"),
+      ("Manipulator",        "Doubting Allies −1"),
+      ("Environmental fire", "Blinded by Smoke −1"),
+    )
+  )
+
+  #v(2mm)
+
+  #rule-title("When Enemies Retreat")
+
+  Not every fight goes to the last segment. When the situation turns, let them run. An enemy who escapes is a future problem — and a more interesting one than a corpse.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[THREAT DESIGN CHECKLIST]
+    #v(1.5mm)
+    #checkbox("Conflict Clock difficulty set?")
+    #v(0.5mm)
+    #checkbox("Signature Bains defined?")
+    #v(0.5mm)
+    #checkbox("Counter Clock active — what is it doing?")
+    #v(0.5mm)
+    #checkbox("Failure mode planned: capture, escape, or shift?")
+  ])
+
+]
+
+#pagebreak()
+
+// ── 4.7 Preparing Your Session ───────────────
+
+#top-title("Preparing Your Session")
+
+#v(2mm)
+
+You learn more from running than from prepping. But you still need to prep. Here's the short version.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Start with a Situation, Not a Story")
+
+  Don't prep a plot. Prep a situation — a set of pressures, people, and places that are already in motion before your players arrive. The story comes from what your players do when those pressures collide with each other.
+
+  #v(1mm)
+
+  Ask three questions before you sit down:
+  - What do the people in this scene want?
+  - What's stopping them from getting it?
+  - What happens if your players do nothing?
+
+  #v(1mm)
+
+  If you can answer all three, you're ready.
+
+  #v(2mm)
+
+  #rule-title("Set Your Clocks in Advance")
+
+  Before the session, decide which clocks exist and roughly what fills them. You don't need to know every scene — just the major Conflict Clocks and at least one Counter Clock that runs regardless of player actions.
+
+  #v(1mm)
+
+  #callout("The Clock That Runs Without Them")[
+    There should always be at least one Counter Clock ticking in the background — something getting worse whether or not your players engage with it. It makes the world feel like it doesn't wait for them.
+  ]
+
+  #colbreak()
+
+  #rule-title("Prep Three Things")
+
+  These are the only three things worth prepping in detail:
+
+  #v(2mm)
+
+  #grid(
+    columns: (8mm, 1fr),
+    column-gutter: 2mm,
+    row-gutter: 3mm,
+    align: (center + horizon, left + horizon),
+    [#pill("1", width: 100%)], [*Something to Survive:* An immediate threat with a clock. What is actively trying to hurt them?],
+    [#pill("2", width: 100%)], [*Something to Solve:* A mystery, a problem, a locked door. What do they need to figure out?],
+    [#pill("3", width: 100%)], [*Someone to Save:* A person with something at stake. Give them one thing they want and one reason they can't get it alone.],
+  )
+
+  #v(2mm)
+
+  They can usually only do two of these. That tension is the session.
+
+  #v(2mm)
+
+  #rule-title("What to Leave Blank")
+
+  Don't over-prep. Your players will go somewhere you didn't expect. Leave room. The best moments in any session come from improvising on a solid foundation — not from a plan that accounts for everything.
+
+  #v(1mm)
+
+  Know what the threats want. Know who the key people are. Know what the clocks are. Everything else you can find at the table.
+
+]
+
+#pagebreak()
+
+// ── 4.8 Running a Scene ──────────────────────
+
+#top-title("Running a Scene")
+
+#v(2mm)
+
+Your main job at the table is describing what is in front of your players. Everything else follows from that.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("The Basic Loop")
+
+  Most of what you do during a session looks like this:
+
+  #v(2mm)
+
+  #grid(
+    columns: (8mm, 1fr),
+    column-gutter: 2mm,
+    row-gutter: 3mm,
+    align: (center + horizon, left + horizon),
+    [#pill("1", width: 100%)], [Describe the situation — honestly and specifically. Use what they can see, hear, and smell.],
+    [#pill("2", width: 100%)], [Answer their questions. If they're asking, they need the information to make a good decision. Give it to them.],
+    [#pill("3", width: 100%)], [Wait for them to act. If they're stalling, escalate the situation. If things are quiet, introduce a new pressure.],
+    [#pill("4", width: 100%)], [Call for a roll only when the outcome is genuinely uncertain and failure is interesting.],
+  )
+
+  #v(2mm)
+
+  #rule-title("When to Cut")
+
+  Don't overstay a scene. When the tension has peaked, when the decision has been made, when the clock has ticked — cut. Jump to the next moment of consequence. The walk down the corridor doesn't need to be played out unless something happens in it.
+
+  #v(1mm)
+
+  #callout("Cut on Action")[
+    Cut to the moment just before something happens, not just after. Your players should arrive in the middle of a situation, not at the beginning.
+  ]
+
+  #colbreak()
+
+  #rule-title("Describing Danger")
+
+  If something can hurt your players, say so. Don't hide it. Don't make it a mystery. Tell them the guard is armed. Tell them the structure is unstable. Tell them what the Bain is before they commit to the action.
+
+  #v(1mm)
+
+  Your players make better decisions with good information. Better decisions create better scenes. That's the whole game.
+
+  #v(2mm)
+
+  #rule-title("When Players Argue")
+
+  Let them. The table arguing about what to do is not a problem to be solved. It's the game working. Give them time. If it's going in circles, escalate — introduce a new pressure that forces the decision.
+
+  #v(2mm)
+
+  #rule-title("Keep Track of What They Know")
+
+  Players forget things. Remind them. If they should remember a detail that changes what they'd do right now, put it back in front of them. The job isn't to test their notes. The job is to create interesting choices.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[IF YOU'RE STUCK]
+    #v(1.5mm)
+    Ask: what does the most dangerous person in this scene want right now? Then give them a reason to act on it. Something always happens.
+  ])
+
+]
+
+#pagebreak()
+
+// ── 4.9 Narrative Points at the Table ────────
+
+#top-title("Narrative Points at the Table")
+
+#v(2mm)
+
+NP is a pressure valve. It releases when the table needs it and builds when the story demands it. Your job is to keep it moving.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("How It Gets Generated")
+
+  NP enters the pool through dramatic moments — Critical Failures narrated by the player, Critical Successes they own out loud, and Burdens invoked in ways that actually cost something. These aren't automatic. They have to earn it.
+
+  #v(1mm)
+
+  A Critical Failure where the player shrugs and rolls again generates nothing. A Critical Failure where the player describes how the door they were holding gives way and drags their ally into the dark — that earns the table a point.
+
+  #v(1mm)
+
+  #callout("Your Call")[
+    You decide whether a moment generated NP. If it didn't change the table's energy, it didn't earn a point. If it did, reward it immediately.
+  ]
+
+  #v(2mm)
+
+  #rule-title("When the Pool Runs Dry")
+
+  If a session goes long without NP being generated, the table is probably playing it safe. Everyone is Settling. Burdens aren't coming up. The fiction is running clean.
+
+  #v(1mm)
+
+  That's your signal to introduce pressure. Put a Burden in front of the player who owns it. Make them choose.
+
+  #colbreak()
+
+  #rule-title("Encouraging Spends")
+
+  Players sometimes forget they have NP, or hold it "for later." Later never comes. When a player is clearly stuck, remind them what's in the pool and what it can do. A well-timed Injection or Flashback can unlock a whole scene.
+
+  #v(1.5mm)
+
+  #nf-table(
+    ("Spend", "What it Does"),
+    (
+      ("Reroll",    "Reroll a die just rolled."),
+      ("Injection", "Add a useful fact or detail to the scene."),
+      ("Flashback", "Establish a prior preparation or memory."),
+      ("Help",      "Give an ally a small immediate advantage."),
+    )
+  )
+
+  #v(2mm)
+
+  #rule-title("NP and Player Narration")
+
+  The most important thing NP does isn't the mechanical effect. It's the signal. When a player spends an Injection and says "there's a back exit — I noticed it when we came in," they're taking ownership of the fiction. Let that happen. Say yes. Make the detail real.
+
+  #v(1mm)
+
+  That's what the pool is for. Not the reroll. The permission.
+
+]
+
+#pagebreak()
+
+// ── 4.10 Burdens & Legendary Plays ───────────
+
+#top-title("Burdens & Legendary Plays")
+
+#v(2mm)
+
+Burdens are where the game gets personal. Legendary Plays are where the game gets memorable.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Calling a Burden")
+
+  When a Burden applies, say so before the roll. Give the player a beat to decide if they want to Settle or Roll knowing the cap is on. Don't surprise them with it after.
+
+  #v(1mm)
+
+  That said — call it every time it applies. A Burden that never comes up isn't a Burden. It's a line of text on a sheet. If a character has *I freeze when fire closes in* and they're standing next to a burning wall, it applies. Say it.
+
+  #v(2mm)
+
+  #rule-title("What Dramatic Invocation Looks Like")
+
+  A Burden invoked in a way that creates narrative momentum — something that costs the character something real and changes what happens next — earns the table NP.
+
+  #v(1mm)
+
+  #scene-quote[
+    Asha has the *Can't refuse a public challenge* Burden. The warlord calls her out in front of the whole camp. She has to answer it. She does. She loses the edge she spent two scenes building. The table earns a point.
+  ]
+
+  #v(1mm)
+
+  That's the exchange. Mechanical setback for narrative energy. It's a good deal.
+
+  #colbreak()
+
+  #rule-title("Legendary Plays")
+
+  Legendary Plays aren't handed out. They're recognized. When a player does something genuinely iconic at the table — something the group will still be talking about three sessions later — that's the moment.
+
+  #v(1mm)
+
+  Offer it. Say: *"That was a Legendary moment. Do you want to lock that in?"* If they spend a Legendary Token, it becomes a permanent ability named after what just happened.
+
+  #v(2mm)
+
+  #rule-title("What Makes a Good Legendary Play")
+
+  - It has to come from a specific, real moment — not a general skill.
+  - It should be narrow enough to feel earned. *"Once per session, I can do what I just did"* is better than *"I'm good at fighting."*
+  - The name should come from the table. The player or someone at the table names it.
+  - It should cost something to invoke later — a resource, a condition, a narrative price.
+
+  #v(2mm)
+
+  #grey-box([
+    #text(font: font-display, weight: 700, size: 8pt)[EXAMPLES]
+    #v(1.5mm)
+    *"The Vasquez Maneuver"* — she stabilized a dying colonist while being dragged through floodwater. Once per session, she can treat a critical wound in conditions that would normally make it impossible.
+    #v(1mm)
+    *"Hold the Corridor"* — Park held a collapsing bulkhead alone while the team got out. Once per session, when Park declares they will not move, nothing moves them.
+  ])
 
 ]
 

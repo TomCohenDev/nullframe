@@ -29,6 +29,8 @@ __pycache__/
 SCRATCH.md
 personal/
 
+00_references/
+
 # Distribution builds are tracked separately
 # Uncomment if you want to ignore them:
 # dist/
