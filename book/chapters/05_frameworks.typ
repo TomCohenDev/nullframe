@@ -36,6 +36,70 @@
   ]
 ]
 
+// ── Frameworks intro ──────────────────────────
+
+#top-title("Frameworks")
+
+#v(3mm)
+
+The core rules of Diaphragma ship without a setting. They are a complete engine — resolution, characters, conflict — but they do not tell you what the world looks like, who the enemies are, or what makes this story different from the last one. That is what a Framework does.
+
+#v(4mm)
+
+#rule-title("What Is a Framework?")
+
+#v(1mm)
+
+A Framework is a setting layer that sits on top of the core rules. It defines:
+
+#v(2mm)
+
+#grid(
+  columns: (1fr, 1fr),
+  column-gutter: 4mm,
+  row-gutter: 2mm,
+  [#tag("The World", "") #v(0.5mm) Its tone, history, and feel.],
+  [#tag("Character Options", "") #v(0.5mm) What kinds of characters exist in this setting.],
+  [#tag("Plays", "") #v(0.5mm) Special abilities, powers, and maneuvers.],
+  [#tag("Gear", "") #v(0.5mm) What equipment means and what it can do.],
+  [#tag("Threats", "") #v(0.5mm) The enemies, factions, and forces pushing back.],
+  [#tag("Special Rules", "") #v(0.5mm) Any mechanics specific to this genre or story.],
+)
+
+#v(3mm)
+
+The core rules do not change between Frameworks. The same d10, the same Edges and Bains, the same result tiers. The Framework adds the color, the stakes, and the fiction on top.
+
+#v(4mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Swapping Frameworks")
+
+  Want to run a heist one week and a war story the next? Swap the Framework. The players keep the same rules, learn the new setting, and play. The engine is the same. The game is different.
+
+  #v(2mm)
+
+  #rule-title("What Players See")
+
+  Players interact with the Framework through their Proficiencies, their Plays, and the fictional context of every roll. A soldier in a war Framework and a courier in a city Framework both use the same resolution — but what they can do, what they carry, and what threatens them are entirely different.
+
+  #colbreak()
+
+  #rule-title("What the Storyteller Does")
+
+  Pick a Framework before the first session and share what players need to know: the setting, what character types are available, and any setting-specific rules. Everything else in this book handles the rest.
+
+  #v(2mm)
+
+  #callout("No Framework?")[
+    You can run Diaphragma without a published Framework. Agree on a setting with your group, define Plays as needed, and run. The core rules are designed to work with any fiction the table agrees on.
+  ]
+
+]
+
+#pagebreak()
+
 // ── The Oasis splash ──────────────────────────
 
 #page(
@@ -48,30 +112,15 @@
   ],
 )[
   #heading(level: 2, numbering: none)[The Oasis]
-  #place(center + horizon)[
-    #align(center)[
-      #text(
-        font: font-display,
-        fill: white,
-        weight: 700,
-        size: 32pt,
-        tracking: 5pt,
-        stroke: 0.8pt + black,
-      )[THE OASIS]
-      #v(3mm)
-      #text(
-        font: font-body,
-        fill: white,
-        weight: 400,
-        size: 9pt,
-        tracking: 1pt,
-      )[A colony survival framework.]
-    ]
+  #block(width: 100%, fill: black, inset: (x: 4mm, top: 6mm, bottom: 5mm))[
+    #text(font: font-display, fill: white, weight: 700, size: 24pt, tracking: 0.5pt)[THE OASIS]
+    #v(1.5mm)
+    #text(font: font-body, fill: midgrey, size: 8pt)[A colony survival framework.]
   ]
   #place(bottom)[
     #block(
       width: 100%,
-      fill: rgb(0, 0, 0, 180),
+      fill: rgb(0, 0, 0, 200),
       inset: (x: 5mm, top: 4mm, bottom: 5mm),
     )[
       #text(font: font-body, fill: white, size: 8pt)[

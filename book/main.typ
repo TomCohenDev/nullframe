@@ -9,6 +9,7 @@
 #set page(
   paper: "a5",
   margin: (x: 9mm, top: 8mm, bottom: 14mm),
+  fill: rgb("#fafafa"),
   footer: context [
     #set text(font: font-display, size: 7pt, weight: 600, tracking: 0.5pt)
     #align(right)[#counter(page).display()]
