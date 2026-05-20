@@ -43,6 +43,20 @@
   ]
 ]
 
+// ── local helper: rules section header (oasis visual + level-3 TOC entry) ──
+#let oasis-rules-header(title) = {
+  heading(level: 3, numbering: none)[#title]
+  block(
+    width: 100%,
+    inset: (top: 2mm, bottom: 2mm),
+    fill: black,
+  )[
+    #align(center)[
+      #text(font: font-display, fill: white, weight: 700, size: 15pt, tracking: 1pt)[#upper(title)]
+    ]
+  ]
+}
+
 // ── The Setting ───────────────────────────────
 
 #oasis-header("The Setting")
@@ -94,15 +108,16 @@
 
   #rule-title("The World You Left")
 
-  *Rimaer-Prime* was human civilization at its apex. Sixty-two billion people. One government — the *Pantheon* — spanning a single temperate world and three terraformed moons. Disease eliminated. Lifespans extended. Cybernetics common. A Dyson sphere under construction around the sun. And at the center of it all: the *Korenfeld Drive* — humanity's first faster-than-light engine, proven and ready for its first true test.
+  *Rimaer-Prime* was human civilization at its apex. Sixty two billion people. 
+  
+  One government — the *Pantheon*, spanning a single temperate world and three terraformed moons. Disease eliminated. Lifespans extended. Cybernetics common. A Dyson sphere under construction around the sun.
+  
+  The *Korenfeld Drive* — humanity's first FTL engine, proven and ready for its first true test.
 
   #v(1mm)
 
-  The Pantheon's plan was vast. One hundred colony ships — five thousand colonists each — sent to one hundred worlds within two hundred light-years. You were one of the five thousand aboard the *Oasis*, the first ship to launch. The test. The flagship. The one the whole civilization was watching.
+  The Pantheon's plan was vast. One hundred colony ships, five thousand colonists each, sent to one hundred worlds within two hundred light-years. You were one of the five thousand aboard *The Oasis*, the first ship to launch. The test. The flagship. The one the whole civilization was watching.
 
-  #v(1mm)
-
-  The launch was witnessed by nine billion people. The plan was ten years in cryosleep, then a new world.
 
   #v(2mm)
 
@@ -112,25 +127,47 @@
 
   #v(1mm)
 
-  The Oasis's records show only this: the main drive failed partway through its rewrite process. The smaller backup drive engaged automatically and spent approximately *400 years* completing an emergency trace-back. When the ship came out of the Medium, it was above Rimaer-Prime — the world it had left. The instruments confirmed the date. Four centuries had passed. Six hundred colonists never woke up.
+  The Oasis's records show only this: the main drive failed partway through its rewrite process. The smaller backup drive engaged automatically and spent approximately *400 years* completing an emergency trace-back. When the ship came out of the *Medium*, it was above Rimaer Prime, the world it had left. The instruments confirmed the date. Four centuries had passed.
 
   #v(1mm)
 
-  The communications array found no Pantheon transmissions. No civilian broadcasts. No emergency signals on any frequency the Oasis was built to receive. The orbit was decaying. There was no choice. The ship came down.
-
-  #v(2mm)
+  The communications array found no Pantheon transmissions. No civilian broadcasts. No emergency signals on any frequency the Oasis was built to receive. The orbit was decaying. By the time you woke the ship already crushed back into the planet.
+]
+#pagebreak()
+#place(bottom + center)[
+  #image("../assets/the-oasis-wreck.png", width: 100%)
+]
+#columns(2, gutter: 4mm)[
 
   #rule-title("Tone")
 
-  Tragic science fiction. Colony survival under pressure. Eldritch horror grounded in human consequence — not the supernatural.
+  Tragic science fiction. A colony of the last survivors of human civilization trying to stay alive on the ruins of everything they came from.
 
   #v(1mm)
 
-  There is no villain to defeat. No justice to extract. Only 4,400 people who need to eat, stay warm, and figure out what happened to the world they came from.
+  There is no villain to defeat. No justice to extract. Only 4,400 people who need to eat, stay warm, and figure out what happened to the world they left. And maybe, just maybe, rebuild the drive that got them here.
 
   #v(1mm)
 
-  Inspired by *RimWorld*, *The Thing*, *Annihilation*, and *Roadside Picnic*.
+  This framework is for players who want to care about the people around them, not just the mission. Sessions are about hard calls with no clean answers: who gets woken next, what gets rationed, which expedition is worth the risk. Characters come with histories. Those histories matter. The person in the next bunk is not a side character.
+
+  #v(1mm)
+
+  The horror is slow. It lives in what the world has become and in what people become under pressure. You will not defeat something and feel safe again. Safety is not the destination.
+
+  #v(1mm)
+
+  The Storyteller's job is not to punish the players. It is to make the stakes feel real.
+
+  #v(2mm)
+
+  #rule-title("Inspired By")
+
+  *Fiction:* The Thing, Annihilation, Children of time.
+  #linebreak()
+  *Video Games:* Rimworld, Subnautica.
+  #linebreak()
+  *TTRPGs:* Mothership.
 
   #colbreak()
 
@@ -148,35 +185,93 @@
 
   #v(1mm)
 
-  #tag("The cities are ruins — overgrown, scavenged, or still burning", "")
-  #v(1mm)
-  #tag("The land near the crash is anomalous in measurable ways", "")
-  #v(1mm)
-  #tag("There are people on the surface — survivors and their descendants", "")
-  #v(1mm)
-  #tag("Something in the marsh is broadcasting on a band that should not exist", "")
+  #set list(marker: text(size: 8pt)[•], body-indent: 2mm)
+  - The cities are ruins, overgrown, scavenged, or still burning
+  - The land near the crash is anomalous in measurable ways
+  - There are people on the surface, survivors and their descendants
+  - Food and water are finite
+  - Power systems are degrading
+  - The anomalous marsh surrounds the crash site
+  - Surface factions are watching
+  - Political fractures are forming inside the colony
+  - Six hundred empty cryopods
+]
+
+
+
+#pagebreak()
+
+// ── Terms, Ideas & Assumptions ────────────────
+
+#oasis-header("Terms & Assumptions")
+
+#v(2mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Key Terms")
+
+  #set par(leading: 0.5em)
+
+  *The Medium* — the fourth-dimensional substrate the Korenfeld Drive uses to fold space. Ships exist outside normal spacetime during transit. Duration inside the Medium does not map to duration outside it.
+
+  #v(1.5mm)
+
+  *The Rewrite* — the process of translating matter through the Medium and back. The main drive failed mid-rewrite. What that means for the ship, the colonists, and the world is still being studied.
+
+  #v(1.5mm)
+
+  *Cryosleep* — the hibernation state all 5,000 colonists were in during transit. Life support cannot sustain the full population awake simultaneously. Most are still under.
+
+  #v(1.5mm)
+
+  *The Pantheon* — the unified government of Rimaer-Prime before the collapse. Its records, laws, and scientific archive survived aboard the Oasis. The civilization itself did not.
+
+
+  #v(1.5mm)
+
+  *Rimaer-Prime* — the origin world. A single temperate planet that once held 62 billion people, three terraformed moons, and a Dyson sphere under construction. It collapsed while the Oasis was in the Medium. What is left is four centuries of ruins, survivors, and consequences.
+
+  #v(1.5mm)
+
+  *The Korenfeld Drive* — humanity's first faster-than-light engine, powered by the Dyson sphere under construction around Rimaer's sun. It works in two phases. First, the drive rewrites every atom of the ship and its contents into a Medium-compatible state — a process that takes days and requires enormous energy. Then the ship folds through the Medium and emerges at the destination. The transit itself is instantaneous. The rewrite is not.
+
+  The Oasis carried a main drive and a smaller backup. The main drive failed mid-rewrite and is gone. The backup completed a 400-year emergency trace-back and burned out on arrival. The knowledge to rebuild one exists in the Pantheon archive. Whether the energy and materials to do so exist on Rimaer-Prime is what the Astrogator is trying to determine.
+
+  #v(1.5mm)
+
+  *The Directorate* — the colony's governing council. Nine roles, each responsible for a critical domain: logistics, security, medicine, research, engineering, community, navigation, and the Prime Prefect who holds legal authority over all of them.
+
+  #v(1.5mm)
+
+  *The Remnants* — the people on the surface. Survivors and their descendants, living in the ruins of Rimaer-Prime for four hundred years without a central government. Organized into settlements, factions, and cults. Not all of them are hostile. Probably...
+
+
+  #v(1.5mm)
+
+  *Anomalous Zones* — area site where physical measurements behave incorrectly. Instruments give inconsistent readings. Objects and organisms that enter do not always return unchanged.
 
   #v(2mm)
+  #rule-title("Ideas & Assumptions")
 
-  #callout("The Broadcast")[
-    The signal is not random. It has structure and repetition. It has been broadcasting for an estimated four centuries. Its source is somewhere in the anomalous marsh surrounding the crash site. Its meaning is unknown.
-  ]
 
-  #v(2mm)
+  *The ship is the colony.* Until it is repaired, reinforced, or replaced, the Oasis is civilization. Leaving it without a plan is not heroism. It is subtraction from a finite resource.
 
-  #rule-title("Core Pressures")
+  #v(1.5mm)
 
-  #tag("Food and water are finite", "")
-  #v(1mm)
-  #tag("Power systems are degrading", "")
-  #v(1mm)
-  #tag("The anomalous marsh surrounds the crash site", "")
-  #v(1mm)
-  #tag("Surface factions are watching", "")
-  #v(1mm)
-  #tag("Political fractures are forming inside the colony", "")
-  #v(1mm)
-  #tag("Six hundred empty cryopods", "")
+  *Technology works.* The Pantheon archive is intact. Fabricators are running. Medicine is functional at reduced capacity. This is not a primitive survival story — it is a resource management story with advanced tools that are slowly running out.
+  
+  #v(1.5mm)
+
+  *You want to survive, or get off the planet.* The Oasis is not a ship. It is a colony. It is a home. It is a way to rebuild the drive that got you here. It is not a shipwreck. It is not a dead world. It is not a prison. It is not a graveyard. It is a home.
+
+  #v(1.5mm)
+
+  *The surface is hostile.* People live out there. They have for four centuries. The players can go outside, trade, fight, explore. The anomalous zones are the hard boundary, not the surface itself.
+
+  #v(1.5mm)
+
+  *No one knows what happened.* The drive failed. That is all the records say. Players and Storyteller should treat the cause as an open question until the story reveals it.
 
 ]
 
@@ -188,7 +283,7 @@
 
 #v(2mm)
 
-The Oasis *is* the colony. Until it is repaired, reinforced, or abandoned, every system aboard is a survival question. The ship's reactors are holding. The hydroponic bays are functional. The fabricators can produce most essential equipment. The armory is intact. The Pantheon archive — every scientific record, every piece of cultural history — survived.
+The Oasis is the colony. Until it is repaired, reinforced, or abandoned, every system aboard is a survival question. The ship's reactors are holding. The fabricators can produce most essential equipment. The armory is intact. The Pantheon archive has every scientific record.
 
 #v(2mm)
 
@@ -196,33 +291,24 @@ The Oasis *is* the colony. Until it is repaired, reinforced, or abandoned, every
 
   #rule-title("What You Have")
 
-  #tag("4,400 colonists — specialists in everything", "")
-  #v(1mm)
-  #tag("Fabricators (partially damaged)", "")
-  #v(1mm)
-  #tag("Seed banks and hydroponic bays", "")
-  #v(1mm)
-  #tag("Full Pantheon scientific and cultural archive", "")
-  #v(1mm)
-  #tag("Medical facility at reduced capacity", "")
-  #v(1mm)
-  #tag("Armory and trained marines", "")
-  #v(1mm)
-  #tag("Backup Korenfeld Drive — inert, not operational", "")
+  #set list(marker: text(size: 8pt)[•], body-indent: 2mm)
+  - 4,400 colonists, specialists in everything
+  - Fabricators (partially damaged)
+  - Seed banks and hydroponic bays (damaged)
+  - Full Pantheon scientific and cultural archive
+  - Medical facility at reduced capacity
+  - Armory and trained marines
+  - Backup Korenfeld Drive, inert, not operational
 
   #v(2mm)
 
   #rule-title("What You Don't Have")
 
-  #tag("A way off the planet", "")
-  #v(1mm)
-  #tag("Contact with the Pantheon", "")
-  #v(1mm)
-  #tag("An undamaged hull", "")
-  #v(1mm)
-  #tag("Allies on the surface", "")
-  #v(1mm)
-  #tag("Answers", "")
+  #set list(marker: text(size: 8pt)[•], body-indent: 2mm)
+  - A way off the planet
+  - Contact with the Pantheon
+  - Allies on the surface
+  - Answers
 
   #v(2mm)
 
@@ -234,14 +320,11 @@ The Oasis *is* the colony. Until it is repaired, reinforced, or abandoned, every
 
   #rule-title("The Directorate")
 
-  The Oasis was built to govern a peaceful colony on a friendly world. It is now governing a crash survival operation on a hostile post-apocalyptic one. The Directorate was designed for the first situation. It is adapting — not always well — to the second.
-
-  #v(2mm)
-
+  The Oasis was built to govern a peaceful colony on a friendly world. It is now governing a crash survival operation on a hostile post-apocalyptic one.
   #nf-table(
     ("Role", "Responsibility"),
     (
-      ("Prime Prefect",      "Colony authority; holds the legal charter"),
+      ("Prime Prefect",      "Colony authority"),
       ("Chief of Logistics", "Food, energy, resources; second in command"),
       ("Chief Security",     "Marines and internal security"),
       ("Biometric Director", "Medicine, surgery, and genetics"),
@@ -252,13 +335,87 @@ The Oasis *is* the colony. Until it is repaired, reinforced, or abandoned, every
     )
   )
 
-  #v(2mm)
 
-  #grey-box([
-    #text(font: font-display, weight: 700, size: 8pt)[THE DIRECTORATE'S PROBLEM]
-    #v(1.5mm)
-    The Pantheon gave the Oasis every tool to build a civilization from scratch. It did not give them tools to survive on the ruins of one.
-  ])
+]
+
+#place(bottom + center)[
+  #image("../assets/the-oasis-directorate.png", width: 100mm)
+]
+
+#pagebreak()
+
+// ── The Directorate (Detail) ──────────────────
+
+#oasis-header("The Directorate")
+
+#v(2mm)
+
+Eight people hold authority over 4,400 lives. They were selected before launch for their expertise and their records. They were not selected for this situation. Most of them are adapting. Some are not.
+
+#v(3mm)
+
+#columns(2, gutter: 4mm)[
+
+  #rule-title("Key Figures")
+
+  #set par(spacing: 0.4em)
+
+  *Prime Prefect — Maren Solvi* #linebreak()
+  Holds the Pantheon legal charter and final authority over all colony decisions. A career administrator from Rimaer's civil governance. She spent twenty years managing planetary infrastructure projects. She has never managed a disaster. She is learning.
+
+  #v(1.5mm)
+
+  *Chief of Logistics — Edric Vanta* #linebreak()
+  Second in command. Controls food, water, power allocation, and fabricator output. Every rationing decision flows through him. The most informed person on the ship about how close things actually are.
+
+  #v(1.5mm)
+
+  *Chief Security — Sable Korr* #linebreak()
+  Commands the marine contingent and internal security. Pre-launch military background with Pantheon border enforcement. Pragmatic. Does not use more force than needed. Has not yet determined how much force is needed.
+
+  #v(1.5mm)
+
+  *Biometric Director — Priya Adaeze* #linebreak()
+  Responsible for medicine, surgery, and the long-term genetic health of the population. Running a reduced-capacity medical bay for 4,400 people with supplies built for a colony with resupply routes. No resupply routes exist.
+
+  #v(1.5mm)
+
+  *Archive Director — Yusuf Osei* #linebreak()
+  Research, science, and the Pantheon archive. The most knowledgeable living person on Rimaer about what this world was four centuries ago. That knowledge does not tell him what it is now.
+
+  #v(1.5mm)
+
+  *Core Director — Tomas Brech* #linebreak()
+  Engineering and construction. Keeping the hull together, the reactors running, and the fabricators operational. Has a list of critical repairs. The list is longer than the time available.
+
+  #v(1.5mm)
+
+  *Community Director — Linh Arvan* #linebreak()
+  Morale, psychology, and internal culture. The least visible Directorate role and the one that will matter most in twelve months. People who have lost everything they knew and cannot go back need somewhere to put that.
+
+  #v(1.5mm)
+
+  *Astrogator — Dav Kellner* #linebreak()
+  The only Korenfeld physicist on the ship. Responsible for rebuilding the drive if it can be rebuilt. Working from archive theory and salvaged hardware. Has not reported a timeline. Has not been asked for one.
+ #v(2mm)
+
+  #rule-title("Colony Statistics")
+
+  #nf-table(
+    ("Department", "Personnel"),
+    (
+      ("Security (marines + internal)", "200"),
+      ("Medical staff",                 "150"),
+      ("Engineering corps",             "280"),
+      ("Agricultural team",             "180"),
+      ("Research division",             "120"),
+      ("Logistics and administration",  "160"),
+      ("Community and psychology",       "90"),
+      ("Korenfeld physics",              "15"),
+      ("Support and general roles",   "3,205"),
+      ("Total",                        "4,400"),
+    )
+  )
 
 ]
 
@@ -284,17 +441,6 @@ Four hundred years is enough time for a civilization to collapse, leave ruins, a
 
   The marsh is not uniformly dangerous. Large sections can be traversed with care. Others cannot — not because of anything visible, but because things that enter them do not reliably come back, or come back wrong.
 
-  #v(1mm)
-
-  #tag("Long sightlines don't exist inside the marsh", "")
-  #v(1mm)
-  #tag("Sound carries strangely — distance cannot be trusted", "")
-  #v(1mm)
-  #tag("The terrain changes between surveys", "")
-  #v(1mm)
-  #tag("Animals from the deep zones come back changed", "")
-  #v(1mm)
-  #tag("Some teams report nothing. Some teams don't come back.", "")
 
   #v(2mm)
 
@@ -313,54 +459,20 @@ Four hundred years is enough time for a civilization to collapse, leave ruins, a
     #v(1.5mm)
     Matter composition shifts under prolonged exposure. Cellular tissue transforms in patterns that don't match any known disease or mutation process. Objects placed in certain zones are recovered in altered states. The alterations have internal structure. That structure does not match any known physical process.
   ])
-
-  #colbreak()
-
-  #rule-title("Surface Factions")
-
-  The world below is not empty. Four centuries of collapse, war, and survival left a layered politics the Oasis is only beginning to map.
-
-  #v(1mm)
-
-  What you know so far:
-
-  #v(1mm)
-
-  #tag("Some groups have made contact and offered trade", "")
-  #v(1mm)
-  #tag("Some have attacked Oasis scouting parties", "")
-  #v(1mm)
-  #tag("Some survivors speak fragments of old Pantheon Standard", "")
-  #v(1mm)
-  #tag("Some are watching the crash site without making contact", "")
-  #v(1mm)
-  #tag("Some invoke the Fourth as a god and treat the zones as sacred", "")
-  #v(1mm)
-  #tag("At least one group wants something from the Oasis specifically", "")
-
-  #v(2mm)
-
-  The Oasis carries four hundred years of Pantheon history in its archive. The people on the surface carried the same history in their heads — filtered through four centuries of war, loss, and myth. The archive and the living memory do not always agree on what happened.
-
-  #v(2mm)
-
-  #rule-title("What You Don't Know")
-
-  The truth of what destroyed Rimaer-Prime is recoverable — buried in ruins, survivor accounts, and the ship's own records. But it will take time, and risk, and there is no guarantee that knowing will help.
-
-  #v(1mm)
-
-  #callout("On Discovery")[
-    The history of the collapse is not one team's mission. It arrives in fragments, out of order, from sources with reasons to lie. Some answers will be wrong. Some will be right in ways that make the others worse.
-  ]
+  #image("../assets/the-oasis-anomaly.png", width: 100%,fit: "cover")
 
 ]
+
+
+
+
+
 
 #pagebreak()
 
 // ── Character Creation ────────────────────────
 
-#sub-title("Character Creation")
+#oasis-rules-header("Character Creation")
 
 #v(2mm)
 
@@ -417,15 +529,12 @@ You are an Oasis colonist who just woke from cryosleep. You had a career, a role
 
   #v(1mm)
 
-  #tag("Sealed work coverall", "")
-  #v(0.5mm)
-  #tag("Personal tablet (Pantheon database access)", "")
-  #v(0.5mm)
-  #tag("Standard ration pack (3 days)", "")
-  #v(0.5mm)
-  #tag("Water canteen and flashlight", "")
-  #v(0.5mm)
-  #tag("Pantheon ID and subdermal comm implant", "")
+  #set list(marker: text(size: 8pt)[•], body-indent: 2mm)
+  - Sealed work coverall
+  - Personal tablet (Pantheon database access)
+  - Standard ration pack (3 days)
+  - Water canteen and flashlight
+  - Pantheon ID and subdermal comm implant
 
 ]
 
@@ -433,7 +542,7 @@ You are an Oasis colonist who just woke from cryosleep. You had a career, a role
 
 // ── Proficiencies ─────────────────────────────
 
-#sub-title("Proficiencies")
+#rule-title("Proficiencies")
 
 #v(2mm)
 
@@ -443,103 +552,111 @@ Choose *2 proficiencies* from the crew manifest below. These are the roles you h
 
 #columns(2, gutter: 4mm)[
 
-  #rule-title("Engineering & Maintenance")
-
-  #tag("Zero-G Shipbreaker", "")
-  #v(1mm)
-  #tag("Heavy Machinery Operator", "")
-  #v(1mm)
-  #tag("Structural Engineer", "")
-  #v(1mm)
-  #tag("Reactor / Power Systems Tech", "")
-  #v(1mm)
-  #tag("Cybernetics Technician", "")
-  #v(1mm)
-  #tag("Sanitation / Recycler", "")
-
-  #v(3mm)
-
-  #rule-title("Science & Research")
-
-  #tag("Planetologist", "")
-  #v(1mm)
-  #tag("Xenobiologist / Pathologist", "")
-  #v(1mm)
-  #tag("Hydroponics Agronomist", "")
-  #v(1mm)
-  #tag("Astrogator / Drive Specialist", "")
-  #v(1mm)
-  #tag("Deep-Space Archaeologist", "")
-  #v(1mm)
-  #tag("Sophontologist", "")
-
-  #v(3mm)
-
-  #rule-title("Medical & Support")
-
-  #tag("Trauma Surgeon", "")
-  #v(1mm)
-  #tag("Pharmacologist / Chemist", "")
-  #v(1mm)
-  #tag("Cryo-Stasis Technician", "")
-  #v(1mm)
-  #tag("Colony Psychologist", "")
-  #v(1mm)
-  #tag("Ration Quartermaster / Cook", "")
-  #v(1mm)
-  #tag("Geneticist", "")
+  #nf-table(
+    ("Category", "Role"),
+    (
+      ("Engineering",  "Zero-G Shipbreaker"),
+      ("Engineering",  "Heavy Machinery Operator"),
+      ("Engineering",  "Structural Engineer"),
+      ("Engineering",  "Reactor / Power Systems Tech"),
+      ("Engineering",  "Cybernetics Technician"),
+      ("Engineering",  "Sanitation / Recycler"),
+      ("Science",      "Planetologist"),
+      ("Science",      "Xenobiologist / Pathologist"),
+      ("Science",      "Hydroponics Agronomist"),
+      ("Science",      "Astrogator / Drive Specialist"),
+      ("Science",      "Deep-Space Archaeologist"),
+      ("Science",      "Sophontologist"),
+      ("Medical",      "Trauma Surgeon"),
+      ("Medical",      "Pharmacologist / Chemist"),
+      ("Medical",      "Cryo-Stasis Technician"),
+      ("Medical",      "Colony Psychologist"),
+      ("Medical",      "Ration Quartermaster / Cook"),
+      ("Medical",      "Geneticist"),
+    )
+  )
 
   #colbreak()
 
-  #rule-title("Security & Tactical")
-
-  #tag("Pantheon Marine", "")
-  #v(1mm)
-  #tag("Close-Quarters Breacher", "")
-  #v(1mm)
-  #tag("Brig Warden / Corrections Officer", "")
-  #v(1mm)
-  #tag("Artillery / Explosives Tech", "")
-  #v(1mm)
-  #tag("Internal Security Operative", "")
-
-  #v(3mm)
-
-  #rule-title("Administration")
-
-  #tag("Pantheon Magistrate / Diplomat", "")
-  #v(1mm)
-  #tag("Ideologue / Moral Guide", "")
-  #v(1mm)
-  #tag("Oasis Archivist", "")
-  #v(1mm)
-  #tag("Colony Entertainer", "")
-  #v(1mm)
-  #tag("Propagandist", "")
-
-  #v(3mm)
-
-  #rule-title("Specialty Examples")
-
   #nf-table(
-    ("Proficiency", "Specialty"),
+    ("Category", "Role"),
     (
-      ("Trauma Surgeon",      "Field amputation"),
-      ("Structural Engineer", "Crash damage assessment"),
-      ("Pantheon Marine",     "Hostile terrain patrol"),
-      ("Planetologist",       "Anomalous zone reading"),
-      ("Colony Psychologist", "Post-trauma stabilization"),
-      ("Oasis Archivist",     "Pre-collapse history"),
+      ("Security",        "Pantheon Marine"),
+      ("Security",        "Close-Quarters Breacher"),
+      ("Security",        "Brig Warden / Corrections Officer"),
+      ("Security",        "Artillery / Explosives Tech"),
+      ("Security",        "Internal Security Operative"),
+      ("Administration",  "Pantheon Magistrate / Diplomat"),
+      ("Administration",  "Ideologue / Moral Guide"),
+      ("Administration",  "Oasis Archivist"),
+      ("Administration",  "Colony Entertainer"),
+      ("Administration",  "Propagandist"),
     )
   )
+
+
 
 ]
 
 #pagebreak()
+// ── Specialty ─────────────────────────────────────
 
+  #rule-title("Specialty Examples")
+
+  #columns(2, gutter: 4mm)[
+    #nf-table(
+      ("Proficiency", "Specialty"),
+      (
+        ("Trauma Surgeon",             "Field amputation under fire"),
+        ("Trauma Surgeon",             "Cryopod revival complications"),
+        ("Pharmacologist",             "Improvised sedative synthesis"),
+        ("Pharmacologist",             "Anomalous tissue analysis"),
+        ("Cryo-Stasis Technician",     "Emergency mid-sleep revival"),
+        ("Cryo-Stasis Technician",     "Pod failure forensics"),
+        ("Colony Psychologist",        "Post-trauma stabilization"),
+        ("Colony Psychologist",        "Cult deprogramming"),
+        ("Geneticist",                 "Population viability modeling"),
+        ("Structural Engineer",        "Crash damage triage"),
+        ("Structural Engineer",        "Marsh terrain anchoring"),
+        ("Reactor Tech",               "Emergency power rerouting"),
+        ("Reactor Tech",               "Fuel cell improvisation"),
+        ("Cybernetics Technician",     "Field implant repair"),
+        ("Cybernetics Technician",     "Subdermal comm extraction"),
+        ("Zero-G Shipbreaker",         "Hull breach emergency patch"),
+        ("Heavy Machinery Operator",   "Salvage extraction from ruins"),
+        ("Sanitation / Recycler",      "Water purification from marsh"),
+      )
+    )
+    #colbreak()
+    #nf-table(
+      ("Proficiency", "Specialty"),
+      (
+        ("Planetologist",              "Anomalous zone mapping"),
+        ("Planetologist",              "Soil and atmosphere analysis"),
+        ("Xenobiologist",              "Marsh fauna threat assessment"),
+        ("Xenobiologist",              "Contamination identification"),
+        ("Hydroponics Agronomist",     "Rapid crop cycle design"),
+        ("Hydroponics Agronomist",     "Soil substitute cultivation"),
+        ("Astrogator",                 "Korenfeld drive diagnostics"),
+        ("Astrogator",                 "Medium exposure aftermath"),
+        ("Deep-Space Archaeologist",   "Pre-collapse site excavation"),
+        ("Sophontologist",             "Surface dialect interpretation"),
+        ("Sophontologist",             "Cult belief system analysis"),
+        ("Pantheon Marine",            "Hostile terrain patrol"),
+        ("Pantheon Marine",            "Breach and clear operations"),
+        ("Close-Quarters Breacher",    "Ship interior combat"),
+        ("Artillery Tech",             "Controlled demolition"),
+        ("Internal Security",          "Informant network management"),
+        ("Pantheon Magistrate",        "Colonial law under crisis"),
+        ("Oasis Archivist",            "Pre-collapse history recovery"),
+      )
+    )
+  ]
+
+  #pagebreak()
 // ── Plays ─────────────────────────────────────
 
-#sub-title("Plays")
+#rule-title("Plays")
 
 #v(2mm)
 
@@ -547,111 +664,126 @@ Choose *1 Play* at character creation. Plays are not bonuses — they are *permi
 
 #v(2mm)
 
-#columns(2, gutter: 4mm)[
+#let plays-rows = (
+  ("Scene",   "Read Between the Lines",  "Study a person, document, or scene. Ask the Storyteller one honest question."),
+  ("Scene",   "Ghost Move",              "Retroactively declare you moved to a different position before this moment."),
+  ("Scene",   "Desperate Improvisation", "Solve a problem using only what's in the scene. Creative enough? It works — Storyteller names the cost."),
+  ("Scene",   "Jury-Rig the Scene",      "Establish one detail about the current location that hasn't been mentioned yet."),
+  ("Scene",   "Make a Scene",            "Draw every eye to yourself for one beat. You choose what happens in that window."),
+  ("Scene",   "Brace for Impact",        "Danger hits, but you choose how it lands — and you're still standing."),
+  ("Scene",   "Echo",                    "When someone else fails, turn their bad moment into your opening."),
+  ("Scene",   "Confessional",            "Reveal something true and hidden. Vulnerability becomes leverage."),
+  ("Scene",   "Walk the Zone",           "Navigate an anomalous area without triggering exposure. You can't explain how. You just knew."),
+  ("Scene",   "Hold the Line",           "Declare you are not moving. Nothing passes you this scene without going through you first."),
+  ("Scene",   "Two Steps Ahead",         "Declare you anticipated this. Name one thing you already prepared before the scene started."),
+  ("Scene",   "Read the Room",           "Ask the Storyteller: what does this group want, fear, and not say out loud?"),
+  ("Scene",   "First One In",            "You go first. Declare the opening move before anyone else can act. It happens, cleanly."),
+  ("Scene",   "Controlled Burn",         "Destroy something contained to stop something worse. You choose what is lost."),
+  ("Scene",   "Signal Noise",            "Introduce interference — physical, social, or electronic. One action this scene fails to land."),
+  ("Session", "I Know a Guy",            "Declare you know someone relevant. Describe the connection. They exist now."),
+  ("Session", "Invoke the Past",         "Introduce a fact, preparation, or connection from before cryo. The fiction adjusts."),
+  ("Session", "Plan B",                  "When a plan falls apart, reveal the backup you prepared — Storyteller says what's missing."),
+  ("Session", "Sacrifice Play",          "Destroy or give up something that matters to guarantee one specific outcome."),
+  ("Session", "Dead Man's Gambit",       "Do something reckless and unexpected. Genuinely creative? Complications don't apply."),
+  ("Session", "Colony First",            "Endanger yourself to protect a critical colony resource. If you survive, the colony gains something."),
+  ("Session", "From the Archive",        "Cite specific Pantheon knowledge from the ship's database. It changes how the situation can be approached."),
+  ("Session", "Not Today",               "Once per session, a consequence that would take you out instead leaves you standing — barely."),
+  ("Session", "Long Memory",             "You remember something about this place, person, or system from before the crash. It matters now."),
+  ("Session", "The Hard Call",           "Make a decision no one else will make. The fiction moves forward. The cost is yours alone."),
+  ("Session", "Wake Someone Up",         "Request a specific sleeper be revived. They arrive next scene. The colony loses a cryopod slot."),
+)
 
-  #rule-title("Per-Scene")
-
-  #tag("Read Between the Lines", "")
-  #v(0.5mm)
-  Study a person, document, or scene. Ask the Storyteller one honest question.
-  #v(2mm)
-  #tag("Ghost Move", "")
-  #v(0.5mm)
-  Retroactively declare you moved to a different position before the current moment.
-  #v(2mm)
-  #tag("Desperate Improvisation", "")
-  #v(0.5mm)
-  Solve a problem using only what's in the scene. If the table finds it genuinely creative, it works — but the Storyteller names the cost.
-  #v(2mm)
-  #tag("Jury-Rig the Scene", "")
-  #v(0.5mm)
-  Establish one detail about the current location that hasn't been mentioned yet.
-  #v(2mm)
-  #tag("Make a Scene", "")
-  #v(0.5mm)
-  Draw every eye to yourself for one beat. You choose what happens in that window.
-  #v(2mm)
-  #tag("Brace for Impact", "")
-  #v(0.5mm)
-  Danger hits, but you choose how it lands — and you're still standing.
-  #v(2mm)
-  #tag("Echo", "")
-  #v(0.5mm)
-  When someone else fails, turn their bad moment into your opening.
-  #v(2mm)
-  #tag("Confessional", "")
-  #v(0.5mm)
-  Reveal something true and hidden. Vulnerability becomes leverage.
-  #v(2mm)
-  #tag("Walk the Zone", "")
-  #v(0.5mm)
-  Navigate an anomalous area without triggering exposure. You can't explain how you knew the path. You just did.
-
-  #colbreak()
-
-  #rule-title("Per-Session")
-
-  #tag("I Know a Guy", "")
-  #v(0.5mm)
-  Declare you know someone relevant. Describe the connection. They exist now.
-  #v(2mm)
-  #tag("Invoke the Past", "")
-  #v(0.5mm)
-  Introduce a fact, preparation, or connection from before cryo. The fiction adjusts.
-  #v(2mm)
-  #tag("Plan B", "")
-  #v(0.5mm)
-  When a plan falls apart, reveal the backup you prepared — but the Storyteller says what's missing.
-  #v(2mm)
-  #tag("Sacrifice Play", "")
-  #v(0.5mm)
-  Destroy or give up something that matters to guarantee one specific outcome.
-  #v(2mm)
-  #tag("Dead Man's Gambit", "")
-  #v(0.5mm)
-  Do something reckless and unexpected. If it's genuinely creative, complications don't apply.
-  #v(2mm)
-  #tag("Colony First", "")
-  #v(0.5mm)
-  Endanger yourself to protect a critical colony resource, person, or system. If you survive, the colony gains something because of it.
-  #v(2mm)
-  #tag("From the Archive", "")
-  #v(0.5mm)
-  Cite specific Pantheon knowledge from the ship's database. It directly changes how a situation can be approached.
-
+#block(width: 100%, below: 2mm)[
+  #grid(
+    columns: (13mm, 1fr, 2fr),
+    fill: (_, row) => if row == 0 { black } else if calc.odd(row) { grey } else { white },
+    inset: (x: 2mm, y: 1.5mm),
+    align(center)[#text(font: font-display, fill: white, weight: 700, size: 7pt, tracking: 0.5pt)[WHEN]],
+    align(center)[#text(font: font-display, fill: white, weight: 700, size: 7pt, tracking: 0.5pt)[PLAY]],
+    align(center)[#text(font: font-display, fill: white, weight: 700, size: 7pt, tracking: 0.5pt)[EFFECT]],
+    ..plays-rows.map(row => (
+      align(center)[#text(size: 7.5pt)[#row.at(0)]],
+      align(left)[#text(size: 8pt, weight: "bold")[#row.at(1)]],
+      align(left)[#text(size: 8pt)[#row.at(2)]],
+    )).flatten()
+  )
 ]
 
 #pagebreak()
 
 // ── Traits & Running the Oasis ────────────────
 
-#sub-title("Traits")
+#rule-title("Traits")
 
 #v(2mm)
 
-#columns(2, gutter: 4mm)[
-
-  #rule-title("Traits (Choose 2)")
-
-  Traits define how your character acts under pressure. They are permanent personality anchors — and can become the basis for a Burden when the fiction demands it.
-
-  #v(1mm)
-
+Traits define how your character acts under pressure. They are permanent personality anchors — and can become the basis for a Burden when the fiction demands it.
+#v(1mm)
+  *Psychological*
+  #v(-2mm)
   #nf-table(
-    ("Psychological", "Physical", "Social"),
+    ("Trait", "Description"),
     (
-      ("Volatile",         "Wimp",            "Abrasive"),
-      ("Pessimist",        "Trigger-Happy",   "Stubborn"),
-      ("Optimist",         "Careful Shooter", "Kind"),
-      ("Neurotic",         "Brawler",         "Loud"),
-      ("Hyper-Empathetic", "Sickly",          "Creepy Presence"),
-      ("Claustrophobic",   "Klutz",           "Absent-Minded"),
+      ("Volatile",         "Quick to anger, panic, or despair under pressure"),
+      ("Pessimist",        "Dwells on inevitable doom even in moments of victory"),
+      ("Optimist",         "Stays hopeful even when circumstances appear hopeless"),
+      ("Neurotic",         "Driven and frantic; easily rattled by failure or horror"),
+      ("Jealous",          "Resentful of anyone with better gear, status, or quarters"),
+      ("Greedy",           "Compelled to hoard; deeply unsatisfied without accumulating value"),
+      ("Hyper-Empathetic", "Others' pain is your own; witnessing suffering distresses you deeply"),
+      ("Claustrophobic",   "Panics in confined spaces, narrow corridors, or underground"),
+      ("Body Modder",      "Driven to replace organic flesh with cybernetics and augments"),
+    )
+  )
+
+
+
+  *Physical*
+  #v(-2mm)
+  #nf-table(
+    ("Trait", "Description"),
+    (
+      ("Wimp",            "Zero tolerance for pain; minor injuries cause breakdown"),
+      ("Slowpoke",        "Physically sluggish; last to react and last to escape"),
+      ("Trigger-Happy",   "Shoots fast and recklessly; a danger to anyone nearby"),
+      ("Careful Shooter", "Takes far too long to aim; hesitates while chaos unfolds"),
+      ("Brawler",         "Distrusts ranged weapons; prefers to solve things up close"),
+      ("Sickly",          "First to catch infections or react badly to the environment"),
+      ("Klutz",           "Drops tools, trips, and disrupts at the worst moments"),
+    )
+  )
+#linebreak()
+  *Habits*
+  #v(-2mm)
+  #nf-table(
+    ("Trait", "Description"),
+    (
+      ("Teetotaler",    "Refuses all substances, even when they could save lives"),
+      ("Absent-Minded", "Forgets crucial details — locked doors, packed supplies, secured restraints"),
+      ("Loud",          "Booming voice and heavy footsteps; stealth is near impossible"),
+      ("Squeamish",     "Cannot handle blood or gore without nausea or fainting"),
+    )
+  )
+
+
+  *Social*
+  #v(-2mm)
+  #nf-table(
+    ("Trait", "Description"),
+    (
+      ("Abrasive",              "Naturally rude and condescending; ruins negotiations and friendships"),
+      ("Stubborn",              "Won't admit being wrong or change course against all evidence"),
+      ("Misogynist/Misandrist", "Deep contempt for one gender; openly disrespects and antagonizes them"),
+      ("Creepy Presence",       "Something grating about you; people naturally want distance"),
+      ("Kind",                  "Puts others' well-being first; avoids cruelty even at personal cost"),
+      ("Ugly",                  "Features others find unpleasant; tends to make poor first impressions"),
+      ("Beautiful",             "Strikingly attractive; charms easily but provokes jealousy and obsession"),
     )
   )
 
   #v(2mm)
 
-  #rule-title("Traits Under Pressure")
+  *Traits Under Pressure*
 
   Traits are not background details. They are active — they define the choices a character makes when the stakes are real.
 
@@ -667,9 +799,12 @@ Choose *1 Play* at character creation. Plays are not bonuses — they are *permi
 
   #colbreak()
 
-  #rule-title("Running the Oasis")
+  
 
-  The Oasis is survival science fiction with a horror edge. The horror is not supernatural — it is consequential. The world didn't break because of monsters. It broke because of people, and their choices, and an aftermath that outlives every choice made.
+
+  #oasis-header("Running the Oasis")
+
+  The Oasis is survival science fiction with a horror edge. The horror is consequential. The world didn't break because of monsters. It broke because of people, their choices, and an aftermath that outlives every choice made.
 
   #v(1mm)
 
@@ -680,7 +815,7 @@ Choose *1 Play* at character creation. Plays are not bonuses — they are *permi
   #grey-box([
     #text(font: font-display, weight: 700, size: 8pt)[WHAT PLAYERS KNOW AT SESSION ONE]
     #v(1.5mm)
-    The drive failed. The world collapsed while they slept. The surface is wrong in measurable ways. There are people out there who know things the colonists don't. Something is broadcasting from the marsh.
+    The drive failed. The world collapsed while they slept. The surface is wrong in measurable ways. There are people out there who know things the colonists don't.
   ])
 
   #v(2mm)
@@ -688,7 +823,7 @@ Choose *1 Play* at character creation. Plays are not bonuses — they are *permi
   #grey-box([
     #text(font: font-display, weight: 700, size: 8pt)[WHAT THEY WILL DISCOVER]
     #v(1.5mm)
-    Why the world ended. What the anomalies are. Where the broadcast comes from and what it has been saying for four hundred years. Whether the drive can be rebuilt. Whether the colony still wants to leave once it understands why it came back.
+    Why the world ended. What the anomalies are. Whether the drive can be rebuilt. Whether the colony still wants to leave once it understands why it came back.
   ])
 
   #v(2mm)
@@ -703,4 +838,4 @@ Choose *1 Play* at character creation. Plays are not bonuses — they are *permi
 
   Reward investigation with information that hurts. The truth of this world is recoverable. It does not help.
 
-]
+
